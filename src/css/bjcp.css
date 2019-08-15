@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+@import url('variables.css');
+
+body {
+  box-sizing: border-box;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-family: var(--main-font);
+  background-color: var(--underlayment-color);
+}
+
+h1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  font-size: 2rem;
+  line-height: 2rem;
+  width: 100%;
+  padding: 0.5rem 0 0.5rem 1rem;
+  background-color: var(--srm_3);
+  border-bottom: 2px solid var(--srm_20);
+  color: var(--srm_40);
+  box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.15);
+}
+
+main {
+  margin: 3.5rem 1rem 2rem 1rem;
+  padding: 1em;
+  display: flex;
+  align-items: flex-start;
+  background-color: var(--surface-bg-color);
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.15);
+}
+
+.style-list-container {
+  flex-shrink: 0;
+}
+
+main > article {
+  flex-grow: 1;
+  padding-left: 1rem;
+}
+
+table {
+  border-spacing: unset;
+}
+
+table th,
+table td {
+  text-align: right;
+  padding-left: 0.5rem;
+}
+
+.style-list-container table th:first-of-type,
+.style-list-container table td:nth-child(2) {
+  text-align: left;
+  padding-left: 0;
+}
+
+table td:first-of-type {
+  padding-left: 0;
+}
+
+table th:last-of-type,
+table td:last-of-type {
+  padding-right: 0.25rem;
+}
+
+.style-list-container tbody tr:hover {
+  background-color: var(--srm_1);
+}
+
+.style-list-container tbody tr.is-selected {
+  background-color: var(--srm_2);
+}
+
+.style-list-container tbody tr.is-selected:hover {
+  background-color: var(--srm_3);
+}
+
+article table {
+  font-size: 0.75rem;
+  width: 100%;
+}
+
+article th,
+article td {
+  width: 20%;
+  text-align: center;
+}
