@@ -9,6 +9,16 @@ body {
   background-color: var(--underlayment-color);
 }
 
+#root {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+}
+
 h1 {
   position: fixed;
   top: 0;
@@ -25,21 +35,25 @@ h1 {
 }
 
 main {
-  margin: 3.5rem 1rem 2rem 1rem;
+  margin: 3.5rem 0.5rem 0.5rem 0.5rem;
   padding: 1em;
   display: flex;
-  align-items: flex-start;
+  flex-grow: 1;
+  /* align-items: flex-start; */
   background-color: var(--surface-bg-color);
   box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.15);
+  overflow: auto;
 }
 
 .style-list-container {
-  flex-shrink: 0;
+  min-width: 55%;
+  overflow: auto;
 }
 
 main > article {
-  flex-grow: 1;
+  /* flex-grow: 1; */
   padding-left: 1rem;
+  overflow: auto;
 }
 
 table {

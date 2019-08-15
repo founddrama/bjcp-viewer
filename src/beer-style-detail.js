@@ -1,11 +1,12 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 
 const bjcpFormatters = require('./bjcp/bjcp-formatters');
 
 class BeerStyleDetail extends React.Component {
   generateColorBand(srm) {
     let range = [];
-    for (let i = srm.low; i < (srm.high+1); i++) {
+    for (let i = Math.floor(srm.low || 1); i < (srm.high+1 || 40); i++) {
       range.push(i);
     }
 
@@ -23,12 +24,19 @@ class BeerStyleDetail extends React.Component {
             flexGrow: 1
           };
           return (
-            <div style={styles}></div>
+            <div key={i} style={styles}></div>
           );
         })
       }
       </div>
     );
+  }
+
+  componentDidUpdate () {
+    const element = ReactDOM.findDOMNode(this);
+    if (element != null) {
+      element.scrollTop = 0;
+    }
   }
 
   render() {
