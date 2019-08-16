@@ -39,6 +39,17 @@ class BeerStyleDetail extends React.Component {
     }
   }
 
+  renderSection(content, title) {
+    if(!content) return;
+
+    return (
+      <div>
+        <h3>{title}</h3>
+        <p>{content}</p>
+      </div>
+    );
+  }
+
   render() {
     const style = this.props.style;
     if (!style) {
@@ -74,26 +85,16 @@ class BeerStyleDetail extends React.Component {
               </tr>
             </tbody>
           </table>
-          <h3>Overall Impression</h3>
-          <p>{style.impression}</p>
-          <h3>Aroma</h3>
-          <p>{style.aroma}</p>
-          <h3>Appearance</h3>
-          <p>{style.appearance}</p>
-          <h3>Flavor</h3>
-          <p>{style.flavor}</p>
-          <h3>Mouthfeel</h3>
-          <p>{style.mouthfeel}</p>
-          <h3>Comments</h3>
-          <p>{style.comments}</p>
-          <h3>History</h3>
-          <p>{style.history}</p>
-          <h3>Ingredients</h3>
-          <p>{style.ingredients}</p>
-          <h3>Comparison</h3>
-          <p>{style.comparison}</p>
-          <h3>Examples</h3>
-          <p>{style.examples}</p>
+          {this.renderSection(style.impression, 'Overall Impression')}
+          {this.renderSection(style.aroma, 'Aroma')}
+          {this.renderSection(style.appearance, 'Appearance')}
+          {this.renderSection(style.flavor, 'Flavor')}
+          {this.renderSection(style.mouthfeel, 'Mouthfeel')}
+          {this.renderSection(style.comments, 'Comments')}
+          {this.renderSection(style.history, 'History')}
+          {this.renderSection(style.ingredients, 'Ingredients')}
+          {this.renderSection(style.comparison, 'Comparison')}
+          {this.renderSection(style.examples, 'Examples')}
         </article>
       );
     }
