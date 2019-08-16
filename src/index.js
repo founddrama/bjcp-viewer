@@ -11,8 +11,23 @@ class StyleGuide extends React.Component {
     super(props);
     this.state = {
       selectedStyle: null,
-      styles: beerStyles
+      styles: this.flattenSpecialtyStyles(beerStyles)
     };
+  }
+
+  flattenSpecialtyStyles(styles) {
+    return styles.reduce((flattenedStyles, style) => {
+      flattenedStyles.push(style);
+
+      if (style.specialty) {
+        flattenedStyles = flattenedStyles.concat(style.specialty.map((specialty, i) => {
+          specialty['@_id'] = `${style['@_id']}${i+1}`;
+          return specialty;
+        }));
+      }
+
+      return flattenedStyles;
+    }, []);
   }
 
   findStyleById(styleId) {
