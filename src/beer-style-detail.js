@@ -79,7 +79,7 @@ class BeerStyleDetail extends React.Component {
                 {bjcpFormatters.formatRange(stats.srm.low, stats.srm.high)}
               </tr>
               <tr>
-                <td colSpan="5">
+                <td colSpan="5" className="srm-gradient">
                   {this.generateColorBand(stats.srm)}
                 </td>
               </tr>

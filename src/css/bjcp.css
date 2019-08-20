@@ -29,6 +29,13 @@ h1 {
   width: 100%;
   padding: 0.5rem 0 0.5rem 1rem;
   background-color: var(--srm_3);
+  background: linear-gradient(0deg,
+      rgba(249,162,28,1) 0%,
+      rgba(254,192,72,1) 10%,
+      rgba(254,192,72,1) 90%,
+      rgba(254,226,135,1) 92%,
+      rgba(255,255,255,1) 96%,
+      rgba(255,255,255,1) 100%);
   border-bottom: 2px solid var(--srm_20);
   color: var(--srm_40);
   box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.15);
@@ -45,7 +52,7 @@ main {
 }
 
 .style-list-container {
-  flex-basis: 58%;
+  flex-basis: 60%;
   overflow: auto;
 }
 
@@ -57,6 +64,12 @@ main {
   position: sticky;
   top: 0;
   background-color: rgba(var(--surface-bg-value), 0.72);
+}
+
+.style-list-container td {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid var(--border-color);
 }
 
 main > article {
@@ -82,12 +95,12 @@ table td {
 }
 
 table td:first-of-type {
-  padding-left: 0;
+  padding-left: 0.5rem;
 }
 
 table th:last-of-type,
 table td:last-of-type {
-  padding-right: 0.25rem;
+  padding-right: 0.75rem;
 }
 
 .style-list-container tbody tr:hover {
@@ -96,6 +109,18 @@ table td:last-of-type {
 
 .style-list-container tbody tr.is-selected {
   background-color: var(--srm_2);
+}
+
+.style-list-container td:first-of-type,
+.srm-gradient div:first-of-type {
+  border-top-left-radius: var(--selected-border-radius);
+  border-bottom-left-radius: var(--selected-border-radius);
+}
+
+.style-list-container td:last-of-type,
+.srm-gradient div:last-of-type {
+  border-top-right-radius: var(--selected-border-radius);
+  border-bottom-right-radius: var(--selected-border-radius);
 }
 
 .style-list-container tbody tr.is-selected:hover {

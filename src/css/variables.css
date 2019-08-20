@@ -2,7 +2,9 @@
   --underlayment-color: #efefef;
   --surface-bg-value: 255, 255, 255;
   --surface-bg-color: rgb(var(--surface-bg-value));
+  --border-color: #ededed;
   --main-font: 'Open Sans', sans-serif;
+  --selected-border-radius: 4px;
 
   --srm_1:  #FEE287;
   --srm_2:  #FED265;
