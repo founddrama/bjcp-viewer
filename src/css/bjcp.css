@@ -96,6 +96,7 @@ table td {
 
 table td:first-of-type {
   padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 table th:last-of-type,

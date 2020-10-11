@@ -1,6 +1,6 @@
 import React from 'react';
 
-export function formatSG(sg) {
+export function formatSG(sg: number | undefined): string | undefined {
   if(!sg) return;
 
   let _sg = sg.toString();
@@ -11,7 +11,12 @@ export function formatSG(sg) {
   return _sg;
 }
 
-export function formatRange(lower, upper, opts = {}) {
+interface RangeOptions {
+  prefix?: string;
+  suffix?: string;
+}
+
+export function formatRange(lower: number, upper: number, opts: RangeOptions = {}): JSX.Element {
   if (!lower && !upper) {
     return (<td><em>varies</em></td>);
   } else {

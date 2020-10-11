@@ -1,26 +1,36 @@
 import React from 'react';
 import BeerStyleRow from './beer-style-row';
+import { BeerStyle } from './beer-style';
 
-class BeerStyleList extends React.Component {
-  constructor(props) {
+type BeerStyleListProps = {
+  emitSelectedStyle: Function;
+  styles: BeerStyle[];
+};
+
+type BeerStyleListState = {
+  selectedStyle?: string | null;
+};
+
+class BeerStyleList extends React.Component<BeerStyleListProps, BeerStyleListState> {
+  constructor(props: BeerStyleListProps) {
     super(props);
     this.state = {
       selectedStyle: null
     };
   }
 
-  getSelected(styleId) {
+  getSelected(styleId: string): boolean {
     return styleId === this.state.selectedStyle;
   }
 
-  onRowClick(_id) {
+  onRowClick(_id: string): void {
     this.setState((state, props) => {
       return { selectedStyle: _id };
     });
     this.props.emitSelectedStyle(_id);
   }
 
-  renderRow(style) {
+  renderRow(style: BeerStyle): JSX.Element {
     const _id = style['@_id'];
     return (
       <BeerStyleRow key={_id}
@@ -30,13 +40,13 @@ class BeerStyleList extends React.Component {
     );
   }
 
-  render() {
+  render(): JSX.Element {
     return (
       <div className="style-list-container">
         <table>
           <thead>
             <tr>
-              <th colSpan="2">Style</th>
+              <th colSpan={2}>Style</th>
               <th>ABV</th>
               <th>IBU</th>
               <th>O.G.</th>

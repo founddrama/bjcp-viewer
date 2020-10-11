@@ -1,10 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BeerStyleStatRange, BeerStyle } from './beer-style';
 
 const bjcpFormatters = require('./bjcp/bjcp-formatters');
 
-class BeerStyleDetail extends React.Component {
-  generateColorBand(srm) {
+type BeerStyleDetailProps = {
+  style: BeerStyle | undefined;
+};
+
+class BeerStyleDetail extends React.Component<BeerStyleDetailProps> {
+  generateColorBand(srm: BeerStyleStatRange): JSX.Element {
     let range = [];
     for (let i = Math.floor(srm.low || 1); i < (srm.high+1 || 40); i++) {
       range.push(i);
@@ -32,14 +37,14 @@ class BeerStyleDetail extends React.Component {
     );
   }
 
-  componentDidUpdate () {
+  componentDidUpdate (): void {
     const element = ReactDOM.findDOMNode(this);
     if (element != null) {
-      element.scrollTop = 0;
+      (element as HTMLElement).scrollTop = 0;
     }
   }
 
-  renderSection(content, title) {
+  renderSection(content: string, title: string): JSX.Element | undefined {
     if(!content) return;
 
     return (
@@ -50,7 +55,7 @@ class BeerStyleDetail extends React.Component {
     );
   }
 
-  render() {
+  render(): JSX.Element {
     const style = this.props.style;
     if (!style) {
       return (<article></article>);
@@ -79,7 +84,7 @@ class BeerStyleDetail extends React.Component {
                 {bjcpFormatters.formatRange(stats.srm.low, stats.srm.high)}
               </tr>
               <tr>
-                <td colSpan="5" className="srm-gradient">
+                <td colSpan={5} className="srm-gradient">
                   {this.generateColorBand(stats.srm)}
                 </td>
               </tr>
