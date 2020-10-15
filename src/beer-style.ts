@@ -1,3 +1,13 @@
+import { type } from "os";
+
+type BJCPClassName = 'beer' | 'mead' | 'cider';
+
+interface Identified {
+  ['@_type']?: BJCPClassName;
+  ['@_id']?: string;
+  name: string;
+}
+
 export interface BeerStyleStatRange {
   low: number;
   high: number;
@@ -11,9 +21,17 @@ type BeerStyleStats = {
   srm: BeerStyleStatRange;
 };
 
-export type BeerStyle = {
-  ['@_id']: string;
-  name: string;
+export type BJCPClass = {
+  category: BJCPCategory[];
+} & Identified;
+
+export type BJCPCategory = {
+    //revision
+    notes: string;
+    subcategory: BJCPStyle[];
+} & Identified;
+
+export type BJCPStyle = {
   stats: BeerStyleStats;
   impression: string;
   aroma: string;
@@ -25,5 +43,7 @@ export type BeerStyle = {
   ingredients: string;
   comparison: string;
   examples: string;
-  specialty?: BeerStyle[];
-};
+  specialty?: BJCPStyle[];
+  tags: string;
+  // ^tags should be a union?
+} & Identified;
