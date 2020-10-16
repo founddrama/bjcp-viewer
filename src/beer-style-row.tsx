@@ -1,16 +1,16 @@
 import React from 'react';
-import { BeerStyle } from './beer-style';
+import { BJCPStyle } from './beer-style';
 
 const bjcpFormatters = require('./bjcp/bjcp-formatters');
 
 type BeerStyleRowProps = {
   isSelected: boolean;
   onClick: React.MouseEventHandler<HTMLTableRowElement>;
-  style: BeerStyle;
+  style: BJCPStyle;
 };
 
 type BeerStyleRowState = {
-  style: BeerStyle;
+  style: BJCPStyle;
 };
 
 class BeerStyleRow extends React.Component<BeerStyleRowProps, BeerStyleRowState> {

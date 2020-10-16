@@ -1,10 +1,10 @@
 import React from 'react';
 import BeerStyleRow from './beer-style-row';
-import { BeerStyle } from './beer-style';
+import { BJCPStyle } from './beer-style';
 
 type BeerStyleListProps = {
   emitSelectedStyle: Function;
-  styles: BeerStyle[];
+  styles: BJCPStyle[];
 };
 
 type BeerStyleListState = {
@@ -30,7 +30,7 @@ class BeerStyleList extends React.Component<BeerStyleListProps, BeerStyleListSta
     this.props.emitSelectedStyle(_id);
   }
 
-  renderRow(style: BeerStyle): JSX.Element {
+  renderRow(style: BJCPStyle): JSX.Element {
     const _id = style['@_id'];
     return (
       <BeerStyleRow key={_id}

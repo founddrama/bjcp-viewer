@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BeerStyleStatRange, BeerStyle } from './beer-style';
+import { BeerStyleStatRange, BJCPStyle } from './beer-style';
 
 const bjcpFormatters = require('./bjcp/bjcp-formatters');
 
 type BeerStyleDetailProps = {
-  style: BeerStyle | undefined;
+  style: BJCPStyle | undefined;
 };
 
 class BeerStyleDetail extends React.Component<BeerStyleDetailProps> {
