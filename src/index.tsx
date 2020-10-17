@@ -20,6 +20,7 @@ class StyleGuide extends React.Component<StyleGuideProps, StyleGuideState> {
     this.state = {
       selectedStyle: undefined,
       styles: this.flattenSpecialtyStyles(beerStyles)
+      // consider doing ^this ahead-of-time / elsewhere?
     };
   }
 

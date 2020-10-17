@@ -1,10 +1,11 @@
-import { type } from "os";
-
 type BJCPClassName = 'beer' | 'mead' | 'cider';
 
-interface Identified {
-  ['@_id']: string;
+interface Named {
   name: string;
+};
+
+interface Identified extends Named {
+  ['@_id']: string;
 }
 
 export interface BeerStyleStatRange {
@@ -20,23 +21,18 @@ type BeerStyleStats = {
   srm: BeerStyleStatRange;
 };
 
-export type BJCPClass = {
+export type BJCPClass = Named & {
   ['@_type']: BJCPClassName;
-  name: string;
   category: BJCPCategory[];
 };
 
-export type BJCPCategory = {
-  ['@_id']: string;
-  name: string;
+export type BJCPCategory = Identified & {
   //revision
   notes: string;
   subcategory: BJCPStyle[];
 };
 
-export type BJCPStyle = {
-  ['@_id']: string;
-  name: string;
+export type BJCPStyle = Identified & {
   stats: BeerStyleStats;
   impression: string;
   aroma: string;
@@ -49,6 +45,20 @@ export type BJCPStyle = {
   comparison: string;
   examples: string;
   specialty?: BJCPStyle[];
-  tags: string;
-  // ^tags should be a union?
+  tags: string; // should be: BJCPBeerTags[]
 };
+
+type BJCPBeerTags = 'aged' | 'amber-ale-family' | 'amber-color' | 'amber-lager-family' |
+                    'any-fermentation' | 'balanced' | 'balanced,' | 'bitter' | 'bock-family' |
+                    'bottom-fermented' | 'bottom-fermenting' | 'british-isles' |
+                    'brown-ale-family' | 'central-europe' | 'craft-style' | 'dark-color' |
+                    'dark-lager-family' | 'eastern-europe' | 'fruit' | 'high-strength' |
+                    'historical-style' | 'hoppy' | 'ipa-family' | 'lagered' | 'malty' |
+                    'north-america' | 'pacific' | 'pale-ale-family' | 'pale-color' |
+                    'pale-lager-family' | 'pilsner-family' | 'porter-family' | 'roasty' |
+                    'session-beer' | 'session-strength' | 'smoke' | 'sour' | 'sour-ale-family' |
+                    'specialty-beer' | 'spic' | 'spice' | 'standard-strength' | 'stout-family' |
+                    'strong-ale-family' | 'sweet' | 'top-fermented' | 'top-fermenting' |
+                    'traditional-style' | 'very-high-strength' | 'western-europe' |
+                    'wheat-beer-family' | 'wild-fermentation' | 'wild-fermented' |
+                    'wood';

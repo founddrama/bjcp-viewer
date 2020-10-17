@@ -9,6 +9,10 @@ let styleguide = parse(bjcpXML, {
                         allowBooleanAttributes: true
                       }).styleguide;
 
+// IN THE BELOW:
+// - map(category) => do the flattening work here
+// - extract subcategory; sniff for specialty & flatten
+// - transform tags from comma-separated string into a proper list
 styleguide = styleguide.class.find((i: BJCPClass) => i['@_type'] == 'beer' )
   .category.map((category: BJCPCategory) => category.subcategory)
   .reduce((acc: BJCPStyle[], subcategories: BJCPStyle[]) => acc.concat(subcategories), []);
