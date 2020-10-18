@@ -146,3 +146,7 @@ article h2 {
   top: 0;
   background-color: rgba(var(--surface-bg-value), 0.72);
 }
+
+#tags ~ p {
+  font-size: 0.75rem;
+}

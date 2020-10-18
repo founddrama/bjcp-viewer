@@ -5,7 +5,7 @@ import BeerStyleDetail from './beer-style-detail';
 import './css/bjcp.css';
 import { BJCPStyle } from './beer-style';
 
-const beerStyles = require('./bjcp/2015-bjcp-styleguide.json');
+const beerStyles = require('./bjcp/2015-bjcp-styleguide-flattened.json');
 
 type StyleGuideProps = {};
 
@@ -19,24 +19,9 @@ class StyleGuide extends React.Component<StyleGuideProps, StyleGuideState> {
     super(props);
     this.state = {
       selectedStyle: undefined,
-      styles: this.flattenSpecialtyStyles(beerStyles)
+      styles: beerStyles
       // consider doing ^this ahead-of-time / elsewhere?
     };
-  }
-
-  flattenSpecialtyStyles(styles: BJCPStyle[]): BJCPStyle[] {
-    return styles.reduce((flattenedStyles: BJCPStyle[], style: BJCPStyle) => {
-      flattenedStyles.push(style);
-
-      if (style.specialty) {
-        flattenedStyles = flattenedStyles.concat(style.specialty.map((specialty, i) => {
-          specialty['@_id'] = `${style['@_id']}${i+1}`;
-          return specialty;
-        }));
-      }
-
-      return flattenedStyles;
-    }, []);
   }
 
   findStyleById(styleId: string): BJCPStyle | undefined {

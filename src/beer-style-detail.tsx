@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BeerStyleStatRange, BJCPStyle } from './beer-style';
+import { BeerStyleStatRange, BJCPBeerTags, BJCPStyle } from './beer-style';
 
 const bjcpFormatters = require('./bjcp/bjcp-formatters');
 
@@ -49,11 +49,15 @@ class BeerStyleDetail extends React.Component<BeerStyleDetailProps> {
 
     return (
       <div>
-        <h3>{title}</h3>
+        <h3 id={title.toLowerCase().replace(/\s/g, '-')}>{title}</h3>
         <p>{content}</p>
       </div>
     );
   }
+
+  renderTags(tags: BJCPBeerTags[]) {
+    return tags.map((t) => `#${t.replace('-', '\u2011')}`).join(' ');
+  };
 
   render(): JSX.Element {
     const style = this.props.style;
@@ -100,6 +104,7 @@ class BeerStyleDetail extends React.Component<BeerStyleDetailProps> {
           {this.renderSection(style.ingredients, 'Ingredients')}
           {this.renderSection(style.comparison, 'Comparison')}
           {this.renderSection(style.examples, 'Examples')}
+          {this.renderSection(this.renderTags(style.tags), 'Tags')}
         </article>
       );
     }

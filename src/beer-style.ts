@@ -45,20 +45,18 @@ export type BJCPStyle = Identified & {
   comparison: string;
   examples: string;
   specialty?: BJCPStyle[];
-  tags: string; // should be: BJCPBeerTags[]
+  tags: BJCPBeerTags[];
 };
 
-type BJCPBeerTags = 'aged' | 'amber-ale-family' | 'amber-color' | 'amber-lager-family' |
-                    'any-fermentation' | 'balanced' | 'balanced,' | 'bitter' | 'bock-family' |
-                    'bottom-fermented' | 'bottom-fermenting' | 'british-isles' |
-                    'brown-ale-family' | 'central-europe' | 'craft-style' | 'dark-color' |
-                    'dark-lager-family' | 'eastern-europe' | 'fruit' | 'high-strength' |
-                    'historical-style' | 'hoppy' | 'ipa-family' | 'lagered' | 'malty' |
-                    'north-america' | 'pacific' | 'pale-ale-family' | 'pale-color' |
-                    'pale-lager-family' | 'pilsner-family' | 'porter-family' | 'roasty' |
-                    'session-beer' | 'session-strength' | 'smoke' | 'sour' | 'sour-ale-family' |
-                    'specialty-beer' | 'spic' | 'spice' | 'standard-strength' | 'stout-family' |
-                    'strong-ale-family' | 'sweet' | 'top-fermented' | 'top-fermenting' |
-                    'traditional-style' | 'very-high-strength' | 'western-europe' |
-                    'wheat-beer-family' | 'wild-fermentation' | 'wild-fermented' |
-                    'wood';
+export type BJCPBeerTags = 
+  'aged' | 'amber-ale-family' | 'amber-color' | 'amber-lager-family' | 'any-fermentation' |
+  'balanced' | 'balanced,' | 'bitter' | 'bock-family' | 'bottom-fermented' | 'bottom-fermenting' |
+  'british-isles' | 'brown-ale-family' | 'central-europe' | 'craft-style' | 'dark-color' |
+  'dark-lager-family' | 'eastern-europe' | 'fruit' | 'high-strength' | 'historical-style' |
+  'hoppy' | 'ipa-family' | 'lagered' | 'malty' | 'north-america' | 'pacific' | 'pale-ale-family' |
+  'pale-color' | 'pale-lager-family' | 'pilsner-family' | 'porter-family' | 'roasty' |
+  'session-beer' | 'session-strength' | 'smoke' | 'sour' | 'sour-ale-family' | 'specialty-beer' |
+  'spic' | 'spice' | 'standard-strength' | 'stout-family' | 'strong-ale-family' |
+  'sweet' | 'top-fermented' | 'top-fermenting' | 'traditional-style' | 'very-high-strength' |
+  'western-europe' | 'wheat-beer-family' | 'wild-fermentation' | 'wild-fermented' |
+  'wood';
