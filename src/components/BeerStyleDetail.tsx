@@ -60,14 +60,14 @@ class BeerStyleDetail extends React.Component<BeerStyleDetailProps> {
   };
 
   render(): JSX.Element | null {
-    const style = this.props.style;
+    const { style, onCloseClick } = this.props;
     if(!style) return null;
       
-    const stats = style.stats;
+    const { abv, ibu, og, fg, srm } = style.stats;
 
     return (
       <article>
-        <span className="close-icon" onClick={this.props.onCloseClick}>&times;</span>
+        <span className="close-icon" onClick={onCloseClick}>&times;</span>
         <h2>{style['@_id']}. {style.name}</h2>
         <table>
           <thead>
@@ -81,15 +81,15 @@ class BeerStyleDetail extends React.Component<BeerStyleDetailProps> {
           </thead>
           <tbody>
             <tr>
-              {formatRange(stats.abv.low, stats.abv.high, {suffix:'%'})}
-              {formatRange(stats.ibu.low, stats.ibu.high)}
-              {formatRange(formatSG(stats.og.low), formatSG(stats.og.high))}
-              {formatRange(formatSG(stats.fg.low), formatSG(stats.fg.high))}
-              {formatRange(stats.srm.low, stats.srm.high)}
+              {formatRange(abv.low, abv.high, {suffix:'%'})}
+              {formatRange(ibu.low, ibu.high)}
+              {formatRange(formatSG(og.low), formatSG(og.high))}
+              {formatRange(formatSG(fg.low), formatSG(fg.high))}
+              {formatRange(srm.low, srm.high)}
             </tr>
             <tr>
               <td colSpan={5} className="srm-gradient">
-                {this.generateColorBand(stats.srm)}
+                {this.generateColorBand(srm)}
               </td>
             </tr>
           </tbody>

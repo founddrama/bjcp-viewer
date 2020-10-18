@@ -8,31 +8,24 @@ type BeerStyleRowProps = {
   style: BJCPStyle;
 };
 
-type BeerStyleRowState = {
-  style: BJCPStyle;
-};
-
-class BeerStyleRow extends React.Component<BeerStyleRowProps, BeerStyleRowState> {
+class BeerStyleRow extends React.Component<BeerStyleRowProps> {
   constructor(props: BeerStyleRowProps) {
     super(props);
-    this.state = {
-      style: props.style
-    };
   }
 
   render(): JSX.Element {
-    const style = this.state.style;
-    const stats = style.stats;
+    const { style, isSelected, onClick } = this.props;
+    const { abv, ibu, og, fg, srm } = style.stats;
 
     return (
-      <tr onClick={this.props.onClick} className={this.props.isSelected ? 'is-selected' : ''}>
+      <tr onClick={onClick} className={isSelected ? 'is-selected' : ''}>
         <td>{style['@_id']}.</td>
         <td>{style.name}</td>
-        {formatRange(stats.abv.low, stats.abv.high, {suffix:'%'})}
-        {formatRange(stats.ibu.low, stats.ibu.high)}
-        {formatRange(formatSG(stats.og.low), formatSG(stats.og.high))}
-        {formatRange(formatSG(stats.fg.low), formatSG(stats.fg.high))}
-        {formatRange(stats.srm.low, stats.srm.high)}
+        {formatRange(abv.low, abv.high, {suffix:'%'})}
+        {formatRange(ibu.low, ibu.high)}
+        {formatRange(formatSG(og.low), formatSG(og.high))}
+        {formatRange(formatSG(fg.low), formatSG(fg.high))}
+        {formatRange(srm.low, srm.high)}
       </tr>
     );
   }
