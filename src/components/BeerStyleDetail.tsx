@@ -5,6 +5,7 @@ import { formatSG, formatRange } from '../bjcp/bjcp-formatters';
 
 type BeerStyleDetailProps = {
   style: BJCPStyle | undefined;
+  onCloseClick: React.MouseEventHandler<HTMLTableRowElement>;
 };
 
 class BeerStyleDetail extends React.Component<BeerStyleDetailProps> {
@@ -58,55 +59,54 @@ class BeerStyleDetail extends React.Component<BeerStyleDetailProps> {
     return tags.map((t) => `#${t.replace('-', '\u2011')}`).join(' ');
   };
 
-  render(): JSX.Element {
+  render(): JSX.Element | null {
     const style = this.props.style;
-    if (!style) {
-      return (<article></article>);
-    } else {
-      const stats = style.stats;
+    if(!style) return null;
+      
+    const stats = style.stats;
 
-      return (
-        <article>
-          <h2>{style['@_id']}. {style.name}</h2>
-          <table>
-            <thead>
-              <tr>
-                <th>ABV</th>
-                <th>IBU</th>
-                <th>O.G.</th>
-                <th>F.G.</th>
-                <th>SRM</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                {formatRange(stats.abv.low, stats.abv.high, {suffix:'%'})}
-                {formatRange(stats.ibu.low, stats.ibu.high)}
-                {formatRange(formatSG(stats.og.low), formatSG(stats.og.high))}
-                {formatRange(formatSG(stats.fg.low), formatSG(stats.fg.high))}
-                {formatRange(stats.srm.low, stats.srm.high)}
-              </tr>
-              <tr>
-                <td colSpan={5} className="srm-gradient">
-                  {this.generateColorBand(stats.srm)}
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          {this.renderSection(style.impression, 'Overall Impression')}
-          {this.renderSection(style.aroma, 'Aroma')}
-          {this.renderSection(style.appearance, 'Appearance')}
-          {this.renderSection(style.flavor, 'Flavor')}
-          {this.renderSection(style.mouthfeel, 'Mouthfeel')}
-          {this.renderSection(style.comments, 'Comments')}
-          {this.renderSection(style.history, 'History')}
-          {this.renderSection(style.ingredients, 'Ingredients')}
-          {this.renderSection(style.comparison, 'Comparison')}
-          {this.renderSection(style.examples, 'Examples')}
-          {this.renderSection(this.renderTags(style.tags), 'Tags')}
-        </article>
-      );
-    }
+    return (
+      <article>
+        <span className="close-icon" onClick={this.props.onCloseClick}>&times;</span>
+        <h2>{style['@_id']}. {style.name}</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>ABV</th>
+              <th>IBU</th>
+              <th>O.G.</th>
+              <th>F.G.</th>
+              <th>SRM</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              {formatRange(stats.abv.low, stats.abv.high, {suffix:'%'})}
+              {formatRange(stats.ibu.low, stats.ibu.high)}
+              {formatRange(formatSG(stats.og.low), formatSG(stats.og.high))}
+              {formatRange(formatSG(stats.fg.low), formatSG(stats.fg.high))}
+              {formatRange(stats.srm.low, stats.srm.high)}
+            </tr>
+            <tr>
+              <td colSpan={5} className="srm-gradient">
+                {this.generateColorBand(stats.srm)}
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        {this.renderSection(style.impression, 'Overall Impression')}
+        {this.renderSection(style.aroma, 'Aroma')}
+        {this.renderSection(style.appearance, 'Appearance')}
+        {this.renderSection(style.flavor, 'Flavor')}
+        {this.renderSection(style.mouthfeel, 'Mouthfeel')}
+        {this.renderSection(style.comments, 'Comments')}
+        {this.renderSection(style.history, 'History')}
+        {this.renderSection(style.ingredients, 'Ingredients')}
+        {this.renderSection(style.comparison, 'Comparison')}
+        {this.renderSection(style.examples, 'Examples')}
+        {this.renderSection(this.renderTags(style.tags), 'Tags')}
+      </article>
+    );
   }
 }
 

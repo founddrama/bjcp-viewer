@@ -24,10 +24,9 @@ class BeerStyleList extends React.Component<BeerStyleListProps, BeerStyleListSta
   }
 
   onRowClick(_id: string): void {
-    this.setState((state, props) => {
-      return { selectedStyle: _id };
+    this.setState({ selectedStyle: _id }, () => {
+      this.props.emitSelectedStyle(_id);
     });
-    this.props.emitSelectedStyle(_id);
   }
 
   renderRow(style: BJCPStyle): JSX.Element {
