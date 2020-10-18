@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import BeerStyleList from './beer-style-list';
-import BeerStyleDetail from './beer-style-detail';
+import BeerStyleList from './components/BeerStyleList';
+import BeerStyleDetail from './components/BeerStyleDetail';
 import './css/bjcp.css';
-import { BJCPStyle } from './beer-style';
+import { BJCPStyle } from './beer-style-types';
 
 const beerStyles = require('./bjcp/2015-bjcp-styleguide-flattened.json');
 

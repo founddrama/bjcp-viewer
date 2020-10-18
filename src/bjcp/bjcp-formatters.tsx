@@ -11,12 +11,14 @@ export function formatSG(sg: number | undefined): string | undefined {
   return _sg;
 }
 
+type RangeInput = number | string | undefined;
+
 interface RangeOptions {
   prefix?: string;
   suffix?: string;
 }
 
-export function formatRange(lower: number, upper: number, opts: RangeOptions = {}): JSX.Element {
+export function formatRange(lower: RangeInput, upper: RangeInput, opts: RangeOptions = {}): JSX.Element {
   if (!lower && !upper) {
     return (<td><em>varies</em></td>);
   } else {

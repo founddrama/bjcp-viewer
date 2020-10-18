@@ -1,8 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BeerStyleStatRange, BJCPBeerTags, BJCPStyle } from './beer-style';
-
-const bjcpFormatters = require('./bjcp/bjcp-formatters');
+import { BeerStyleStatRange, BJCPBeerTags, BJCPStyle } from '../beer-style-types';
+import { formatSG, formatRange } from '../bjcp/bjcp-formatters';
 
 type BeerStyleDetailProps = {
   style: BJCPStyle | undefined;
@@ -81,11 +80,11 @@ class BeerStyleDetail extends React.Component<BeerStyleDetailProps> {
             </thead>
             <tbody>
               <tr>
-                {bjcpFormatters.formatRange(stats.abv.low, stats.abv.high, {suffix:'%'})}
-                {bjcpFormatters.formatRange(stats.ibu.low, stats.ibu.high)}
-                {bjcpFormatters.formatRange(bjcpFormatters.formatSG(stats.og.low), bjcpFormatters.formatSG(stats.og.high))}
-                {bjcpFormatters.formatRange(bjcpFormatters.formatSG(stats.fg.low), bjcpFormatters.formatSG(stats.fg.high))}
-                {bjcpFormatters.formatRange(stats.srm.low, stats.srm.high)}
+                {formatRange(stats.abv.low, stats.abv.high, {suffix:'%'})}
+                {formatRange(stats.ibu.low, stats.ibu.high)}
+                {formatRange(formatSG(stats.og.low), formatSG(stats.og.high))}
+                {formatRange(formatSG(stats.fg.low), formatSG(stats.fg.high))}
+                {formatRange(stats.srm.low, stats.srm.high)}
               </tr>
               <tr>
                 <td colSpan={5} className="srm-gradient">

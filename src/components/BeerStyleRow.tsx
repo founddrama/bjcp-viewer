@@ -1,7 +1,6 @@
 import React from 'react';
-import { BJCPStyle } from './beer-style';
-
-const bjcpFormatters = require('./bjcp/bjcp-formatters');
+import { BJCPStyle } from '../beer-style-types';
+import { formatRange, formatSG } from '../bjcp/bjcp-formatters';
 
 type BeerStyleRowProps = {
   isSelected: boolean;
@@ -29,11 +28,11 @@ class BeerStyleRow extends React.Component<BeerStyleRowProps, BeerStyleRowState>
       <tr onClick={this.props.onClick} className={this.props.isSelected ? 'is-selected' : ''}>
         <td>{style['@_id']}.</td>
         <td>{style.name}</td>
-        {bjcpFormatters.formatRange(stats.abv.low, stats.abv.high, {suffix:'%'})}
-        {bjcpFormatters.formatRange(stats.ibu.low, stats.ibu.high)}
-        {bjcpFormatters.formatRange(bjcpFormatters.formatSG(stats.og.low), bjcpFormatters.formatSG(stats.og.high))}
-        {bjcpFormatters.formatRange(bjcpFormatters.formatSG(stats.fg.low), bjcpFormatters.formatSG(stats.fg.high))}
-        {bjcpFormatters.formatRange(stats.srm.low, stats.srm.high)}
+        {formatRange(stats.abv.low, stats.abv.high, {suffix:'%'})}
+        {formatRange(stats.ibu.low, stats.ibu.high)}
+        {formatRange(formatSG(stats.og.low), formatSG(stats.og.high))}
+        {formatRange(formatSG(stats.fg.low), formatSG(stats.fg.high))}
+        {formatRange(stats.srm.low, stats.srm.high)}
       </tr>
     );
   }

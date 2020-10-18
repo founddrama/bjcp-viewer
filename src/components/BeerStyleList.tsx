@@ -1,6 +1,6 @@
 import React from 'react';
-import BeerStyleRow from './beer-style-row';
-import { BJCPStyle } from './beer-style';
+import BeerStyleRow from './BeerStyleRow';
+import { BJCPStyle } from '../beer-style-types';
 
 type BeerStyleListProps = {
   emitSelectedStyle: Function;
