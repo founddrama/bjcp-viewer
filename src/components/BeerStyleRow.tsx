@@ -9,10 +9,6 @@ type BeerStyleRowProps = {
 };
 
 class BeerStyleRow extends React.Component<BeerStyleRowProps> {
-  constructor(props: BeerStyleRowProps) {
-    super(props);
-  }
-
   render(): JSX.Element {
     const { style, isSelected, onClick } = this.props;
     const { abv, ibu, og, fg, srm } = style.stats;

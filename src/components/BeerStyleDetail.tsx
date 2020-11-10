@@ -21,7 +21,7 @@ class BeerStyleDetail extends React.Component<BeerStyleDetailProps> {
     };
 
     return (
-      <div style={ctStyle}>
+      <div style={ctStyle} data-testid="srm-gradient">
       {
         range.map((i) => {
           let styles = {
