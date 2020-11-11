@@ -14,8 +14,8 @@ interface RangeOptions {
 }
 
 export function formatRange(lower: RangeInput, upper: RangeInput, opts: RangeOptions = {}): JSX.Element {
-  if (!lower && !upper) {
-    return (<td><em>varies</em></td>);
+  if (!lower || !upper) {
+    return <td><em>varies</em></td>;
   } else {
     return (
       <td>{opts.prefix ? opts.prefix : ''}{lower}-{upper}{opts.suffix ? opts.suffix : ''}</td>

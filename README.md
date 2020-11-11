@@ -20,7 +20,7 @@ Open <http://localhost:3000> to view it in the browser.
 
 ### `npm test`
 
-Would run tests if I'd bothered to write anyway. ¯\\\_(ツ)_/¯
+Runs the tests like a boss.
 
 
 ### `npm run build`

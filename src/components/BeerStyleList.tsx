@@ -32,9 +32,12 @@ class BeerStyleList extends React.Component<BeerStyleListProps, BeerStyleListSta
   renderRow(style: BJCPStyle): JSX.Element {
     const _id = style['@_id'];
     return (
-      <BeerStyleRow key={_id} style={style}
-                    isSelected={this.getSelected(_id)}
-                    onClick={this.onRowClick.bind(this, _id)}/>
+      <BeerStyleRow
+        key={_id}
+        style={style}
+        isSelected={this.getSelected(_id)}
+        onClick={this.onRowClick.bind(this, _id)}
+      />
     );
   }
 
