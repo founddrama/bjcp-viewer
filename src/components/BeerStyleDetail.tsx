@@ -23,15 +23,12 @@ class BeerStyleDetail extends React.Component<BeerStyleDetailProps> {
     return (
       <div style={ctStyle} data-testid="srm-gradient">
       {
-        range.map((i) => {
-          let styles = {
+        range.map((i) => (
+          <div key={i} style={{
             backgroundColor: `var(--srm_${i})`,
-            flexGrow: 1
-          };
-          return (
-            <div key={i} style={styles}></div>
-          );
-        })
+            flexGrow: 1,
+          }}></div>
+        ))
       }
       </div>
     );
@@ -55,9 +52,7 @@ class BeerStyleDetail extends React.Component<BeerStyleDetailProps> {
     );
   }
 
-  renderTags(tags: BJCPBeerTags[]) {
-    return tags.map((t) => `#${t.replace('-', '\u2011')}`).join(' ');
-  };
+  renderTags = (tags: BJCPBeerTags[]) => tags.map((t) => `#${t.replace('-', '\u2011')}`).join(' ');
 
   render(): JSX.Element | null {
     const { style, onCloseClick } = this.props;
