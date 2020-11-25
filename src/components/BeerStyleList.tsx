@@ -19,24 +19,22 @@ class BeerStyleList extends React.Component<BeerStyleListProps, BeerStyleListSta
     };
   }
 
-  getSelected(styleId: string): boolean {
-    return styleId === this.state.selectedStyle;
-  }
+  getSelected = (styleId: string): boolean => styleId === this.state.selectedStyle;
 
-  onRowClick(_id: string): void {
+  onRowClick = (_id: string): void => {
     this.setState({ selectedStyle: _id }, () => {
       this.props.emitSelectedStyle(_id);
     });
-  }
+  };
 
-  renderRow(style: BJCPStyle): JSX.Element {
+  renderRow = (style: BJCPStyle): JSX.Element => {
     const _id = style['@_id'];
     return (
       <BeerStyleRow
         key={_id}
         style={style}
         isSelected={this.getSelected(_id)}
-        onClick={this.onRowClick.bind(this, _id)}
+        onClick={() => this.onRowClick(_id)}
       />
     );
   }
@@ -56,7 +54,7 @@ class BeerStyleList extends React.Component<BeerStyleListProps, BeerStyleListSta
             </tr>
           </thead>
           <tbody>
-            {this.props.styles.map(this.renderRow.bind(this))}
+            {this.props.styles.map(this.renderRow)}
           </tbody>
         </table>
       </div>
