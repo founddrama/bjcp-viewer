@@ -76,11 +76,11 @@ class BeerStyleDetail extends React.Component<BeerStyleDetailProps> {
           </thead>
           <tbody>
             <tr>
-              {formatRange(abv.low, abv.high, {suffix:'%'})}
-              {formatRange(ibu.low, ibu.high)}
-              {formatRange(formatSG(og.low), formatSG(og.high))}
-              {formatRange(formatSG(fg.low), formatSG(fg.high))}
-              {formatRange(srm.low, srm.high)}
+              {formatRange(abv, { suffix: '%' })}
+              {formatRange(ibu)}
+              {formatRange(og, { formatter: formatSG })}
+              {formatRange(fg, { formatter: formatSG })}
+              {formatRange(srm)}
             </tr>
             <tr>
               <td colSpan={5} className="srm-gradient">
