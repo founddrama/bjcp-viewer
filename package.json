@@ -4,24 +4,25 @@
   "private": true,
   "type": "module",
   "dependencies": {
-    "fast-xml-parser": "^3.12.19",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
-    "react-router-dom": "^5.2.0",
-    "react-scripts": "^3.4.3"
+    "express": "^4.17.1",
+    "fast-xml-parser": "^3.21.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.2.1",
+    "react-scripts": "^3.4.4"
   },
   "devDependencies": {
-    "@testing-library/jest-dom": "^5.11.5",
-    "@testing-library/react": "^11.1.1",
-    "@types/jest": "^26.0.14",
-    "@types/node": "^14.11.8",
-    "@types/react": "^16.9.52",
-    "@types/react-dom": "^16.9.8",
-    "@types/react-router-dom": "^5.1.6",
-    "react-test-renderer": "^17.0.1",
+    "@testing-library/jest-dom": "^5.15.0",
+    "@testing-library/react": "^12.1.2",
+    "@types/jest": "^27.0.2",
+    "@types/node": "^16.11.6",
+    "@types/react": "^17.0.34",
+    "@types/react-dom": "^17.0.11",
+    "@types/react-router-dom": "^5.3.2",
+    "react-test-renderer": "^17.0.2",
     "ts-loader": "^8.0.4",
-    "ts-node": "^9.0.0",
-    "typescript": "^4.0.3"
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.4"
   },
   "scripts": {
     "start": "node src/bjcp/bjcp-xml-to-json.js && react-scripts start",
