@@ -5,26 +5,14 @@ import { BJCPStyle } from '../beer-style-types';
 type BeerStyleListProps = {
   emitSelectedStyle: Function;
   styles: BJCPStyle[];
+  style?: BJCPStyle;
 };
 
-type BeerStyleListState = {
-  selectedStyle?: string | null;
-};
-
-class BeerStyleList extends React.Component<BeerStyleListProps, BeerStyleListState> {
-  constructor(props: BeerStyleListProps) {
-    super(props);
-    this.state = {
-      selectedStyle: null
-    };
-  }
-
-  getSelected = (styleId: string): boolean => styleId === this.state.selectedStyle;
+class BeerStyleList extends React.Component<BeerStyleListProps> {
+  getSelected = (styleId: string): boolean => styleId === this.props.style?.['@_id'];
 
   onRowClick = (_id: string): void => {
-    this.setState({ selectedStyle: _id }, () => {
-      this.props.emitSelectedStyle(_id);
-    });
+    this.props.emitSelectedStyle(_id);
   };
 
   renderRow = (style: BJCPStyle): JSX.Element => {

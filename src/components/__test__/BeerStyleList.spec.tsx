@@ -1,7 +1,7 @@
 import React from 'react';
 import BeerStyleList from '../BeerStyleList';
 import { mockStyleList } from '../../__test__/mocks';
-import { fireEvent, getAllByRole, getByText, queryByText, render, screen } from '@testing-library/react';
+import { fireEvent, getAllByRole, getByText, render, screen } from '@testing-library/react';
 import "@testing-library/jest-dom/extend-expect";
 
 const mockEmitSelectedStyle = jest.fn();
@@ -40,16 +40,11 @@ describe('BeerStyleList', () => {
     });
   });
 
-  test('clicking a row should select it', () => {
+  test('clicking a row should call the emitter', () => {
     const _1D = getByText(tbody, '1D.', { exact: false });
     fireEvent.click(_1D);
 
-    rows.forEach(row => {
-      if (queryByText(row, '1D.')) {
-        expect(row).toHaveClass('is-selected');
-      } else {
-        expect(row).not.toHaveClass('is-selected');
-      }
-    });
+    expect(mockEmitSelectedStyle).toBeCalledTimes(1);
+    expect(mockEmitSelectedStyle).toBeCalledWith('1D');
   });
 });

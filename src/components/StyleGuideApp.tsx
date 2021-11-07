@@ -62,7 +62,7 @@ export default function StyleGuideApp(props: StyleGuideProps) {
   return (
     <main>
       <h1>2015 BJCP Style Guide</h1>
-      <BeerStyleList styles={props.styles} emitSelectedStyle={handleStyleChange} />
+      <BeerStyleList styles={props.styles} style={selectedStyle} emitSelectedStyle={handleStyleChange} />
       <BeerStyleDetail style={selectedStyle} onCloseClick={onCloseClick} />
     </main>
   );
