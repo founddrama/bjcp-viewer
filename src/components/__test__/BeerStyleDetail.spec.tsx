@@ -15,6 +15,7 @@ const sectionHeadings = [
   'History',
   'Ingredients',
   'Examples',
+  'Entry Instructions',
   'Tags',
 ];
 
@@ -25,12 +26,13 @@ describe('BeerStyleDetail', () => {
     render(<BeerStyleDetail onCloseClick={mockCloseClick} style={mockStyle} />);
   });
 
-  test('it should render headings appropriately', () => {
-    expect(screen.getAllByRole('heading')).toHaveLength(12);
-    [ `${mockStyle["@_id"]}. ${mockStyle.name}`].concat(sectionHeadings).forEach(heading => {
-       expect(screen.getByText(heading)).toBeInTheDocument();
-    });
+  test(`it should render ${sectionHeadings.length} headings`, () => {
+    expect(screen.getAllByRole('heading')).toHaveLength(13);
   });
+
+  test('it should render the style ID + name', () => {
+    expect(screen.getByText(`${mockStyle["@_id"]}. ${mockStyle.name}`)).toBeInTheDocument();
+  })
 
   test('it should render stats block appropriately', () => {
     const { abv, ibu, og, fg, srm } = mockStyle.stats;
@@ -57,14 +59,27 @@ describe('BeerStyleDetail', () => {
     }
   });
 
-  test('it should render the sections appropriately', () => {
-    sectionHeadings.forEach(headingText => {
-      const heading = screen.queryByText(headingText);
-      expect(heading).toHaveAttribute('id');
-      expect(heading?.id).toBe(headingText.toLowerCase().replace(/\s/g, '-'));
-      expect(heading?.nextSibling).toBeInstanceOf(HTMLParagraphElement);
+  const convertHeadingToDataKey = (heading: HTMLElement): keyof BJCPStyle => {
+    let dataKey = heading.id.replace('-', '_');
+    if (dataKey === 'overall_impression') {
+      dataKey = 'impression';
+    }
 
-      const headingAsKey: keyof BJCPStyle = headingText.split(' ').pop()!.toLowerCase() as keyof BJCPStyle;
+    return dataKey as keyof BJCPStyle;
+  };
+
+  test.each(sectionHeadings)(
+    `it should render the %s heading and accompanying text`,
+    (headingText) => {
+      // the heading
+      const heading = screen.getByText(headingText);
+      expect(heading).toBeInTheDocument();
+      expect(heading).toHaveAttribute('id');
+      expect(heading.id).toBe(headingText.toLowerCase().replace(/\s/g, '-'));
+      expect(heading.nextSibling).toBeInstanceOf(HTMLParagraphElement);
+
+      // the paragraph text
+      const headingAsKey: keyof BJCPStyle = convertHeadingToDataKey(heading);
       if (headingAsKey === 'tags') {
         const tags = mockStyle[headingAsKey];
         tags.forEach(t => {
@@ -75,8 +90,8 @@ describe('BeerStyleDetail', () => {
       } else {
         expect(screen.queryByText(mockStyle[headingAsKey] as string)).toBeInTheDocument();
       }
-    });
-  });
+    }
+  );
 
   test('.close-icon should ... work', () => {
     const article = screen.getByRole('article');
