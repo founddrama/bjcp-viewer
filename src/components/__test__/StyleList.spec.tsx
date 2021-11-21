@@ -1,5 +1,5 @@
 import React from 'react';
-import BeerStyleList from '../BeerStyleList';
+import StyleList from '../StyleList';
 import { mockStyleList } from '../../__test__/mocks';
 import { fireEvent, getAllByRole, getByText, render, screen } from '@testing-library/react';
 import "@testing-library/jest-dom/extend-expect";
@@ -10,7 +10,7 @@ describe('BeerStyleList', () => {
   let tbody: HTMLElement;
   let rows: HTMLElement[];
   beforeEach(() => {
-    render(<BeerStyleList styles={mockStyleList} emitSelectedStyle={mockEmitSelectedStyle} />);
+    render(<StyleList styles={mockStyleList} emitSelectedStyle={mockEmitSelectedStyle} />);
     // RE: `[1]` -- account for `thead` y'all!
     tbody = screen.getAllByRole('rowgroup')[1];
     rows = getAllByRole(tbody, 'row');

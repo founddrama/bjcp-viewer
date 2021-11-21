@@ -1,4 +1,4 @@
-import { BJCPStyle } from "../beer-style-types";
+import { BJCPStyle } from "../types";
 
 export const mockBeerStyle: BJCPStyle = {
   ['@_id']: '1A',

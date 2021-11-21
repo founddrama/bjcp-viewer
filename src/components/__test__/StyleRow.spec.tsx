@@ -1,5 +1,5 @@
 import React from 'react';
-import BeerStyleRow from '../BeerStyleRow';
+import StyleRow from '../StyleRow';
 import { mockBeerStyle } from '../../__test__/mocks';
 import { render, screen } from '@testing-library/react';
 import "@testing-library/jest-dom/extend-expect";
@@ -12,7 +12,7 @@ describe('BeerStyleRow', () => {
     table = document.createElement('table');
     tbody = document.createElement('tbody');
 
-    render(<BeerStyleRow onClick={jest.fn} isSelected={false} style={mockBeerStyle} />, {
+    render(<StyleRow onClick={jest.fn} isSelected={false} style={mockBeerStyle} />, {
       container: document.body.appendChild(table).appendChild(tbody),
     });
   });
@@ -59,7 +59,7 @@ describe('BeerStyleRow', () => {
   });
 
   test('should render with .is-selected when the prop is passed', () => {
-    render(<BeerStyleRow onClick={jest.fn} isSelected={true} style={mockBeerStyle} />, {
+    render(<StyleRow onClick={jest.fn} isSelected={true} style={mockBeerStyle} />, {
       container: document.body.appendChild(table).appendChild(tbody),
     });
     expect(screen.getByRole('row')).toHaveClass('is-selected');

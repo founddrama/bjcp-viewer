@@ -1,14 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BeerStyleStatRange, BJCPBeerTags, BJCPStyle } from '../beer-style-types';
+import { BeerStyleStatRange, BJCPBeerTags, BJCPStyle } from '../types';
 import { formatSG, formatRange } from '../bjcp/bjcp-formatters';
 
-type BeerStyleDetailProps = {
+type StyleDetailProps = {
   style: BJCPStyle | undefined;
   onCloseClick: React.MouseEventHandler<HTMLTableRowElement>;
 };
 
-class BeerStyleDetail extends React.Component<BeerStyleDetailProps> {
+class StyleDetail extends React.Component<StyleDetailProps> {
+  isBeer(style: BJCPStyle): boolean {
+    return style['@_type'] === 'beer';
+  }
+
+  isMead(style: BJCPStyle): boolean {
+    return style['@_type'] === 'mead';
+  }
+
+  isCider(style: BJCPStyle): boolean {
+    return style['@_type'] === 'cider';
+  }
+
   generateColorBand(srm: BeerStyleStatRange): JSX.Element {
     let range = [];
     const { low, high } = srm;
@@ -54,8 +66,7 @@ class BeerStyleDetail extends React.Component<BeerStyleDetailProps> {
   }
 
   renderStatTable = (style: BJCPStyle): JSX.Element | null => {
-    const type = style['@_type'];
-    if (type === 'mead') {
+    if (this.isMead(style)) {
       return null;
     }
 
@@ -66,21 +77,21 @@ class BeerStyleDetail extends React.Component<BeerStyleDetailProps> {
         <thead>
           <tr>
             <th>ABV</th>
-            {ibu ? <th>IBU</th> : null}
+            {this.isBeer(style) ? <th>IBU</th> : null}
             <th>O.G.</th>
             <th>F.G.</th>
-            {srm ? <th>SRM</th> : null}
+            {this.isBeer(style) ? <th>SRM</th> : null}
           </tr>
         </thead>
         <tbody>
           <tr>
             {formatRange(abv, { suffix: '%' })}
-            {formatRange(ibu)}
+            {this.isBeer(style) ? formatRange(ibu) : null}
             {formatRange(og, { formatter: formatSG })}
             {formatRange(fg, { formatter: formatSG })}
-            {formatRange(srm)}
+            {this.isBeer(style) ? formatRange(srm) : null}
           </tr>
-          { type === 'beer' ?
+          { this.isBeer(style) ?
             <tr>
               <td colSpan={5} className="srm-gradient">
                 {this.generateColorBand(srm)}
@@ -120,4 +131,4 @@ class BeerStyleDetail extends React.Component<BeerStyleDetailProps> {
   }
 }
 
-export default BeerStyleDetail;
+export default StyleDetail;

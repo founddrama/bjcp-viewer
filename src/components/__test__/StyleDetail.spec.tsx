@@ -1,9 +1,9 @@
 import React from 'react';
-import BeerStyleDetail from '../BeerStyleDetail';
+import StyleDetail from '../StyleDetail';
 import { mockBeerStyle, mockMeadStyle, mockCiderStyle } from '../../__test__/mocks';
 import { fireEvent, render, screen } from '@testing-library/react';
 import "@testing-library/jest-dom/extend-expect";
-import { BJCPStyle } from '../../beer-style-types';
+import { BJCPStyle, BJCPBeerTags } from '../../types';
 
 const sectionHeadings = [
   'Overall Impression',
@@ -24,7 +24,7 @@ const mockCloseClick = jest.fn();
 describe('BeerStyleDetail', () => {
   describe('Beer', () => {
     beforeEach(() => {
-      render(<BeerStyleDetail onCloseClick={mockCloseClick} style={mockBeerStyle} />);
+      render(<StyleDetail onCloseClick={mockCloseClick} style={mockBeerStyle} />);
     });
   
     test(`it should render ${sectionHeadings.length} headings`, () => {
@@ -89,7 +89,7 @@ describe('BeerStyleDetail', () => {
         const headingAsKey: keyof BJCPStyle = convertHeadingToDataKey(heading);
         if (headingAsKey === 'tags') {
           const tags = mockBeerStyle[headingAsKey];
-          tags!.forEach(t => {
+          tags!.forEach((t: BJCPBeerTags) => {
             expect(screen.queryByText(`#${t.replace('-', '\u2011')}`, {
               exact: false
             })).toBeInTheDocument();
@@ -112,7 +112,7 @@ describe('BeerStyleDetail', () => {
 
   describe('Mead', () => {
     beforeEach(() => {
-      render(<BeerStyleDetail onCloseClick={mockCloseClick} style={mockMeadStyle} />);
+      render(<StyleDetail onCloseClick={mockCloseClick} style={mockMeadStyle} />);
     });
 
     test('it should render the style ID + name', () => {
@@ -126,7 +126,7 @@ describe('BeerStyleDetail', () => {
 
   describe('Cider', () => {
     beforeEach(() => {
-      render(<BeerStyleDetail onCloseClick={mockCloseClick} style={mockCiderStyle} />);
+      render(<StyleDetail onCloseClick={mockCloseClick} style={mockCiderStyle} />);
     });
 
     test('it should render the style ID + name', () => {
