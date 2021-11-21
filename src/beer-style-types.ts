@@ -6,6 +6,7 @@ interface Named {
 
 interface Identified extends Named {
   ['@_id']: string;
+  ['@_type']: BJCPClassName;
 }
 
 export interface BeerStyleStatRange {
@@ -21,13 +22,12 @@ type BeerStyleStats = {
   srm: BeerStyleStatRange;
 };
 
-export type BJCPClass = Named & {
-  ['@_type']: BJCPClassName;
+export type BJCPClass = Identified & {
   category: BJCPCategory[];
 };
 
 export type BJCPCategory = Identified & {
-  //revision
+  // "revision" omitted
   notes: string;
   subcategory: BJCPStyle[];
 };
@@ -44,6 +44,7 @@ export type BJCPStyle = Identified & {
   ingredients: string;
   comparison: string;
   examples: string;
+  entry_instructions?: string;
   specialty?: BJCPStyle[];
   tags: BJCPBeerTags[];
 };
