@@ -1,6 +1,6 @@
 import { BJCPStyle } from "../beer-style-types";
 
-export const mockStyle: BJCPStyle = {
+export const mockBeerStyle: BJCPStyle = {
   ['@_id']: '1A',
   ['@_type']: 'beer',
   name: 'German Bier',
@@ -23,6 +23,48 @@ export const mockStyle: BJCPStyle = {
   examples: 'something from Germany, and an Americanized version',
   entry_instructions: 'specify carbonation level',
   tags: ['bottom-fermented', 'central-europe', 'pale-color'],
+};
+
+export const mockMeadStyle: BJCPStyle = {
+  ['@_id']: 'M1A',
+  ['@_type']: 'mead',
+  name: 'Craft Mead',
+  stats: {
+    abv: {},
+    ibu: {},
+    og: {},
+    fg: {},
+    srm: {},
+  },
+  impression: 'good mead for drinking',
+  aroma: 'smells good',
+  appearance: 'pale and fizzy',
+  flavor: 'tasty mead, some honey',
+  mouthfeel: 'full-bodied and fizzy',
+  comments: 'interesting fact about this mead',
+  examples: "Valkyrie's Choice",
+  entry_instructions: 'specify sweetness, strength, and carbonation level',
+};
+
+export const mockCiderStyle: BJCPStyle = {
+  ['@_id']: 'C1A',
+  ['@_type']: 'cider',
+  name: 'Craft Cider',
+  stats: {
+    abv: { low: 5, high: 8 },
+    ibu: {},
+    og: { low: 1.045, high: 1.065 },
+    fg: { low: 0.995, high: 1.02 },
+    srm: {},
+  },
+  impression: 'refreshing easy-to-drink cider',
+  aroma: 'smells appley',
+  appearance: 'pale and fizzy',
+  flavor: 'tasty cider, not too sweet',
+  mouthfeel: 'light-bodied and fizzy',
+  comments: 'interesting fact about this cider',
+  examples: "Citizen Cider",
+  entry_instructions: 'specify and carbonation level',
 };
 
 export const mockStyleList: BJCPStyle[] = [

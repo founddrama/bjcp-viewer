@@ -10,8 +10,8 @@ interface Identified extends Named {
 }
 
 export interface BeerStyleStatRange {
-  low: number;
-  high: number;
+  low?: number;
+  high?: number;
 };
 
 type BeerStyleStats = {
@@ -40,13 +40,13 @@ export type BJCPStyle = Identified & {
   flavor: string;
   mouthfeel: string;
   comments: string;
-  history: string;
-  ingredients: string;
-  comparison: string;
+  history?: string;
+  ingredients?: string;
+  comparison?: string;
   examples: string;
   entry_instructions?: string;
   specialty?: BJCPStyle[];
-  tags: BJCPBeerTags[];
+  tags?: BJCPBeerTags[];
 };
 
 export type BJCPBeerTags = 
