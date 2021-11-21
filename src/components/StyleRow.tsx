@@ -1,14 +1,14 @@
 import React from 'react';
-import { BJCPStyle } from '../beer-style-types';
+import { BJCPStyle } from '../types';
 import { formatRange, formatSG } from '../bjcp/bjcp-formatters';
 
-type BeerStyleRowProps = {
+type StyleRowProps = {
   isSelected: boolean;
   onClick: React.MouseEventHandler<HTMLTableRowElement>;
   style: BJCPStyle;
 };
 
-class BeerStyleRow extends React.Component<BeerStyleRowProps> {
+class StyleRow extends React.Component<StyleRowProps> {
   render(): JSX.Element {
     const { style, isSelected, onClick } = this.props;
     const { abv, ibu, og, fg, srm } = style.stats;
@@ -27,4 +27,4 @@ class BeerStyleRow extends React.Component<BeerStyleRowProps> {
   }
 }
 
-export default BeerStyleRow;
+export default StyleRow;

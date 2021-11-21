@@ -1,14 +1,14 @@
 import React from 'react';
-import BeerStyleRow from './BeerStyleRow';
-import { BJCPStyle } from '../beer-style-types';
+import StyleRow from './StyleRow';
+import { BJCPStyle } from '../types';
 
-type BeerStyleListProps = {
+type StyleListProps = {
   emitSelectedStyle: Function;
   styles: BJCPStyle[];
   style?: BJCPStyle;
 };
 
-class BeerStyleList extends React.Component<BeerStyleListProps> {
+class StyleList extends React.Component<StyleListProps> {
   getSelected = (styleId: string): boolean => styleId === this.props.style?.['@_id'];
 
   onRowClick = (_id: string): void => {
@@ -18,7 +18,7 @@ class BeerStyleList extends React.Component<BeerStyleListProps> {
   renderRow = (style: BJCPStyle): JSX.Element => {
     const _id = style['@_id'];
     return (
-      <BeerStyleRow
+      <StyleRow
         key={_id}
         style={style}
         isSelected={this.getSelected(_id)}
@@ -50,4 +50,4 @@ class BeerStyleList extends React.Component<BeerStyleListProps> {
   }
 }
 
-export default BeerStyleList;
+export default StyleList;

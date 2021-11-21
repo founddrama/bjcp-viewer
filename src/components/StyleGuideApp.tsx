@@ -1,8 +1,8 @@
 import React, { useCallback, useEffect, useState } from 'react';
 import { useHistory, useLocation } from 'react-router-dom';
-import BeerStyleList from './BeerStyleList';
-import BeerStyleDetail from './BeerStyleDetail';
-import { BJCPStyle } from '../beer-style-types';
+import StyleList from './StyleList';
+import StyleDetail from './StyleDetail';
+import { BJCPStyle } from '../types';
 
 type StyleGuideProps = {
   styles: BJCPStyle[];
@@ -62,8 +62,8 @@ export default function StyleGuideApp(props: StyleGuideProps) {
   return (
     <main>
       <h1>2015 BJCP Style Guide</h1>
-      <BeerStyleList styles={props.styles} style={selectedStyle} emitSelectedStyle={handleStyleChange} />
-      <BeerStyleDetail style={selectedStyle} onCloseClick={onCloseClick} />
+      <StyleList styles={props.styles} style={selectedStyle} emitSelectedStyle={handleStyleChange} />
+      <StyleDetail style={selectedStyle} onCloseClick={onCloseClick} />
     </main>
   );
 }

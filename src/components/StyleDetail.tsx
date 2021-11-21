@@ -1,17 +1,30 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BeerStyleStatRange, BJCPBeerTags, BJCPStyle } from '../beer-style-types';
+import { BeerStyleStatRange, BJCPBeerTags, BJCPStyle } from '../types';
 import { formatSG, formatRange } from '../bjcp/bjcp-formatters';
 
-type BeerStyleDetailProps = {
+type StyleDetailProps = {
   style: BJCPStyle | undefined;
   onCloseClick: React.MouseEventHandler<HTMLTableRowElement>;
 };
 
-class BeerStyleDetail extends React.Component<BeerStyleDetailProps> {
+class StyleDetail extends React.Component<StyleDetailProps> {
+  isBeer(style: BJCPStyle): boolean {
+    return style['@_type'] === 'beer';
+  }
+
+  isMead(style: BJCPStyle): boolean {
+    return style['@_type'] === 'mead';
+  }
+
+  isCider(style: BJCPStyle): boolean {
+    return style['@_type'] === 'cider';
+  }
+
   generateColorBand(srm: BeerStyleStatRange): JSX.Element {
     let range = [];
-    for (let i = Math.floor(srm.low || 1); i < (srm.high+1 || 40); i++) {
+    const { low, high } = srm;
+    for (let i = Math.floor(low || 1); i < (high ? high + 1 : 40); i++) {
       range.push(i);
     }
 
@@ -41,7 +54,7 @@ class BeerStyleDetail extends React.Component<BeerStyleDetailProps> {
     }
   }
 
-  renderSection(content: string, title: string): JSX.Element | undefined {
+  renderSection(content: string | undefined, title: string): JSX.Element | undefined {
     if(!content) return;
 
     return (
@@ -52,43 +65,55 @@ class BeerStyleDetail extends React.Component<BeerStyleDetailProps> {
     );
   }
 
-  renderTags = (tags: BJCPBeerTags[]) => tags.map((t) => `#${t.replace('-', '\u2011')}`).join(' ');
+  renderStatTable = (style: BJCPStyle): JSX.Element | null => {
+    if (this.isMead(style)) {
+      return null;
+    }
 
-  render(): JSX.Element | null {
-    const { style, onCloseClick } = this.props;
-    if(!style) return null;
-      
     const { abv, ibu, og, fg, srm } = style.stats;
 
     return (
-      <article>
-        <span className="close-icon" onClick={onCloseClick}>&times;</span>
-        <h2>{style['@_id']}. {style.name}</h2>
-        <table>
-          <thead>
-            <tr>
-              <th>ABV</th>
-              <th>IBU</th>
-              <th>O.G.</th>
-              <th>F.G.</th>
-              <th>SRM</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              {formatRange(abv, { suffix: '%' })}
-              {formatRange(ibu)}
-              {formatRange(og, { formatter: formatSG })}
-              {formatRange(fg, { formatter: formatSG })}
-              {formatRange(srm)}
-            </tr>
+      <table>
+        <thead>
+          <tr>
+            <th>ABV</th>
+            {this.isBeer(style) ? <th>IBU</th> : null}
+            <th>O.G.</th>
+            <th>F.G.</th>
+            {this.isBeer(style) ? <th>SRM</th> : null}
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            {formatRange(abv, { suffix: '%' })}
+            {this.isBeer(style) ? formatRange(ibu) : null}
+            {formatRange(og, { formatter: formatSG })}
+            {formatRange(fg, { formatter: formatSG })}
+            {this.isBeer(style) ? formatRange(srm) : null}
+          </tr>
+          { this.isBeer(style) ?
             <tr>
               <td colSpan={5} className="srm-gradient">
                 {this.generateColorBand(srm)}
               </td>
             </tr>
-          </tbody>
-        </table>
+          : null }
+        </tbody>
+      </table>
+    );
+  }
+
+  renderTags = (tags: BJCPBeerTags[] | undefined) => tags?.map((t) => `#${t.replace('-', '\u2011')}`).join(' ');
+
+  render(): JSX.Element | null {
+    const { style, onCloseClick } = this.props;
+    if(!style) return null;
+
+    return (
+      <article>
+        <span className="close-icon" onClick={onCloseClick}>&times;</span>
+        <h2>{style['@_id']}. {style.name}</h2>
+        {this.renderStatTable(style)}
         {this.renderSection(style.impression, 'Overall Impression')}
         {this.renderSection(style.aroma, 'Aroma')}
         {this.renderSection(style.appearance, 'Appearance')}
@@ -99,10 +124,11 @@ class BeerStyleDetail extends React.Component<BeerStyleDetailProps> {
         {this.renderSection(style.ingredients, 'Ingredients')}
         {this.renderSection(style.comparison, 'Comparison')}
         {this.renderSection(style.examples, 'Examples')}
+        {this.renderSection(style.entry_instructions, 'Entry Instructions')}
         {this.renderSection(this.renderTags(style.tags), 'Tags')}
       </article>
     );
   }
 }
 
-export default BeerStyleDetail;
+export default StyleDetail;

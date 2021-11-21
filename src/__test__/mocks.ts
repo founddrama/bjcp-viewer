@@ -1,7 +1,8 @@
-import { BJCPStyle } from "../beer-style-types";
+import { BJCPStyle } from "../types";
 
-export const mockStyle: BJCPStyle = {
+export const mockBeerStyle: BJCPStyle = {
   ['@_id']: '1A',
+  ['@_type']: 'beer',
   name: 'German Bier',
   stats: {
     abv: { low: 3.4, high: 6.8 },
@@ -20,12 +21,56 @@ export const mockStyle: BJCPStyle = {
   ingredients: 'malt + hops + water + yeast',
   comparison: 'different from this other beer in this subtle way',
   examples: 'something from Germany, and an Americanized version',
+  entry_instructions: 'specify carbonation level',
   tags: ['bottom-fermented', 'central-europe', 'pale-color'],
+};
+
+export const mockMeadStyle: BJCPStyle = {
+  ['@_id']: 'M1A',
+  ['@_type']: 'mead',
+  name: 'Craft Mead',
+  stats: {
+    abv: {},
+    ibu: {},
+    og: {},
+    fg: {},
+    srm: {},
+  },
+  impression: 'good mead for drinking',
+  aroma: 'smells good',
+  appearance: 'pale and fizzy',
+  flavor: 'tasty mead, some honey',
+  mouthfeel: 'full-bodied and fizzy',
+  comments: 'interesting fact about this mead',
+  examples: "Valkyrie's Choice",
+  entry_instructions: 'specify sweetness, strength, and carbonation level',
+};
+
+export const mockCiderStyle: BJCPStyle = {
+  ['@_id']: 'C1A',
+  ['@_type']: 'cider',
+  name: 'Craft Cider',
+  stats: {
+    abv: { low: 5, high: 8 },
+    ibu: {},
+    og: { low: 1.045, high: 1.065 },
+    fg: { low: 0.995, high: 1.02 },
+    srm: {},
+  },
+  impression: 'refreshing easy-to-drink cider',
+  aroma: 'smells appley',
+  appearance: 'pale and fizzy',
+  flavor: 'tasty cider, not too sweet',
+  mouthfeel: 'light-bodied and fizzy',
+  comments: 'interesting fact about this cider',
+  examples: "Citizen Cider",
+  entry_instructions: 'specify and carbonation level',
 };
 
 export const mockStyleList: BJCPStyle[] = [
   {
     "@_id": "1A",
+    "@_type": "beer",
     "name": "American Light Lager",
     "aroma": "Low to no malt aroma, although it can be perceived as grainy, sweet, or corn-like if present. Hop aroma is light to none, with a spicy or floral hop character if present. While a clean fermentation character is desirable, a light amount of yeast character (particularly a light apple fruitiness) is not a fault. Light DMS is not a fault.",
     "appearance": "Very pale straw to pale yellow color. White, frothy head seldom persists. Very clear.",
@@ -72,6 +117,7 @@ export const mockStyleList: BJCPStyle[] = [
   },
   {
     "@_id": "1B",
+    "@_type": "beer",
     "name": "American Lager",
     "aroma": "Low to no malt aroma, although it can be perceived as grainy, sweet or corn-like if present. Hop aroma may range from none to a light, spicy or floral hop presence. While a clean fermentation character is desirable, a light amount of yeast character (particularly a light apple character) is not a fault. Light DMS is also not a fault.",
     "appearance": "Very pale straw to medium yellow color. White, frothy head seldom persists. Very clear.",
@@ -118,6 +164,7 @@ export const mockStyleList: BJCPStyle[] = [
   },
   {
     "@_id": "1C",
+    "@_type": "beer",
     "name": "Cream Ale",
     "aroma": "Medium-low to low malt notes, with a sweet, corn-like aroma. Low levels of DMS are allowable, but are not required. Hop aroma medium low to none, and can be of any variety although floral, spicy, or herbal notes are most common. Overall, a subtle aroma with neither hops nor malt dominating. Low fruity esters are optional.",
     "appearance": "Pale straw to moderate gold color, although usually on the pale side. Low to medium head with medium to high carbonation. Fair head retention. Brilliant, sparkling clarity.",
@@ -163,6 +210,7 @@ export const mockStyleList: BJCPStyle[] = [
   },
   {
     "@_id": "1D",
+    "@_type": "beer",
     "name": "American Wheat Beer",
     "aroma": "Low to moderate grainy, bready, or doughy wheat character. A light to moderate malty sweetness is acceptable. Esters can be moderate to none, although should reflect relatively neutral yeast strains; banana is inappropriate. Hop aroma may be low to moderate, and can have a citrusy, spicy, floral, or fruity character. No clove phenols.",
     "appearance": "Usually pale yellow to gold. Clarity may range from brilliant to hazy with yeast approximating the German weissbier style of beer. Big, long-lasting white head.",
@@ -208,6 +256,7 @@ export const mockStyleList: BJCPStyle[] = [
   },
   {
     "@_id": "2A",
+    "@_type": "beer",
     "name": "International Pale Lager",
     "aroma": "Low to medium-low malt aroma, which can be grainy-malty or slightly corny-sweet. Hop aroma may range from very low to a medium, spicy or floral hop presence. While a clean fermentation profile is generally most desirable, low levels of yeast character (such as a light apple fruitiness) are not a fault. A light amount of DMS or corn aroma is not a fault.",
     "appearance": "Pale straw to gold color. White, frothy head may not be long lasting. Very clear.",
@@ -253,6 +302,7 @@ export const mockStyleList: BJCPStyle[] = [
   },
   {
     "@_id": "2B",
+    "@_type": "beer",
     "name": "International Amber Lager",
     "aroma": "Low to moderate malt aroma which can be grainy, with a very low to moderate caramel-sweet to toasty-malty aroma. Hop aroma can range from low to none with a mildly floral or spicy character. Clean lager profile. A slight DMS or corny aroma is acceptable.",
     "appearance": "Golden-amber to reddish-copper color. Bright clarity. White to off-white foam stand which may not last.",
@@ -298,6 +348,7 @@ export const mockStyleList: BJCPStyle[] = [
   },
   {
     "@_id": "2C",
+    "@_type": "beer",
     "name": "International Dark Lager",
     "aroma": "Little to no malt aroma; may have a light corn character. Medium-low to no roast and caramel malt aroma. Hop aroma may range from none to light spicy or floral hop presence. While a clean fermentation profile is generally most desirable, low levels of yeast character (such as a light apple fruitiness) are not a fault. A light amount of DMS or corn aroma is not a fault.",
     "appearance": "Deep amber to dark brown with bright clarity and ruby highlights. Foam stand may not be long lasting, and is beige to light tan in color.",
@@ -343,6 +394,7 @@ export const mockStyleList: BJCPStyle[] = [
   },
   {
     "@_id": "3A",
+    "@_type": "beer",
     "name": "Czech Pale Lager",
     "aroma": "Light to moderate bready-rich malt combined with light to moderate spicy or herbal hop bouquet; the balance between the malt and hops may vary. Faint hint of caramel is acceptable. Light (but never intrusive) diacetyl and light, fruity hop-derived esters are acceptable, but need not be present. No sulfur.",
     "appearance": "Light gold to deep gold color. Brilliant to very clear, with a long-lasting, creamy white head.",
@@ -390,6 +442,7 @@ export const mockStyleList: BJCPStyle[] = [
   },
   {
     "@_id": "3B",
+    "@_type": "beer",
     "name": "Czech Premium Pale Lager",
     "aroma": "Medium to medium-high bready-rich malt and medium-low to medium-high spicy, floral, or herbal hop bouquet; though the balance between the malt and hops may vary, the interplay is rich and complex. Light diacetyl, or very low fruity hop-derived esters are acceptable, but need not be present.",
     "appearance": "Gold to deep gold color. Brilliant to very clear clarity. Dense, long-lasting, creamy white head.",
@@ -437,6 +490,7 @@ export const mockStyleList: BJCPStyle[] = [
   },
   {
     "@_id": "3C",
+    "@_type": "beer",
     "name": "Czech Amber Lager",
     "aroma": "Moderate intensity, rich malt aroma that can be either bready and Maillard product-dominant or slightly caramelly and candy-like. Spicy, floral or herbal hop character may be moderate to none. Clean lager character, though low fruity esters (stone fruit or berries) may be present. Diacetyl is optional and can range from low to none.",
     "appearance": "Deep amber to copper color. Clear to bright clarity. Large, off-white, persistent head.",
@@ -483,6 +537,7 @@ export const mockStyleList: BJCPStyle[] = [
   },
   {
     "@_id": "3D",
+    "@_type": "beer",
     "name": "Czech Dark Lager",
     "aroma": "Medium to medium-high rich, deep, sometimes sweet maltiness, with optional qualities such as bread crusts, toast, nuts, cola, dark fruit, or caramel. Roasted malt characters such as chocolate or sweetened coffee can vary from moderate to none but should not overwhelm the base malt character. Low, spicy hop aroma is optional. Low diacetyl and low fruity esters (plums or berries) may be present.",
     "appearance": "Dark copper to almost black color, often with a red or garnet tint. Clear to bright clarity. Large, off-white to tan, persistent head.",

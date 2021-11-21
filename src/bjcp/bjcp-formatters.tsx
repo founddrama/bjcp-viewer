@@ -3,8 +3,8 @@ import React from 'react';
 type RangeValue = number | string | undefined;
 
 type RangeInput = {
-  low: RangeValue;
-  high: RangeValue;
+  low?: RangeValue;
+  high?: RangeValue;
 };
 
 interface RangeOptions {

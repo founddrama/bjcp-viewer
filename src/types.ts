@@ -6,11 +6,12 @@ interface Named {
 
 interface Identified extends Named {
   ['@_id']: string;
+  ['@_type']: BJCPClassName;
 }
 
 export interface BeerStyleStatRange {
-  low: number;
-  high: number;
+  low?: number;
+  high?: number;
 };
 
 type BeerStyleStats = {
@@ -21,13 +22,12 @@ type BeerStyleStats = {
   srm: BeerStyleStatRange;
 };
 
-export type BJCPClass = Named & {
-  ['@_type']: BJCPClassName;
+export type BJCPClass = Identified & {
   category: BJCPCategory[];
 };
 
 export type BJCPCategory = Identified & {
-  //revision
+  // "revision" omitted
   notes: string;
   subcategory: BJCPStyle[];
 };
@@ -40,12 +40,13 @@ export type BJCPStyle = Identified & {
   flavor: string;
   mouthfeel: string;
   comments: string;
-  history: string;
-  ingredients: string;
-  comparison: string;
+  history?: string;
+  ingredients?: string;
+  comparison?: string;
   examples: string;
+  entry_instructions?: string;
   specialty?: BJCPStyle[];
-  tags: BJCPBeerTags[];
+  tags?: BJCPBeerTags[];
 };
 
 export type BJCPBeerTags = 
