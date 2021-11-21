@@ -11,7 +11,8 @@ type BeerStyleDetailProps = {
 class BeerStyleDetail extends React.Component<BeerStyleDetailProps> {
   generateColorBand(srm: BeerStyleStatRange): JSX.Element {
     let range = [];
-    for (let i = Math.floor(srm.low || 1); i < (srm.high+1 || 40); i++) {
+    const { low, high } = srm;
+    for (let i = Math.floor(low || 1); i < (high ? high + 1 : 40); i++) {
       range.push(i);
     }
 
@@ -65,19 +66,19 @@ class BeerStyleDetail extends React.Component<BeerStyleDetailProps> {
         <thead>
           <tr>
             <th>ABV</th>
-            {type === 'beer' ? <th>IBU</th> : null}
+            {ibu ? <th>IBU</th> : null}
             <th>O.G.</th>
             <th>F.G.</th>
-            {type === 'beer' ? <th>SRM</th> : null}
+            {srm ? <th>SRM</th> : null}
           </tr>
         </thead>
         <tbody>
           <tr>
             {formatRange(abv, { suffix: '%' })}
-            {type === 'beer' ? formatRange(ibu) : null}
+            {formatRange(ibu)}
             {formatRange(og, { formatter: formatSG })}
             {formatRange(fg, { formatter: formatSG })}
-            {type === 'beer' ? formatRange(srm) : null}
+            {formatRange(srm)}
           </tr>
           { type === 'beer' ?
             <tr>
@@ -91,7 +92,7 @@ class BeerStyleDetail extends React.Component<BeerStyleDetailProps> {
     );
   }
 
-  renderTags = (tags: BJCPBeerTags[]) => tags?.map((t) => `#${t.replace('-', '\u2011')}`).join(' ');
+  renderTags = (tags: BJCPBeerTags[] | undefined) => tags?.map((t) => `#${t.replace('-', '\u2011')}`).join(' ');
 
   render(): JSX.Element | null {
     const { style, onCloseClick } = this.props;
