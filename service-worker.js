@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "https://founddrama.github.io/bjcp-viewer/precache-manifest.979f476c837c24b9abfd99ac3a73fbd7.js"
+  "https://founddrama.github.io/bjcp-viewer/precache-manifest.36d73ecbfd676da987353d9ca73e8e96.js"
 );
 
 self.addEventListener('message', (event) => {
