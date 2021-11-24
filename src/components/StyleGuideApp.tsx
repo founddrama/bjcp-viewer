@@ -8,7 +8,7 @@ type StyleGuideProps = {
   styles: BJCPStyle[];
 };
 
-export default function StyleGuideApp(props: StyleGuideProps) {
+const StyleGuideApp = React.memo(function StyleGuideApp(props: StyleGuideProps) {
   const [ selectedStyle, setSelectedStyle ] = useState<BJCPStyle | undefined>();
   const [ locationKeys, setLocationKeys ] = useState<(string | undefined)[]>([]);
 
@@ -66,4 +66,6 @@ export default function StyleGuideApp(props: StyleGuideProps) {
       <StyleDetail style={selectedStyle} onCloseClick={onCloseClick} />
     </main>
   );
-}
+});
+
+export default StyleGuideApp;

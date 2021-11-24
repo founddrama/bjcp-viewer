@@ -8,7 +8,7 @@ type StyleDetailProps = {
   onCloseClick: React.MouseEventHandler<HTMLTableRowElement>;
 };
 
-class StyleDetail extends React.Component<StyleDetailProps> {
+class StyleDetail extends React.PureComponent<StyleDetailProps> {
   isBeer(style: BJCPStyle): boolean {
     return style['@_type'] === 'beer';
   }

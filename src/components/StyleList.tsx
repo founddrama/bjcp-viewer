@@ -8,7 +8,7 @@ type StyleListProps = {
   style?: BJCPStyle;
 };
 
-class StyleList extends React.Component<StyleListProps> {
+class StyleList extends React.PureComponent<StyleListProps> {
   getSelected = (styleId: string): boolean => styleId === this.props.style?.['@_id'];
 
   onRowClick = (_id: string): void => {

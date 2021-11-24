@@ -8,7 +8,7 @@ type StyleRowProps = {
   style: BJCPStyle;
 };
 
-class StyleRow extends React.Component<StyleRowProps> {
+class StyleRow extends React.PureComponent<StyleRowProps> {
   render(): JSX.Element {
     const { style, isSelected, onClick } = this.props;
     const { abv, ibu, og, fg, srm } = style.stats;
