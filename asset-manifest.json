@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/bjcp-viewer/static/css/main.dccf1b18.chunk.css",
-    "main.js": "/bjcp-viewer/static/js/main.87a63e36.chunk.js",
-    "main.js.map": "/bjcp-viewer/static/js/main.87a63e36.chunk.js.map",
-    "runtime-main.js": "/bjcp-viewer/static/js/runtime-main.0dc452f7.js",
-    "runtime-main.js.map": "/bjcp-viewer/static/js/runtime-main.0dc452f7.js.map",
-    "static/js/2.b3d88df0.chunk.js": "/bjcp-viewer/static/js/2.b3d88df0.chunk.js",
-    "static/js/2.b3d88df0.chunk.js.map": "/bjcp-viewer/static/js/2.b3d88df0.chunk.js.map",
-    "index.html": "/bjcp-viewer/index.html",
-    "precache-manifest.beea8b435f0e134364f0dfce9a77541a.js": "/bjcp-viewer/precache-manifest.beea8b435f0e134364f0dfce9a77541a.js",
-    "service-worker.js": "/bjcp-viewer/service-worker.js",
-    "static/css/main.dccf1b18.chunk.css.map": "/bjcp-viewer/static/css/main.dccf1b18.chunk.css.map",
-    "static/js/2.b3d88df0.chunk.js.LICENSE.txt": "/bjcp-viewer/static/js/2.b3d88df0.chunk.js.LICENSE.txt"
+    "main.css": "https://founddrama.github.io/bjcp-viewer/static/css/main.dccf1b18.chunk.css",
+    "main.js": "https://founddrama.github.io/bjcp-viewer/static/js/main.87a63e36.chunk.js",
+    "main.js.map": "https://founddrama.github.io/bjcp-viewer/static/js/main.87a63e36.chunk.js.map",
+    "runtime-main.js": "https://founddrama.github.io/bjcp-viewer/static/js/runtime-main.7f5f26c2.js",
+    "runtime-main.js.map": "https://founddrama.github.io/bjcp-viewer/static/js/runtime-main.7f5f26c2.js.map",
+    "static/js/2.b3d88df0.chunk.js": "https://founddrama.github.io/bjcp-viewer/static/js/2.b3d88df0.chunk.js",
+    "static/js/2.b3d88df0.chunk.js.map": "https://founddrama.github.io/bjcp-viewer/static/js/2.b3d88df0.chunk.js.map",
+    "index.html": "https://founddrama.github.io/bjcp-viewer/index.html",
+    "precache-manifest.979f476c837c24b9abfd99ac3a73fbd7.js": "https://founddrama.github.io/bjcp-viewer/precache-manifest.979f476c837c24b9abfd99ac3a73fbd7.js",
+    "service-worker.js": "https://founddrama.github.io/bjcp-viewer/service-worker.js",
+    "static/css/main.dccf1b18.chunk.css.map": "https://founddrama.github.io/bjcp-viewer/static/css/main.dccf1b18.chunk.css.map",
+    "static/js/2.b3d88df0.chunk.js.LICENSE.txt": "https://founddrama.github.io/bjcp-viewer/static/js/2.b3d88df0.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.0dc452f7.js",
+    "static/js/runtime-main.7f5f26c2.js",
     "static/js/2.b3d88df0.chunk.js",
     "static/css/main.dccf1b18.chunk.css",
     "static/js/main.87a63e36.chunk.js"
