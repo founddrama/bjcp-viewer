@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BeerStyleStatRange, BJCPBeerTags, BJCPStyle } from '../types';
+import { StyleStatRange, BJCPBeerTags, BJCPStyle } from '../types';
 import { formatSG, formatRange } from '../bjcp/bjcp-formatters';
 
 type StyleDetailProps = {
@@ -21,7 +21,7 @@ class StyleDetail extends React.Component<StyleDetailProps> {
     return style['@_type'] === 'cider';
   }
 
-  generateColorBand(srm: BeerStyleStatRange): JSX.Element {
+  generateColorBand(srm: StyleStatRange): JSX.Element {
     let range = [];
     const { low, high } = srm;
     for (let i = Math.floor(low || 1); i < (high ? high + 1 : 40); i++) {

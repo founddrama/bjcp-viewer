@@ -9,17 +9,17 @@ interface Identified extends Named {
   ['@_type']: BJCPClassName;
 }
 
-export interface BeerStyleStatRange {
+export interface StyleStatRange {
   low?: number;
   high?: number;
 };
 
 type BeerStyleStats = {
-  abv: BeerStyleStatRange;
-  ibu: BeerStyleStatRange;
-  og: BeerStyleStatRange;
-  fg: BeerStyleStatRange;
-  srm: BeerStyleStatRange;
+  abv: StyleStatRange;
+  ibu: StyleStatRange;
+  og: StyleStatRange;
+  fg: StyleStatRange;
+  srm: StyleStatRange;
 };
 
 export type BJCPClass = Identified & {
