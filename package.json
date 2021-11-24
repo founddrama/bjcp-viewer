@@ -3,6 +3,7 @@
   "version": "1.0.3",
   "private": true,
   "type": "module",
+  "homepage": "https://founddrama.github.io/bjcp-viewer",
   "dependencies": {
     "fast-xml-parser": "^3.21.1",
     "react": "^17.0.2",
