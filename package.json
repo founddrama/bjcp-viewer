@@ -1,6 +1,6 @@
 {
   "name": "bjcp",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "private": true,
   "type": "module",
   "dependencies": {
@@ -24,8 +24,9 @@
     "typescript": "^4.4.4"
   },
   "scripts": {
-    "start": "node src/bjcp/bjcp-xml-to-json.js && react-scripts start",
-    "build": "react-scripts build",
+    "compile:xml": "node src/bjcp/bjcp-xml-to-json.js",
+    "start": "npm run compile:xml && react-scripts start",
+    "build": "npm run compile:xml && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
