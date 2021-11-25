@@ -17,7 +17,7 @@ jobs:
       - name: Build package
         env:
           NODE_OPTIONS: --openssl-legacy-provider
-          PUBLIC_URL: https://founddrama.github.io/bjcp-viewer
+          PUBLIC_URL: /bjcp-viewer
         run: |
           npm install
           npm run build
