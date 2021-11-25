@@ -9,8 +9,8 @@ type StyleGuideProps = {
 };
 
 const StyleGuideApp = React.memo(function StyleGuideApp(props: StyleGuideProps) {
-  const [ selectedStyle, setSelectedStyle ] = useState<BJCPStyle | undefined>();
-  const [ locationKeys, setLocationKeys ] = useState<(string | undefined)[]>([]);
+  const location = useLocation();
+  const history = useHistory();
 
   const findStyleById = useCallback((styleId: string): BJCPStyle | undefined => (
     props.styles.find((style) => style['@_id'] === styleId)
@@ -20,10 +20,21 @@ const StyleGuideApp = React.memo(function StyleGuideApp(props: StyleGuideProps) 
     setSelectedStyle(findStyleById(styleId));
   }, [findStyleById]);
 
+  const getSelectedStyleFromPath = (pathname: string): BJCPStyle | undefined => {
+    const styleId = pathname.replace(/^\//, '');
+    return findStyleById(styleId);
+  };
+
   const setSelectedStyleFromPath = useCallback((pathname: string): void => {
     const styleId = pathname.replace(/^\//, '');
     setSelectedStyleById(styleId);
   }, [setSelectedStyleById]);
+
+  const { pathname } = location;
+  const initStyle = getSelectedStyleFromPath(pathname);
+
+  const [ selectedStyle, setSelectedStyle ] = useState<BJCPStyle | undefined>(initStyle);
+  const [ locationKeys, setLocationKeys ] = useState<(string | undefined)[]>([]);
 
   const handleStyleChange = (styleId: string): void => {
     setSelectedStyleById(styleId);
@@ -35,8 +46,6 @@ const StyleGuideApp = React.memo(function StyleGuideApp(props: StyleGuideProps) 
     history.push(`/`);
   };
 
-  const location = useLocation();
-  const history = useHistory();
   useEffect(() => {
     return history.listen((location) => {
       if (history.action === 'PUSH') {
@@ -53,11 +62,6 @@ const StyleGuideApp = React.memo(function StyleGuideApp(props: StyleGuideProps) 
       }
     });
   }, [history, locationKeys, setSelectedStyleFromPath]);
-
-  const { pathname } = location;
-  if (!selectedStyle && pathname !== '/') {
-    setSelectedStyleFromPath(pathname);
-  }
 
   return (
     <main>
