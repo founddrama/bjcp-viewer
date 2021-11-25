@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "207d8ccbb68816a2f200761cd209e933",
+    "revision": "c711a61e722079d9e9770d6bf13ef6f9",
     "url": "https://founddrama.github.io/bjcp-viewer/index.html"
   },
   {
-    "revision": "09b40dfb7d7179ad7c97",
+    "revision": "930b5d7015856bf26ae2",
     "url": "https://founddrama.github.io/bjcp-viewer/static/css/main.dccf1b18.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://founddrama.github.io/bjcp-viewer/static/js/2.b3d88df0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "09b40dfb7d7179ad7c97",
-    "url": "https://founddrama.github.io/bjcp-viewer/static/js/main.1956c1ec.chunk.js"
+    "revision": "930b5d7015856bf26ae2",
+    "url": "https://founddrama.github.io/bjcp-viewer/static/js/main.059bbf16.chunk.js"
   },
   {
     "revision": "d76500f59e8da76edf17",
