@@ -1,12 +1,10 @@
-name: Tests
+name: Install & verify
 
 on:
-  push:
-    branches: [ main ]
   pull_request:
 
 jobs:
-  test:
+  verify:
     runs-on: ubuntu-latest
     steps:
       # checkout repo under $GITHUB_WORKSPACE
