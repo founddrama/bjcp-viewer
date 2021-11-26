@@ -34,7 +34,7 @@ const StyleGuideApp = React.memo(function StyleGuideApp(props: StyleGuideProps) 
   const initStyle = getSelectedStyleFromPath(pathname);
 
   const [ selectedStyle, setSelectedStyle ] = useState<BJCPStyle | undefined>(initStyle);
-  const [ locationKeys, setLocationKeys ] = useState<(string | undefined)[]>([]);
+  const [ locationPaths, setLocationPaths ] = useState<(string | undefined)[]>([]);
 
   const handleStyleChange = (styleId: string): void => {
     setSelectedStyleById(styleId);
@@ -49,19 +49,19 @@ const StyleGuideApp = React.memo(function StyleGuideApp(props: StyleGuideProps) 
   useEffect(() => {
     return history.listen((location) => {
       if (history.action === 'PUSH') {
-        setLocationKeys([location.key]);
+        setLocationPaths([location.pathname]);
       }
   
       if (history.action === 'POP') {
-        if (locationKeys[1] === location.key) {
-          setLocationKeys(([_, ...keys ]) => keys);
+        if (locationPaths[1] === location.pathname) {
+          setLocationPaths(([_, ...keys ]) => keys);
         } else {
-          setLocationKeys((keys) => [location.key, ...keys]);
+          setLocationPaths((keys) => [location.pathname, ...keys]);
         }
         setSelectedStyleFromPath(location.pathname);
       }
     });
-  }, [history, locationKeys, setSelectedStyleFromPath]);
+  }, [history, locationPaths, setSelectedStyleFromPath]);
 
   return (
     <main>
