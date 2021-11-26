@@ -5,19 +5,18 @@ import StyleGuideApp from './components/StyleGuideApp';
 import './css/bjcp.css';
 
 const styles = require('./bjcp/2015-bjcp-styleguide-flattened.json');
-const routerProps = { basename: process.env.PUBLIC_URL };
 const $root = document.getElementById('root');
 
 if (Boolean(process.env.REACT_APP_USE_HASH_ROUTER)) {
   ReactDOM.render(
-    <HashRouter {...routerProps}>
+    <HashRouter>
       <StyleGuideApp styles={styles} />
     </HashRouter>,
     $root
   );
 } else {
   ReactDOM.render(
-    <BrowserRouter {...routerProps}>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <StyleGuideApp styles={styles} />
     </BrowserRouter>,
     $root
