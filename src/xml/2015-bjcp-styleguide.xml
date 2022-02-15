@@ -504,16 +504,16 @@ Kvasnicové (“yeast beer”) versions are popular in the Czech Republic, and m
       </subcategory>
       <subcategory id="4C">
         <name>Helles Bock</name>
-        <aroma>Moderate to strong grainy-sweet malt aroma, often with a lightly toasted quality and low Maillard products. Moderately-low to no hop aroma, often with a spicy, herbal, or floral quality. Clean fermentation profile. Fruity esters should be low to none. Very light alcohol may be noticeable. May have a light DMS aroma.</aroma>
+        <aroma>Moderate to strong grainy-sweet malt aroma, often with a lightly toasted quality and low Maillard products. Moderately-low spicy, herbal, or floral hop aroma optional. Clean fermentation profile. Low fruity esters optional. Very light alcohol optional.</aroma>
         <appearance>Deep gold to light amber in color. Bright to clear clarity. Large, creamy, persistent, white head.</appearance>
-        <flavor>Moderately to moderately strong grainy-sweet malt flavor dominates with some toasty notes and/or Maillard products providing added interest. Little to no caramel flavors. May have a light DMS flavor. Moderate to no hop flavor (spicy, herbal, floral, peppery). Moderate hop bitterness (more so in the balance than in other bocks). Clean fermentation profile. Well-attenuated, not cloying, with a moderately-dry finish that may taste of both malt and hops.</flavor>
-        <mouthfeel>Medium-bodied. Moderate to moderately-high carbonation. Smooth and clean with no harshness or astringency, despite the increased hop bitterness. A light alcohol warming may be present.</mouthfeel>
-        <impression>A relatively pale, strong, malty German lager beer with a nicely attenuated finish that enhances drinkability. The hop character is generally more apparent than in other bocks.</impression>
-        <comments>Also known as Mai Bock, but there is some dispute whether Helles ("pale") Bock and Mai ("May") Bock are synonymous. Most agree that they are identical, but some believe that Maibock is a "fest" type beer hitting the upper limits of hopping and color for the range. Any fruitiness is due to Munich and other specialty malts, not yeast-derived esters developed during fermentation. The hops compensate for the lower level of Maillard products.</comments>
-        <history>A fairly recent development in comparison to the other members of the bock family. The serving of Maibock is specifically associated with springtime and the month of May.</history>
-        <ingredients>Base of Pils and/or Vienna malt with some Munich malt to add character (although much less than in a traditional bock). No non-malt adjuncts. Saazer-type hops. Clean lager yeast. Decoction mash is typical, but boiling is less than in Dunkles Bock to restrain color development.</ingredients>
-        <comparison>Can be thought of as either a pale version of a Dunkles Bock, or a Munich Helles brewed to bock strength. While quite malty, this beer typically has less dark and rich malt flavors, and can be drier, hoppier, and more bitter than a Dunkles Bock. Has more of a rich malt character and more alcohol than a Festbier.</comparison>
-        <examples>Altenmünster Maibock, Ayinger Maibock, Capital Maibock, Blind Tiger Maibock, Einbecker Mai-Urbock, Hacker-Pschorr Hubertus Bock, Mahr's Bock</examples>
+        <flavor>Moderately to moderately strong grainy-sweet, doughy, bready, or lightly toasty malt flavor dominates with some rich Maillard products providing added interest. Few caramel flavors optional. Low to moderate spicy, herbal, floral, peppery hop flavor optional, but present in the best examples. Moderate hop bitterness, more so in the balance than in other Bocks. Clean fermentation profile. Well-attenuated, not cloying, with a moderately-dry finish that may taste of both malt and hops.</flavor>
+        <mouthfeel>Medium-bodied. Moderate to moderately-high carbonation. Smooth and clean with no harshness or astringency, despite the increased hop bitterness. Light alcohol warming optional.</mouthfeel>
+        <impression>A relatively pale, strong, malty German lager with a nicely attenuated finish that enhances drinkability. The hop character is generally more apparent and the malt character less deeply rich than in other Bocks.</impression>
+        <comments>Also known as Maibock. Compared to darker Bock beers, the hops compensate for the lower level of Maillard products in the balance.</comments>
+        <history>A fairly recent development in comparison to the other members of the bock family. The serving of Maibock is a seasonal offering associated with springtime and the month of May, and may include a wider color and hopping range than is seen in exported products.</history>
+        <ingredients>A mix of Pils, Vienna, and Munich malts. No adjuncts. Light use of pale crystal type malts possible. Traditional German hops. Clean lager yeast. Decoction mash is traditional, but boiling is less than in Dunkles Bock to restrain color development. Soft water.</ingredients>
+        <comparison>Can be thought of as either a pale version of a Dunkles Bock, or a Munich Helles or Festbier brewed to bock strength. While quite malty, this beer typically has less dark and rich malt flavors, and can be drier, hoppier, and more bitter than a Dunkles Bock. Less strong than a pale Doppelbock, but with similar flavors.</comparison>
+        <examples>Altenmünster Maibock, Ayinger Maibock, Chuckanut Maibock, Einbecker Mai-Ur-Bock, Hofbräu Maibock, Mahr’s Heller Bock</examples>
         <tags>high-strength, pale-color, bottom-fermented, lagered, central-europe, traditional-style, bock-family, malty</tags>
         <stats>
           <ibu flexible="false">
@@ -530,7 +530,7 @@ Kvasnicové (“yeast beer”) versions are popular in the Czech Republic, and m
           </fg>
           <srm flexible="false">
             <low>6</low>
-            <high>11</high>
+            <high>9</high>
           </srm>
           <abv flexible="false">
             <low>6.3</low>
