@@ -204,16 +204,16 @@ Revision 1: 17 July 2015 by Phil Murray <phil@brewaucracy.co.nz>
       </subcategory>
       <subcategory id="2B">
         <name>International Amber Lager</name>
-        <aroma>Low to moderate malt aroma which can be grainy, with a very low to moderate caramel-sweet to toasty-malty aroma. Hop aroma can range from low to none with a mildly floral or spicy character. Clean lager profile. A slight DMS or corny aroma is acceptable.</aroma>
+        <aroma>Low to moderate grainy malt aroma often with very low to moderate caramel or toasty malt accents. Occasionally, nutty or biscuity, but never roasty. Low, unobtrusive floral or spicy hop aroma. Clean fermentation profile.</aroma>
         <appearance>Golden-amber to reddish-copper color. Bright clarity. White to off-white foam stand which may not last.</appearance>
-        <flavor>Low to moderate malt profile which can vary from dry to grainy-sweet. Low to moderate levels of caramel and toasty-bready notes can be evident. Low to medium-low corny sweetness is optional, but not a fault. Hop bitterness is low to moderate, and hop flavor is low to moderate with a spicy, herbal, or floral character. The balance can be fairly malty to nearly even, with the bitterness becoming more noticeable but not objectionable. The bitterness level can increase if the malt character increases to match. Clean fermentation profile. Finish is moderately dry with a moderately malty aftertaste.</flavor>
-        <mouthfeel>Light to medium body. Medium to high carbonation. Smooth; some examples can be creamy.</mouthfeel>
-        <impression>A well-attenuated malty amber lager with an interesting caramel or toast quality and restrained bitterness. Usually fairly well-attenuated, often with an adjunct quality. Smooth, easily-drinkable lager character.</impression>
-        <comments>A wide spectrum of mass-market Amber lagers developed either independently in various countries, or describing rather generic amber beers that may have had more historical relevance but who eventually changed into an indistinguishable product in modern times.</comments>
-        <history>Varies by country, but generally represents an adaptation of the mass-market International Lager or an evolution of indigenous styles into a more generic product.</history>
-        <ingredients>Two-row or six-row base malt. Color malts such as victory, amber, etc. Caramel malt adjuncts. European or American hops or a combination of both.</ingredients>
-        <comparison>Less well-developed malt flavor than a Vienna lager, often with an adjunct taste.</comparison>
-        <examples>Brooklyn Lager, Capital Winter Skål, Dos Equis Amber, Schell's Oktoberfest, Yuengling Lager</examples>
+        <flavor>Low to moderate malt flavor, often with caramel or toasty-bready flavors. Low to medium-low corny sweetness optional. Low to moderate bitterness, giving the beer a malty to fairly even balance. Low to moderate spicy, herbal, or floral hop flavor. Clean fermentation profile. The finish is moderately dry with a moderately malty aftertaste. The beer may seem a touch sweet if the bitterness level is low.</flavor>
+        <mouthfeel>Light to medium body. Medium to high carbonation. Smooth. Some examples can be slightly creamy.</mouthfeel>
+        <impression>A smooth, easily-drinkable, malty amber lager with a flavorful caramel or toast character. Usually fairly well-attenuated, often with an adjunct quality and restrained bitterness.</impression>
+        <comments>A wide spectrum of mass-market amber lagers either developed independently in various countries, or describing rather generic amber beers with more historical relevance that eventually changed into indistinguishable products in modern times.</comments>
+        <history>Varies by country, but generally represents either an adaptation of the mass-market International Pale Lager, or an evolution of indigenous styles into more generic products.</history>
+        <ingredients>Two-row or six-row base malt. Color malts such as Victory, amber, or roast. May be all malt or use adjuncts. Sugars or coloring agents possible. Caramel malt. European or American hops.</ingredients>
+        <comparison>Less well-developed malt flavor than a Vienna Lager, often with an adjunct taste. Less robust flavor and bitterness than Altbier.</comparison>
+        <examples>Abita Amber Lager, Brooklyn Lager, Capital Wisconsin Amber Lager, Dos Equis Amber, Grain Belt NordEast, Yuengling Lager</examples>
         <tags>standard-strength, amber-color, bottom-fermented, lagered, traditional-style, amber-lager-family, malty</tags>
         <stats>
           <ibu flexible="false">
@@ -229,11 +229,11 @@ Revision 1: 17 July 2015 by Phil Murray <phil@brewaucracy.co.nz>
             <high>1.014</high>
           </fg>
           <srm flexible="false">
-            <low>7</low>
+            <low>6</low>
             <high>14</high>
           </srm>
           <abv flexible="false">
-            <low>4.6</low>
+            <low>4.5</low>
             <high>6.0</high>
           </abv>
         </stats>
