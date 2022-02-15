@@ -429,19 +429,19 @@ Kvasnicové (“yeast beer”) versions are popular in the Czech Republic, and m
     <category id="4">
       <revision number="1">2015</revision>
       <name>Pale Malty European Lager</name>
-      <notes>This style category contains malty, pale, Pilsner malt-driven German lagers of vollbier to starkbier strength. While malty, they are still well-attenuated, clean lagers, as are most German beers.</notes>
+      <notes>This style category contains pale German lagers of vollbier to starkbier strength that emphasize the flavor of Pilsner malt in the balance while remaining well-attenuated.</notes>
       <subcategory id="4A">
         <name>Munich Helles</name>
-        <aroma>Moderate grainy-sweet malt aroma. Low to moderately-low spicy, floral, or herbal hop aroma. While a clean aroma is most desirable, a very low background note of DMS is not a fault. Pleasant, clean fermentation profile, with malt dominating the balance. The freshest examples will have more of a malty-sweet aroma.</aroma>
-        <appearance>Medium yellow to pale gold. Clear. Persistent creamy white head.</appearance>
-        <flavor>Moderately malty start with the suggestion of sweetness, moderate grainy-sweet malt flavor with a soft, rounded palate impression, supported by a low to medium-low hop bitterness. The finish is soft and dry, not crisp and biting. Low to moderately-low spicy, floral or herbal hop flavor. The malt dominates the hops in the palate, finish, and aftertaste, but the hops should be noticeable. There should not be any residual sweetness, simply the impression of maltiness with restrained bitterness. Very fresh examples will seem sweeter due to the fresh, rich malt character that can fade with time. Clean fermentation profile.</flavor>
+        <aroma>Moderate grainy-sweet malt aroma. Low to moderately-low spicy, floral, or herbal hop aroma. Pleasant, clean fermentation profile, with malt dominating the balance. The freshest examples will have more of a malty-sweet aroma.</aroma>
+        <appearance>Pale yellow to pale gold. Clear. Persistent creamy white head.</appearance>
+        <flavor>Moderately malty start with the suggestion of sweetness, moderate grainy-sweet malt flavor with a soft, rounded palate impression, supported by a low to medium-low bitterness. Soft and dry finish, not crisp and biting. Low to moderately-low spicy, floral, or herbal hop flavor. Malt dominates hops in the palate, finish, and aftertaste, but hops should be noticeable. No residual sweetness, simply the impression of maltiness with restrained bitterness. Clean fermentation profile.</flavor>
         <mouthfeel>Medium body. Medium carbonation. Smooth, well-lagered character.</mouthfeel>
-        <impression>A clean, malty, gold-colored German lager with a smooth grainy-sweet malty flavor and a soft, dry finish. Subtle spicy, floral, or herbal hops and restrained bitterness help keep the balance malty but not sweet, which helps make this beer a refreshing, everyday drink.</impression>
-        <comments>A fully-attenuated Pils malt showcase, Helles is a malt-accentuated beer that is not overly sweet, but rather focuses on malt flavor with underlying hop bitterness in a supporting role. Export examples can quickly lose some of the rich malt character that often suggests sweetness. Helles in Munich tends to be lighter in all aspects than those outside the city, which can be more assertive with more body, flavor, and hop character.</comments>
-        <history>Created in Munich in 1894 at the Spaten brewery to compete with pale Pilsner-type beers. Currently the most popular style in Southern Germany.</history>
-        <ingredients>Continental Pilsner malt, traditional German Saazer-type hop varieties, clean German lager yeast.</ingredients>
-        <comparison>Similar in malt balance and bitterness to Munich Dunkel, but less malty-sweet in nature and pale rather than dark. More body and malt presence than a German Pils, with less hop character throughout. Similar malt profile as a German Exportbier, but with less hops in the balance.</comparison>
-        <examples>Augustiner Lagerbier Hell, Bürgerbräu Wolznacher Hell Naturtrüb, Hacker-Pschorr Münchner Gold, Löwenbraü Original, Paulaner Premium Lager, Spaten Premium Lager, Weihenstephaner Original</examples>
+        <impression>A gold-colored German lager with a smooth, malty flavor and a soft, dry finish. Subtle spicy, floral, or herbal hops and restrained bitterness help keep the balance malty but not sweet, which helps make this beer a refreshing, everyday drink.</impression>
+        <comments>Very fresh examples can have a more prominent malt and hop character that fades over time, as is often noticed in exported beers. Helles in Munich tends to be a lighter version than those outside the city. May be called Helles Lagerbier.</comments>
+        <history>Created in Munich in 1894 to compete with pale Pilsner-type beers, often first credited to Spaten. More popular in Southern Germany.</history>
+        <ingredients>Continental Pilsner malt. Traditional German hops. Clean German lager yeast.</ingredients>
+        <comparison>Similar in malt balance and bitterness to Munich Dunkel, but less malty-sweet in nature and pale rather than dark and rich. More body and malt presence than a German Pils, but less crisp and with less hop character throughout. Similar malt profile as a German Helles Exportbier, but with fewer hops in the balance and slightly less alcohol. Less body and alcohol than a Festbier.</comparison>
+        <examples>Augustiner Lagerbier Hell, Hacker-Pschorr Münchner Gold, Löwenbraü Original, Paulaner Münchner Lager, Schönramer Hell, Spaten Münchner Hell, Weihenstephaner Original Helles</examples>
         <tags>standard-strength, pale-color, bottom-fermented, lagered, central-europe, traditional-style, pale-lager-family, malty</tags>
         <stats>
           <ibu flexible="false">
