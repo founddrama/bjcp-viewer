@@ -240,16 +240,16 @@ Revision 1: 17 July 2015 by Phil Murray <phil@brewaucracy.co.nz>
       </subcategory>
       <subcategory id="2C">
         <name>International Dark Lager</name>
-        <aroma>Little to no malt aroma; may have a light corn character. Medium-low to no roast and caramel malt aroma. Hop aroma may range from none to light spicy or floral hop presence. While a clean fermentation profile is generally most desirable, low levels of yeast character (such as a light apple fruitiness) are not a fault. A light amount of DMS or corn aroma is not a fault.</aroma>
-        <appearance>Deep amber to dark brown with bright clarity and ruby highlights. Foam stand may not be long lasting, and is beige to light tan in color.</appearance>
-        <flavor>Low to medium malty sweetness with medium-low to no caramel and/or roasted malt flavors (and may include hints of coffee, molasses or cocoa). Hop flavor ranges from none to low levels, and is typically floral, spicy, or herbal. Low to medium hop bitterness. May have a very light fruitiness. Moderately crisp finish. The balance is typically somewhat malty. Burnt or moderately strong roasted malt flavors are a defect.</flavor>
+        <aroma>Faint malt aroma. Medium-low roast and caramel malt aroma optional. Light spicy, herbal, or floral hop aroma optional. Clean fermentation profile.</aroma>
+        <appearance>Deep amber to very dark brown with bright clarity and ruby highlights. Foam stand may not be long lasting, and is beige to light tan in color.</appearance>
+        <flavor>Low to medium sweet maltiness. Medium-low caramel or roasted malt flavors optional, possibly with hints of coffee, molasses, brown sugar, or cocoa. Low floral, spicy, or herbal hop flavor optional. Low to medium bitterness. May have a very light fruitiness. Moderately crisp finish. The balance is typically somewhat malty. Burnt or moderately strong roasted malt flavors are inappropriate.</flavor>
         <mouthfeel>Light to medium-light body. Smooth with a light creaminess. Medium to high carbonation.</mouthfeel>
-        <impression>A darker and somewhat sweeter version of international pale lager with a little more body and flavor, but equally restrained in bitterness. The low bitterness leaves the malt as the primary flavor element, and the low hop levels provide very little in the way of balance.</impression>
-        <comments>A broad range of international lagers that are darker than pale, and not assertively bitter and/or roasted.</comments>
+        <impression>A darker, richer, and somewhat sweeter version of international pale lager with a little more body and flavor, but equally restrained in bitterness. The low bitterness leaves the malt as the primary flavor element, and the low hop levels provide very little in the way of balance.</impression>
+        <comments>A broad range of international lagers that are darker than pale, and not assertively bitter or roasted.</comments>
         <history>Darker versions of International Pale Lagers often created by the same large, industrial breweries and meant to appeal to a broad audience. Often either a colored or sweetened adaptation of the standard pale industrial lager, or a more broadly accessible (and inexpensive) version of more traditional dark lagers.</history>
-        <ingredients>Two- or six-row barley, corn, rice, or sugars as adjuncts. Light use of caramel and darker malts. Commercial versions may use coloring agents.</ingredients>
+        <ingredients>Two- or six-row barley with corn, rice, or sugars adjuncts. Light use of caramel and darker roasted malts. Commercial versions may use coloring agents.</ingredients>
         <comparison>Less flavor and richness than Munich Dunkel, Schwarzbier, or other dark lagers. Frequently uses adjuncts, as is typical of other International Lagers.</comparison>
-        <examples>Baltika #4 Original, Devils Backbone Old Virginia Dark, Dixie Blackened Voodoo, Saint Pauli Girl Dark, San Miguel Dark, Session Black Dark Lager, Shiner Bock</examples>
+        <examples>Baltika #4 Original, Dixie Blackened Voodoo, Heineken Dark Lager, Saint Pauli Girl Special Dark, San Miguel Dark, Shiner Bock</examples>
         <tags>standard-strength, dark-color, bottom-fermented, lagered, traditional-style, dark-lager-family, malty</tags>
         <stats>
           <ibu flexible="false">
@@ -266,7 +266,7 @@ Revision 1: 17 July 2015 by Phil Murray <phil@brewaucracy.co.nz>
           </fg>
           <srm flexible="false">
             <low>14</low>
-            <high>22</high>
+            <high>30</high>
           </srm>
           <abv flexible="false">
             <low>4.2</low>
