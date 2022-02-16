@@ -886,16 +886,16 @@ The quality and character of the smoke is important; it should be cleanly smoky.
       <notes>This category contains German vollbier lagers darker than amber-brown color.</notes>
       <subcategory id="8A">
         <name>Munich Dunkel</name>
-        <aroma>Rich, elegant, deep malt sweetness, typically like bread crusts (often toasted bread crusts). Hints of chocolate, nuts, caramel, and/or toffee are also acceptable, with fresh traditional versions often showing higher levels of chocolate. Clean fermentation profile. A slight spicy, floral, or herbal hop aroma is acceptable.</aroma>
-        <appearance>Deep copper to dark brown, often with a red or garnet tint. Creamy, light to medium tan head. Usually clear, although murky unfiltered versions exist.</appearance>
-        <flavor>Dominated by the soft, rich, and complex flavor of darker Munich malts, usually with overtones reminiscent of toasted bread crusts, but without a burnt-harsh-grainy toastiness. The palate can be moderately malty, although it should not be overwhelming or cloyingly sweet. Mild caramel, toast or nuttiness may be present. Very fresh examples often have a pleasant malty-chocolate character that isn't roasty or sweet. Burnt or bitter flavors from roasted malts are inappropriate, as are pronounced caramel flavors from crystal malt. Hop bitterness is moderately low but perceptible, with the balance tipped firmly towards maltiness. Hop flavor is low to none; if noted, should reflect floral, spicy, or herbal German-type varieties. Aftertaste remains malty, although the hop bitterness may become more apparent in the medium-dry finish. Clean fermentation profile and lager character.</flavor>
-        <mouthfeel>Medium to medium-full body, providing a soft and dextrinous mouthfeel without being heavy or cloying. Moderate carbonation. The use of continental Munich-type malts should provide a richness, not a harsh or biting astringency.</mouthfeel>
-        <impression>Characterized by depth, richness and complexity typical of darker Munich malts with the accompanying Maillard products. Deeply bready-toasty, often with chocolate-like flavors in the freshest examples, but never harsh, roasty, or astringent; a decidedly malt-balanced beer, yet still easily drinkable.</impression>
-        <comments>Unfiltered versions from Germany can taste like liquid bread, with a yeasty, earthy richness not found in exported filtered examples.</comments>
-        <history>The classic brown lager style of Munich which developed as a darker, more malt-accented beer than other regional lagers. While originating in Munich, the style became popular throughout Bavaria (especially Franconia). Franconian versions are often darker and more bitter.</history>
-        <ingredients>Grist is traditionally made up of German Munich malt (up to 100% in some cases) with the remainder German Pilsner malt. Small amounts of crystal malt can add dextrins and color but should not introduce excessive residual sweetness. Slight additions of roasted malts (such as Carafa or chocolate) may be used to improve color but should not add strong flavors. Traditional German hop varieties and German lager yeast strains should be used. Often decoction mashed (up to a triple decoction) to enhance the malt flavors and create the depth of color.</ingredients>
-        <comparison>Not as intense in maltiness as a bock (and thus more drinkable in quantity). Lacking the more roasted flavors (and often hop bitterness) of a schwarzbier. Richer, more malt-centric, and less hoppy than a Czech Dark Lager.</comparison>
-        <examples>Ayinger Altbairisch Dunkel, Chuckanut Dunkel Lager, Ettaler Kloster Dunkel, Hacker-Pschorr Alt Munich Dark, Weltenburger Kloster Barock-Dunkel</examples>
+        <aroma>Moderate to high malt richness, like toasted bread crusts with hints of chocolate, nuts, caramel, or toffee. Fresh traditional versions often show higher levels of chocolate. The malt character is more malty-rich than sugary or caramelly sweet. Clean fermentation profile. A light spicy, floral, or herbal hop aroma is optional.</aroma>
+        <appearance>Deep copper to dark brown, often with a red or garnet tint. Creamy, light to medium tan head. Usually clear.</appearance>
+        <flavor>Rich malt flavors similar to aroma (same malt descriptors apply), medium to high. Restrained bitterness, medium-low to medium, giving an overall malty balance. Malty and soft on the palate without being overly sweet, and medium-dry in the finish with a malty aftertaste. No roast, burnt, or bitter malt flavors, toasted flavors shouldn’t have a harsh grainy dryness, and caramel flavors should not be sweet. Low spicy, herbal, or floral hop flavor optional. Clean fermentation profile.</flavor>
+        <mouthfeel>Medium to medium-full body, providing a soft and dextrinous mouthfeel without being heavy or cloying. Moderate carbonation. Smooth lager character. No harsh or biting astringency. Not warming.</mouthfeel>
+        <impression>A traditional malty brown lager from Bavaria. Deeply toasted, bready malt flavors without any roasty or burnt flavors. Smooth and rich, with a restrained bitterness and a relatively dry finish that allows for drinking in quantity.</impression>
+        <comments>A traditional Munich style, the dark companion to Helles. Franconian versions are more bitter than ones from Munich.</comments>
+        <history>Developed at Spaten in the 1830s after the development of Munich malt, and seen as a successor to dark regional beers of the time. While originating in Munich, the style became popular throughout Bavaria (especially Franconia).</history>
+        <ingredients>Traditionally, Munich malts, but Pils and Vienna can be used too. Light use of specialty malts for color and depth. Decoction mash traditional. German hops and lager yeast.</ingredients>
+        <comparison>Not as intense in maltiness or as strong as a Dunkles Bock. Lacking the more roasted flavors and often the hop bitterness of a Schwarzbier. Richer, more malt-centric, and less hoppy than a Czech Dark Lager.</comparison>
+        <examples>Ayinger Altbairisch Dunkel, Ettaler Kloster-Dunkel, Eittinger Urtyp Dunkel, Hacker-Pschorr Münchner Dunkel, Hofbräuhaus Dunkel, Weltenburger Kloster Barock-Dunkel</examples>
         <tags>standard-strength, dark-color, bottom-fermented, lagered, central-europe, traditional-style, malty, dark-lager-family</tags>
         <stats>
           <ibu flexible="false">
@@ -911,7 +911,7 @@ The quality and character of the smoke is important; it should be cleanly smoky.
             <high>1.016</high>
           </fg>
           <srm flexible="false">
-            <low>14</low>
+            <low>17</low>
             <high>28</high>
           </srm>
           <abv flexible="false">
