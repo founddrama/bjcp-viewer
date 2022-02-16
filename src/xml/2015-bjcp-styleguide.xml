@@ -617,36 +617,36 @@ Kvasnicové (“yeast beer”) versions are popular in the Czech Republic, and m
       </subcategory>
       <subcategory id="5C">
         <name>German Helles Exportbier</name>
-        <aroma>Low to medium hop aroma, typically floral, spicy, or herbal in character. Moderate grainy-sweet malt aroma. Clean fermentation profile. A slight sulfury note at the start that dissipates is not a fault, neither is a low background note of DMS.</aroma>
-        <appearance>Light gold to deep gold. Clear. Persistent white head.</appearance>
-        <flavor>Neither grainy-sweet malt nor floral, spicy, or herbal hops dominate, but both are in good balance with a touch of malty sweetness, providing a smooth yet crisply refreshing beer. Balance continues through the finish and the hop bitterness lingers in aftertaste (although some examples may finish slightly sweet). Clean fermentation character. Some mineral character might be noted from the water, although it usually does not come across as an overt minerally flavor.</flavor>
-        <mouthfeel>Medium body, medium carbonation. Smooth but crisp.</mouthfeel>
-        <impression>A pale, well-balanced, smooth German lager that is slightly stronger than the average beer with a moderate body and a mild, aromatic hop and malt character.</impression>
-        <comments>Sometimes known as Dortmunder or Dortmunder Export. Brewed to a slightly higher starting gravity than other light lagers, providing a firm malty body and underlying maltiness to complement the sulfate-accentuated hop bitterness. The term "Export" is a beer strength descriptor under German brewing tradition, and is not strictly synonymous with the "Dortmunder" style; beer from other cities or regions can be brewed to Export strength, and labeled as such (even if not necessarily exported).</comments>
-        <history>The Dortmunder style developed in the Dortmund industrial region in the 1870s in response to pale Pilsner-type beers, it became very popular after World War II but declined in the 1970s. Other Export-class beers developed independently, and reflected a slightly stronger version of existing beers. The modern German style is typically 12-13 °P.</history>
-        <ingredients>Minerally water with high levels of sulfates, carbonates and chlorides, German or Czech noble hops, Pilsner malt, German lager yeast. Newer commercial versions can contain adjuncts and hop extract.</ingredients>
-        <comparison>Less finishing hops and more body than a Pils but more bitter than a Helles.</comparison>
-        <examples>DAB Original, Dortmunder Kronen, Dortmunder Union Export, Flensburger Gold, Gordon Biersch Golden Export, Great Lakes Dortmunder Gold</examples>
-        <tags>standard-strength, pale-color, bottom-fermented, lagered, central-europe, traditional-style, pale-lager-family, balanced,</tags>
+        <aroma>Medium-low to medium floral, spicy, or herbal hop aroma. Moderate grainy-sweet malt aroma, possibly with light toasty, bready, or doughy notes. Clean fermentation profile. Hops and malt both noticeable, and generally balanced.</aroma>
+        <appearance>Medium yellow to deep gold. Clear. Persistent white head.</appearance>
+        <flavor>Moderate, balanced malt and hops with supporting bitterness. Malt and hop flavors similar to aroma (same descriptors and intensities). Medium, noticeable bitterness, full on the palate, with a medium-dry finish. Clean fermentation character. Aftertaste of both malt and hops, generally in balance. Mineral character typically perceived more as a roundness and fullness of flavor, and a dry, flinty sharpness in the finish rather than overt mineral flavors. Background sulfate optional.</flavor>
+        <mouthfeel>Medium to medium-full body. Medium carbonation. Smooth and mellow on the palate. Very slight warmth may be noted in stronger versions.</mouthfeel>
+        <impression>A golden German lager balancing a smooth malty profile with a bitter, hoppy character in a slightly above-average body and strength beer.</impression>
+        <comments>Also known Dortmunder Export, Dortmunder, Export, or simply a Dort. Called Export within Germany, and often Dortmunder elsewhere, Export is also a beer strength descriptor under German brewing tradition, and could be applied to other styles. Splits the difference between a German Pils and a Munich Helles in several aspects: color, hop-malt balance, finish, bitterness.</comments>
+        <history>Developed in Dortmund in the Ruhr industrial region in the 1870s in response to pale Pilsner-type beers. It became very popular after World War II but declined in the 1970s. Other Export-class beers developed independently, and reflected a slightly stronger version of existing beers.</history>
+        <ingredients>Minerally water with high levels of sulfates, carbonates, and chlorides. Traditional German or Czech hops. Pilsner malt. German lager yeast. Decoction mash traditional.</ingredients>
+        <comparison>Less finishing hops and more body than a German Pils. More bitter and drier than a Munich Helles. Stronger, drier, but less hoppy than a Czech Premium Pale Lager.</comparison>
+        <examples>Chuckanut Export Dortmunder Lager, DAB Dortmunder Export, Dortmunder Kronen, Landshuter Edel Hell, Müllerbräu Export Gold, Schönramer Gold</examples>
+        <tags>standard-strength, pale-color, bottom-fermented, lagered, central-europe, traditional-style, pale-lager-family, balanced</tags>
         <stats>
           <ibu flexible="false">
             <low>20</low>
             <high>30</high>
           </ibu>
           <og flexible="false">
-            <low>1.048</low>
-            <high>1.056</high>
+            <low>1.050</low>
+            <high>1.058</high>
           </og>
           <fg flexible="false">
-            <low>1.01</low>
+            <low>1.008</low>
             <high>1.015</high>
           </fg>
           <srm flexible="false">
             <low>4</low>
-            <high>7</high>
+            <high>6</high>
           </srm>
           <abv flexible="false">
-            <low>4.8</low>
+            <low>5.0</low>
             <high>6.0</high>
           </abv>
         </stats>
