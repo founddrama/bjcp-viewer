@@ -878,44 +878,6 @@ The quality and character of the smoke is important; it should be cleanly smoky.
           </abv>
         </stats>
       </subcategory>
-      <subcategory id="7C">
-        <name>Kellerbier</name>
-        <aroma>Moderate intensity of German malt, typically rich, bready, somewhat toasty, with light bread crust notes. Moderately-low to moderate spicy peppery hop aroma. Very low to low diacetyl, occasionally low to moderately-low sulfur and very low green apple or other yeast-derived notes. Caramel, biscuity, or roasted malt aroma is inappropriate.</aroma>
-        <appearance>Moderately cloudy to clear depending on age, but never extremely cloudy or murky. Gold to deep reddish-amber color. Off-white, creamy head. When served on cask, can have low carbonation and very low head.</appearance>
-        <flavor>Initial malt flavor may suggest sweetness, but finish is moderately dry to dry, and slightly bitter. Distinctive and complex maltiness often includes a bready-toasty aspect. Hop bitterness is moderate to moderately high, and spicy or herbal hop flavor is low to moderately high. Balance can be either on the malt or hop side, but the finish is not sweet. Noticeable caramel or roasted malt flavors are inappropriate. Very low to low diacetyl. Possible very low green apple or other yeast-derived notes. Smooth, malty aftertaste.</flavor>
-        <mouthfeel>Medium body, with a creamy texture and medium carbonation. Fully fermented, without a sweet or cloying impression.</mouthfeel>
-        <impression>A young, unfiltered, and unpasteurized beer that is between a Helles and Märzen in color, spicier in the hops with greater attenuation. Interpretations range in color and balance, but remain in the drinkable 4.8% ABV neighborhood. Balance ranges from the dry, spicy and pale-colored interpretations by St. Georgen and Löwenbräu of Buttenheim, to darker and maltier interpretations in the Fränkische Schweiz. This style is above all a method of producing simple drinkable beers for neighbors out of local ingredients to be served fresh. Balance with a focus on drinkability and digestibility is important.</impression>
-        <comments>The best examples of Amber Kellerbier are served only on tap at many of the small Franconia area breweries (as this is a beer best served fresh and the serving style being an important part of the style). Bottled versions are not likely to have the freshness, hop character and young beer notes exhibited by the draft versions.</comments>
-        <history>This was the classic, historical style before it was adapted in other areas. This original, older style of Kellerbier would have simply been beer served from local taverns that did not lager long enough to drop bright. Many breweries in Franconia would use some of this young beer during the summer months, for festivals such as the Annafest (est. 1840) in July in Forchheim, where it was traditional to drink directly from the lagering vessels.</history>
-        <ingredients>Grist varies, although traditional German versions emphasized Franconian pale and color malt. The notion of elegance is derived from the high-quality local ingredients, particularly the malts. Spalt or other typically spicy local hops are most common. Frugal Franconian brewers rarely used decoction brewing due to the cost of energy.</ingredients>
-        <comparison>Most commonly, this style is a young, unfiltered, unpasteurized, hoppier version of Munich Helles or Märzen. Fränkische Schweiz versions can edge up to dark amber or brown.</comparison>
-        <examples>(local) Greif, Eichhorn, Nederkeller, Hebendanz (bottled) Buttenheimer Kaiserdom Kellerbier, Kulmbacher Monchshof Kellerbier, Leikeim Kellerbier, Löwenbräu Kellerbier, Mahr's Kellerbier, St. Georgen Kellerbier, Tucher Kellerbier Naturtrub</examples>
-        <tags>standard-strength, amber-color, bottom-fermenting, central-europe, traditional-style, balanced, amber-lager-family</tags>
-        <entry_instructions>The entrant must specify whether the entry is a Pale Kellerbier (based on Helles) or an Amber Kellerbier (based on Märzen). The entrant may specify another type of Kellerbier based on other base styles such as Pils, Bock, Schwarzbier, but should supply a style description for judges. Kellerbier: Pale Kellerbier
- A very common seasonal summer beer brewed by many of the Munich area breweries and served in the beer gardens, where they are very popular.</entry_instructions>
-        <stats>
-          <ibu flexible="false">
-            <low>25</low>
-            <high>40</high>
-          </ibu>
-          <og flexible="false">
-            <low>1.048</low>
-            <high>1.054</high>
-          </og>
-          <fg flexible="false">
-            <low>1.012</low>
-            <high>1.016</high>
-          </fg>
-          <srm flexible="false">
-            <low>7</low>
-            <high>17</high>
-          </srm>
-          <abv flexible="false">
-            <low>4.8</low>
-            <high>5.4</high>
-          </abv>
-        </stats>
-      </subcategory>
     </category>
     <category id="8">
       <revision number="1">2015</revision>
