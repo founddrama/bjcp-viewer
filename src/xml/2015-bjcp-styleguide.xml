@@ -542,19 +542,19 @@ Kvasnicové (“yeast beer”) versions are popular in the Czech Republic, and m
     <category id="5">
       <revision number="1">2015</revision>
       <name>Pale Bitter European Beer</name>
-      <notes>This category describes German-origin beers that are pale and have an even to bitter balance with a mild to moderately strong hoppy character featuring classic German hops. They are generally bottom-fermented or are lagered to provide a smooth profile, and are well-attenuated as are most German beers.</notes>
+      <notes>This category describes German-origin beers that are pale and have an even to bitter balance with a mild to moderately strong hoppy character featuring traditional German hops. They are generally bottom-fermented or are lagered to provide a smooth profile, and are well-attenuated as are most German beers.</notes>
       <subcategory id="5A">
         <name>German Leichtbier</name>
         <aroma>Low to medium hop aroma, with a spicy, herbal, or floral character. Low to medium-low grainy-sweet or slightly crackery malt aroma. Clean fermentation profile.</aroma>
-        <appearance>Straw to pale gold in color. Brilliant clarity. Moderate white head with average to below average persistence.</appearance>
+        <appearance>Pale straw to deep yellow in color. Brilliant clarity. Moderate white head with average to below average persistence.</appearance>
         <flavor>Low to medium grainy-sweet malt flavor initially. Medium hop bitterness. Low to medium hop flavor, with a spicy, herbal, or floral quality. Clean fermentation character, well-lagered. Dry finish with a light malty and hoppy aftertaste.</flavor>
         <mouthfeel>Light to very light body. Medium to high carbonation. Smooth, well-attenuated.</mouthfeel>
-        <impression>A pale, highly-attenuated, light-bodied German lager with lower alcohol and calories than normal-strength beers. Moderately bitter with noticeable malt and hop flavors, the beer is still interesting to drink.</impression>
-        <comments>Marketed primarily as a diet-oriented beer with lower carbohydrates, alcohol, and calories. Pronounced "LYESHT-beer." May also be known as a Diat Pils or Helles, this style is in the schankbier gravity class. Other variations of Leicht class beers can be made from Weissbier, Kölsch, and Altbier; those beers are best entered in the Mixed-Style Beer category.</comments>
-        <history>Traditional versions existed as drinks for physical laborers in factories or fields, but modern versions are more based on popular American products in the same class.</history>
-        <ingredients>Similar to a German Pils or Helles, continental Pils malt, German lager yeast, Saazer-type hops.</ingredients>
-        <comparison>Like a lower-alcohol, lighter-bodied, slightly less aggressive German Pils or Helles.</comparison>
-        <examples>Beck's Light, Bitburger Light, Mahr's Leicht, Paulaner Münchner Hell Leicht, Paulaner Premium Leicht</examples>
+        <impression>A pale, highly-attenuated, light-bodied German lager with lower alcohol and calories than standard-strength beers. Moderately bitter with noticeable malt and hop flavors, the beer is still interesting to drink.</impression>
+        <comments>Marketed primarily as a diet-oriented beer with lower carbohydrates, alcohol, and calories. Pronounced “LYESHT-beer.” May also be known as a Diat Pils or Helles, this style is in the schankbier gravity class. Other variations of Leicht class beers can be made from Weissbier, Kölsch, and Altbier; those beers are best entered as 34B Mixed-Style Beer.</comments>
+        <history>Traditional versions existed as drinks for physical laborers in factories or fields, but modern versions are more based on popular American products in the same class and targeted towards health or fitness conscious consumers. Increasingly supplanted in the current market by non-alcoholic beers and radlers.</history>
+        <ingredients>Continental Pils malt. German lager yeast. Traditional German hops.</ingredients>
+        <comparison>Like a lower-alcohol, lighter-bodied, slightly less aggressive German Pils or Munich Helles. More bitter and flavorful than an American Light Lager.</comparison>
+        <examples>Autenrieder Schlossbräu Leicht, Greif Bräu Leicht, Hohenthanner Tannen Hell Leicht, Müllerbrau Heimer Leicht, Schönramer Surtaler Schankbier, Waldhaus Sommer Bier</examples>
         <tags>session-strength, pale-color, bottom-fermented, lagered, central-europe, traditional-style, pale-lager-family, bitter, hoppy</tags>
         <stats>
           <ibu flexible="false">
@@ -570,8 +570,8 @@ Kvasnicové (“yeast beer”) versions are popular in the Czech Republic, and m
             <high>1.01</high>
           </fg>
           <srm flexible="false">
-            <low>2</low>
-            <high>5</high>
+            <low>1.5</low>
+            <high>4</high>
           </srm>
           <abv flexible="false">
             <low>2.4</low>
