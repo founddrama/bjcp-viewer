@@ -922,21 +922,21 @@ The quality and character of the smoke is important; it should be cleanly smoky.
       </subcategory>
       <subcategory id="8B">
         <name>Schwarzbier</name>
-        <aroma>Low to moderate malt, with low aromatic malty sweetness and/or hints of roast malt often apparent. The malt can be clean and neutral or moderately rich and bready, and may have a hint of dark caramel. The roast character can be somewhat dark chocolate- or coffee-like but should never be burnt. A low spicy, floral, or herbal hop aroma is optional. Clean lager yeast character, although a light sulfur is possible.</aroma>
+        <aroma>Low to moderate malt, with low aromatic malty sweetness and hints of roast malt often apparent. The malt can be clean and neutral or moderately rich and bready, and may have a hint of dark caramel. The roast character can be somewhat dark chocolate- or coffee-like but should never be burnt. A moderately low spicy, floral, or herbal hop aroma is optional. Clean lager yeast character.</aroma>
         <appearance>Medium to very dark brown in color, often with deep ruby to garnet highlights, yet almost never truly black. Very clear. Large, persistent, tan-colored head.</appearance>
-        <flavor>Light to moderate malt flavor, which can have a clean, neutral character to a moderately rich, bread-malty quality. Light to moderate roasted malt flavors can give a bitter-chocolate palate that lasts into the finish, but which are never burnt. Medium-low to medium bitterness, which can last into the finish. Light to moderate spicy, floral, or herbal hop flavor. Clean lager character. Aftertaste tends to dry out slowly and linger, featuring hop bitterness with a complementary but subtle roastiness in the background. Some residual sweetness is acceptable but not required.</flavor>
+        <flavor>Light to moderate malt flavor, which can have a clean, neutral character to a moderately rich, bread-malty quality. Light to moderate roasted malt flavors can give a bitter-chocolate palate that is never burnt. Medium-low to medium bitterness. Light to moderate spicy, floral, or herbal hop flavor. Clean lager character. Dry finish. Some residual sweetness is acceptable but not traditional. Aftertaste of hop bitterness with a complementary but subtle roastiness in the background.</flavor>
         <mouthfeel>Medium-light to medium body. Moderate to moderately-high carbonation. Smooth. No harshness or astringency, despite the use of dark, roasted malts.</mouthfeel>
         <impression>A dark German lager that balances roasted yet smooth malt flavors with moderate hop bitterness. The lighter body, dryness, and lack of a harsh, burnt, or heavy aftertaste helps make this beer quite drinkable.</impression>
-        <comments>Literally means "black beer" in German. While sometimes called a "black Pils," the beer is rarely as dark as black or as bitter as a Pils; don't expect strongly roasted, porter-like flavors.</comments>
-        <history>A regional specialty from Thuringia, Saxony and Franconia in Germany. History is a bit sketchy, but is suspected of being originally a top-fermented beer. Popularity grew after German reunification. Served as the inspiration for black lagers brewed in Japan.</history>
-        <ingredients>German Munich malt and/or Pilsner malts for the base, supplemented by a judicious use of roasted malts (such as Carafa types) for the dark color and subtle roast flavors. Huskless dark roasted malts can add roast flavors without burnt flavors. German hop varieties and clean German lager yeasts are traditional.</ingredients>
+        <comments>Literally means black beer in German. While sometimes called a “black Pils,” the beer is rarely as dark as black or as hop-forward and bitter as a Pils. Strongly roasted, Porter-like flavors are a flaw.</comments>
+        <history>A regional specialty from Thuringia, Saxony, and Franconia in Germany. Served as the inspiration for black lagers brewed in Japan. Popularity grew after German reunification in 1990.</history>
+        <ingredients>German Munich malt and Pilsner malts for the base, with huskless dark roasted malts that add roast flavors without burnt flavors. German hop varieties and clean German lager yeasts are traditional.</ingredients>
         <comparison>In comparison with a Munich Dunkel, usually darker in color, drier on the palate, lighter in body, and with a noticeable (but not high) roasted malt edge to balance the malt base. Should not taste like an American Porter made with lager yeast. Drier, less malty, with less hop character than a Czech Dark Lager.</comparison>
-        <examples>Devils Backbone Schwartz Bier, Einbecker Schwarzbier, Eisenbahn Dunkel, Köstritzer Schwarzbier, Mönchshof Schwarzbier, Nuezeller Original Badebier</examples>
+        <examples>Chuckanut Schwarz Lager, Devils Backbone Schwartz Bier, Köstritzer Schwarzbier, Kulmbacher Mönchshof Schwarzbier, Nuezeller Original Badebier, pFriem Schwarzbier</examples>
         <tags>standard-strength, dark-color, bottom-fermented, lagered, central-europe, traditional-style, balanced, dark-lager-family</tags>
         <stats>
           <ibu flexible="false">
             <low>20</low>
-            <high>30</high>
+            <high>35</high>
           </ibu>
           <og flexible="false">
             <low>1.046</low>
@@ -947,7 +947,7 @@ The quality and character of the smoke is important; it should be cleanly smoky.
             <high>1.016</high>
           </fg>
           <srm flexible="false">
-            <low>17</low>
+            <low>19</low>
             <high>30</high>
           </srm>
           <abv flexible="false">
