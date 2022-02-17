@@ -1120,16 +1120,16 @@ Pale versions have a strong bready and toasty malt flavor, a light floral, spicy
       </subcategory>
       <subcategory id="10B">
         <name>Dunkles Weissbier</name>
-        <aroma>Moderate phenols (usually clove) and fruity esters (usually banana). The balance and intensity of the phenol and ester components can vary but the best examples are reasonably balanced. Optionally, a low to moderate vanilla character and/or faint bubblegum notes may be present, but should not dominate. Hop aroma ranges from low to none, and may be lightly floral, spicy, or herbal. A light to moderate wheat aroma (which might be perceived as bready, doughy or grainy) may be present and is often accompanied by a caramel, bread crust, or richer malt aroma. The malt aroma may moderate the phenols and esters somewhat.</aroma>
-        <appearance>Light copper to mahogany brown in color. A very thick, moussy, long-lasting off-white head is characteristic. The high protein content of wheat impairs clarity in this traditionally unfiltered style, although the level of haze is somewhat variable. Suspended yeast sediment can contribute to cloudiness.</appearance>
-        <flavor>Low to moderately strong banana and clove flavor. The balance and intensity of the phenol and ester components can vary but the best examples are reasonably balanced and fairly prominent. Optionally, a very light to moderate vanilla character and/or faint bubblegum notes can accentuate the banana flavor, sweetness and roundness; neither should be dominant if present. The soft, somewhat bready, doughy, or grainy flavor of wheat is complementary, as is a richer caramel, toast, or bread crust flavor. The malty richness can be low to medium-high, and supports the yeast character. A roasted malt character is inappropriate. A spicy, herbal, or floral hop flavor is very low to none, and hop bitterness is very low to low. Well-rounded, flavorful, often somewhat malty palate with a relatively dry finish.</flavor>
-        <mouthfeel>Medium-light to medium-full body. The texture of wheat as well as yeast in suspension imparts the sensation of a fluffy, creamy fullness that may progress to a lighter finish, aided by moderate to high carbonation. Effervescent.</mouthfeel>
-        <impression>A moderately dark German wheat beer with a distinctive banana-and-clove yeast character, supported by a toasted bread or caramel malt flavor. Highly carbonated and refreshing, with a creamy, fluffy texture and light finish that encourages drinking.</impression>
-        <comments>The presence of Munich and/or Vienna-type barley malts gives this style a deep, rich barley malt character not found in a weissbier. Often known as dunkelweizen, particularly in the United States.</comments>
-        <history>Bavaria has a wheat beer brewing traditional hundreds of years old, but the brewing right was reserved for Bavarian royalty until the late 1700s. Old-fashioned Bavarian wheat beer was often dark, as were most beer of the day. Pale weissbier started to become popular in the 1960s, but traditional dark wheat beer remained somewhat of an old person's drink.</history>
-        <ingredients>By German brewing tradition, at least 50% of the grist must be malted wheat, although some versions use up to 70%; the remainder is usually Munich, Vienna, or dark or caramel wheat malts, or Pilsner malt with color malt. A decoction mash is traditional, but infrequently used today. Weizen ale yeasts produce the typical spicy and fruity character, although extreme fermentation temperatures can affect the balance and produce off-flavors.</ingredients>
-        <comparison>Reflecting the best yeast and wheat character of a weissbier blended with the malty richness of a Munich dunkel. The banana and clove character is often less apparent than in a weissbier due to the increased maltiness.</comparison>
-        <examples>Ayinger Ur-Weisse, Ettaler Weissbier Dunkel, Franziskaner Hefe-Weisse Dunkel, Hacker-Pschorr Weisse Dark, Tucher Dunkles Hefe Weizen, Weihenstephaner Hefeweissbier Dunkel</examples>
+        <aroma>Moderate esters and phenols, typically banana and clove, often well balanced with each other and with the malt. Light to moderate bready, doughy, or grainy wheat aroma, often accompanied by caramel, bread crust, or richer malt notes. Low to moderate vanilla optional. Light floral, spicy, or herbal hops optional. Bubblegum (strawberry with banana), sourness, or smoke are faults.</aroma>
+        <appearance>Light copper to dark, mahogany brown in color. Very thick, moussy, long-lasting off-white head. Can be hazy and have a shine from wheat and yeast, although this can settle out in bottled versions.</appearance>
+        <flavor>Low to moderately strong banana and clove flavor, often well balanced with each other and with the malt, although the malt may sometimes mask the clove impression. Low to medium-high soft, somewhat bready, doughy, or grainy wheat flavor with richer caramel, toast, or bread crust flavors. No strongly roasted flavors, but a touch of roasty dryness is allowable. Very low to low bitterness. Well-rounded, flavorful, often somewhat malty palate with a relatively dry finish. Very light to moderate vanilla optional. Low spicy, herbal, or floral hop flavor optional. Bubblegum, sourness, or smoke are faults.</flavor>
+        <mouthfeel>Medium-light to medium-full body. Fluffy, creamy fullness progressing to a lighter finish, aided by moderate to high carbonation. Effervescent.</mouthfeel>
+        <impression>A moderately dark German wheat beer with a distinctive banana-and-clove weizen yeast fermentation profile, supported by a toasted bread or caramel malt flavor. Highly carbonated and refreshing, with a creamy, fluffy texture and light finish.</impression>
+        <comments>Often known as dunkelweizen, particularly in the United States. Increasingly rare and often being replaced by Kristall and non-alcoholic versions in Germany.</comments>
+        <history>Bavaria has a wheat beer brewing traditional hundreds of years old, but the brewing right was reserved for Bavarian royalty until the late 1700s. Old-fashioned Bavarian wheat beer was often dark, as were most beers of the time. Pale Weissbier started to become popular in the 1960s, but traditional dark wheat beer remained somewhat of an old person’s drink.</history>
+        <ingredients>Malted wheat, at least half the grist. Munich, Vienna, or Pilsner malt. Dark wheat, caramel wheat, or color malt. Decoction mash traditional. Weizen yeast, cool fermentation temperatures.</ingredients>
+        <comparison>Combines the yeast and wheat character of Weissbier with the malty richness of a Munich Dunkel. The banana-and-clove character is often less apparent than in a Weissbier due to the increased maltiness. Has a similar yeast character as Roggenbier, but without the rye flavor and increased body.</comparison>
+        <examples>Ayinger Urweisse, Ettaler Benediktiner Weißbier Dunkel, Franziskaner Hefe-Weisse Dunkel, Hirsch Dunkel Weisse, Tucher Dunkles Hefe Weizen, Weihenstephaner Hefeweißbier Dunkel</examples>
         <tags>standard-strength, amber-color, top-fermented, central-europe, traditional-style, wheat-beer-family, malty</tags>
         <stats>
           <ibu flexible="false">
@@ -1138,10 +1138,10 @@ Pale versions have a strong bready and toasty malt flavor, a light floral, spicy
           </ibu>
           <og flexible="false">
             <low>1.044</low>
-            <high>1.056</high>
+            <high>1.057</high>
           </og>
           <fg flexible="false">
-            <low>1.01</low>
+            <low>1.008</low>
             <high>1.014</high>
           </fg>
           <srm flexible="false">
