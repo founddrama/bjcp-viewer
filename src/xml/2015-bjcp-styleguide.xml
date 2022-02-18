@@ -1591,15 +1591,16 @@ The use of ‘shilling’ (/-) designations is a Scottish curiosity. Originally 
       </subcategory>
       <subcategory id="14B">
         <name>Scottish Heavy</name>
-        <aroma>Low to medium maltiness, often with flavors of toasted breadcrumbs, lady fingers, and English biscuits. Low to medium caramel and low butterscotch is allowable. Light pome fruitiness in best examples. May have low traditional English hop aroma (earthy, floral, orange-citrus, spicy, etc.). Peat smoke is inappropriate.</aroma>
-        <appearance>Pale copper to very dark brown. Clear. Low to moderate, creamy off-white.</appearance>
-        <flavor>Entirely malt-focused, with flavors ranging from pale, bready malt with caramel overtones to rich-toasty malt with roasted accents (but never roasty) or a combination thereof. Fruity esters are not required but add depth yet are never high. Hop bitterness to balance the malt. No to low hop flavor is also allowed and should of traditional English character (earthy, floral, orange-citrus, spicy, etc.). Finish ranges from rich and malty to dry and grainy. A subtle butterscotch character is acceptable; however, burnt sugars are not. The malt-hop balance tilts toward malt. Peat smoke is inappropriate.</flavor>
-        <mouthfeel>Medium-low to medium body. Low to moderate carbonation. Can be relatively rich and creamy to dry and grainy.</mouthfeel>
-        <impression>A malt-focused, generally caramelly beer with perhaps a few esters and occasionally a butterscotch aftertaste. Hops only to balance and support the malt. The malt character can range from dry and grainy to rich, toasty, and caramelly, but is never roasty and especially never has a peat smoke character.</impression>
-        <comments>Malt-focused ales that gain the vast majority of their character from specialty malts, never the process. Burning malt or wort sugars via ‘kettle caramelization' is not traditional nor is any blatantly ‘butterscotch' character. Most frequently a draught product. Smoke character is inappropriate as any found traditionally would have come from the peat in the source water. Scottish ales with smoke character should be entered as a Classic Style Smoked Beer.</comments>
-        <ingredients>Originally used Scottish pale malt, grits or flaked maize, and brewers caramel for color. Later adapted to use additional ingredients, such as amber and brown malts, crystal and wheat malts, and roasted grains or dark sugars for color but not for the ‘roasty' flavor. Sugar adjuncts are traditional. Clean or slightly fruity yeast. Peat-smoked malt is inauthentic and inappropriate.</ingredients>
-        <comparison>Similar character to a Wee Heavy, but much smaller.</comparison>
-        <examples>Broughton Greenmantle Ale, Caledonia Smooth, McEwan's 70, Orkney Raven Ale, Tennent's Special Ale</examples>
+        <aroma>Medium-low to medium maltiness with caramel and toffee notes, and light toasty and sugary qualities that might be reminiscent of toasted breadcrumbs, ladyfingers, English biscuits, graham crackers, or butterscotch. Light pome fruitiness and light English hop aroma (earthy, floral, orange-citrus, spicy, etc.) allowable.</aroma>
+        <appearance>Pale copper to brown. Clear. Low to moderate, creamy off-white.</appearance>
+        <flavor>Medium toasty-bready malt with caramel and toffee overtones, finishing with a slightly roasty dryness. A wide range of caramelized sugar and toasted bread type of flavors are possible, using similar descriptors as the aroma. Clean maltiness and fermentation profile. Light esters and hop flavor allowable (similar descriptors as aroma). Sufficient bitterness to not be cloying, but with a malty balance and aftertaste.</flavor>
+        <mouthfeel>Medium-low to medium body. Low to moderate carbonation. Maybe be moderately creamy.</mouthfeel>
+        <impression>A lower-alcohol, malty beer with light caramel, toast, toffee, and fruity flavors. A slight roast dryness offsets the residual sweetness in the finish, with the bitterness perceived only to keep the beer from being cloying.</impression>
+        <comments>See category introduction for detailed comments. May not seem as bitter as specifications indicate due to higher finishing gravity and residual sweetness. Do not mis-perceive the light roasty dryness as smoke; smoke is not present in these beers.</comments>
+        <history>See category introduction. The Shilling ale names were used for mild (unaged) beer before World War I, but the styles took modern form only after World War II.</history>
+        <ingredients>At its simplest, pale ale malt and colored malt, but can also use sugars, corn, wheat, crystal malts, colorants, and a variety of other grains. Clean yeast. Soft water. No peat-smoked malt.</ingredients>
+        <comparison>See category introduction. Similar to other Scottish Ales in flavor profile, lighter in color and stronger than a Scottish Light. Similar in strength to Ordinary Bitter, but with a different flavor profile and balance.</comparison>
+        <examples>McEwan's 70/-, Orkney Raven Ale</examples>
         <tags>session-strength, amber-color, top-fermented, british-isles, traditional-style, amber-ale-family, malty</tags>
         <stats>
           <ibu flexible="false">
@@ -1615,11 +1616,11 @@ The use of ‘shilling’ (/-) designations is a Scottish curiosity. Originally 
             <high>1.015</high>
           </fg>
           <srm flexible="false">
-            <low>13</low>
-            <high>22</high>
+            <low>12</low>
+            <high>20</high>
           </srm>
           <abv flexible="false">
-            <low>3.2</low>
+            <low>3.3</low>
             <high>3.9</high>
           </abv>
         </stats>
