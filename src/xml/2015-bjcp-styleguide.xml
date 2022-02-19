@@ -2524,16 +2524,16 @@ Currently Defined Types: Belgian IPA, Black IPA, Brown IPA, Red IPA, Rye IPA, Wh
         </specialty>
         <specialty>
           <name>Brown IPA</name>
-          <aroma>A moderate to moderately-strong fresh hop aroma featuring one or more characteristics of American or New World hops, such as tropical fruit, stone fruit, citrus, floral, spicy, berry, melon, pine, resinous, etc. Many versions are dry hopped and can have an additional fresh hop aroma; this is desirable but not required. Grassiness should be minimal, if present. A medium-low to medium malty-sweet aroma mixes in well with the hop selection, and often features chocolate, nuts, dark caramel, toffee, toasted bread, and/or dark fruit character. Fruitiness from yeast may also be detected in some versions, although a neutral fermentation character is also acceptable. A restrained alcohol note may be present, but this character should be minimal at best. Any American or New World hop character is acceptable; new hop varieties continue to be released and should not constrain this style.</aroma>
-          <appearance>Color ranges from reddish-brown to dark brown but not black. Frequently opaque, but should be clear if visible. Unfiltered dry-hopped versions may be a bit hazy. Medium-sized, cream-colored to tan head with good persistence.</appearance>
-          <flavor>Hop flavor is medium to high, and should reflect an American or New World hop character, such as citrus, floral, pine, resinous, spicy, tropical fruit, stone fruit, berry, melon, etc. Medium-high to high hop bitterness. Malt flavor should be medium-low to medium, and is generally clean but malty-sweet up front with milk chocolate, cocoa, toffee, nutty, biscuity, dark caramel, toasted bread and/or dark fruit malt flavors. The character malt choices and the hop selections should complement and enhance each other, not clash. The level of malt flavor should nearly balance the hop bitterness and flavor presentation. Low yeast-derived fruitiness is acceptable but not required. Dry to medium finish; residual sweetness should be medium-low to none. The bitterness and hop flavor may linger into the aftertaste but should not be harsh. A very light, clean alcohol flavor may be noted in stronger versions. No roasted, burnt, or harsh-bitter malt character.</flavor>
-          <mouthfeel>Medium-light to medium body, with a smooth texture. Medium to medium-high carbonation. No harsh hop-derived astringency. Very light, smooth alcohol warming not a fault if it does not intrude into overall balance.</mouthfeel>
-          <impression>Hoppy, bitter, and moderately strong like an American IPA, but with some caramel, chocolate, toffee, and/or dark fruit malt character as in an American Brown Ale. Retaining the dryish finish and lean body that makes IPAs so drinkable, a Brown IPA is a little more flavorful and malty than an American IPA without being sweet or heavy.</impression>
-          <comments>Previously might have been a sub-genre of American Brown Ales, hoppier and stronger than the normal products, but still maintaining the essential drinkability by avoiding sweet flavors or a heavy body or finish. The hops and malt can combine to produce interesting interactions.</comments>
-          <history>A more modern craft beer name for a style that has long been popular with US homebrewers, when it was known as a hoppier American Brown Ale or sometimes Texas Brown Ale (despite origins in California).</history>
-          <ingredients>Similar to an American IPA, but with medium or dark crystal malts, lightly roasted chocolate-type malts, or other intermediate color character malts. May use sugar adjuncts, including brown sugar. American or New World finishing hops with tropical, fruity, citrusy, piney, berry, or melon aspects; the choice of hops and character malts is synergistic – they very much have to complement each other and not clash.</ingredients>
-          <comparison>A stronger and more bitter version of an American Brown Ale, with the balance of an American IPA.</comparison>
-          <examples>Dogfish Head Indian Brown Ale, Grand Teton Bitch Creek, Harpoon Brown IPA, Russian River Janet's Brown Ale</examples>
+          <aroma>Moderate to moderately-high hop aroma, often with a stone fruit, tropical fruit, citrus, resin, pine, berry, or melon character. Medium-low to medium malty-sweet aroma mixes in well with the hop selection, and often features milk chocolate, cocoa, toffee, nuts, biscuits, dark caramel, toasted bread, or dark fruit character. Clean fermentation profile. Light esters optional. Light alcohol aroma optional.</aroma>
+          <appearance>Color ranging from reddish-brown to dark brown but not black. Clear, if not opaque. Light haze optional. Medium-sized, cream-colored to tan head with good persistence.</appearance>
+          <flavor>Medium to high hop flavor, same descriptors as aroma. Medium-low to medium clean, supportive malty flavor with same descriptors as aroma. The malt and hop choices should not produce flavor clashes. Medium-high to high bitterness, no harshness. Dry to medium finish, with a bitter, hoppy, and malty aftertaste. Low esters optional. Very low alcohol flavor optional. No highly roasted or burnt malt flavors. The malt should nearly balance the hop bitterness and flavor.</flavor>
+          <mouthfeel>Medium-light to medium body, with a smooth texture. Medium to medium-high carbonation. No harshness. Light warmth optional.</mouthfeel>
+          <impression>Hoppy, bitter, and moderately strong like an American IPA, but with dark caramel, chocolate, toffee, or dark fruit character as in an American Brown Ale. Retaining the dryish finish and lean body that makes IPAs so drinkable, a Brown IPA is a little more flavorful and malty than an American IPA without being sweet or heavy.</impression>
+          <comments>Separated from American Brown Ale to better differentiate stronger, highly hopped examples from more balanced, standard-strength beers.</comments>
+          <history>See American Brown Ale.</history>
+          <ingredients>Similar to an American IPA, but with medium or dark crystal malts, lightly roasted chocolate-type malts, or other intermediate color character malts. May use sugar adjuncts, including brown sugar. Any American or New World hop character is acceptable, but the hops and character malts should not clash.</ingredients>
+          <comparison>A stronger and more bitter version of an American Brown Ale, with the dry balance of an American IPA. Has less of a roasted flavor than Black IPA, but more chocolate flavors than a Red IPA.</comparison>
+          <examples>Dogfish Head Indian Brown Ale, Harpoon Brown IPA, Russian River Janet’s Brown Ale</examples>
           <tags>high-strength, dark-color, top-fermented, north-america, craft-style, ipa-family, specialty-family, bitter, hoppy</tags>
           <stats>
             <ibu flexible="false">
@@ -2549,8 +2549,8 @@ Currently Defined Types: Belgian IPA, Black IPA, Brown IPA, Red IPA, Rye IPA, Wh
               <high>1.016</high>
             </fg>
             <srm flexible="false">
-              <low>11</low>
-              <high>19</high>
+              <low>18</low>
+              <high>35</high>
             </srm>
             <abv flexible="false">
               <low>5.5</low>
