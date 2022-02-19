@@ -3541,40 +3541,38 @@ We differentiate beers in this category as those that were inspired by religious
     <category id="27">
       <revision number="1">2015</revision>
       <name>Historical Beer</name>
-      <notes>The Historical Beer category contains styles that either have all but died out in modern times, or that were much more popular in past times and are known only through recreations. This category can also be used for traditional or indigenous beers of cultural importance within certain countries. Placing a beer in the historical category does not imply that it is not currently being produced, just that it is a very minor style or perhaps is in the process of rediscovery by craft brewers. Entry Instructions: The entrant must either specify a style with a BJCP-supplied description from the list below, or specify a different historical beer style that is not described elsewhere in these guidelines. In the case of a style that has changed substantially over the years (such as Porter or Stout), the entrant may specify an existing BJCP style as well as an era (e.g., 1820 English Porter). When the entrant specifies any style not on the BJCP-supplied list, the entrant must provide a description of the style for the judges in sufficient detail to allow the beer to be judged. If a beer is entered with just a style name and no description, it is very unlikely that judges will understand how to judge it. Currently defined examples: Gose, Piwo Grodziskie, Lichtenhainer, Roggenbier, Sahti, Kentucky Common, Pre-Prohibition Lager, Pre-Prohibition Porter, London Brown Ale.</notes>
+      <notes>The Historical Beer category contains styles that either have all but died out in modern times, or that were much more popular in past times and are now known only through recreations. This category can also be used for traditional or indigenous beers of cultural importance within certain countries. Placing a beer in the historical category does not imply that it is not currently being produced, just that it is a very minor style or perhaps is in the process of rediscovery by craft brewers.
+Historical Beer can be a minor style, currently commercially produced or not, that is not present in the Style Guidelines as a Classic Style. It could be that we haven’t heard of it, that we never see it in competition, or that we have insufficient data to prepare a reasonable set of judging guidelines. If it is a style with a name that is or was actually used, then it likely goes into this category. This style is not for experimental beers that were never produced, or for other Classic Styles with added Specialty-Type ingredients.
+Any Historical Beer listed in this category or contained on the Provisional Style list is considered a Classic Style for purposes of entering in Specialty-Type beer categories with added ingredients (fruit, spice, wood, smoke, etc.). This means a Historical Style beer can be used as a base style for Specialty-Type beers without automatically making the beer Experimental.
+The BJCP welcomes well-researched submissions of Historical Styles that may be appropriate for our Provisional Styles list on our website, or for a future inclusion in these Guidelines.</notes>
+      <entry_instructions>The entrant must either specify a style with a BJCP-supplied description from the list below, or specify a different historical beer style that is not described elsewhere in these guidelines. In the case of a style that has changed substantially over the years (such as Porter or Stout), the entrant may specify an existing BJCP style as well as an era (e.g., 1820 English Porter). When the entrant specifies any style not on the BJCP-supplied list in this category or on the Provisional Style list, the entrant must provide a description of the style for the judges in sufficient detail to allow the beer to be judged. If a beer is entered with just a style name and no description, it is very unlikely that judges will understand how to judge it. Currently defined examples: Kellerbier, Kentucky Common, Lichtenhainer, London Brown Ale, Piwo Grodziskie, Pre-Prohibition Lager, Pre-Prohibition Porter, Roggenbier, Sahti.</entry_instructions>
       <subcategory id="27A">
-        <name>Gose</name>
-        <aroma>Light to moderately fruity aroma of pome fruit. Light sourness, slightly sharp. Noticeable coriander, which can have an aromatic lemony quality, and an intensity up to moderate. Light bready, doughy, yeasty character like uncooked sourdough bread. The acidity and coriander can give a bright, lively impression. The salt may be perceived as a very light, clean sea breeze character or just a general freshness, if noticeable at all.</aroma>
-        <appearance>Unfiltered, with a moderate to full haze. Moderate to tall sized white head with tight bubbles and good retention. Effervescent. Medium yellow color.</appearance>
-        <flavor>Moderate to restrained but noticeable sourness, like a squeeze of lemon in iced tea. Moderate bready/doughy malt flavor. Light to moderate fruity character of pome fruit, stone fruit, or lemons. Light to moderate salt character, up to the threshold of taste; the salt should be noticeable (particularly in the initial taste) but not taste overtly salty. Low bitterness, no hop flavor. Dry, fully-attenuated finish, with acidity not hops balancing the malt. Acidity can be more noticeable in the finish, and enhance the refreshing quality of the beer. The acidity should be balanced, not forward (although historical versions could be very sour).</flavor>
-        <mouthfeel>High to very high carbonation, effervescent. Medium-light to medium-full body. Salt may give a slightly tingly, mouthwatering quality, if perceived at all. The yeast and wheat can give it a little body, but it shouldn't have a heavy feel.</mouthfeel>
-        <impression>A highly-carbonated, tart and fruity wheat ale with a restrained coriander and salt character and low bitterness. Very refreshing, with bright flavors and high attenuation.</impression>
-        <comments>Served in traditional cylindrical glasses. Historical versions may have been more sour than modern examples due to spontaneous fermentation, and may be blended with syrups as is done with Berliner Weisse, or Kümmel, a liqueur flavored with caraway, cumin, and fennel. Modern examples are inoculated with lactobacillus, and are more balanced and generally don't need sweetening. Pronounced GOH-zeh.</comments>
-        <history>Minor style associated with Leipzig but originating in the Middle Ages in the town of Goslar on the Gose River. Documented to have been in Leipzig by 1740. Leipzig was said to have 80 Gose houses in 1900. Production declined significantly after WWII, and ceased entirely in 1966. Modern production was revived in the 1980s, but the beer is not widely available.</history>
-        <ingredients>Pilsner and wheat malt, restrained use of salt and coriander seed, lactobacillus. The coriander should have a fresh, citrusy (lemon or bitter orange), bright note, and not be vegetal, celery-like, or ham-like. The salt should have a sea salt or fresh salt character, not a metallic, iodine note.</ingredients>
-        <comparison>Perceived acidity is not as intense as Berliner Weisse or Gueuze. Restrained use of salt, coriander, and lactobacillus – should not taste overtly salty. Coriander aroma can be similar to a witbier. Haziness similar to a Weissbier.</comparison>
-        <examples>Anderson Valley Gose, Bayerisch Bahnhof Leipziger Gose, Döllnitzer Ritterguts Gose</examples>
-        <tags>standard-strength, pale-color, top-fermented, central-europe, historical-style, wheat-beer-family, sour, spice</tags>
+        <name>Kellerbier</name>
+        <notes>The original Kellerbier is a Märzen-type lager from the Franconia region of Germany, but other traditional versions are based on Munich Helles and Dunkel lagers. Variations based on Pils are a more modern invention with a wider international following and higher production.</notes>
+        <aroma>Reflects base style. May have an added bready, yeasty character from the yeast. Clean. Pale versions can have a more robust hop character. Dark versions can have a richer malt profile.</aroma>
+        <appearance>Reflects base style. Can be somewhat hazy or cloudy, but never murky. Likely a little darker in appearance than the base style.</appearance>
+        <flavor>Reflects base style. May have an added bready, yeasty character from the yeast. Pale versions can have a more robust hop character. Dark versions can have a richer malt profile, but should never be roasty. May be slightly more bitter than the base style, and be a little heavier in the finish. Fully fermented with a clean fermentation profile; should not have eggy, buttery, apple-like, or similar flaws.</flavor>
+        <mouthfeel>Reflects base style. May have a bit more body and a creamier texture than the base style. Carbonation typical of the base style, but may be lower.</mouthfeel>
+        <impression>An unfiltered, unpasteurized, fully-attenuated German lager traditionally served from lagering vessels. May be a little richer, more robust, and rustic than the base styles. A fresh beer without fermentation defects associated with young, green (unfinished) beer.</impression>
+        <comments>A traditional serving style more than a beer style, yet these beers do have sensory differences from the base beers. Judge these somewhat like Specialty-Type Beers; consider the range of kellerbiers based on Helles to Märzen to Dunkel to be a continuous spectrum, so allow the brewer to pick the closest one without being too picky about strict adherence to the base style.
+The name literally means cellar beer, and is a natural, gentle handling of fresh-tasting German lagerbier for seasonal, on-premise service. Like British Bitters, best enjoyed locally as the bottled examples may lack the characteristic freshness.</comments>
+        <history>Originally referred to lager beer matured in the caves or cellars under the brewery, and then served from them. First applied to amber lager from Franconia, then later to local Munich styles. More recently used internationally to create specialty Pils variants. By tradition, a serving style for a popular summer specialty in Bavaria, but now adapted broadly as a marketing term for unfiltered lagers.</history>
+        <ingredients>Same as base styles. Traditionally naturally carbonated. Dry-hopping is not a traditional German brewing method, but some modern pale examples use this technique – which is allowable in this style as long as it is balanced. Traditionally lagered and unfiltered, these beers were never meant to be packaged for external sale.</ingredients>
+        <comparison>Richer or more robust than the base style, possibly with a bit more body and mouthfeel. Can be slightly cloudier than base beer.</comparison>
+        <entry_instructions>The entrant must specify the base style: German Pils, Munich Helles, Märzen, or Munich Dunkel.</entry_instructions>
+        <examples>Märzen – Faust Kräusen Naturtrüb, Mahrs Bräu aU Ungespundet Kellerbier; Dunkel – Engel Kellerbier Dunkel, Paulaner Ur-Dunkel Naturtrüb; Helles – ABK Kellerbier Naturtrüb, Löwenbräu 1747 Original; Pils – Giesinger Feines Pilschen, Ketterer Zwickel-Pils</examples>
+        <tags>standard-strength, bottom-fermented, central-europe, traditional-style, balanced</tags>
         <stats>
-          <ibu flexible="false">
-            <low>5</low>
-            <high>12</high>
+          <notes>Same as base style.</notes>
+          <ibu flexible="true">
           </ibu>
-          <og flexible="false">
-            <low>1.036</low>
-            <high>1.056</high>
+          <og flexible="true">
           </og>
-          <fg flexible="false">
-            <low>1.006</low>
-            <high>1.01</high>
+          <fg flexible="true">
           </fg>
-          <srm flexible="false">
-            <low>3</low>
-            <high>4</high>
+          <srm flexible="true">
           </srm>
-          <abv flexible="false">
-            <low>4.2</low>
-            <high>4.8</high>
+          <abv flexible="true">
           </abv>
         </stats>
       </subcategory>
