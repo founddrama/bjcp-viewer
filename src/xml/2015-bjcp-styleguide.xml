@@ -3759,15 +3759,15 @@ Some have speculated it was a dark variant of Cream Ale, created by immigrant Ge
       </subcategory>
       <subcategory id="27G">
         <name>Pre-Prohibition Porter</name>
-        <aroma>Base grainy malt aroma with low levels of dark malt (slight burnt or chocolate notes). Low hop aroma. Low to moderate low levels of DMS acceptable. May show low levels of caramel and biscuit aroma. No to very low esters. Light adjunct (licorice, molasses) aroma acceptable. Diacetyl low to none. Clean lager profile acceptable.</aroma>
-        <appearance>Medium to dark brown, though some examples can be nearly black in color, with ruby or mahogany highlights. Relatively clear. Light to medium tan head which will persist in the glass.</appearance>
-        <flavor>Grainy base malt flavor, with low levels of chocolate or burnt black malt notes, along with low levels of caramel, biscuit, licorice, and toast notes. Corn/DMS flavor acceptable at low to moderate levels. American hop bitterness low to moderate and American hop flavor low to none. Balance is typically even between malt and hops, with a moderate dry finish.</flavor>
-        <mouthfeel>Medium light to medium body, moderate carbonation, low to moderate creaminess. May have a slight astringency from the dark malts.</mouthfeel>
-        <impression>An American adaptation of English Porter using American ingredients, including adjuncts.</impression>
-        <comments>Also sometimes known as Pennsylvania Porter or East Coast Porter.</comments>
-        <history>Commercially brewed in Philadelphia during the revolutionary period, the beer gained wide acceptance in the newly formed mid-Atlantic states, and was endorsed by President George Washington.</history>
-        <ingredients>Two and six row malt (or a combination of both) are used, along with low percentages of dark malts including black, chocolate, and brown malt (roasted barley is not typically used). Adjuncts are acceptable, including corn, brewers licorice, molasses, and porterine. More historical versions will have up to twenty percent adjuncts. Lager or ale yeast. Emphasis on historical or traditional American bittering hops (Cluster, Willamette, Cascade), though finishing and flavor hops may vary.</ingredients>
-        <comparison>Smoother and less hoppy-bitter than a (modern) American Porter, less caramelly than an English Porter with more of an adjunct/lager character.</comparison>
+        <aroma>Grainy malt aroma with low levels of chocolate, caramel, biscuit, burnt sugar, licorice, or slightly burnt malt. Low hop aroma. Low to moderate low levels of corn or DMS acceptable. No to very low esters. Diacetyl low to none. Clean lager fermentation profile acceptable.</aroma>
+        <appearance>Medium to dark brown, though some examples can be nearly black in color, with ruby or mahogany highlights. Relatively clear. Light to medium tan head, persistent.</appearance>
+        <flavor>Moderate grainy-bready malt flavor, with low levels of chocolate, burnt malt, burnt sugar, caramel, biscuit, licorice, molasses, or toast. Corn or DMS flavor acceptable at low to moderate levels. Medium-low to moderate bitterness. Low floral, spicy, or earthy hop flavor optional. Balance is typically even between malt and hops, with a moderately dry finish. Clean fermentation profile, but faint esters are allowable.</flavor>
+        <mouthfeel>Medium-light to medium body. Moderate carbonation. Low to moderate creaminess. May have a slight dark malt astringency.</mouthfeel>
+        <impression>A historical American adaptation of English Porter by German immigrants using American ingredients, including adjuncts.</impression>
+        <comments>Also sometimes known as Pennsylvania Porter or East Coast Porter. This style does not describe colonial-era products.</comments>
+        <history>Commercially brewed in Philadelphia during the revolutionary period as an adaptation of English beer. Evolved later as German immigrants applied lager brewing methods during the second half of the 1800s. Prohibition ended most porter brewing in the US, except in a few regional Northeast and Mid-Atlantic states where it was most popular.</history>
+        <ingredients>Two row or six row malt. Low percentages of dark malts including black, chocolate, and brown malt (roasted barley is not typically used). Adjuncts are acceptable, including corn, brewers licorice, molasses, and porterine. More historical versions will have up to twenty percent adjuncts. Lager or ale yeast. Historical or traditional American bittering hops, American or German finishing hops.</ingredients>
+        <comparison>Smoother and less hoppy-bitter than a (modern) American Porter. Less caramelly and smoother than an English Porter with more of an adjunct or lager character. More bitterness and roast than an International Dark Lager.</comparison>
         <examples>Stegmaier Porter, Yuengling Porter</examples>
         <tags>standard-strength, dark-color, any-fermentation, north-america, historical-style, porter-family, malty</tags>
         <stats>
@@ -3784,7 +3784,7 @@ Some have speculated it was a dark variant of Cream Ale, created by immigrant Ge
             <high>1.016</high>
           </fg>
           <srm flexible="false">
-            <low>18</low>
+            <low>20</low>
             <high>30</high>
           </srm>
           <abv flexible="false">
