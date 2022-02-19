@@ -3831,19 +3831,20 @@ Some have speculated it was a dark variant of Cream Ale, created by immigrant Ge
       </subcategory>
       <subcategory id="27I">
         <name>Sahti</name>
-        <aroma>High banana esters with moderate to moderately-high clove-like phenolics. Not sour. May have a low to moderate juniper character. Grainy malt, caramel, and rye in background. Light alcohol aroma. Sweet malt impression.</aroma>
-        <appearance>Pale yellow to dark brown color; most are medium to dark amber. Generally quite cloudy (unfiltered). Little head, due to low carbonation.</appearance>
-        <flavor>Strong banana and moderate to moderately-high clove yeast character. Moderate grainy rye flavor. Low bitterness. Fairly sweet finish. Juniper can add a pine-like flavor; juniper berries can add a gin-like flavor; both should be complementary, not dominant. No noticeable hop flavor. Moderate caramel flavor but no roast. Multi-layered and complex, with kind of a wortiness that is unusual in other beer styles. Not sour.</flavor>
-        <mouthfeel>Thick, viscous, and heavy with protein (no boil means no hot break). Nearly still to medium-low carbonation. Strongly warming from the alcohol level and young age, but often masked by sweetness.</mouthfeel>
-        <impression>A sweet, heavy, strong traditional Finnish beer with a rye, juniper, and juniper berry flavor and a strong banana-clove yeast character.</impression>
-        <comments>The use of rye doesn't mean that it should taste like caraway (a dominant flavor in rye bread). The use of juniper berries will give a flavor like gin (similarly flavored with juniper berries). The juniper acts a bit like hops in the balance and flavor, providing some counterpoint to the sweet malt.</comments>
-        <history>An indigenous traditional style from Finland; a farmhouse tradition for at least 500 years, often brewed for festive occasions like summer weddings, and consumed within a week or two of brewing. A similar tradition exists in Estonia, where the beer is known as koduolu.</history>
-        <ingredients>Malted barley along with malted and unmalted grains, often rye. Low hops. Juniper boughs used for lautering (traditionally in a hollowed-out log), but often producing a juniper/berry character. Often uses top-fermenting baker's yeast in a fast, warm fermentation (German Weizen yeast is a good substitute). Not boiled; a long mash steep is used, with a separately added hop tea.</ingredients>
-        <comparison>Strong resemblance to Weizenbocks, but sweet and thick with a rye and juniper character.</comparison>
-        <tags>high-strength, amber-color, top-fermented, central-europe, historical-style, spic</tags>
+        <aroma>Sweet, worty malt impression. Grainy malt, caramel, and rye in background. Light alcohol aroma. High banana esters with moderate to moderately-high clove-like phenols. May have a low to moderate woody juniper character. Not sour. No hops.</aroma>
+        <appearance>Yellow to dark brown color; most are medium to dark amber. Generally quite cloudy and turbid. Little head, due to low carbonation.</appearance>
+        <flavor>Fairly sweet and often worty raw malt flavor, grainy with some caramel and toffee. Low bitterness. No hop flavor. Light woody or piney character acceptable. Moderate to strong banana and fruitiness, moderate clove and spiciness. Fairly sweet finish. Fresh, not sour.</flavor>
+        <mouthfeel>Thick, viscous, and heavy with protein (no boil means no hot break). Nearly still to medium-low carbonation, similar to English cask ale. Warming from the alcohol level and young age, but this is often masked by sweetness.</mouthfeel>
+        <impression>A sweet, heavy, strong traditional Finnish farmhouse beer usually with rye and juniper, and a banana-clove yeast character.</impression>
+        <comments>The use of rye doesn’t mean that it should taste like caraway (a common flavor in rye bread). The juniper acts a bit like hops in the balance and flavor, providing a flavor and bitterness counterpoint to the sweet malt. Piney, woody juniper character more common than gin-like berries.</comments>
+        <history>An indigenous traditional style from Finland; a farmhouse tradition for at least 500 years, often brewed for festive occasions like summer weddings, and consumed within a week or two of brewing.</history>
+        <ingredients>Malted barley. Rye is common. Low hops, if any. Juniper boughs (with or without berries) used for lautering (traditionally in a hollowed-out log). Uses Finnish baker’s yeast in a fast, warm fermentation (German Weizen yeast is a reasonable substitute). Long step mash regime. Wort is not boiled.</ingredients>
+        <comparison>Passing resemblance to Weizenbocks, but sweet and thick with a rye and juniper character.</comparison>
+        <examples>Now made year-round by several breweries in Finland.</examples>
+        <tags>high-strength, amber-color, top-fermented, central-europe, historical-style, spice</tags>
         <stats>
           <ibu flexible="false">
-            <low>7</low>
+            <low>0</low>
             <high>15</high>
           </ibu>
           <og flexible="false">
@@ -3852,7 +3853,7 @@ Some have speculated it was a dark variant of Cream Ale, created by immigrant Ge
           </og>
           <fg flexible="false">
             <low>1.016</low>
-            <high>1.02</high>
+            <high>1.038</high>
           </fg>
           <srm flexible="false">
             <low>4</low>
