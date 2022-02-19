@@ -1740,16 +1740,16 @@ The use of ‘shilling’ (/-) designations is a Scottish curiosity. Originally 
       </subcategory>
       <subcategory id="15C">
         <name>Irish Extra Stout</name>
-        <aroma>Moderate to moderately high coffee-like aroma, often with slight dark chocolate, cocoa, biscuit, vanilla and/or roasted grain secondary notes. Esters medium-low to none. Hop aroma low to none, may be lightly earthy or spicy, but is typically absent. Malt and roast dominate the aroma.</aroma>
-        <appearance>Jet black. Opaque. A thick, creamy, tan head is characteristic.</appearance>
-        <flavor>Moderate to moderately high dark-roasted grain or malt flavor with a medium to medium-high hop bitterness. The finish can be dry and coffee-like to moderately balanced with up to moderate caramel or malty sweetness. Typically has roasted coffee-like flavors, but also often has a dark chocolate character in the palate, lasting into the finish. Background mocha, biscuit, or vanilla flavors are often present and add complexity. Medium-low to no fruitiness. Medium to no hop flavor (often earthy or spicy). The level of bitterness is somewhat variable, as is the roasted character and the dryness of the finish; allow for interpretation by brewers.</flavor>
+        <aroma>Moderate to moderately high coffee-like aroma, often with slight dark chocolate, cocoa, biscuit, vanilla, or roasted grain secondary notes. Medium-low esters optional. Hop aroma low to none, may be lightly earthy or spicy, but is typically absent. Malt and roast dominate the aroma.</aroma>
+        <appearance>Jet black. Opaque. A thick, creamy, persistent tan head is characteristic.</appearance>
+        <flavor>Moderate to moderately high dark-roasted grain or malt flavor with a medium to medium-high bitterness. The finish can be dry and coffee-like to moderately balanced with up to moderate caramel or malty sweetness. Typically has roasted coffee-like flavors, but also often has a dark chocolate character in the palate, lasting into the finish. Background mocha or biscuit flavors are often present and add complexity. Medium-low fruitiness optional. Medium earthy or spicy hop flavor optional. The level of bitterness is somewhat variable, as is the roasted character and the dryness of the finish; allow for interpretation by brewers.</flavor>
         <mouthfeel>Medium-full to full body, with a somewhat creamy character. Moderate carbonation. Very smooth. May have a light astringency from the roasted grains, although harshness is undesirable. A slightly warming character may be detected.</mouthfeel>
         <impression>A fuller-bodied black beer with a pronounced roasted flavor, often similar to coffee and dark chocolate with some malty complexity. The balance can range from moderately bittersweet to bitter, with the more balanced versions having up to moderate malty richness and the bitter versions being quite dry.</impression>
-        <comments>Traditionally a bottled product. Consumers expect a stout to always have a black color; the flavor intensity from whatever made it black is what consumers expect in their beer. Not all breweries make a dry, roasty version typical of Guinness; a more balanced and chocolaty version is equally acceptable.</comments>
-        <history>Same roots as Irish stout, but as a stronger product. Guinness Extra Stout (Extra Superior Porter, later Double Stout) was first brewed in 1821, and was primarily a bottled product. Described by Guinness as a "more full-bodied beer with a deeper characteristic roasted bitterness and a rich, mature texture. Of all the types of Guinness available today, this is the closest to the porter originally brewed by Arthur Guinness." Note that in modern times, Guinness Extra Stout has different strengths in different regions; the European version is around 4.2% and fits in the Irish Stout style.</history>
-        <ingredients>Similar to Irish Stout.</ingredients>
-        <comparison>Midway between an Irish Stout and a Foreign Extra Stout in strength and flavor intensity, although with a similar balance. More body, richness, and often malt complexity than an Irish Stout. Black in color, not brown like a porter.</comparison>
-        <examples>Guinness Extra Stout (US version), O'Hara's Leann Folláin, Sheaf Stout</examples>
+        <comments>Traditionally a stronger, bottled product with a range of equally valid possible interpretations, varying most frequently in roast flavor and sweetness. Most traditional Irish commercial examples are in the 5.6 to 6.0% ABV range.</comments>
+        <history>Same roots as Irish Stout, but as a stronger product. Guinness Extra Stout (Extra Superior Porter, later Double Stout) was first brewed in 1821, and was primarily a bottled product.</history>
+        <ingredients>Similar to Irish Stout. May have additional dark crystal malts or dark sugars.</ingredients>
+        <comparison>Midway between an Irish Stout and a Foreign Extra Stout in strength and flavor intensity, although with a similar balance. More body, richness, and often malt complexity than an Irish Stout. Black in color, not brown like an English Porter.</comparison>
+        <examples>Guinness Extra Stout, O’Hara’s Leann Folláin, Porterhouse XXXX, Sheaf Stout</examples>
         <tags>high-strength, dark-color, top-fermented, british-isles, traditional-style, stout-family, bitter, roasty</tags>
         <stats>
           <ibu flexible="false">
@@ -1765,11 +1765,11 @@ The use of ‘shilling’ (/-) designations is a Scottish curiosity. Originally 
             <high>1.014</high>
           </fg>
           <srm flexible="false">
-            <low>25</low>
+            <low>30</low>
             <high>40</high>
           </srm>
           <abv flexible="false">
-            <low>5.5</low>
+            <low>5.0</low>
             <high>6.5</high>
           </abv>
         </stats>
