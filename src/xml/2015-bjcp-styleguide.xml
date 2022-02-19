@@ -2194,16 +2194,16 @@ Some oxidative or vinous flavors may be present, and often complex alcohol flavo
       </subcategory>
       <subcategory id="19B">
         <name>California Common</name>
-        <aroma>Typically showcases rustic, traditional American hops (often with woody, rustic or minty qualities) in moderate to high strength. Light fruitiness acceptable. Low to moderate caramel and/or toasty malt aromatics support the hops.</aroma>
+        <aroma>Moderate to high herbal, resinous, floral, or minty hops. Light fruitiness acceptable. Low to moderate caramel or toasty malt supports the hops.</aroma>
         <appearance>Medium amber to light copper color. Generally clear. Moderate off-white head with good retention.</appearance>
-        <flavor>Moderately malty with a pronounced hop bitterness. The malt character is usually toasty (not roasted) and caramelly. Low to moderately high hop flavor, usually showing rustic, traditional American hop qualities (often woody, rustic, minty). Finish fairly dry and crisp, with a lingering hop bitterness and a firm, grainy malt flavor. Light fruity esters are acceptable, but otherwise clean.</flavor>
+        <flavor>Moderately malty with a pronounced hop bitterness. The malt character usually has toast (not roast) and caramel flavors. Low to moderately high hop flavor, usually showing rustic, traditional American hop qualities (often herbal, resinous, floral, minty). Finish fairly dry and crisp, with a lingering hop bitterness and a firm, grainy malt flavor. Light fruity esters are acceptable, but otherwise clean.</flavor>
         <mouthfeel>Medium-bodied. Medium to medium-high carbonation.</mouthfeel>
-        <impression>A lightly fruity beer with firm, grainy maltiness, interesting toasty and caramel flavors, and showcasing rustic, traditional American hop characteristics.</impression>
-        <comments>This style is narrowly defined around the prototypical Anchor Steam example, although allowing other typical ingredients of the era. Northern Brewer hops are not a strict requirement for the style; modern American and New World-type hops (especially citrusy ones) are inappropriate, however.</comments>
-        <history>American West Coast original, brewed originally as Steam Beer in the Gold Rush era. Large shallow open fermenters (coolships) were traditionally used to compensate for the absence of refrigeration and to take advantage of the cool ambient temperatures in the San Francisco Bay area. Fermented with a lager yeast, but one that was selected to ferment relatively clean beer at warmer temperatures. Modern versions are based on Anchor Brewing re-launching the style in the 1970s.</history>
-        <ingredients>Pale ale malt, non-citrusy hops (often Northern Brewer), small amounts of toasted malt and/or crystal malts. Lager yeast; however, some strains (often with the mention of "California" in the name) work better than others at the warmer fermentation temperatures (55 to 60 °F) typically used. Note that some German yeast strains produce inappropriate sulfury character.</ingredients>
-        <comparison>Superficially similar to an American Amber Ale, but with specific choices for malt and hopping – the hop flavor/aroma is traditional (not modern) American hops, malt flavors are more toasty, the hopping is always assertive, and a warm-fermented lager yeast is used. Less attenuated, less carbonated and less fruity than Australian Sparkling ale.</comparison>
-        <examples>Anchor Steam, Flying Dog Old Scratch Amber Lager, Schlafly Pi Common, Steamworks Steam Engine Lager</examples>
+        <impression>A toasty and caramelly, fairly bitter, standard-strength beer with an interesting fruitiness and rustic, woody hop character. Smooth and well carbonated.</impression>
+        <comments>This style is narrowly defined around the prototypical Anchor Steam example, although allowing other typical ingredients of the era. Northern Brewer hops are not a strict requirement for the style. Modern American and New World-type hops (especially citrusy ones) are inappropriate.</comments>
+        <history>American West Coast original, brewed originally as Steam Beer during the Gold Rush era. Large shallow open fermenters (coolships) were used to compensate for the lack of refrigeration and to take advantage of the cool temperatures in the San Francisco Bay area. Modern versions are based on Anchor Brewing re-launching the style in the 1970s.</history>
+        <ingredients>Pale ale malt, non-citrusy hops (often Northern Brewer), small amounts of toasted malt or crystal malts. Lager yeast; however, some strains (often with the mention of “California” in the name) work better than others at the warmer fermentation temperatures (55 to 60 °F) typically used. Note that some German yeast strains produce inappropriate sulfury character.</ingredients>
+        <comparison>Superficially similar to an American Amber Ale, but with specific choices for malt and hopping – the hop flavor and aroma is traditional (not modern) American hops, malt flavors are toastier, the hopping is always assertive, and a warm-fermented lager yeast is used. Less attenuated, less carbonated and less fruity than Australian Sparkling ale.</comparison>
+        <examples>Anchor Steam, Steamworks Steam Engine Lager</examples>
         <tags>standard-strength, amber-color, bottom-fermented, north-america, traditional-style, amber-lager-family, bitter, hoppy</tags>
         <stats>
           <ibu flexible="false">
@@ -2219,7 +2219,7 @@ Some oxidative or vinous flavors may be present, and often complex alcohol flavo
             <high>1.014</high>
           </fg>
           <srm flexible="false">
-            <low>10</low>
+            <low>9</low>
             <high>14</high>
           </srm>
           <abv flexible="false">
