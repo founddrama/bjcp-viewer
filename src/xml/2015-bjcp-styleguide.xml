@@ -3273,16 +3273,16 @@ Malt flavor, depth, richness, intensity, and complexity increases with beer colo
       <notes>This category contains the pale, well-attenuated, balanced to bitter beers, often more driven by yeast character than malt flavors, with generally higher alcohol (although a range exists within styles).</notes>
       <subcategory id="25A">
         <name>Belgian Blond Ale</name>
-        <aroma>Light earthy or spicy hop nose, along with a lightly grainy-sweet malt character. Shows a subtle yeast character that may include spicy phenolics, perfumy or honey-like alcohol, or yeasty, fruity esters (commonly orange-like or lemony). Light sweetness that may have a slightly sugar-like character. Subtle yet complex.</aroma>
-        <appearance>Light to deep gold color. Generally very clear. Large, dense, and creamy white to off-white head. Good head retention with Belgian lace.</appearance>
-        <flavor>Smooth, light to moderate grainy-sweet malt flavor initially, but finishes medium-dry to dry with some smooth alcohol becoming evident in the aftertaste. Medium hop and alcohol bitterness to balance. Light hop flavor, can be spicy or earthy. Very soft yeast character (esters and alcohols, which are sometimes perfumy or orange/lemon-like). Light spicy phenolics optional. Some lightly caramelized sugar or honey-like sweetness on palate.</flavor>
+        <aroma>Light to moderate grainy-sweet, slightly toasty, or crackery malt. Subtle to moderate yeast profile featuring fruity-citrusy esters (like oranges or lemons), and background spicy-peppery phenols. Light earthy or spicy hop notes optional. Light perfumy alcohol and suggestions of a light malty sweetness can give a slight honey- or sugar-like character. Subtle yet complex.</aroma>
+        <appearance>Deep yellow to deep gold color. Generally very clear. Large, dense, and creamy white to off-white head. Good head retention with Belgian lace.</appearance>
+        <flavor>Similar to the aroma, with the light to moderate grainy-sweet malt flavor being perceived first. Faint, lightly caramelized sugar or honey-like sweetness on palate. Medium bitterness, with the malt slightly more prominent in the balance. Moderate to low yeast profile with orange or lemon esters, and slight spicy-peppery phenols. Can have a light perfumy character. Light hop flavor, can be spicy or earthy, complementing yeast. Finishes medium-dry to dry, smooth, and soft, with light alcohol and malt in the aftertaste.</flavor>
         <mouthfeel>Medium-high to high carbonation, can give mouth-filling bubbly sensation. Medium body. Light to moderate alcohol warmth, but smooth. Can be somewhat creamy.</mouthfeel>
-        <impression>A moderate-strength golden ale that has a subtle fruity-spicy Belgian yeast complexity, slightly malty-sweet flavor, and dry finish.</impression>
-        <comments>Often has an almost lager-like character, which gives it a cleaner profile in comparison to many other Belgian styles. Belgians use the term Blond, while the French spell it Blonde. Most commercial examples are in the 6.5 – 7% ABV range. Many Trappist or artisanal Belgian beers are called Blond but those are not representative of this style.</comments>
-        <history>Relatively recent development to further appeal to European Pils drinkers, becoming more popular as it is heavily marketed and widely distributed.</history>
-        <ingredients>Belgian Pils malt, aromatic malts, sugar, Belgian yeast strains that produce complex alcohol, phenolics and perfumy esters, Saazer-type, Styrian Goldings, or East Kent Goldings hops. Spices are not traditionally used, although the ingredients and fermentation by-products may give an impression of spicing (often reminiscent of oranges or lemons). If spices are present, should be a background character only.</ingredients>
-        <comparison>Similar strength as a Dubbel, similar character as a Belgian Strong Golden Ale or Tripel, although a bit sweeter and not as bitter.</comparison>
-        <examples>Affligem Blond, Grimbergen Blond, La Trappe Blond, Leffe Blond, Val-Dieu Blond</examples>
+        <impression>A golden, moderately-strong Belgian ale with a pleasantly subtle citrusy-spicy yeast complexity, smooth malty palate, and dry, soft finish.</impression>
+        <comments>Most commercial examples are in the 6.5 – 7% ABV range. Often has an almost lager-like character, which gives it a cleaner profile in comparison to many other Belgian styles. Flemish-speaking Belgians use the term Blond, while the French speakers spell it Blonde. Many monastic or artisanal Belgian beers are called Blond but those are not representative of this style.</comments>
+        <history>Relatively recent development to further appeal to European Pils drinkers, becoming more popular as it is heavily marketed and widely distributed. Despite claims of links back to 1200, the beer style was created after World War II and first popularized by Leffe.</history>
+        <ingredients>Belgian Pils malt, aromatic malts, sugar or other adjuncts, Belgian Abbey-type yeast strains, continental hops. Spices are not traditionally used; if present, should be a background character only.</ingredients>
+        <comparison>Similar strength and balance as a Belgian Dubbel but gold in color and without the darker malt flavors. Similar character as a Belgian Strong Golden Ale or Belgian Tripel, although a bit maltier, not as bitter, and lower in alcohol.</comparison>
+        <examples>Affligem Blond, Corsendonk Blond, Grimbergen Blonde, La Trappe Blond, Leffe Blond, Val-Dieu Blonde</examples>
         <tags>high-strength, pale-color, top-fermented, western-europe, traditional-style, balanced</tags>
         <stats>
           <ibu flexible="false">
@@ -3299,7 +3299,7 @@ Malt flavor, depth, richness, intensity, and complexity increases with beer colo
           </fg>
           <srm flexible="false">
             <low>4</low>
-            <high>7</high>
+            <high>6</high>
           </srm>
           <abv flexible="false">
             <low>6.0</low>
