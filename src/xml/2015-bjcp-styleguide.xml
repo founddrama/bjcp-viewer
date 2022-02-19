@@ -2632,16 +2632,16 @@ Currently Defined Types: Belgian IPA, Black IPA, Brown IPA, Red IPA, Rye IPA, Wh
         </specialty>
         <specialty>
           <name>White IPA</name>
-          <aroma>Moderate fruity esters – banana, citrus, perhaps apricot. May have light to moderate spice aroma such as coriander or pepper from actual spice additions and/or Belgian yeast. Hop aroma is moderately-low to medium, usually American or New World type with stone fruit, citrus and tropical aromas. Esters and spices may reduce hop aroma perception. Light clove-like phenolics may be present.</aroma>
-          <appearance>Pale to deep golden color, typically hazy. Moderate to large, dense white head that persists.</appearance>
-          <flavor>Light malt flavor, perhaps a bit bready. Fruity esters are moderate to high, with citrus flavors similar to grapefruit and orange, or stone fruit like apricot. Sometimes banana-like flavors are present. Hop flavor is medium-low to medium-high with citrusy or fruity aspects. Some spicy clove-like flavors from Belgian yeast may be present. Coriander and orange peel flavors may be found as well. Bitterness is high which leads to a moderately dry, refreshing finish.</flavor>
-          <mouthfeel>Medium-light body with medium to medium-high carbonation. Typically no astringency, although highly spiced examples may exhibit a light astringency which is not distracting.</mouthfeel>
-          <impression>A fruity, spicy, refreshing version of an American IPA, but with a lighter color, less body, and featuring either the distinctive yeast and/or spice additions typical of a Belgian witbier.</impression>
-          <comments>A craft beer interpretation of American IPA crossed with a witbier.</comments>
-          <history>American craft brewers developed the style as a late winter/spring seasonal beer to appeal to Wit and IPA drinkers alike.</history>
-          <ingredients>Pale and wheat malts, Belgian yeast, citrusy American type hops.</ingredients>
-          <comparison>Similar to a Belgian Wit style except highly hopped to the level of an American IPA. Bitter and hoppy like the IPA but fruity, spicy and light like the Wit. Typically the hop aroma and flavor are not as prominent as in an American IPA.</comparison>
-          <examples>Blue Point White IPA, Deschutes Chainbreaker IPA, Harpoon The Long Thaw, New Belgium Accumulation</examples>
+          <aroma>Moderate esters, often orange, grapefruit, apricot, or sometimes banana. Light spices optional, usually coriander, orange peel, pepper, or clove. Medium-low to medium hop aroma, often stone fruit, citrus, or tropical fruit. Esters and spices may reduce perception of hop aroma. Low neutral, grainy, or bready malt. Light alcohol aroma optional.</aroma>
+          <appearance>Pale to deep golden color. Typically hazy. Moderate to large, dense white head that persists.</appearance>
+          <flavor>Moderate to high esters, medium-low to medium-high hop flavor, and light spices, all with the same descriptors as aroma. Light malt flavor, perhaps a bit bready. High bitterness. Moderately dry, refreshing finish. Background alcohol flavor optional.</flavor>
+          <mouthfeel>Medium-light body. Medium to medium-high carbonation. Light spice astringency optional. Low warmth optional.</mouthfeel>
+          <impression>A fruity, spicy, refreshing version of an American IPA, but with a lighter color, less body, and featuring the distinctive yeast or spice additions typical of a Witbier.</impression>
+          <comments>A craft beer interpretation of American IPA crossed with a Witbier. Spice impression may come from Belgian yeast, spice additions, or both.</comments>
+          <history>American craft brewers developed the style as a late winter or spring seasonal beer to appeal to Witbier and IPA drinkers alike.</history>
+          <ingredients>Pale and wheat malts, Belgian Witbier yeast, citrusy American type hops. Coriander and orange peel optional.</ingredients>
+          <comparison>Bitter, hoppy, and stronger like an American IPA but fruity, spicy, and light like a Witbier. Typically late hops are not as prominent as in American IPA.</comparison>
+          <examples>Lagunitas A Little Sumpin' Sumpin' Ale, New Belgium Accumulation</examples>
           <tags>high-strength, pale-color, top-fermented, north-america, craft-style, ipa-family, specialty-family, bitter, hoppy, spice</tags>
           <stats>
             <ibu flexible="false">
@@ -2658,7 +2658,7 @@ Currently Defined Types: Belgian IPA, Black IPA, Brown IPA, Red IPA, Rye IPA, Wh
             </fg>
             <srm flexible="false">
               <low>5</low>
-              <high>8</high>
+              <high>6</high>
             </srm>
             <abv flexible="false">
               <low>5.5</low>
