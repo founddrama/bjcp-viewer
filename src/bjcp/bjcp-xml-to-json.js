@@ -1,7 +1,7 @@
 import { parse } from 'fast-xml-parser';
 import { readFileSync, writeFileSync } from 'fs';
 
-const bjcpXML = readFileSync('src/xml/2015-bjcp-styleguide.xml', 'utf8');
+const bjcpXML = readFileSync('src/xml/bjcp-styleguide.xml', 'utf8');
 
 const writeJsonToDisk = (json, filename) => {
   writeFileSync(filename,
@@ -34,7 +34,7 @@ styleguide = styleguide.class.map(classification => {
   .map(tagsStringToList);
 }).reduce((p, c) => p.concat(c), []);
 
-writeJsonToDisk(styleguide, 'src/bjcp/2015-bjcp-styleguide.json');
+writeJsonToDisk(styleguide, 'src/bjcp/bjcp-styleguide.json');
 
 styleguide = styleguide.reduce((flattenedStyles, style) => {
   flattenedStyles.push(style);
@@ -55,4 +55,4 @@ styleguide = styleguide.reduce((flattenedStyles, style) => {
   return flattenedStyles;
 }, []);
 
-writeJsonToDisk(styleguide, 'src/bjcp/2015-bjcp-styleguide-flattened.json');
+writeJsonToDisk(styleguide, 'src/bjcp/bjcp-styleguide-flattened.json');

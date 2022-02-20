@@ -4,7 +4,7 @@ import { BrowserRouter, HashRouter } from 'react-router-dom';
 import StyleGuideApp from './components/StyleGuideApp';
 import './css/bjcp.css';
 
-const styles = require('./bjcp/2015-bjcp-styleguide-flattened.json');
+const styles = require('./bjcp/bjcp-styleguide-flattened.json');
 const $root = document.getElementById('root');
 
 if (Boolean(process.env.REACT_APP_USE_HASH_ROUTER)) {
