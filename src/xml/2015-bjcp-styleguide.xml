@@ -4057,16 +4057,18 @@ The specialty ingredients should complement the original style and not overwhelm
       </subcategory>
       <subcategory id="29C">
         <name>Specialty Fruit Beer</name>
-        <aroma>Same as fruit beer, except that some additional fermentables (honey, molasses, etc.) may add an aroma component. Whatever additional aroma component is present should be in balance with the fruit and the beer components, and be a pleasant combination.</aroma>
-        <appearance>Same as fruit beer.</appearance>
-        <flavor>Same as fruit beer, except that some additional fermentables (honey, molasses, etc.) may add a flavor component. Whatever additional flavor component is present should be in balance with the fruit and the beer components, and be a pleasant combination. Added sugars should not have a raw, unfermented flavor. Some added sugars will have unfermentable elements that may provide a fuller finish; fully fermentable sugars may thin out the finish.</flavor>
-        <mouthfeel>Same as fruit beer, although depending on the type of sugar added, could increase or decrease the body.</mouthfeel>
-        <impression>A harmonious marriage of fruit, sugar, and beer, but still recognizable as a beer. The fruit and sugar character should both be evident but in balance with the beer, not so forward as to suggest an artificial product.</impression>
-        <comments>If the additional fermentables or processes do not add a distinguishable character to the beer, enter it as a normal 29A Fruit Beer and omit a description of the extra ingredients or processes.</comments>
-        <examples>New Planet Raspberry Ale</examples>
+        <notes>A Specialty Fruit Beer is a Fruit Beer with some additional ingredients, such as fermentable sugars (e.g., honey, brown sugar, invert sugar), sweeteners (e.g., lactose), adjuncts, alternative grains, or other special ingredients added, or some additional process applied. A Specialty Fruit Beer can use any style within the Fruit Beer category as a base style (currently, 29A, 29B, or 29D).</notes>
+        <aroma>Same as Fruit Beer, except that some additional fermentables (e.g., honey, molasses) may add an aroma component. Whatever additional aroma component is present should be in balance with the fruit and the beer components, and be a pleasant combination.</aroma>
+        <appearance>Same as Fruit Beer.</appearance>
+        <flavor>Same as Fruit Beer, except that some additional fermentables (e.g., honey, molasses) may add a flavor component. Whatever additional flavor component is present should be in balance with the fruit and the beer components, and be a pleasant combination. Added sugars should not have a raw, unfermented flavor. Some added sugars will have unfermentable elements that may provide a fuller and sweeter finish; fully fermentable sugars may thin out the finish.</flavor>
+        <mouthfeel>Same as Fruit Beer, although depending on the type of sugar added, could increase or decrease the body.</mouthfeel>
+        <impression>A appealing combination of fruit, sugar, and beer, but still recognizable as a beer. The fruit and sugar character should both be evident but in balance with the beer, not so forward as to suggest an artificial product.</impression>
+        <comments>If the additional fermentables or processes do not add a distinguishable character to the beer, enter it as one of the other (non-Specialty) Fruit Beer styles and omit a description of the extra ingredients or processes.</comments>
+        <examples>The Bruery Goses are Red, New Planet Raspberry Ale, Tired Hands Strawberry Milkshake IPA, WeldWerks Piña Colada IPA</examples>
         <tags>specialty-beer, fruit</tags>
-        <entry_instructions>The entrant must specify a base style; the declared style does not have to be a Classic Style. The entrant must specify the type of fruit used. The entrant must specify the type of additional fermentable sugar or special process employed.</entry_instructions>
+        <entry_instructions>The entrant must specify the type of fruit used. The entrant must specify the type of additional ingredient (per the introduction) or special process employed. Entrant must specify a description of the beer, identifying either a Base Style or the ingredients, specs, or target character of the beer. A general description of the special nature of the beer can cover all the required items.</entry_instructions>
         <stats>
+          <notes>OG, FG, IBUs, SRM, and ABV will vary depending on the underlying base beer, but the fruit will often be reflected in the color.</notes>
           <ibu flexible="true">
           </ibu>
           <og flexible="true">
