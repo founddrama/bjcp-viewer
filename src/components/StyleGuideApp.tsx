@@ -65,7 +65,7 @@ const StyleGuideApp = React.memo(function StyleGuideApp(props: StyleGuideProps) 
 
   return (
     <main>
-      <h1>2015 BJCP Style Guide</h1>
+      <h1>2021 BJCP Style Guide</h1>
       <StyleList styles={props.styles} style={selectedStyle} emitSelectedStyle={handleStyleChange} />
       <StyleDetail style={selectedStyle} onCloseClick={onCloseClick} />
     </main>
