@@ -21,8 +21,17 @@ export const mockBeerStyle: BJCPStyle = {
   ingredients: 'malt + hops + water + yeast',
   comparison: 'different from this other beer in this subtle way',
   examples: 'something from Germany, and an Americanized version',
-  entry_instructions: 'specify carbonation level',
   tags: ['bottom-fermented', 'central-europe', 'pale-color'],
+};
+
+export const mockExpandedBeerStyle: BJCPStyle = {
+  ...mockBeerStyle,
+  stats: {
+    ...mockBeerStyle.stats,
+    notes: 'note about how the stats might vary',
+  },
+  preamble: 'important context about this style',
+  entry_instructions: 'specify carbonation level',
 };
 
 export const mockMeadStyle: BJCPStyle = {

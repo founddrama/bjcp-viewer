@@ -1,6 +1,11 @@
 import React from 'react';
 import StyleDetail from '../StyleDetail';
-import { mockBeerStyle, mockMeadStyle, mockCiderStyle } from '../../__test__/mocks';
+import {
+  mockBeerStyle,
+  mockExpandedBeerStyle,
+  mockMeadStyle,
+  mockCiderStyle,
+} from '../../__test__/mocks';
 import { fireEvent, render, screen } from '@testing-library/react';
 import "@testing-library/jest-dom/extend-expect";
 import { BJCPStyle, BJCPBeerTags } from '../../types';
@@ -14,23 +19,32 @@ const sectionHeadings = [
   'Comments',
   'History',
   'Ingredients',
+  //'Entry Instructions',
   'Examples',
-  'Entry Instructions',
   'Tags',
 ];
 
 const mockCloseClick = jest.fn();
+
+const convertHeadingToDataKey = (heading: HTMLElement): keyof BJCPStyle => {
+  let dataKey = heading.id.replace('-', '_');
+  if (dataKey === 'overall_impression') {
+    dataKey = 'impression';
+  }
+
+  return dataKey as keyof BJCPStyle;
+};
 
 describe('BeerStyleDetail', () => {
   describe('Beer', () => {
     beforeEach(() => {
       render(<StyleDetail onCloseClick={mockCloseClick} style={mockBeerStyle} />);
     });
-  
+
     test(`it should render ${sectionHeadings.length} headings`, () => {
-      expect(screen.getAllByRole('heading')).toHaveLength(13);
+      expect(screen.getAllByRole('heading')).toHaveLength(12);
     });
-  
+
     test('it should render the style ID + name', () => {
       expect(screen.getByText(`${mockBeerStyle["@_id"]}. ${mockBeerStyle.name}`)).toBeInTheDocument();
     });
@@ -63,18 +77,19 @@ describe('BeerStyleDetail', () => {
         for (let srmValue = srm.low!; srmValue <= srm.high!; srmValue++) {
           expect(srmGradientContainer.querySelectorAll('div div')).toHaveLength(srm.high! - srm.low! + 1);
         }
-      })
+      });
+
+      test('it should not render the stats notes', () => {
+        const statsNotes = screen.queryByTestId('style-stats-notes');
+        expect(statsNotes).not.toBeInTheDocument();
+      });
     });
 
-    const convertHeadingToDataKey = (heading: HTMLElement): keyof BJCPStyle => {
-      let dataKey = heading.id.replace('-', '_');
-      if (dataKey === 'overall_impression') {
-        dataKey = 'impression';
-      }
-  
-      return dataKey as keyof BJCPStyle;
-    };
-  
+    test('it should not render the preamble', () => {
+      const preamble = screen.queryByTestId('style-preamble');
+      expect(preamble).not.toBeInTheDocument();
+    });
+
     test.each(sectionHeadings)(
       `it should render the %s heading and accompanying text`,
       (headingText) => {
@@ -84,7 +99,7 @@ describe('BeerStyleDetail', () => {
         expect(heading).toHaveAttribute('id');
         expect(heading.id).toBe(headingText.toLowerCase().replace(/\s/g, '-'));
         expect(heading.nextSibling).toBeInstanceOf(HTMLParagraphElement);
-  
+
         // the paragraph text
         const headingAsKey: keyof BJCPStyle = convertHeadingToDataKey(heading);
         if (headingAsKey === 'tags') {
@@ -99,7 +114,7 @@ describe('BeerStyleDetail', () => {
         }
       }
     );
-  
+
     test('.close-icon should ... work', () => {
       const article = screen.getByRole('article');
       const closeIcon = article.querySelector('.close-icon');
@@ -107,6 +122,46 @@ describe('BeerStyleDetail', () => {
   
       fireEvent.click(closeIcon!);
       expect(mockCloseClick).toHaveBeenCalled();
+    });
+  });
+
+  describe('Beer with optional fields', () => {
+    const sectionHeadingsWithOptional = [
+      ...sectionHeadings,
+      'Entry Instructions',
+    ];
+
+    beforeEach(() => {
+      render(<StyleDetail onCloseClick={mockCloseClick} style={mockExpandedBeerStyle} />);
+    });
+
+    test('renders the stats notes', () => {
+      const statsNotes = screen.getByTestId('style-stats-notes');
+      expect(statsNotes).toBeInTheDocument();
+    });
+
+    test('it should not render the preamble', () => {
+      const preamble = screen.getByTestId('style-preamble');
+      expect(preamble).toBeInTheDocument();
+    });
+
+    test(`it should render ${sectionHeadingsWithOptional.length} headings`, () => {
+      expect(screen.getAllByRole('heading')).toHaveLength(13);
+    });
+
+    test('it should render the Entry Instructions heading and accompanying text', () => {
+      const headingText = 'Entry Instructions';
+      
+      // the heading
+      const heading = screen.getByText(headingText);
+      expect(heading).toBeInTheDocument();
+      expect(heading).toHaveAttribute('id');
+      expect(heading.id).toBe(headingText.toLowerCase().replace(/\s/g, '-'));
+      expect(heading.nextSibling).toBeInstanceOf(HTMLParagraphElement);
+
+      // the paragraph text
+      const headingAsKey: keyof BJCPStyle = convertHeadingToDataKey(heading);
+      expect(screen.queryByText(mockExpandedBeerStyle[headingAsKey] as string)).toBeInTheDocument();
     });
   });
 

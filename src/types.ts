@@ -20,6 +20,7 @@ type BeerStyleStats = {
   og: StyleStatRange;
   fg: StyleStatRange;
   srm: StyleStatRange;
+  notes?: string;
 };
 
 export type BJCPClass = Identified & {
@@ -34,6 +35,7 @@ export type BJCPCategory = Identified & {
 
 export type BJCPStyle = Identified & {
   stats: BeerStyleStats;
+  preamble?: string;
   impression: string;
   aroma: string;
   appearance: string;

@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { StyleStatRange, BJCPBeerTags, BJCPStyle } from '../types';
 import { formatSG, formatRange } from '../bjcp/bjcp-formatters';
+import cyrb53 from '../ts/cyrb53-hash';
 
 type StyleDetailProps = {
   style: BJCPStyle | undefined;
@@ -54,13 +55,43 @@ class StyleDetail extends React.PureComponent<StyleDetailProps> {
     }
   }
 
+  private renderParagraphs(content: string): JSX.Element {
+    return (
+      <>
+        {content.split('\n').map(p => (
+          <p key={cyrb53(p, p.length)}>{p.trim()}</p>
+        ))}
+      </>
+    );
+  }
+
+  renderPreamble(content: string | undefined): JSX.Element | undefined {
+    if(!content) return;
+
+    return (
+      <div className="preamble" data-testid="style-preamble">
+        {this.renderParagraphs(content)}
+      </div>
+    );
+  }
+
   renderSection(content: string | undefined, title: string): JSX.Element | undefined {
     if(!content) return;
 
     return (
       <div>
         <h3 id={title.toLowerCase().replace(/\s/g, '-')}>{title}</h3>
-        <p>{content}</p>
+        {this.renderParagraphs(content)}
+      </div>
+    );
+  }
+
+  renderStatsNotes(notes: string | undefined): JSX.Element | undefined {
+    if(!notes) return;
+
+    return (
+      <div className="stats-notes" data-testid="style-stats-notes">
+        {this.renderParagraphs(notes)}
       </div>
     );
   }
@@ -70,36 +101,39 @@ class StyleDetail extends React.PureComponent<StyleDetailProps> {
       return null;
     }
 
-    const { abv, ibu, og, fg, srm } = style.stats;
+    const { abv, ibu, og, fg, srm, notes } = style.stats;
 
     return (
-      <table>
-        <thead>
-          <tr>
-            <th>ABV</th>
-            {this.isBeer(style) ? <th>IBU</th> : null}
-            <th>O.G.</th>
-            <th>F.G.</th>
-            {this.isBeer(style) ? <th>SRM</th> : null}
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            {formatRange(abv, { suffix: '%' })}
-            {this.isBeer(style) ? formatRange(ibu) : null}
-            {formatRange(og, { formatter: formatSG })}
-            {formatRange(fg, { formatter: formatSG })}
-            {this.isBeer(style) ? formatRange(srm) : null}
-          </tr>
-          { this.isBeer(style) ?
+      <>
+        <table>
+          <thead>
             <tr>
-              <td colSpan={5} className="srm-gradient">
-                {this.generateColorBand(srm)}
-              </td>
+              <th>ABV</th>
+              {this.isBeer(style) ? <th>IBU</th> : null}
+              <th>O.G.</th>
+              <th>F.G.</th>
+              {this.isBeer(style) ? <th>SRM</th> : null}
             </tr>
-          : null }
-        </tbody>
-      </table>
+          </thead>
+          <tbody>
+            <tr>
+              {formatRange(abv, { suffix: '%' })}
+              {this.isBeer(style) ? formatRange(ibu) : null}
+              {formatRange(og, { formatter: formatSG })}
+              {formatRange(fg, { formatter: formatSG })}
+              {this.isBeer(style) ? formatRange(srm) : null}
+            </tr>
+            { this.isBeer(style) ?
+              <tr>
+                <td colSpan={5} className="srm-gradient">
+                  {this.generateColorBand(srm)}
+                </td>
+              </tr>
+            : null }
+          </tbody>
+        </table>
+        {this.renderStatsNotes(notes)}
+      </>
     );
   }
 
@@ -114,6 +148,7 @@ class StyleDetail extends React.PureComponent<StyleDetailProps> {
         <span className="close-icon" onClick={onCloseClick}>&times;</span>
         <h2>{style['@_id']}. {style.name}</h2>
         {this.renderStatTable(style)}
+        {this.renderPreamble(style.preamble)}
         {this.renderSection(style.impression, 'Overall Impression')}
         {this.renderSection(style.aroma, 'Aroma')}
         {this.renderSection(style.appearance, 'Appearance')}

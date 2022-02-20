@@ -186,3 +186,11 @@ article h2 {
     cursor: pointer;
   }
 }
+
+.preamble {
+  font-style: italic;
+}
+
+.stats-notes {
+  font-size: 0.8rem;
+}
