@@ -30,27 +30,27 @@ describe('BeerStyleRow', () => {
   });
 
   test('should render ABV as a range', () => {
-    const { low, high } = mockBeerStyle.stats.abv;
+    const { low, high } = mockBeerStyle.stats.abv.range![0];
     expect(screen.getByText(`${low}-${high}%`)).toBeInTheDocument();
   });
 
   test('should render IBU as a range', () => {
-    const { low, high } = mockBeerStyle.stats.ibu;
+    const { low, high } = mockBeerStyle.stats.ibu.range![0];
     expect(screen.getByText(`${low}-${high}`)).toBeInTheDocument();
   });
 
   test('should render O.G. as a range', () => {
-    const { low, high } = mockBeerStyle.stats.og;
+    const { low, high } = mockBeerStyle.stats.og.range![0];
     expect(screen.getByText(`${low}0-${high}`)).toBeInTheDocument();
   });
 
   test('should render F.G. as a range', () => {
-    const { low, high } = mockBeerStyle.stats.fg;
+    const { low, high } = mockBeerStyle.stats.fg.range![0];
     expect(screen.getByText(`${low}0-${high}`)).toBeInTheDocument();
   });
 
   test('should render SRM as a range', () => {
-    const { low, high } = mockBeerStyle.stats.srm;
+    const { low, high } = mockBeerStyle.stats.srm.range![0];
     expect(screen.getByText(`${low}-${high}`)).toBeInTheDocument();
   });
 

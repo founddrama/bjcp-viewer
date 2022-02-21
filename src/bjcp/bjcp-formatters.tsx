@@ -1,4 +1,5 @@
 import React from 'react';
+import cyrb53 from '../ts/cyrb53-hash';
 import { FormattedStyleStateRange, StyleStat } from '../types';
 
 type RangeValue = number | string | undefined;
@@ -25,7 +26,16 @@ export function formatSG(sg: RangeValue): string | undefined {
 
 export function formatRange(styleStat: StyleStat, opts: RangeOptions = {}): JSX.Element {
   if (styleStat['@_flexible'] || styleStat.range === undefined) {
-    return <td><em>Varies</em></td>;
+    let label;
+    if (styleStat.range !== undefined) {
+      label = styleStat.range[0].label;
+    }
+
+    return (
+      <td>
+        {label ? <div className="style-range-label">{label}</div> : <em>varies</em>}
+      </td>
+    );
   }
 
   const { range } = styleStat;
@@ -42,7 +52,7 @@ export function formatRange(styleStat: StyleStat, opts: RangeOptions = {}): JSX.
   return (
     <td>
       {formattedRanges.map(range => (
-        <div>
+        <div key={cyrb53(`${range.low}-${range.high}`)}>
           {opts.prefix ? opts.prefix : ''}{range.low}-{range.high}{opts.suffix ? opts.suffix : ''}
           {range.label ? <div className="style-range-label">({range.label})</div> : null}
         </div>

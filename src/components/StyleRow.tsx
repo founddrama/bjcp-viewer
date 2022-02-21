@@ -1,6 +1,7 @@
 import React from 'react';
 import { BJCPStyle } from '../types';
 import { formatRange, formatSG } from '../bjcp/bjcp-formatters';
+import cyrb53 from '../ts/cyrb53-hash';
 
 type StyleRowProps = {
   isSelected: boolean;
@@ -14,7 +15,7 @@ class StyleRow extends React.PureComponent<StyleRowProps> {
     const { abv, ibu, og, fg, srm } = style.stats;
 
     return (
-      <tr onClick={onClick} className={isSelected ? 'is-selected' : ''}>
+      <tr key={cyrb53(style.name)} onClick={onClick} className={isSelected ? 'is-selected' : ''}>
         <td>{style['@_id']}.</td>
         <td>{style.name}</td>
         {formatRange(abv, { suffix:'%' })}

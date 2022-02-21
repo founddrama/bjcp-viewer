@@ -37,7 +37,7 @@ class StyleDetail extends React.PureComponent<StyleDetailProps> {
     };
 
     return (
-      <div style={ctStyle} data-testid="srm-gradient">
+      <div key={cyrb53(`${low}-${high}`)} style={ctStyle} data-testid="srm-gradient">
       {
         range.map((i) => (
           <div key={i} style={{

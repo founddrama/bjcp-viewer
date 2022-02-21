@@ -93,6 +93,23 @@ table td {
   padding-left: 0.75rem;
 }
 
+article table td {
+  line-height: 1.25;
+}
+
+article table td div {
+  margin-bottom: 0.25rem;
+}
+
+article table .srm-gradient > div {
+  margin-bottom: 1px;
+}
+
+article table td div:last-of-type,
+article table .srm-gradient div[style*='var(--srm'] {
+  margin-bottom: 0;
+}
+
 .style-list-container table th:first-of-type,
 .style-list-container table td:nth-child(2) {
   text-align: left;
