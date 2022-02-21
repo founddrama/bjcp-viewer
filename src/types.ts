@@ -10,16 +10,22 @@ interface Identified extends Named {
 }
 
 export interface StyleStatRange {
-  low?: number;
-  high?: number;
+  ['@_low']?: number;
+  ['@_high']?: number;
+  ['@_label']?: string;
+};
+
+export type StyleStat = {
+  ['@_flexible']: boolean;
+  range?: StyleStatRange | StyleStatRange[];
 };
 
 type BeerStyleStats = {
-  abv: StyleStatRange;
-  ibu: StyleStatRange;
-  og: StyleStatRange;
-  fg: StyleStatRange;
-  srm: StyleStatRange;
+  abv: StyleStat;
+  ibu: StyleStat;
+  og: StyleStat;
+  fg: StyleStat;
+  srm: StyleStat;
   notes?: string;
 };
 

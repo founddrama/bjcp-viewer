@@ -1,10 +1,11 @@
 import React from 'react';
+import { StyleStat } from '../types';
 
 type RangeValue = number | string | undefined;
 
 type RangeInput = {
-  low?: RangeValue;
-  high?: RangeValue;
+  ['@_low']?: RangeValue;
+  ['@_high']?: RangeValue;
 };
 
 interface RangeOptions {
@@ -22,19 +23,33 @@ export function formatSG(sg: RangeValue): string | undefined {
   }
 }
 
-export function formatRange(rangeInput: RangeInput, opts: RangeOptions = {}): JSX.Element {
-  let { low, high } = rangeInput;
+export function formatRange(styleStat: StyleStat, opts: RangeOptions = {}): JSX.Element {
+  if (styleStat['@_flexible'] || styleStat.range === undefined) {
+    return <td><em>Varies</em></td>;
+  }
+
+  let ranges: RangeInput[];
+  if (Array.isArray(styleStat.range)) {
+    ranges = styleStat.range;
+  } else {
+    ranges = [styleStat.range];
+  }
 
   if (opts.formatter) {
-    low = opts.formatter(low);
-    high = opts.formatter(high);
+    ranges = ranges.map(range => ({
+      ...range,
+      ['@_low']: opts.formatter!(range['@_low']),
+      ['@_high']: opts.formatter!(range['@_high']),
+    }));
   }
 
-  if (!low || !high) {
-    return <td><em>varies</em></td>;
-  } else {
-    return (
-      <td>{opts.prefix ? opts.prefix : ''}{low}-{high}{opts.suffix ? opts.suffix : ''}</td>
-    );
-  }
+  return (
+    <td>
+      {ranges.map(range => (
+        <div>
+          {opts.prefix ? opts.prefix : ''}{range['@_low']}-{range['@_high']}{opts.suffix ? opts.suffix : ''}
+        </div>
+      ))}
+    </td>
+  );
 }
