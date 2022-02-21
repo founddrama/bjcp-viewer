@@ -2118,11 +2118,10 @@ The Specialty IPA category is not intended for Classic-style IPAs with added ing
         <entry_instructions>Entrant must specify a strength (session, standard, double); if no strength is specified, standard will be assumed. Entrant must specify specific type of Specialty IPA from the list of Currently Defined Types identified in the Style Guidelines, or as amended by Provisional Styles on the BJCP website; OR the entrant must describe the type of Specialty IPA and its key characteristics in comment form so judges will know what to expect. 
 Entrants may specify specific hop varieties used, if entrants feel that judges may not recognize the varietal characteristics of newer hops. Entrants may specify a combination of defined IPA types (e.g., Black Rye IPA) without providing additional descriptions. 
 Currently Defined Types: Belgian IPA, Black IPA, Brown IPA, Red IPA, Rye IPA, White IPA, Brut IPA
-
-          <p>Strength classifications:
-            <ul><li>Session – ABV: 3.0 – 5.0%</li><li>Standard – ABV: 5.0 – 7.5%</li><li>Double – ABV: 7.5 – 10.0%</li></ul>
-          </p>
-        </entry_instructions>
+Strength classifications:
+• Session – ABV: 3.0 – 5.0%
+• Standard – ABV: 5.0 – 7.5%
+• Double – ABV: 7.5 – 10.0%</entry_instructions>
         <stats>
           <ibu flexible="true" />
           <og flexible="true" />
