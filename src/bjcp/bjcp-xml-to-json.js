@@ -1,5 +1,6 @@
 import { parse } from 'fast-xml-parser';
 import { readFileSync, writeFileSync } from 'fs';
+import { normalize } from 'path/posix';
 
 const bjcpXML = readFileSync('src/xml/bjcp-styleguide.xml', 'utf8');
 
@@ -16,7 +17,35 @@ const tagsStringToList = (style) => {
   }
 
   return style;
-}
+};
+
+const normalizeStatRange = (range) => {
+  if (!Array.isArray(range)) {
+    range = [range];
+  }
+
+  return range.map(r => ({
+    ...(r['@_low'] !== undefined && { low: JSON.parse(r['@_low']) }),
+    ...(['@_high'] !== undefined && { high: JSON.parse(r['@_high']) }),
+    ...(r['@_label'] !== undefined && { label: r['@_label'] })
+  }));
+};
+
+const normalizeStats = (style) => {
+  const { stats } = style;
+  
+  for (const key in stats) {
+    const sourceStat = stats[key];
+    stats[key] = {
+      ['@_flexible']: sourceStat['@_flexible'] === 'true',
+      ...(!!sourceStat.range && { range: normalizeStatRange(sourceStat.range) })
+    };
+  }
+
+  style.stats = stats;
+
+  return style;
+};
 
 let styleguide = parse(bjcpXML, {
                         ignoreAttributes: false,
@@ -24,13 +53,16 @@ let styleguide = parse(bjcpXML, {
                       }).styleguide;
 
 // IN THE BELOW:
-// - map(category) => do the flattening work here
-// - transform tags from comma-separated string into a proper list
+// - Flatten Specialty IPAs with `map(category)`
+// - Set the type (from the classification) on each style
+// - Stats block: parse numbers and normalize ranges
+// - Transform tags from comma-separated string into a proper list
 styleguide = styleguide.class.map(classification => {
   const type = classification['@_type'];
   return classification.category.map(category => category.subcategory)
   .reduce((acc, styles) => acc.concat(styles), [])
   .map(style => (style['@_type'] = type, style))
+  .map(normalizeStats)
   .map(tagsStringToList);
 }).reduce((p, c) => p.concat(c), []);
 
