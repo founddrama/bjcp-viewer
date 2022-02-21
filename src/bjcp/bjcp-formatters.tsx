@@ -60,3 +60,20 @@ export function formatRange(styleStat: StyleStat, opts: RangeOptions = {}): JSX.
     </td>
   );
 }
+
+export function formatRangeForRow(styleStat: StyleStat, opts: RangeOptions = {}): JSX.Element {
+  if (styleStat['@_flexible'] || styleStat.range === undefined) {
+    return formatRange({ '@_flexible': true }, opts);
+  }
+
+  // get rid of any labels
+  // collapse ranges to min/max
+  let summarizedStyleState: StyleStat = {
+    ...styleStat,
+    range: [{
+      low: Math.min.apply(null, styleStat.range.map(r => r.low!)),
+      high: Math.max.apply(null, styleStat.range.map(r => r.high!)),
+    }],
+  };
+  return formatRange(summarizedStyleState, opts);
+}
