@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleStat } from '../types';
+import { FormattedStyleStateRange, StyleStat } from '../types';
 
 type RangeValue = number | string | undefined;
 
@@ -28,26 +28,23 @@ export function formatRange(styleStat: StyleStat, opts: RangeOptions = {}): JSX.
     return <td><em>Varies</em></td>;
   }
 
-  let ranges: RangeInput[];
-  if (Array.isArray(styleStat.range)) {
-    ranges = styleStat.range;
-  } else {
-    ranges = [styleStat.range];
-  }
+  const { range } = styleStat;
+  let formattedRanges: FormattedStyleStateRange[] = [...range];
 
   if (opts.formatter) {
-    ranges = ranges.map(range => ({
-      ...range,
-      ['@_low']: opts.formatter!(range['@_low']),
-      ['@_high']: opts.formatter!(range['@_high']),
+    formattedRanges = range.map(r => ({
+      ...r,
+      low: opts.formatter!(r.low),
+      high: opts.formatter!(r.high),
     }));
   }
 
   return (
     <td>
-      {ranges.map(range => (
+      {formattedRanges.map(range => (
         <div>
-          {opts.prefix ? opts.prefix : ''}{range['@_low']}-{range['@_high']}{opts.suffix ? opts.suffix : ''}
+          {opts.prefix ? opts.prefix : ''}{range.low}-{range.high}{opts.suffix ? opts.suffix : ''}
+          {range.label ? <div className="style-range-label">({range.label})</div> : null}
         </div>
       ))}
     </td>

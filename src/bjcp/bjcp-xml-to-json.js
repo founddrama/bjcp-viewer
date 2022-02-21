@@ -24,25 +24,32 @@ const normalizeStatRange = (range) => {
     range = [range];
   }
 
-  return range.map(r => ({
-    ...(r['@_low'] !== undefined && { low: JSON.parse(r['@_low']) }),
-    ...(['@_high'] !== undefined && { high: JSON.parse(r['@_high']) }),
-    ...(r['@_label'] !== undefined && { label: r['@_label'] })
-  }));
+  return range.map(r => {
+    const { low, high, label } = r;
+    return {
+      ...(low !== undefined && { low }),
+      ...(high !== undefined && { high }),
+      ...(label !== undefined && { label })
+    };
+  });
 };
 
 const normalizeStats = (style) => {
   const { stats } = style;
+  const { notes } = stats;
   
   for (const key in stats) {
     const sourceStat = stats[key];
     stats[key] = {
       ['@_flexible']: sourceStat['@_flexible'] === 'true',
-      ...(!!sourceStat.range && { range: normalizeStatRange(sourceStat.range) })
+      ...(sourceStat.range !== undefined && { range: normalizeStatRange(sourceStat.range) })
     };
   }
 
-  style.stats = stats;
+  style.stats = {
+    ...stats,
+    ...(!!notes && { notes }),
+  };
 
   return style;
 };
@@ -53,7 +60,7 @@ let styleguide = parse(bjcpXML, {
                       }).styleguide;
 
 // IN THE BELOW:
-// - Flatten Specialty IPAs with `map(category)`
+// - Flatten with `map(category)`
 // - Set the type (from the classification) on each style
 // - Stats block: parse numbers and normalize ranges
 // - Transform tags from comma-separated string into a proper list
@@ -75,13 +82,16 @@ styleguide = styleguide.reduce((flattenedStyles, style) => {
     const type = style['@_type'];
     const specialties = [].concat(style.specialty);
     delete flattenedStyles[flattenedStyles.length - 1].specialty;
-    flattenedStyles = flattenedStyles.concat(specialties.map(tagsStringToList).map((s, i) => {
-      return {
-        ...s,
-        ['@_id']: `${style['@_id']}${i+1}`,
-        ['@_type']: type
-      };
-    }));
+    flattenedStyles = flattenedStyles.concat(
+      specialties
+        .map(normalizeStats)
+        .map(tagsStringToList)
+        .map((s, i) => ({
+          ...s,
+          ['@_id']: `${style['@_id']}${i+1}`,
+          ['@_type']: type
+        }))
+    );
   }
 
   return flattenedStyles;

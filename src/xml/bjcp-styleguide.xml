@@ -31,19 +31,34 @@ Forked from: https://github.com/meanphil/bjcp-guidelines-2015
         <tags>session-strength, pale-color, bottom-fermented, lagered, north-america, traditional-style, pale-lager-family, balanced</tags>
         <stats>
           <ibu flexible="false">
-            <range low="8" high="12" />
+            <range>
+              <low>8</low>
+              <high>12</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.028" high="1.04" />
+            <range>
+              <low>1.028</low>
+              <high>1.04</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="0.998" high="1.008" />
+            <range>
+              <low>0.998</low>
+              <high>1.008</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="2" high="3" />
+            <range>
+              <low>2</low>
+              <high>3</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="2.8" high="4.2" />
+            <range>
+              <low>2.8</low>
+              <high>4.2</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -62,19 +77,34 @@ Forked from: https://github.com/meanphil/bjcp-guidelines-2015
         <tags>standard-strength, pale-color, bottom-fermented, lagered, north-america, traditional-style, pale-lager-family, balanced</tags>
         <stats>
           <ibu flexible="false">
-            <range low="8" high="18" />
+            <range>
+              <low>8</low>
+              <high>18</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.04" high="1.05" />
+            <range>
+              <low>1.04</low>
+              <high>1.05</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.004" high="1.01" />
+            <range>
+              <low>1.004</low>
+              <high>1.01</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="2" high="3.5" />
+            <range>
+              <low>2</low>
+              <high>3.5</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="4.2" high="5.3" />
+            <range>
+              <low>4.2</low>
+              <high>5.3</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -93,19 +123,34 @@ Forked from: https://github.com/meanphil/bjcp-guidelines-2015
         <tags>standard-strength, pale-color, any-fermentation, north-america, traditional-style, pale-ale-family, balanced</tags>
         <stats>
           <ibu flexible="false">
-            <range low="8" high="20" />
+            <range>
+              <low>8</low>
+              <high>20</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.042" high="1.055" />
+            <range>
+              <low>1.042</low>
+              <high>1.055</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.006" high="1.012" />
+            <range>
+              <low>1.006</low>
+              <high>1.012</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="2.5" high="5.0" />
+            <range>
+              <low>2.5</low>
+              <high>5.0</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="4.2" high="5.6" />
+            <range>
+              <low>4.2</low>
+              <high>5.6</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -124,19 +169,34 @@ Forked from: https://github.com/meanphil/bjcp-guidelines-2015
         <tags>standard-strength, pale-color, any-fermentation, north-america, craft-style, wheat-beer-family, balanced</tags>
         <stats>
           <ibu flexible="false">
-            <range low="15" high="30" />
+            <range>
+              <low>15</low>
+              <high>30</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.04" high="1.055" />
+            <range>
+              <low>1.04</low>
+              <high>1.055</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.008" high="1.013" />
+            <range>
+              <low>1.008</low>
+              <high>1.013</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="3" high="6" />
+            <range>
+              <low>3</low>
+              <high>6</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="4.0" high="5.5" />
+            <range>
+              <low>4.0</low>
+              <high>5.5</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -161,19 +221,34 @@ Forked from: https://github.com/meanphil/bjcp-guidelines-2015
         <tags>standard-strength, pale-color, bottom-fermented, lagered, traditional-style, pale-lager-family, balanced</tags>
         <stats>
           <ibu flexible="false">
-            <range low="18" high="25" />
+            <range>
+              <low>18</low>
+              <high>25</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.042" high="1.05" />
+            <range>
+              <low>1.042</low>
+              <high>1.05</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.008" high="1.012" />
+            <range>
+              <low>1.008</low>
+              <high>1.012</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="2" high="6" />
+            <range>
+              <low>2</low>
+              <high>6</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="4.6" high="6.0" />
+            <range>
+              <low>4.6</low>
+              <high>6.0</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -192,19 +267,34 @@ Forked from: https://github.com/meanphil/bjcp-guidelines-2015
         <tags>standard-strength, amber-color, bottom-fermented, lagered, traditional-style, amber-lager-family, malty</tags>
         <stats>
           <ibu flexible="false">
-            <range low="8" high="25" />
+            <range>
+              <low>8</low>
+              <high>25</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.042" high="1.055" />
+            <range>
+              <low>1.042</low>
+              <high>1.055</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.008" high="1.014" />
+            <range>
+              <low>1.008</low>
+              <high>1.014</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="6" high="14" />
+            <range>
+              <low>6</low>
+              <high>14</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="4.5" high="6.0" />
+            <range>
+              <low>4.5</low>
+              <high>6.0</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -223,19 +313,34 @@ Forked from: https://github.com/meanphil/bjcp-guidelines-2015
         <tags>standard-strength, dark-color, bottom-fermented, lagered, traditional-style, dark-lager-family, malty</tags>
         <stats>
           <ibu flexible="false">
-            <range low="8" high="20" />
+            <range>
+              <low>8</low>
+              <high>20</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.044" high="1.056" />
+            <range>
+              <low>1.044</low>
+              <high>1.056</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.008" high="1.012" />
+            <range>
+              <low>1.008</low>
+              <high>1.012</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="14" high="30" />
+            <range>
+              <low>14</low>
+              <high>30</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="4.2" high="6.0" />
+            <range>
+              <low>4.2</low>
+              <high>6.0</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -260,19 +365,34 @@ Czech lagers in general are differentiated from German and other Western lagers 
         <tags>session-strength, pale-color, bottom-fermented, lagered, central-europe, traditional-style, pale-lager-family, bitter, hoppy</tags>
         <stats>
           <ibu flexible="false">
-            <range low="20" high="35" />
+            <range>
+              <low>20</low>
+              <high>35</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.028" high="1.044" />
+            <range>
+              <low>1.028</low>
+              <high>1.044</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.008" high="1.014" />
+            <range>
+              <low>1.008</low>
+              <high>1.014</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="3" high="6" />
+            <range>
+              <low>3</low>
+              <high>6</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="3.0" high="4.1" />
+            <range>
+              <low>3.0</low>
+              <high>4.1</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -292,19 +412,34 @@ Kvasnicové ("yeast beer") versions are popular in the Czech Republic, and may b
         <tags>standard-strength, pale-color, bottom-fermented, lagered, central-europe, traditional-style, pilsner-family, balanced, hoppy</tags>
         <stats>
           <ibu flexible="false">
-            <range low="30" high="45" />
+            <range>
+              <low>30</low>
+              <high>45</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.044" high="1.06" />
+            <range>
+              <low>1.044</low>
+              <high>1.06</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.013" high="1.017" />
+            <range>
+              <low>1.013</low>
+              <high>1.017</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="3.5" high="6.0" />
+            <range>
+              <low>3.5</low>
+              <high>6.0</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="4.2" high="5.8" />
+            <range>
+              <low>4.2</low>
+              <high>5.8</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -323,19 +458,34 @@ Kvasnicové ("yeast beer") versions are popular in the Czech Republic, and may b
         <tags>standard-strength, amber-color, bottom-fermented, lagered, central-europe, traditional-style, amber-lager-family, balanced</tags>
         <stats>
           <ibu flexible="false">
-            <range low="20" high="35" />
+            <range>
+              <low>20</low>
+              <high>35</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.044" high="1.06" />
+            <range>
+              <low>1.044</low>
+              <high>1.06</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.013" high="1.017" />
+            <range>
+              <low>1.013</low>
+              <high>1.017</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="10" high="16" />
+            <range>
+              <low>10</low>
+              <high>16</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="4.4" high="5.8" />
+            <range>
+              <low>4.4</low>
+              <high>5.8</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -354,19 +504,34 @@ Kvasnicové ("yeast beer") versions are popular in the Czech Republic, and may b
         <tags>standard-strength, dark-color, bottom-fermented, lagered, central-europe, traditional-style, dark-lager-family, balanced</tags>
         <stats>
           <ibu flexible="false">
-            <range low="18" high="34" />
+            <range>
+              <low>18</low>
+              <high>34</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.044" high="1.06" />
+            <range>
+              <low>1.044</low>
+              <high>1.06</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.013" high="1.017" />
+            <range>
+              <low>1.013</low>
+              <high>1.017</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="17" high="35" />
+            <range>
+              <low>17</low>
+              <high>35</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="4.4" high="5.8" />
+            <range>
+              <low>4.4</low>
+              <high>5.8</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -390,19 +555,34 @@ Kvasnicové ("yeast beer") versions are popular in the Czech Republic, and may b
         <tags>standard-strength, pale-color, bottom-fermented, lagered, central-europe, traditional-style, pale-lager-family, malty</tags>
         <stats>
           <ibu flexible="false">
-            <range low="16" high="22" />
+            <range>
+              <low>16</low>
+              <high>22</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.044" high="1.048" />
+            <range>
+              <low>1.044</low>
+              <high>1.048</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.006" high="1.012" />
+            <range>
+              <low>1.006</low>
+              <high>1.012</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="3" high="5" />
+            <range>
+              <low>3</low>
+              <high>5</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="4.7" high="5.4" />
+            <range>
+              <low>4.7</low>
+              <high>5.4</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -421,19 +601,34 @@ Kvasnicové ("yeast beer") versions are popular in the Czech Republic, and may b
         <tags>standard-strength, pale-color, bottom-fermented, lagered, central-europe, traditional-style, pale-lager-family, malty</tags>
         <stats>
           <ibu flexible="false">
-            <range low="18" high="25" />
+            <range>
+              <low>18</low>
+              <high>25</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.054" high="1.057" />
+            <range>
+              <low>1.054</low>
+              <high>1.057</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.01" high="1.012" />
+            <range>
+              <low>1.01</low>
+              <high>1.012</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="4" high="6" />
+            <range>
+              <low>4</low>
+              <high>6</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="5.8" high="6.3" />
+            <range>
+              <low>5.8</low>
+              <high>6.3</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -452,19 +647,34 @@ Kvasnicové ("yeast beer") versions are popular in the Czech Republic, and may b
         <tags>high-strength, pale-color, bottom-fermented, lagered, central-europe, traditional-style, bock-family, malty</tags>
         <stats>
           <ibu flexible="false">
-            <range low="23" high="35" />
+            <range>
+              <low>23</low>
+              <high>35</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.064" high="1.072" />
+            <range>
+              <low>1.064</low>
+              <high>1.072</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.011" high="1.018" />
+            <range>
+              <low>1.011</low>
+              <high>1.018</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="6" high="9" />
+            <range>
+              <low>6</low>
+              <high>9</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="6.3" high="7.4" />
+            <range>
+              <low>6.3</low>
+              <high>7.4</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -488,19 +698,34 @@ Kvasnicové ("yeast beer") versions are popular in the Czech Republic, and may b
         <tags>session-strength, pale-color, bottom-fermented, lagered, central-europe, traditional-style, pale-lager-family, bitter, hoppy</tags>
         <stats>
           <ibu flexible="false">
-            <range low="15" high="28" />
+            <range>
+              <low>15</low>
+              <high>28</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.026" high="1.034" />
+            <range>
+              <low>1.026</low>
+              <high>1.034</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.006" high="1.01" />
+            <range>
+              <low>1.006</low>
+              <high>1.01</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="1.5" high="4" />
+            <range>
+              <low>1.5</low>
+              <high>4</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="2.4" high="3.6" />
+            <range>
+              <low>2.4</low>
+              <high>3.6</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -519,19 +744,34 @@ Kvasnicové ("yeast beer") versions are popular in the Czech Republic, and may b
         <tags>standard-strength, pale-color, top-fermented, lagered, central-europe, traditional-style, pale-ale-family, balanced</tags>
         <stats>
           <ibu flexible="false">
-            <range low="18" high="30" />
+            <range>
+              <low>18</low>
+              <high>30</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.044" high="1.05" />
+            <range>
+              <low>1.044</low>
+              <high>1.05</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.007" high="1.011" />
+            <range>
+              <low>1.007</low>
+              <high>1.011</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="3.5" high="5.0" />
+            <range>
+              <low>3.5</low>
+              <high>5.0</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="4.4" high="5.2" />
+            <range>
+              <low>4.4</low>
+              <high>5.2</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -550,19 +790,34 @@ Kvasnicové ("yeast beer") versions are popular in the Czech Republic, and may b
         <tags>standard-strength, pale-color, bottom-fermented, lagered, central-europe, traditional-style, pale-lager-family, balanced</tags>
         <stats>
           <ibu flexible="false">
-            <range low="20" high="30" />
+            <range>
+              <low>20</low>
+              <high>30</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.050" high="1.058" />
+            <range>
+              <low>1.050</low>
+              <high>1.058</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.008" high="1.015" />
+            <range>
+              <low>1.008</low>
+              <high>1.015</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="4" high="6" />
+            <range>
+              <low>4</low>
+              <high>6</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="5.0" high="6.0" />
+            <range>
+              <low>5.0</low>
+              <high>6.0</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -581,19 +836,34 @@ Kvasnicové ("yeast beer") versions are popular in the Czech Republic, and may b
         <tags>standard-strength, pale-color, bottom-fermented, lagered, central-europe, traditional-style, pilsner-family, bitter, hoppy</tags>
         <stats>
           <ibu flexible="false">
-            <range low="22" high="40" />
+            <range>
+              <low>22</low>
+              <high>40</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.044" high="1.05" />
+            <range>
+              <low>1.044</low>
+              <high>1.05</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.008" high="1.013" />
+            <range>
+              <low>1.008</low>
+              <high>1.013</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="2" high="4" />
+            <range>
+              <low>2</low>
+              <high>4</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="4.4" high="5.2" />
+            <range>
+              <low>4.4</low>
+              <high>5.2</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -617,19 +887,34 @@ Kvasnicové ("yeast beer") versions are popular in the Czech Republic, and may b
         <tags>standard-strength, amber-color, bottom-fermented, lagered, central-europe, traditional-style, amber-lager-family, malty</tags>
         <stats>
           <ibu flexible="false">
-            <range low="18" high="24" />
+            <range>
+              <low>18</low>
+              <high>24</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.054" high="1.06" />
+            <range>
+              <low>1.054</low>
+              <high>1.06</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.01" high="1.014" />
+            <range>
+              <low>1.01</low>
+              <high>1.014</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="8" high="17" />
+            <range>
+              <low>8</low>
+              <high>17</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="5.8" high="6.3" />
+            <range>
+              <low>5.8</low>
+              <high>6.3</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -649,19 +934,34 @@ The quality and character of the smoke is important; it should be cleanly smoky.
         <tags>standard-strength, amber-color, bottom-fermented, lagered, central-europe, traditional-style, amber-lager-family, malty, smoke</tags>
         <stats>
           <ibu flexible="false">
-            <range low="20" high="30" />
+            <range>
+              <low>20</low>
+              <high>30</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.05" high="1.057" />
+            <range>
+              <low>1.05</low>
+              <high>1.057</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.012" high="1.016" />
+            <range>
+              <low>1.012</low>
+              <high>1.016</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="12" high="22" />
+            <range>
+              <low>12</low>
+              <high>22</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="4.8" high="6.0" />
+            <range>
+              <low>4.8</low>
+              <high>6.0</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -680,19 +980,34 @@ The quality and character of the smoke is important; it should be cleanly smoky.
         <tags>high-strength, amber-color, bottom-fermented, lagered, central-europe, traditional-style, bock-family, malty</tags>
         <stats>
           <ibu flexible="false">
-            <range low="20" high="27" />
+            <range>
+              <low>20</low>
+              <high>27</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.064" high="1.072" />
+            <range>
+              <low>1.064</low>
+              <high>1.072</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.013" high="1.019" />
+            <range>
+              <low>1.013</low>
+              <high>1.019</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="14" high="22" />
+            <range>
+              <low>14</low>
+              <high>22</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="6.3" high="7.2" />
+            <range>
+              <low>6.3</low>
+              <high>7.2</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -716,19 +1031,34 @@ The quality and character of the smoke is important; it should be cleanly smoky.
         <tags>standard-strength, amber-color, bottom-fermented, lagered, central-europe, traditional-style, amber-lager-family, balanced</tags>
         <stats>
           <ibu flexible="false">
-            <range low="18" high="30" />
+            <range>
+              <low>18</low>
+              <high>30</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.048" high="1.055" />
+            <range>
+              <low>1.048</low>
+              <high>1.055</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.01" high="1.014" />
+            <range>
+              <low>1.01</low>
+              <high>1.014</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="9" high="15" />
+            <range>
+              <low>9</low>
+              <high>15</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="4.7" high="5.5" />
+            <range>
+              <low>4.7</low>
+              <high>5.5</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -748,19 +1078,34 @@ The quality and character of the smoke is important; it should be cleanly smoky.
         <tags>standard-strength, amber-color, top-fermented, lagered, central-europe, traditional-style, amber-ale-family, bitter</tags>
         <stats>
           <ibu flexible="false">
-            <range low="25" high="50" />
+            <range>
+              <low>25</low>
+              <high>50</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.044" high="1.052" />
+            <range>
+              <low>1.044</low>
+              <high>1.052</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.008" high="1.014" />
+            <range>
+              <low>1.008</low>
+              <high>1.014</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="9" high="17" />
+            <range>
+              <low>9</low>
+              <high>17</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="4.3" high="5.5" />
+            <range>
+              <low>4.3</low>
+              <high>5.5</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -784,19 +1129,34 @@ The quality and character of the smoke is important; it should be cleanly smoky.
         <tags>standard-strength, dark-color, bottom-fermented, lagered, central-europe, traditional-style, malty, dark-lager-family</tags>
         <stats>
           <ibu flexible="false">
-            <range low="18" high="28" />
+            <range>
+              <low>18</low>
+              <high>28</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.048" high="1.056" />
+            <range>
+              <low>1.048</low>
+              <high>1.056</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.01" high="1.016" />
+            <range>
+              <low>1.01</low>
+              <high>1.016</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="17" high="28" />
+            <range>
+              <low>17</low>
+              <high>28</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="4.5" high="5.6" />
+            <range>
+              <low>4.5</low>
+              <high>5.6</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -815,19 +1175,34 @@ The quality and character of the smoke is important; it should be cleanly smoky.
         <tags>standard-strength, dark-color, bottom-fermented, lagered, central-europe, traditional-style, balanced, dark-lager-family</tags>
         <stats>
           <ibu flexible="false">
-            <range low="20" high="35" />
+            <range>
+              <low>20</low>
+              <high>35</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.046" high="1.052" />
+            <range>
+              <low>1.046</low>
+              <high>1.052</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.01" high="1.016" />
+            <range>
+              <low>1.01</low>
+              <high>1.016</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="19" high="30" />
+            <range>
+              <low>19</low>
+              <high>30</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="4.4" high="5.4" />
+            <range>
+              <low>4.4</low>
+              <high>5.4</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -858,19 +1233,34 @@ Pale versions have a strong bready and toasty malt flavor, a light floral, spicy
         <entry_instructions>The entrant will specify whether the entry is a pale or a dark variant.</entry_instructions>
         <stats>
           <ibu flexible="false">
-            <range low="16" high="26" />
+            <range>
+              <low>16</low>
+              <high>26</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.072" high="1.112" />
+            <range>
+              <low>1.072</low>
+              <high>1.112</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.016" high="1.024" />
+            <range>
+              <low>1.016</low>
+              <high>1.024</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="6" high="25" />
+            <range>
+              <low>6</low>
+              <high>25</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="7.0" high="10.0" />
+            <range>
+              <low>7.0</low>
+              <high>10.0</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -889,19 +1279,34 @@ Pale versions have a strong bready and toasty malt flavor, a light floral, spicy
         <tags>very-high-strength, amber-color, bottom-fermented, lagered, central-europe, traditional-style, bock-family, malty</tags>
         <stats>
           <ibu flexible="false">
-            <range low="25" high="35" />
+            <range>
+              <low>25</low>
+              <high>35</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.078" high="1.12" />
+            <range>
+              <low>1.078</low>
+              <high>1.12</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.02" high="1.035" />
+            <range>
+              <low>1.02</low>
+              <high>1.035</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="17" high="30" />
+            <range>
+              <low>17</low>
+              <high>30</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="9.0" high="14.0" />
+            <range>
+              <low>9.0</low>
+              <high>14.0</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -920,19 +1325,34 @@ Pale versions have a strong bready and toasty malt flavor, a light floral, spicy
         <tags>high-strength, dark-color, any-fermentation, lagered, eastern-europe, traditional-style, porter-family, malty</tags>
         <stats>
           <ibu flexible="false">
-            <range low="20" high="40" />
+            <range>
+              <low>20</low>
+              <high>40</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.06" high="1.09" />
+            <range>
+              <low>1.06</low>
+              <high>1.09</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.016" high="1.024" />
+            <range>
+              <low>1.016</low>
+              <high>1.024</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="17" high="30" />
+            <range>
+              <low>17</low>
+              <high>30</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="6.5" high="9.5" />
+            <range>
+              <low>6.5</low>
+              <high>9.5</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -957,19 +1377,34 @@ Pale versions have a strong bready and toasty malt flavor, a light floral, spicy
         <tags>standard-strength, pale-color, top-fermented, central-europe, traditional-style, wheat-beer-family, malty</tags>
         <stats>
           <ibu flexible="false">
-            <range low="8" high="15" />
+            <range>
+              <low>8</low>
+              <high>15</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.044" high="1.053" />
+            <range>
+              <low>1.044</low>
+              <high>1.053</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.01" high="1.014" />
+            <range>
+              <low>1.01</low>
+              <high>1.014</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="2" high="6" />
+            <range>
+              <low>2</low>
+              <high>6</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="4.3" high="5.6" />
+            <range>
+              <low>4.3</low>
+              <high>5.6</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -988,19 +1423,34 @@ Pale versions have a strong bready and toasty malt flavor, a light floral, spicy
         <tags>standard-strength, amber-color, top-fermented, central-europe, traditional-style, wheat-beer-family, malty</tags>
         <stats>
           <ibu flexible="false">
-            <range low="10" high="18" />
+            <range>
+              <low>10</low>
+              <high>18</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.044" high="1.057" />
+            <range>
+              <low>1.044</low>
+              <high>1.057</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.008" high="1.014" />
+            <range>
+              <low>1.008</low>
+              <high>1.014</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="14" high="23" />
+            <range>
+              <low>14</low>
+              <high>23</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="4.3" high="5.6" />
+            <range>
+              <low>4.3</low>
+              <high>5.6</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -1026,19 +1476,34 @@ Pale versions have a bready, toasty, grainy-sweet malt richness.</flavor>
         <entry_instructions>The entrant will specify whether the entry is a pale (SRM 6-9) or a dark (SRM 10-25) version.</entry_instructions>
         <stats>
           <ibu flexible="false">
-            <range low="15" high="30" />
+            <range>
+              <low>15</low>
+              <high>30</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.064" high="1.09" />
+            <range>
+              <low>1.064</low>
+              <high>1.09</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.015" high="1.022" />
+            <range>
+              <low>1.015</low>
+              <high>1.022</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="6" high="25" />
+            <range>
+              <low>6</low>
+              <high>25</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="6.5" high="9.0" />
+            <range>
+              <low>6.5</low>
+              <high>9.0</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -1064,19 +1529,34 @@ Judges should not over-emphasize the caramel component of these styles. Exported
         <tags>session-strength, amber-color, top-fermented, british-isles, traditional-style, amber-ale-family, bitter</tags>
         <stats>
           <ibu flexible="false">
-            <range low="25" high="35" />
+            <range>
+              <low>25</low>
+              <high>35</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.03" high="1.039" />
+            <range>
+              <low>1.03</low>
+              <high>1.039</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.007" high="1.011" />
+            <range>
+              <low>1.007</low>
+              <high>1.011</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="8" high="14" />
+            <range>
+              <low>8</low>
+              <high>14</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="3.2" high="3.8" />
+            <range>
+              <low>3.2</low>
+              <high>3.8</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -1095,19 +1575,34 @@ Judges should not over-emphasize the caramel component of these styles. Exported
         <tags>standard-strength, amber-color, top-fermented, british-isles, traditional-style, amber-ale-family, bitter</tags>
         <stats>
           <ibu flexible="false">
-            <range low="25" high="40" />
+            <range>
+              <low>25</low>
+              <high>40</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.04" high="1.048" />
+            <range>
+              <low>1.04</low>
+              <high>1.048</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.008" high="1.012" />
+            <range>
+              <low>1.008</low>
+              <high>1.012</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="8" high="16" />
+            <range>
+              <low>8</low>
+              <high>16</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="3.8" high="4.6" />
+            <range>
+              <low>3.8</low>
+              <high>4.6</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -1126,19 +1621,34 @@ Judges should not over-emphasize the caramel component of these styles. Exported
         <tags>standard-strength, amber-color, top-fermented, british-isles, traditional-style, amber-ale-family, bitter</tags>
         <stats>
           <ibu flexible="false">
-            <range low="30" high="50" />
+            <range>
+              <low>30</low>
+              <high>50</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.048" high="1.06" />
+            <range>
+              <low>1.048</low>
+              <high>1.06</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.01" high="1.016" />
+            <range>
+              <low>1.01</low>
+              <high>1.016</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="8" high="18" />
+            <range>
+              <low>8</low>
+              <high>18</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="4.6" high="6.2" />
+            <range>
+              <low>4.6</low>
+              <high>6.2</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -1162,19 +1672,34 @@ Judges should not over-emphasize the caramel component of these styles. Exported
         <tags>standard-strength, pale-color, top-fermented, british-isles, craft-style, pale-ale-family, bitter, hoppy</tags>
         <stats>
           <ibu flexible="false">
-            <range low="20" high="45" />
+            <range>
+              <low>20</low>
+              <high>45</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.038" high="1.053" />
+            <range>
+              <low>1.038</low>
+              <high>1.053</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.006" high="1.012" />
+            <range>
+              <low>1.006</low>
+              <high>1.012</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="2" high="5" />
+            <range>
+              <low>2</low>
+              <high>5</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="3.8" high="5.0" />
+            <range>
+              <low>3.8</low>
+              <high>5.0</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -1193,19 +1718,34 @@ Judges should not over-emphasize the caramel component of these styles. Exported
         <tags>standard-strength, pale-color, top-fermented, pacific, traditional-style, pale-ale-family, bitter</tags>
         <stats>
           <ibu flexible="false">
-            <range low="20" high="35" />
+            <range>
+              <low>20</low>
+              <high>35</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.038" high="1.05" />
+            <range>
+              <low>1.038</low>
+              <high>1.05</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.004" high="1.006" />
+            <range>
+              <low>1.004</low>
+              <high>1.006</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="4" high="7" />
+            <range>
+              <low>4</low>
+              <high>7</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="4.5" high="6.0" />
+            <range>
+              <low>4.5</low>
+              <high>6.0</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -1228,19 +1768,34 @@ Modern examples are inspired by classic versions, but shouldn't be assumed to ha
         <tags>high-strength, pale-color, top-fermented, british-isles, traditional-style, ipa-family, bitter, hoppy</tags>
         <stats>
           <ibu flexible="false">
-            <range low="40" high="60" />
+            <range>
+              <low>40</low>
+              <high>60</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.05" high="1.070" />
+            <range>
+              <low>1.05</low>
+              <high>1.070</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.01" high="1.015" />
+            <range>
+              <low>1.01</low>
+              <high>1.015</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="6" high="14" />
+            <range>
+              <low>6</low>
+              <high>14</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="5.0" high="7.5" />
+            <range>
+              <low>5.0</low>
+              <high>7.5</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -1264,19 +1819,34 @@ Modern examples are inspired by classic versions, but shouldn't be assumed to ha
         <tags>session-strength, dark-color, top-fermented, british-isles, traditional-style, brown-ale-family, malty</tags>
         <stats>
           <ibu flexible="false">
-            <range low="10" high="25" />
+            <range>
+              <low>10</low>
+              <high>25</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.03" high="1.038" />
+            <range>
+              <low>1.03</low>
+              <high>1.038</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.008" high="1.013" />
+            <range>
+              <low>1.008</low>
+              <high>1.013</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="14" high="25" />
+            <range>
+              <low>14</low>
+              <high>25</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="3.0" high="3.8" />
+            <range>
+              <low>3.0</low>
+              <high>3.8</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -1295,19 +1865,34 @@ Modern examples are inspired by classic versions, but shouldn't be assumed to ha
         <tags>standard-strength, amber-color, top-fermented, british-isles, traditional-style, brown-ale-family, malty</tags>
         <stats>
           <ibu flexible="false">
-            <range low="20" high="30" />
+            <range>
+              <low>20</low>
+              <high>30</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.04" high="1.052" />
+            <range>
+              <low>1.04</low>
+              <high>1.052</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.008" high="1.013" />
+            <range>
+              <low>1.008</low>
+              <high>1.013</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="12" high="22" />
+            <range>
+              <low>12</low>
+              <high>22</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="4.2" high="5.9" />
+            <range>
+              <low>4.2</low>
+              <high>5.9</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -1328,19 +1913,34 @@ The name is said to have been derived from its popularity with the London workin
         <tags>standard-strength, dark-color, top-fermented, british-isles, traditional-style, porter-family, malty, roasty</tags>
         <stats>
           <ibu flexible="false">
-            <range low="18" high="35" />
+            <range>
+              <low>18</low>
+              <high>35</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.04" high="1.052" />
+            <range>
+              <low>1.04</low>
+              <high>1.052</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.008" high="1.014" />
+            <range>
+              <low>1.008</low>
+              <high>1.014</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="20" high="30" />
+            <range>
+              <low>20</low>
+              <high>30</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="4.0" high="5.4" />
+            <range>
+              <low>4.0</low>
+              <high>5.4</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -1368,19 +1968,34 @@ The use of 'shilling' (/-) designations is a Scottish curiosity. Originally it r
         <tags>session-strength, amber-color, top-fermented, british-isles, traditional-style, amber-ale-family, malty</tags>
         <stats>
           <ibu flexible="false">
-            <range low="10" high="20" />
+            <range>
+              <low>10</low>
+              <high>20</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.03" high="1.035" />
+            <range>
+              <low>1.03</low>
+              <high>1.035</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.01" high="1.013" />
+            <range>
+              <low>1.01</low>
+              <high>1.013</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="17" high="25" />
+            <range>
+              <low>17</low>
+              <high>25</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="2.5" high="3.3" />
+            <range>
+              <low>2.5</low>
+              <high>3.3</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -1399,19 +2014,34 @@ The use of 'shilling' (/-) designations is a Scottish curiosity. Originally it r
         <tags>session-strength, amber-color, top-fermented, british-isles, traditional-style, amber-ale-family, malty</tags>
         <stats>
           <ibu flexible="false">
-            <range low="10" high="20" />
+            <range>
+              <low>10</low>
+              <high>20</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.035" high="1.04" />
+            <range>
+              <low>1.035</low>
+              <high>1.04</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.01" high="1.015" />
+            <range>
+              <low>1.01</low>
+              <high>1.015</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="12" high="20" />
+            <range>
+              <low>12</low>
+              <high>20</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="3.3" high="3.9" />
+            <range>
+              <low>3.3</low>
+              <high>3.9</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -1430,19 +2060,34 @@ The use of 'shilling' (/-) designations is a Scottish curiosity. Originally it r
         <tags>standard-strength, amber-color, top-fermented, british-isles, traditional-style, amber-ale-family, malty</tags>
         <stats>
           <ibu flexible="false">
-            <range low="15" high="30" />
+            <range>
+              <low>15</low>
+              <high>30</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.04" high="1.06" />
+            <range>
+              <low>1.04</low>
+              <high>1.06</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.01" high="1.016" />
+            <range>
+              <low>1.01</low>
+              <high>1.016</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="12" high="20" />
+            <range>
+              <low>12</low>
+              <high>20</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="3.9" high="6.0" />
+            <range>
+              <low>3.9</low>
+              <high>6.0</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -1466,19 +2111,34 @@ The use of 'shilling' (/-) designations is a Scottish curiosity. Originally it r
         <tags>standard-strength, amber-color, top-fermented, british-isles, traditional-style, amber-ale-family, balanced</tags>
         <stats>
           <ibu flexible="false">
-            <range low="18" high="28" />
+            <range>
+              <low>18</low>
+              <high>28</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.036" high="1.046" />
+            <range>
+              <low>1.036</low>
+              <high>1.046</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.01" high="1.014" />
+            <range>
+              <low>1.01</low>
+              <high>1.014</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="9" high="14" />
+            <range>
+              <low>9</low>
+              <high>14</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="3.8" high="5.0" />
+            <range>
+              <low>3.8</low>
+              <high>5.0</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -1497,19 +2157,34 @@ The use of 'shilling' (/-) designations is a Scottish curiosity. Originally it r
         <tags>standard-strength, dark-color, top-fermented, british-isles, traditional-style, stout-family, bitter, roasty</tags>
         <stats>
           <ibu flexible="false">
-            <range low="25" high="45" />
+            <range>
+              <low>25</low>
+              <high>45</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.036" high="1.044" />
+            <range>
+              <low>1.036</low>
+              <high>1.044</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.007" high="1.011" />
+            <range>
+              <low>1.007</low>
+              <high>1.011</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="25" high="40" />
+            <range>
+              <low>25</low>
+              <high>40</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="3.8" high="5.0" />
+            <range>
+              <low>3.8</low>
+              <high>5.0</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -1528,19 +2203,34 @@ The use of 'shilling' (/-) designations is a Scottish curiosity. Originally it r
         <tags>high-strength, dark-color, top-fermented, british-isles, traditional-style, stout-family, bitter, roasty</tags>
         <stats>
           <ibu flexible="false">
-            <range low="35" high="50" />
+            <range>
+              <low>35</low>
+              <high>50</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.052" high="1.062" />
+            <range>
+              <low>1.052</low>
+              <high>1.062</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.01" high="1.014" />
+            <range>
+              <low>1.01</low>
+              <high>1.014</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="30" high="40" />
+            <range>
+              <low>30</low>
+              <high>40</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="5.0" high="6.5" />
+            <range>
+              <low>5.0</low>
+              <high>6.5</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -1564,19 +2254,34 @@ The use of 'shilling' (/-) designations is a Scottish curiosity. Originally it r
         <tags>standard-strength, dark-color, top-fermented, british-isles, traditional-style, stout-family, malty, roasty, sweet</tags>
         <stats>
           <ibu flexible="false">
-            <range low="20" high="40" />
+            <range>
+              <low>20</low>
+              <high>40</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.044" high="1.06" />
+            <range>
+              <low>1.044</low>
+              <high>1.06</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.012" high="1.024" />
+            <range>
+              <low>1.012</low>
+              <high>1.024</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="30" high="40" />
+            <range>
+              <low>30</low>
+              <high>40</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="4.0" high="6.0" />
+            <range>
+              <low>4.0</low>
+              <high>6.0</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -1595,19 +2300,34 @@ The use of 'shilling' (/-) designations is a Scottish curiosity. Originally it r
         <tags>standard-strength, dark-color, top-fermented, british-isles, traditional-style, stout-family, balanced, roasty</tags>
         <stats>
           <ibu flexible="false">
-            <range low="25" high="40" />
+            <range>
+              <low>25</low>
+              <high>40</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.045" high="1.065" />
+            <range>
+              <low>1.045</low>
+              <high>1.065</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.01" high="1.018" />
+            <range>
+              <low>1.01</low>
+              <high>1.018</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="22" high="40" />
+            <range>
+              <low>22</low>
+              <high>40</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="4.2" high="5.9" />
+            <range>
+              <low>4.2</low>
+              <high>5.9</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -1626,19 +2346,34 @@ The use of 'shilling' (/-) designations is a Scottish curiosity. Originally it r
         <tags>high-strength, dark-color, top-fermented, british-isles, traditional-style, stout-family, malty, roasty, sweet</tags>
         <stats>
           <ibu flexible="false">
-            <range low="30" high="50" />
+            <range>
+              <low>30</low>
+              <high>50</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.056" high="1.075" />
+            <range>
+              <low>1.056</low>
+              <high>1.075</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.01" high="1.018" />
+            <range>
+              <low>1.01</low>
+              <high>1.018</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="30" high="40" />
+            <range>
+              <low>30</low>
+              <high>40</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="5.5" high="8.0" />
+            <range>
+              <low>5.5</low>
+              <high>8.0</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -1657,19 +2392,34 @@ The use of 'shilling' (/-) designations is a Scottish curiosity. Originally it r
         <tags>high-strength, dark-color, top-fermented, british-isles, traditional-style, stout-family, balanced, roasty</tags>
         <stats>
           <ibu flexible="false">
-            <range low="50" high="70" />
+            <range>
+              <low>50</low>
+              <high>70</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.056" high="1.075" />
+            <range>
+              <low>1.056</low>
+              <high>1.075</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.01" high="1.018" />
+            <range>
+              <low>1.01</low>
+              <high>1.018</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="30" high="40" />
+            <range>
+              <low>30</low>
+              <high>40</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="6.3" high="8.0" />
+            <range>
+              <low>6.3</low>
+              <high>8.0</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -1693,19 +2443,34 @@ The use of 'shilling' (/-) designations is a Scottish curiosity. Originally it r
         <tags>high-strength, amber-color, top-fermented, british-isles, traditional-style, strong-ale-family, malty</tags>
         <stats>
           <ibu flexible="false">
-            <range low="30" high="60" />
+            <range>
+              <low>30</low>
+              <high>60</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.055" high="1.08" />
+            <range>
+              <low>1.055</low>
+              <high>1.08</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.015" high="1.022" />
+            <range>
+              <low>1.015</low>
+              <high>1.022</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="8" high="22" />
+            <range>
+              <low>8</low>
+              <high>22</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="5.5" high="8.0" />
+            <range>
+              <low>5.5</low>
+              <high>8.0</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -1724,19 +2489,34 @@ The use of 'shilling' (/-) designations is a Scottish curiosity. Originally it r
         <tags>high-strength, amber-color, top-fermented, british-isles, traditional-style, strong-ale-family, malty, aged</tags>
         <stats>
           <ibu flexible="false">
-            <range low="30" high="60" />
+            <range>
+              <low>30</low>
+              <high>60</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.055" high="1.088" />
+            <range>
+              <low>1.055</low>
+              <high>1.088</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.015" high="1.022" />
+            <range>
+              <low>1.015</low>
+              <high>1.022</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="10" high="22" />
+            <range>
+              <low>10</low>
+              <high>22</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="5.5" high="9.0" />
+            <range>
+              <low>5.5</low>
+              <high>9.0</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -1756,19 +2536,34 @@ The use of 'shilling' (/-) designations is a Scottish curiosity. Originally it r
         <tags>high-strength, amber-color, top-fermented, british-isles, traditional-style, strong-ale-family, malty</tags>
         <stats>
           <ibu flexible="false">
-            <range low="17" high="35" />
+            <range>
+              <low>17</low>
+              <high>35</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.07" high="1.13" />
+            <range>
+              <low>1.07</low>
+              <high>1.13</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.018" high="1.04" />
+            <range>
+              <low>1.018</low>
+              <high>1.04</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="14" high="25" />
+            <range>
+              <low>14</low>
+              <high>25</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="6.5" high="10.0" />
+            <range>
+              <low>6.5</low>
+              <high>10.0</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -1788,19 +2583,34 @@ Some oxidative or vinous flavors may be present, and often complex alcohol flavo
         <tags>very-high-strength, amber-color, top-fermented, british-isles, traditional-style, strong-ale-family, malty</tags>
         <stats>
           <ibu flexible="false">
-            <range low="35" high="70" />
+            <range>
+              <low>35</low>
+              <high>70</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.08" high="1.12" />
+            <range>
+              <low>1.08</low>
+              <high>1.12</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.018" high="1.03" />
+            <range>
+              <low>1.018</low>
+              <high>1.03</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="8" high="22" />
+            <range>
+              <low>8</low>
+              <high>22</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="8.0" high="12.0" />
+            <range>
+              <low>8.0</low>
+              <high>12.0</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -1824,19 +2634,34 @@ Some oxidative or vinous flavors may be present, and often complex alcohol flavo
         <tags>standard-strength, pale-color, any-fermentation, north-america, craft-style, pale-ale-family, balanced</tags>
         <stats>
           <ibu flexible="false">
-            <range low="15" high="28" />
+            <range>
+              <low>15</low>
+              <high>28</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.038" high="1.054" />
+            <range>
+              <low>1.038</low>
+              <high>1.054</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.008" high="1.013" />
+            <range>
+              <low>1.008</low>
+              <high>1.013</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="3" high="6" />
+            <range>
+              <low>3</low>
+              <high>6</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="3.8" high="5.5" />
+            <range>
+              <low>3.8</low>
+              <high>5.5</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -1855,19 +2680,34 @@ Some oxidative or vinous flavors may be present, and often complex alcohol flavo
         <tags>standard-strength, pale-color, top-fermented, north-america, craft-style, pale-ale-family, bitter, hoppy</tags>
         <stats>
           <ibu flexible="false">
-            <range low="30" high="50" />
+            <range>
+              <low>30</low>
+              <high>50</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.045" high="1.06" />
+            <range>
+              <low>1.045</low>
+              <high>1.06</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.01" high="1.015" />
+            <range>
+              <low>1.01</low>
+              <high>1.015</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="5" high="10" />
+            <range>
+              <low>5</low>
+              <high>10</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="4.5" high="6.2" />
+            <range>
+              <low>4.5</low>
+              <high>6.2</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -1891,19 +2731,34 @@ Some oxidative or vinous flavors may be present, and often complex alcohol flavo
         <tags>standard-strength, amber-color, top-fermented, north-america, craft-style, amber-ale-family, balanced, hoppy</tags>
         <stats>
           <ibu flexible="false">
-            <range low="25" high="40" />
+            <range>
+              <low>25</low>
+              <high>40</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.045" high="1.06" />
+            <range>
+              <low>1.045</low>
+              <high>1.06</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.01" high="1.015" />
+            <range>
+              <low>1.01</low>
+              <high>1.015</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="10" high="17" />
+            <range>
+              <low>10</low>
+              <high>17</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="4.5" high="6.2" />
+            <range>
+              <low>4.5</low>
+              <high>6.2</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -1922,19 +2777,34 @@ Some oxidative or vinous flavors may be present, and often complex alcohol flavo
         <tags>standard-strength, amber-color, bottom-fermented, north-america, traditional-style, amber-lager-family, bitter, hoppy</tags>
         <stats>
           <ibu flexible="false">
-            <range low="30" high="45" />
+            <range>
+              <low>30</low>
+              <high>45</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.048" high="1.054" />
+            <range>
+              <low>1.048</low>
+              <high>1.054</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.011" high="1.014" />
+            <range>
+              <low>1.011</low>
+              <high>1.014</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="9" high="14" />
+            <range>
+              <low>9</low>
+              <high>14</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="4.5" high="5.5" />
+            <range>
+              <low>4.5</low>
+              <high>5.5</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -1953,19 +2823,34 @@ Some oxidative or vinous flavors may be present, and often complex alcohol flavo
         <tags>standard-strength, dark-color, top-fermented, north-america, craft-style, brown-ale-family, balanced, hoppy</tags>
         <stats>
           <ibu flexible="false">
-            <range low="20" high="30" />
+            <range>
+              <low>20</low>
+              <high>30</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.045" high="1.06" />
+            <range>
+              <low>1.045</low>
+              <high>1.06</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.01" high="1.016" />
+            <range>
+              <low>1.01</low>
+              <high>1.016</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="18" high="35" />
+            <range>
+              <low>18</low>
+              <high>35</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="4.3" high="6.2" />
+            <range>
+              <low>4.3</low>
+              <high>6.2</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -1989,19 +2874,34 @@ Some oxidative or vinous flavors may be present, and often complex alcohol flavo
         <tags>standard-strength, dark-color, top-fermented, north-america, craft-style, porter-family, bitter, roasty, hoppy</tags>
         <stats>
           <ibu flexible="false">
-            <range low="25" high="50" />
+            <range>
+              <low>25</low>
+              <high>50</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.05" high="1.07" />
+            <range>
+              <low>1.05</low>
+              <high>1.07</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.012" high="1.018" />
+            <range>
+              <low>1.012</low>
+              <high>1.018</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="22" high="40" />
+            <range>
+              <low>22</low>
+              <high>40</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="4.8" high="6.5" />
+            <range>
+              <low>4.8</low>
+              <high>6.5</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -2020,19 +2920,34 @@ Some oxidative or vinous flavors may be present, and often complex alcohol flavo
         <tags>high-strength, dark-color, top-fermented, north-america, craft-style, stout-family, bitter, roasty, hoppy</tags>
         <stats>
           <ibu flexible="false">
-            <range low="35" high="75" />
+            <range>
+              <low>35</low>
+              <high>75</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.05" high="1.075" />
+            <range>
+              <low>1.05</low>
+              <high>1.075</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.01" high="1.022" />
+            <range>
+              <low>1.01</low>
+              <high>1.022</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="30" high="40" />
+            <range>
+              <low>30</low>
+              <high>40</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="5.0" high="7.0" />
+            <range>
+              <low>5.0</low>
+              <high>7.0</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -2052,19 +2967,34 @@ Some oxidative or vinous flavors may be present, and often complex alcohol flavo
         <tags>very-high-strength, dark-color, top-fermented, british-isles, north-america, traditional-style, craft-style, stout-family, malty, bitter, roasty</tags>
         <stats>
           <ibu flexible="false">
-            <range low="50" high="90" />
+            <range>
+              <low>50</low>
+              <high>90</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.075" high="1.115" />
+            <range>
+              <low>1.075</low>
+              <high>1.115</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.018" high="1.03" />
+            <range>
+              <low>1.018</low>
+              <high>1.03</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="30" high="40" />
+            <range>
+              <low>30</low>
+              <high>40</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="8.0" high="12.0" />
+            <range>
+              <low>8.0</low>
+              <high>12.0</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -2088,19 +3018,34 @@ Some oxidative or vinous flavors may be present, and often complex alcohol flavo
         <tags>high-strength, pale-color, top-fermented, north-america, craft-style, ipa-family, bitter, hoppy</tags>
         <stats>
           <ibu flexible="false">
-            <range low="40" high="70" />
+            <range>
+              <low>40</low>
+              <high>70</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.056" high="1.07" />
+            <range>
+              <low>1.056</low>
+              <high>1.07</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.008" high="1.014" />
+            <range>
+              <low>1.008</low>
+              <high>1.014</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="6" high="14" />
+            <range>
+              <low>6</low>
+              <high>14</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="5.5" high="7.5" />
+            <range>
+              <low>5.5</low>
+              <high>7.5</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -2144,19 +3089,34 @@ Strength classifications:
           <tags>high-strength, pale-color, top-fermented, north-america, craft-style, ipa-family, specialty-family, bitter, hoppy</tags>
           <stats>
             <ibu flexible="false">
-              <range low="50" high="100" />
+              <range>
+                <low>50</low>
+                <high>100</high>
+              </range>
             </ibu>
             <og flexible="false">
-              <range low="1.058" high="1.08" />
+              <range>
+                <low>1.058</low>
+                <high>1.08</high>
+              </range>
             </og>
             <fg flexible="false">
-              <range low="1.008" high="1.016" />
+              <range>
+                <low>1.008</low>
+                <high>1.016</high>
+              </range>
             </fg>
             <srm flexible="false">
-              <range low="5" high="8" />
+              <range>
+                <low>5</low>
+                <high>8</high>
+              </range>
             </srm>
             <abv flexible="false">
-              <range low="6.2" high="9.5" />
+              <range>
+                <low>6.2</low>
+                <high>9.5</high>
+              </range>
             </abv>
           </stats>
         </specialty>
@@ -2175,19 +3135,34 @@ Strength classifications:
           <tags>high-strength, dark-color, top-fermented, north-america, craft-style, ipa-family, specialty-family, bitter, hoppy</tags>
           <stats>
             <ibu flexible="false">
-              <range low="50" high="90" />
+              <range>
+                <low>50</low>
+                <high>90</high>
+              </range>
             </ibu>
             <og flexible="false">
-              <range low="1.05" high="1.085" />
+              <range>
+                <low>1.05</low>
+                <high>1.085</high>
+              </range>
             </og>
             <fg flexible="false">
-              <range low="1.01" high="1.018" />
+              <range>
+                <low>1.01</low>
+                <high>1.018</high>
+              </range>
             </fg>
             <srm flexible="false">
-              <range low="25" high="40" />
+              <range>
+                <low>25</low>
+                <high>40</high>
+              </range>
             </srm>
             <abv flexible="false">
-              <range low="5.5" high="9.0" />
+              <range>
+                <low>5.5</low>
+                <high>9.0</high>
+              </range>
             </abv>
           </stats>
         </specialty>
@@ -2206,19 +3181,34 @@ Strength classifications:
           <tags>high-strength, dark-color, top-fermented, north-america, craft-style, ipa-family, specialty-family, bitter, hoppy</tags>
           <stats>
             <ibu flexible="false">
-              <range low="40" high="70" />
+              <range>
+                <low>40</low>
+                <high>70</high>
+              </range>
             </ibu>
             <og flexible="false">
-              <range low="1.056" high="1.07" />
+              <range>
+                <low>1.056</low>
+                <high>1.07</high>
+              </range>
             </og>
             <fg flexible="false">
-              <range low="1.008" high="1.016" />
+              <range>
+                <low>1.008</low>
+                <high>1.016</high>
+              </range>
             </fg>
             <srm flexible="false">
-              <range low="18" high="35" />
+              <range>
+                <low>18</low>
+                <high>35</high>
+              </range>
             </srm>
             <abv flexible="false">
-              <range low="5.5" high="7.5" />
+              <range>
+                <low>5.5</low>
+                <high>7.5</high>
+              </range>
             </abv>
           </stats>
         </specialty>
@@ -2237,19 +3227,34 @@ Strength classifications:
           <tags>high-strength, amber-color, top-fermented, north-america, craft-style, ipa-family, specialty-family, bitter, hoppy</tags>
           <stats>
             <ibu flexible="false">
-              <range low="40" high="70" />
+              <range>
+                <low>40</low>
+                <high>70</high>
+              </range>
             </ibu>
             <og flexible="false">
-              <range low="1.056" high="1.07" />
+              <range>
+                <low>1.056</low>
+                <high>1.07</high>
+              </range>
             </og>
             <fg flexible="false">
-              <range low="1.008" high="1.016" />
+              <range>
+                <low>1.008</low>
+                <high>1.016</high>
+              </range>
             </fg>
             <srm flexible="false">
-              <range low="11" high="17" />
+              <range>
+                <low>11</low>
+                <high>17</high>
+              </range>
             </srm>
             <abv flexible="false">
-              <range low="5.5" high="7.5" />
+              <range>
+                <low>5.5</low>
+                <high>7.5</high>
+              </range>
             </abv>
           </stats>
         </specialty>
@@ -2268,19 +3273,34 @@ Strength classifications:
           <tags>high-strength, amber-color, top-fermented, north-america, craft-style, ipa-family, specialty-family, bitter, hoppy</tags>
           <stats>
             <ibu flexible="false">
-              <range low="50" high="75" />
+              <range>
+                <low>50</low>
+                <high>75</high>
+              </range>
             </ibu>
             <og flexible="false">
-              <range low="1.056" high="1.075" />
+              <range>
+                <low>1.056</low>
+                <high>1.075</high>
+              </range>
             </og>
             <fg flexible="false">
-              <range low="1.008" high="1.014" />
+              <range>
+                <low>1.008</low>
+                <high>1.014</high>
+              </range>
             </fg>
             <srm flexible="false">
-              <range low="6" high="14" />
+              <range>
+                <low>6</low>
+                <high>14</high>
+              </range>
             </srm>
             <abv flexible="false">
-              <range low="5.5" high="8.0" />
+              <range>
+                <low>5.5</low>
+                <high>8.0</high>
+              </range>
             </abv>
           </stats>
         </specialty>
@@ -2299,19 +3319,34 @@ Strength classifications:
           <tags>high-strength, pale-color, top-fermented, north-america, craft-style, ipa-family, specialty-family, bitter, hoppy, spice</tags>
           <stats>
             <ibu flexible="false">
-              <range low="40" high="70" />
+              <range>
+                <low>40</low>
+                <high>70</high>
+              </range>
             </ibu>
             <og flexible="false">
-              <range low="1.056" high="1.065" />
+              <range>
+                <low>1.056</low>
+                <high>1.065</high>
+              </range>
             </og>
             <fg flexible="false">
-              <range low="1.01" high="1.016" />
+              <range>
+                <low>1.01</low>
+                <high>1.016</high>
+              </range>
             </fg>
             <srm flexible="false">
-              <range low="5" high="6" />
+              <range>
+                <low>5</low>
+                <high>6</high>
+              </range>
             </srm>
             <abv flexible="false">
-              <range low="5.5" high="7.0" />
+              <range>
+                <low>5.5</low>
+                <high>7.0</high>
+              </range>
             </abv>
           </stats>
         </specialty>
@@ -2330,19 +3365,34 @@ Strength classifications:
           <tags>high-strength, pale-color, top-fermented, north-america, craft-style, ipa-family, specialty-family, bitter, hoppy</tags>
           <stats>
             <ibu flexible="false">
-              <range low="20" high="30" />
+              <range>
+                <low>20</low>
+                <high>30</high>
+              </range>
             </ibu>
             <og flexible="false">
-              <range low="1.046" high="1.057" />
+              <range>
+                <low>1.046</low>
+                <high>1.057</high>
+              </range>
             </og>
             <fg flexible="false">
-              <range low="0.99" high="1.004" />
+              <range>
+                <low>0.99</low>
+                <high>1.004</high>
+              </range>
             </fg>
             <srm flexible="false">
-              <range low="2" high="4" />
+              <range>
+                <low>2</low>
+                <high>4</high>
+              </range>
             </srm>
             <abv flexible="false">
-              <range low="6.0" high="7.5" />
+              <range>
+                <low>6.0</low>
+                <high>7.5</high>
+              </range>
             </abv>
           </stats>
         </specialty>
@@ -2363,19 +3413,34 @@ Heavy examples suggestive of milkshakes, creamsicles, or fruit smoothies are out
         <tags>high-strength, pale-color, top-fermented, north-america, craft-style, ipa-family, bitter, hoppy</tags>
         <stats>
           <ibu flexible="false">
-            <range low="25" high="60" />
+            <range>
+              <low>25</low>
+              <high>60</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.06" high="1.085" />
+            <range>
+              <low>1.06</low>
+              <high>1.085</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.01" high="1.015" />
+            <range>
+              <low>1.01</low>
+              <high>1.015</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="3" high="7" />
+            <range>
+              <low>3</low>
+              <high>7</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="6.0" high="9.0" />
+            <range>
+              <low>6.0</low>
+              <high>9.0</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -2399,19 +3464,34 @@ Heavy examples suggestive of milkshakes, creamsicles, or fruit smoothies are out
         <tags>very-high-strength, pale-color, top-fermented, north-america, craft-style, ipa-family, bitter, hoppy</tags>
         <stats>
           <ibu flexible="false">
-            <range low="60" high="100" />
+            <range>
+              <low>60</low>
+              <high>100</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.065" high="1.085" />
+            <range>
+              <low>1.065</low>
+              <high>1.085</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.008" high="1.018" />
+            <range>
+              <low>1.008</low>
+              <high>1.018</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="6" high="14" />
+            <range>
+              <low>6</low>
+              <high>14</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="7.5" high="10.0" />
+            <range>
+              <low>7.5</low>
+              <high>10.0</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -2431,19 +3511,34 @@ Heavy examples suggestive of milkshakes, creamsicles, or fruit smoothies are out
         <tags>high-strength, amber-color, top-fermented, north-america, craft-style, strong-ale-family, bitter, hoppy</tags>
         <stats>
           <ibu flexible="false">
-            <range low="50" high="100" />
+            <range>
+              <low>50</low>
+              <high>100</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.062" high="1.09" />
+            <range>
+              <low>1.062</low>
+              <high>1.09</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.014" high="1.024" />
+            <range>
+              <low>1.014</low>
+              <high>1.024</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="7" high="18" />
+            <range>
+              <low>7</low>
+              <high>18</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="6.3" high="10.0" />
+            <range>
+              <low>6.3</low>
+              <high>10.0</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -2462,19 +3557,34 @@ Heavy examples suggestive of milkshakes, creamsicles, or fruit smoothies are out
         <tags>very-high-strength, amber-color, top-fermented, north-america, craft-style, strong-ale-family, bitter, hoppy</tags>
         <stats>
           <ibu flexible="false">
-            <range low="50" high="100" />
+            <range>
+              <low>50</low>
+              <high>100</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.08" high="1.12" />
+            <range>
+              <low>1.08</low>
+              <high>1.12</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.016" high="1.03" />
+            <range>
+              <low>1.016</low>
+              <high>1.03</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="9" high="18" />
+            <range>
+              <low>9</low>
+              <high>18</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="8.0" high="12.0" />
+            <range>
+              <low>8.0</low>
+              <high>12.0</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -2493,19 +3603,34 @@ Heavy examples suggestive of milkshakes, creamsicles, or fruit smoothies are out
         <tags>very-high-strength, amber-color, top-fermented, north-america, craft-style, strong-ale-family, wheat-beer-family, balanced, hoppy</tags>
         <stats>
           <ibu flexible="false">
-            <range low="30" high="60" />
+            <range>
+              <low>30</low>
+              <high>60</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.08" high="1.12" />
+            <range>
+              <low>1.08</low>
+              <high>1.12</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.016" high="1.03" />
+            <range>
+              <low>1.016</low>
+              <high>1.03</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="6" high="14" />
+            <range>
+              <low>6</low>
+              <high>14</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="8.0" high="12.0" />
+            <range>
+              <low>8.0</low>
+              <high>12.0</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -2530,19 +3655,34 @@ In Germany, it is classified as a Schankbier denoting a small beer of starting g
         <tags>session-strength, pale-color, top-fermented, central-europe, traditional-style, wheat-beer-family, sour</tags>
         <stats>
           <ibu flexible="false">
-            <range low="3" high="8" />
+            <range>
+              <low>3</low>
+              <high>8</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.028" high="1.032" />
+            <range>
+              <low>1.028</low>
+              <high>1.032</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.003" high="1.006" />
+            <range>
+              <low>1.003</low>
+              <high>1.006</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="2" high="3" />
+            <range>
+              <low>2</low>
+              <high>3</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="2.8" high="3.8" />
+            <range>
+              <low>2.8</low>
+              <high>3.8</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -2561,19 +3701,34 @@ In Germany, it is classified as a Schankbier denoting a small beer of starting g
         <tags>standard-strength, amber-color, top-fermented, western-europe, traditional-style, balanced, sour, wood</tags>
         <stats>
           <ibu flexible="false">
-            <range low="10" high="25" />
+            <range>
+              <low>10</low>
+              <high>25</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.048" high="1.057" />
+            <range>
+              <low>1.048</low>
+              <high>1.057</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.002" high="1.012" />
+            <range>
+              <low>1.002</low>
+              <high>1.012</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="10" high="17" />
+            <range>
+              <low>10</low>
+              <high>17</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="4.6" high="6.5" />
+            <range>
+              <low>4.6</low>
+              <high>6.5</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -2592,19 +3747,34 @@ In Germany, it is classified as a Schankbier denoting a small beer of starting g
         <tags>standard-strength, dark-color, top-fermented, western-europe, traditional-style, malty, sour</tags>
         <stats>
           <ibu flexible="false">
-            <range low="20" high="25" />
+            <range>
+              <low>20</low>
+              <high>25</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.04" high="1.074" />
+            <range>
+              <low>1.04</low>
+              <high>1.074</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.008" high="1.012" />
+            <range>
+              <low>1.008</low>
+              <high>1.012</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="17" high="22" />
+            <range>
+              <low>17</low>
+              <high>22</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="4.0" high="8.0" />
+            <range>
+              <low>4.0</low>
+              <high>8.0</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -2623,19 +3793,34 @@ In Germany, it is classified as a Schankbier denoting a small beer of starting g
         <tags>standard-strength, pale-color, wild-fermented, western-europe, traditional-style, wheat-beer-family, sour</tags>
         <stats>
           <ibu flexible="false">
-            <range low="0" high="10" />
+            <range>
+              <low>0</low>
+              <high>10</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.04" high="1.054" />
+            <range>
+              <low>1.04</low>
+              <high>1.054</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.001" high="1.01" />
+            <range>
+              <low>1.001</low>
+              <high>1.01</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="3" high="6" />
+            <range>
+              <low>3</low>
+              <high>6</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="5.0" high="6.5" />
+            <range>
+              <low>5.0</low>
+              <high>6.5</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -2654,19 +3839,34 @@ In Germany, it is classified as a Schankbier denoting a small beer of starting g
         <tags>high-strength, pale-color, wild-fermented, western-europe, traditional-style, wheat-beer-family, aged, sour</tags>
         <stats>
           <ibu flexible="false">
-            <range low="0" high="10" />
+            <range>
+              <low>0</low>
+              <high>10</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.04" high="1.054" />
+            <range>
+              <low>1.04</low>
+              <high>1.054</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.0" high="1.006" />
+            <range>
+              <low>1.0</low>
+              <high>1.006</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="5" high="6" />
+            <range>
+              <low>5</low>
+              <high>6</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="5.0" high="8.0" />
+            <range>
+              <low>5.0</low>
+              <high>8.0</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -2686,19 +3886,34 @@ In Germany, it is classified as a Schankbier denoting a small beer of starting g
         <entry_instructions>The type of fruit used must be specified. The brewer must declare a carbonation level (low, medium, high) and a sweetness level (low/none, medium, high).</entry_instructions>
         <stats>
           <ibu flexible="false">
-            <range low="0" high="10" />
+            <range>
+              <low>0</low>
+              <high>10</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.04" high="1.06" />
+            <range>
+              <low>1.04</low>
+              <high>1.06</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.0" high="1.01" />
+            <range>
+              <low>1.0</low>
+              <high>1.01</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="3" high="7" />
+            <range>
+              <low>3</low>
+              <high>7</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="5.0" high="7.0" />
+            <range>
+              <low>5.0</low>
+              <high>7.0</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -2717,19 +3932,34 @@ In Germany, it is classified as a Schankbier denoting a small beer of starting g
         <tags>standard-strength, pale-color, top-fermented, central-europe, historical-style, wheat-beer-family, sour, spice</tags>
         <stats>
           <ibu flexible="false">
-            <range low="5" high="12" />
+            <range>
+              <low>5</low>
+              <high>12</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.036" high="1.056" />
+            <range>
+              <low>1.036</low>
+              <high>1.056</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.006" high="1.01" />
+            <range>
+              <low>1.006</low>
+              <high>1.01</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="3" high="4" />
+            <range>
+              <low>3</low>
+              <high>4</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="4.2" high="4.8" />
+            <range>
+              <low>4.2</low>
+              <high>4.8</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -2753,19 +3983,34 @@ In Germany, it is classified as a Schankbier denoting a small beer of starting g
         <tags>standard-strength, pale-color, top-fermented, western-europe, traditional-style, wheat-beer-family, spice</tags>
         <stats>
           <ibu flexible="false">
-            <range low="8" high="20" />
+            <range>
+              <low>8</low>
+              <high>20</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.044" high="1.052" />
+            <range>
+              <low>1.044</low>
+              <high>1.052</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.008" high="1.012" />
+            <range>
+              <low>1.008</low>
+              <high>1.012</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="2" high="4" />
+            <range>
+              <low>2</low>
+              <high>4</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="4.5" high="5.5" />
+            <range>
+              <low>4.5</low>
+              <high>5.5</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -2784,19 +4029,34 @@ In Germany, it is classified as a Schankbier denoting a small beer of starting g
         <tags>standard-strength, amber-color, top-fermented, western-europe, traditional-style, pale-ale-family, balanced</tags>
         <stats>
           <ibu flexible="false">
-            <range low="20" high="30" />
+            <range>
+              <low>20</low>
+              <high>30</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.048" high="1.054" />
+            <range>
+              <low>1.048</low>
+              <high>1.054</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.01" high="1.014" />
+            <range>
+              <low>1.01</low>
+              <high>1.014</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="8" high="14" />
+            <range>
+              <low>8</low>
+              <high>14</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="4.8" high="5.5" />
+            <range>
+              <low>4.8</low>
+              <high>5.5</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -2819,19 +4079,34 @@ Malt flavor, depth, richness, intensity, and complexity increases with beer colo
         <entry_instructions>Entrant must specify blond, amber, or brown Bière de Garde. If no color is specified, the judge should attempt to judge based on initial observation, expecting a malt flavor and balance that matches the color.</entry_instructions>
         <stats>
           <ibu flexible="false">
-            <range low="18" high="28" />
+            <range>
+              <low>18</low>
+              <high>28</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.06" high="1.08" />
+            <range>
+              <low>1.06</low>
+              <high>1.08</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.008" high="1.016" />
+            <range>
+              <low>1.008</low>
+              <high>1.016</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="6" high="19" />
+            <range>
+              <low>6</low>
+              <high>19</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="6.0" high="8.5" />
+            <range>
+              <low>6.0</low>
+              <high>8.5</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -2855,19 +4130,34 @@ Malt flavor, depth, richness, intensity, and complexity increases with beer colo
         <tags>high-strength, pale-color, top-fermented, western-europe, traditional-style, balanced</tags>
         <stats>
           <ibu flexible="false">
-            <range low="15" high="30" />
+            <range>
+              <low>15</low>
+              <high>30</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.062" high="1.075" />
+            <range>
+              <low>1.062</low>
+              <high>1.075</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.008" high="1.018" />
+            <range>
+              <low>1.008</low>
+              <high>1.018</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="4" high="6" />
+            <range>
+              <low>4</low>
+              <high>6</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="6.0" high="7.5" />
+            <range>
+              <low>6.0</low>
+              <high>7.5</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -2893,22 +4183,53 @@ Often called Farmhouse ales in the US, but this term is not common in Europe whe
         <entry_instructions>The entrant must specify the strength (table, standard, super) and the color (pale, dark). The entrant may identify character grains used.</entry_instructions>
         <stats>
           <ibu flexible="false">
-            <range low="20" high="35" />
+            <range>
+              <low>20</low>
+              <high>35</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.048" high="1.065" label="standard" />
+            <range>
+              <low>1.048</low>
+              <high>1.065</high>
+              <label>standard</label>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.002" high="1.008" label="standard" />
+            <range>
+              <low>1.002</low>
+              <high>1.008</high>
+              <label>standard</label>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="5" high="14" label="pale" />
-            <range low="15" high="22" label="dark" />
+            <range>
+              <low>5</low>
+              <high>14</high>
+              <label>pale</label>
+            </range>
+            <range>
+              <low>15</low>
+              <high>22</high>
+              <label>dark</label>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="3.5" high="5.0" label="table" />
-            <range low="5.0" high="7.0" label="standard" />
-            <range low="7.0" high="9.5" label="super" />
+            <range>
+              <low>3.5</low>
+              <high>5.0</high>
+              <label>table</label>
+            </range>
+            <range>
+              <low>5.0</low>
+              <high>7.0</high>
+              <label>standard</label>
+            </range>
+            <range>
+              <low>7.0</low>
+              <high>9.5</high>
+              <label>super</label>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -2927,19 +4248,34 @@ Often called Farmhouse ales in the US, but this term is not common in Europe whe
         <tags>very-high-strength, pale-color, top-fermented, western-europe, traditional-style, bitter</tags>
         <stats>
           <ibu flexible="false">
-            <range low="22" high="35" />
+            <range>
+              <low>22</low>
+              <high>35</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.07" high="1.095" />
+            <range>
+              <low>1.07</low>
+              <high>1.095</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.005" high="1.016" />
+            <range>
+              <low>1.005</low>
+              <high>1.016</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="3" high="6" />
+            <range>
+              <low>3</low>
+              <high>6</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="7.5" high="10.5" />
+            <range>
+              <low>7.5</low>
+              <high>10.5</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -2965,19 +4301,34 @@ We differentiate beers in this category as those that were inspired by religious
         <tags>standard-strength, pale-color, top-fermented, western-europe, craft-style, bitter, hoppy</tags>
         <stats>
           <ibu flexible="false">
-            <range low="25" high="45" />
+            <range>
+              <low>25</low>
+              <high>45</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.044" high="1.054" />
+            <range>
+              <low>1.044</low>
+              <high>1.054</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.004" high="1.01" />
+            <range>
+              <low>1.004</low>
+              <high>1.01</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="3" high="5" />
+            <range>
+              <low>3</low>
+              <high>5</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="4.8" high="6.0" />
+            <range>
+              <low>4.8</low>
+              <high>6.0</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -2996,19 +4347,34 @@ We differentiate beers in this category as those that were inspired by religious
         <tags>high-strength, amber-color, top-fermented, western-europe, traditional-style, malty</tags>
         <stats>
           <ibu flexible="false">
-            <range low="15" high="25" />
+            <range>
+              <low>15</low>
+              <high>25</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.062" high="1.075" />
+            <range>
+              <low>1.062</low>
+              <high>1.075</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.008" high="1.018" />
+            <range>
+              <low>1.008</low>
+              <high>1.018</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="10" high="17" />
+            <range>
+              <low>10</low>
+              <high>17</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="6.0" high="7.6" />
+            <range>
+              <low>6.0</low>
+              <high>7.6</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -3027,19 +4393,34 @@ We differentiate beers in this category as those that were inspired by religious
         <tags>high-strength, pale-color, top-fermented, western-europe, traditional-style, bitter</tags>
         <stats>
           <ibu flexible="false">
-            <range low="20" high="40" />
+            <range>
+              <low>20</low>
+              <high>40</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.075" high="1.085" />
+            <range>
+              <low>1.075</low>
+              <high>1.085</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.008" high="1.014" />
+            <range>
+              <low>1.008</low>
+              <high>1.014</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="4.5" high="7.0" />
+            <range>
+              <low>4.5</low>
+              <high>7.0</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="7.5" high="9.5" />
+            <range>
+              <low>7.5</low>
+              <high>9.5</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -3058,19 +4439,34 @@ We differentiate beers in this category as those that were inspired by religious
         <tags>very-high-strength, amber-color, top-fermented, western-europe, traditional-style, malty</tags>
         <stats>
           <ibu flexible="false">
-            <range low="20" high="35" />
+            <range>
+              <low>20</low>
+              <high>35</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.075" high="1.11" />
+            <range>
+              <low>1.075</low>
+              <high>1.11</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.01" high="1.024" />
+            <range>
+              <low>1.01</low>
+              <high>1.024</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="12" high="22" />
+            <range>
+              <low>12</low>
+              <high>22</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="8.0" high="12.0" />
+            <range>
+              <low>8.0</low>
+              <high>12.0</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -3124,19 +4520,34 @@ Some have speculated it was a dark variant of Cream Ale, created by immigrant Ge
         <tags>standard-strength, amber-color, top-fermented, north-america, historical-style, balanced</tags>
         <stats>
           <ibu flexible="false">
-            <range low="15" high="30" />
+            <range>
+              <low>15</low>
+              <high>30</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.044" high="1.055" />
+            <range>
+              <low>1.044</low>
+              <high>1.055</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.01" high="1.018" />
+            <range>
+              <low>1.01</low>
+              <high>1.018</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="11" high="20" />
+            <range>
+              <low>11</low>
+              <high>20</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="4.0" high="5.5" />
+            <range>
+              <low>4.0</low>
+              <high>5.5</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -3155,19 +4566,34 @@ Some have speculated it was a dark variant of Cream Ale, created by immigrant Ge
         <tags>standard-strength, pale-color, top-fermented, central-europe, historical-style, wheat-beer-family, sour, smoke</tags>
         <stats>
           <ibu flexible="false">
-            <range low="5" high="12" />
+            <range>
+              <low>5</low>
+              <high>12</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.032" high="1.04" />
+            <range>
+              <low>1.032</low>
+              <high>1.04</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.004" high="1.008" />
+            <range>
+              <low>1.004</low>
+              <high>1.008</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="3" high="6" />
+            <range>
+              <low>3</low>
+              <high>6</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="3.5" high="4.7" />
+            <range>
+              <low>3.5</low>
+              <high>4.7</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -3186,19 +4612,34 @@ Some have speculated it was a dark variant of Cream Ale, created by immigrant Ge
         <tags>session-strength, dark-color, top-fermented, british-isles, historical-style, brown-ale-family, malty, sweet</tags>
         <stats>
           <ibu flexible="false">
-            <range low="15" high="20" />
+            <range>
+              <low>15</low>
+              <high>20</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.033" high="1.038" />
+            <range>
+              <low>1.033</low>
+              <high>1.038</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.012" high="1.015" />
+            <range>
+              <low>1.012</low>
+              <high>1.015</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="22" high="35" />
+            <range>
+              <low>22</low>
+              <high>35</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="2.8" high="3.6" />
+            <range>
+              <low>2.8</low>
+              <high>3.6</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -3217,19 +4658,34 @@ Some have speculated it was a dark variant of Cream Ale, created by immigrant Ge
         <tags>session-strength, pale-color, top-fermented, central-europe, historical-style, wheat-beer-family, bitter, smoke</tags>
         <stats>
           <ibu flexible="false">
-            <range low="20" high="35" />
+            <range>
+              <low>20</low>
+              <high>35</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.028" high="1.032" />
+            <range>
+              <low>1.028</low>
+              <high>1.032</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.006" high="1.012" />
+            <range>
+              <low>1.006</low>
+              <high>1.012</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="3" high="6" />
+            <range>
+              <low>3</low>
+              <high>6</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="2.5" high="3.3" />
+            <range>
+              <low>2.5</low>
+              <high>3.3</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -3248,19 +4704,34 @@ Some have speculated it was a dark variant of Cream Ale, created by immigrant Ge
         <tags>standard-strength, pale-color, bottom-fermented, lagered, north-america, historical-style, pilsner-family, bitter, hoppy</tags>
         <stats>
           <ibu flexible="false">
-            <range low="25" high="40" />
+            <range>
+              <low>25</low>
+              <high>40</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.044" high="1.06" />
+            <range>
+              <low>1.044</low>
+              <high>1.06</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.01" high="1.015" />
+            <range>
+              <low>1.01</low>
+              <high>1.015</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="3" high="6" />
+            <range>
+              <low>3</low>
+              <high>6</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="4.5" high="6.0" />
+            <range>
+              <low>4.5</low>
+              <high>6.0</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -3279,19 +4750,34 @@ Some have speculated it was a dark variant of Cream Ale, created by immigrant Ge
         <tags>standard-strength, dark-color, any-fermentation, north-america, historical-style, porter-family, malty</tags>
         <stats>
           <ibu flexible="false">
-            <range low="20" high="30" />
+            <range>
+              <low>20</low>
+              <high>30</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.046" high="1.06" />
+            <range>
+              <low>1.046</low>
+              <high>1.06</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.01" high="1.016" />
+            <range>
+              <low>1.01</low>
+              <high>1.016</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="20" high="30" />
+            <range>
+              <low>20</low>
+              <high>30</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="4.5" high="6.0" />
+            <range>
+              <low>4.5</low>
+              <high>6.0</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -3310,19 +4796,34 @@ Some have speculated it was a dark variant of Cream Ale, created by immigrant Ge
         <tags>standard-strength, amber-color, top-fermented, central-europe, historical-style, wheat-beer-family</tags>
         <stats>
           <ibu flexible="false">
-            <range low="10" high="20" />
+            <range>
+              <low>10</low>
+              <high>20</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.046" high="1.056" />
+            <range>
+              <low>1.046</low>
+              <high>1.056</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.01" high="1.014" />
+            <range>
+              <low>1.01</low>
+              <high>1.014</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="14" high="19" />
+            <range>
+              <low>14</low>
+              <high>19</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="4.5" high="6.0" />
+            <range>
+              <low>4.5</low>
+              <high>6.0</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -3341,19 +4842,34 @@ Some have speculated it was a dark variant of Cream Ale, created by immigrant Ge
         <tags>high-strength, amber-color, top-fermented, central-europe, historical-style, spice</tags>
         <stats>
           <ibu flexible="false">
-            <range low="0" high="15" />
+            <range>
+              <low>0</low>
+              <high>15</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.076" high="1.12" />
+            <range>
+              <low>1.076</low>
+              <high>1.12</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.016" high="1.038" />
+            <range>
+              <low>1.016</low>
+              <high>1.038</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="4" high="22" />
+            <range>
+              <low>4</low>
+              <high>22</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="7.0" high="11.0" />
+            <range>
+              <low>7.0</low>
+              <high>11.0</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -3449,19 +4965,34 @@ The styles in this category are differentiated by the types of yeast and bacteri
         <tags>pale-color, top-fermented, sour</tags>
         <stats>
           <ibu flexible="false">
-            <range low="3" high="8" />
+            <range>
+              <low>3</low>
+              <high>8</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.048" high="1.065" />
+            <range>
+              <low>1.048</low>
+              <high>1.065</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.006" high="1.013" />
+            <range>
+              <low>1.006</low>
+              <high>1.013</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="2" high="3" />
+            <range>
+              <low>2</low>
+              <high>3</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="4.5" high="7.0" />
+            <range>
+              <low>4.5</low>
+              <high>7.0</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -3555,19 +5086,34 @@ The specialty ingredients should complement the original style and not overwhelm
         <tags>specialty-beer, fruit</tags>
         <stats>
           <ibu flexible="false">
-            <range low="10" high="30" />
+            <range>
+              <low>10</low>
+              <high>30</high>
+            </range>
           </ibu>
           <og flexible="false">
-            <range low="1.059" high="1.075" />
+            <range>
+              <low>1.059</low>
+              <high>1.075</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.004" high="1.013" />
+            <range>
+              <low>1.004</low>
+              <high>1.013</high>
+            </range>
           </fg>
           <srm flexible="false">
-            <range low="4" high="8" />
+            <range>
+              <low>4</low>
+              <high>8</high>
+            </range>
           </srm>
           <abv flexible="false">
-            <range low="6.0" high="8.5" />
+            <range>
+              <low>6.0</low>
+              <high>8.5</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -4321,14 +5867,23 @@ o	Medium-sweet: 2.0-4.0% residual sugar, final gravity 1.009-1.019. The cider is
         <stats>
           <ibu flexible="true" />
           <og flexible="false">
-            <range low="1.045" high="1.065" />
+            <range>
+              <low>1.045</low>
+              <high>1.065</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="0.995" high="1.02" />
+            <range>
+              <low>0.995</low>
+              <high>1.02</high>
+            </range>
           </fg>
           <srm flexible="true" />
           <abv flexible="false">
-            <range low="5" high="8" />
+            <range>
+              <low>5</low>
+              <high>8</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -4344,14 +5899,23 @@ o	Medium-sweet: 2.0-4.0% residual sugar, final gravity 1.009-1.019. The cider is
         <stats>
           <ibu flexible="true" />
           <og flexible="false">
-            <range low="1.05" high="1.075" />
+            <range>
+              <low>1.05</low>
+              <high>1.075</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="0.995" high="1.015" />
+            <range>
+              <low>0.995</low>
+              <high>1.015</high>
+            </range>
           </fg>
           <srm flexible="true" />
           <abv flexible="false">
-            <range low="6" high="9" />
+            <range>
+              <low>6</low>
+              <high>9</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -4367,14 +5931,23 @@ o	Medium-sweet: 2.0-4.0% residual sugar, final gravity 1.009-1.019. The cider is
         <stats>
           <ibu flexible="true" />
           <og flexible="false">
-            <range low="1.05" high="1.065" />
+            <range>
+              <low>1.05</low>
+              <high>1.065</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.01" high="1.02" />
+            <range>
+              <low>1.01</low>
+              <high>1.02</high>
+            </range>
           </fg>
           <srm flexible="true" />
           <abv flexible="false">
-            <range low="3" high="6" />
+            <range>
+              <low>3</low>
+              <high>6</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -4390,14 +5963,23 @@ o	Medium-sweet: 2.0-4.0% residual sugar, final gravity 1.009-1.019. The cider is
         <stats>
           <ibu flexible="true" />
           <og flexible="false">
-            <range low="1.05" high="1.06" />
+            <range>
+              <low>1.05</low>
+              <high>1.06</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.0" high="1.02" />
+            <range>
+              <low>1.0</low>
+              <high>1.02</high>
+            </range>
           </fg>
           <srm flexible="true" />
           <abv flexible="false">
-            <range low="5" high="7" />
+            <range>
+              <low>5</low>
+              <high>7</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -4413,14 +5995,23 @@ o	Medium-sweet: 2.0-4.0% residual sugar, final gravity 1.009-1.019. The cider is
         <stats>
           <ibu flexible="true" />
           <og flexible="false">
-            <range low="1.05" high="1.07" />
+            <range>
+              <low>1.05</low>
+              <high>1.07</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.0" high="1.02" />
+            <range>
+              <low>1.0</low>
+              <high>1.02</high>
+            </range>
           </fg>
           <srm flexible="true" />
           <abv flexible="false">
-            <range low="5" high="9" />
+            <range>
+              <low>5</low>
+              <high>9</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -4440,14 +6031,23 @@ o	Medium-sweet: 2.0-4.0% residual sugar, final gravity 1.009-1.019. The cider is
         <stats>
           <ibu flexible="true" />
           <og flexible="false">
-            <range low="1.06" high="1.1" />
+            <range>
+              <low>1.06</low>
+              <high>1.1</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="0.995" high="1.02" />
+            <range>
+              <low>0.995</low>
+              <high>1.02</high>
+            </range>
           </fg>
           <srm flexible="true" />
           <abv flexible="false">
-            <range low="7" high="13" />
+            <range>
+              <low>7</low>
+              <high>13</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -4462,14 +6062,23 @@ o	Medium-sweet: 2.0-4.0% residual sugar, final gravity 1.009-1.019. The cider is
         <stats>
           <ibu flexible="true" />
           <og flexible="false">
-            <range low="1.045" high="1.07" />
+            <range>
+              <low>1.045</low>
+              <high>1.07</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="0.995" high="1.01" />
+            <range>
+              <low>0.995</low>
+              <high>1.01</high>
+            </range>
           </fg>
           <srm flexible="true" />
           <abv flexible="false">
-            <range low="5" high="9" />
+            <range>
+              <low>5</low>
+              <high>9</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -4484,14 +6093,23 @@ o	Medium-sweet: 2.0-4.0% residual sugar, final gravity 1.009-1.019. The cider is
         <stats>
           <ibu flexible="true" />
           <og flexible="false">
-            <range low="1.07" high="1.1" />
+            <range>
+              <low>1.07</low>
+              <high>1.1</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="0.995" high="1.02" />
+            <range>
+              <low>0.995</low>
+              <high>1.02</high>
+            </range>
           </fg>
           <srm flexible="true" />
           <abv flexible="false">
-            <range low="9" high="12" />
+            <range>
+              <low>9</low>
+              <high>12</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -4505,14 +6123,23 @@ o	Medium-sweet: 2.0-4.0% residual sugar, final gravity 1.009-1.019. The cider is
         <stats>
           <ibu flexible="true" />
           <og flexible="false">
-            <range low="1.13" high="1.18" />
+            <range>
+              <low>1.13</low>
+              <high>1.18</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="1.06" high="1.085" />
+            <range>
+              <low>1.06</low>
+              <high>1.085</high>
+            </range>
           </fg>
           <srm flexible="true" />
           <abv flexible="false">
-            <range low="7" high="13" />
+            <range>
+              <low>7</low>
+              <high>13</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -4527,14 +6154,23 @@ o	Medium-sweet: 2.0-4.0% residual sugar, final gravity 1.009-1.019. The cider is
         <stats>
           <ibu flexible="true" />
           <og flexible="false">
-            <range low="1.045" high="1.07" />
+            <range>
+              <low>1.045</low>
+              <high>1.07</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="0.995" high="1.01" />
+            <range>
+              <low>0.995</low>
+              <high>1.01</high>
+            </range>
           </fg>
           <srm flexible="true" />
           <abv flexible="false">
-            <range low="5" high="9" />
+            <range>
+              <low>5</low>
+              <high>9</high>
+            </range>
           </abv>
         </stats>
       </subcategory>
@@ -4548,14 +6184,23 @@ o	Medium-sweet: 2.0-4.0% residual sugar, final gravity 1.009-1.019. The cider is
         <stats>
           <ibu flexible="true" />
           <og flexible="false">
-            <range low="1.045" high="1.1" />
+            <range>
+              <low>1.045</low>
+              <high>1.1</high>
+            </range>
           </og>
           <fg flexible="false">
-            <range low="0.995" high="1.02" />
+            <range>
+              <low>0.995</low>
+              <high>1.02</high>
+            </range>
           </fg>
           <srm flexible="true" />
           <abv flexible="false">
-            <range low="5" high="12" />
+            <range>
+              <low>5</low>
+              <high>12</high>
+            </range>
           </abv>
         </stats>
       </subcategory>

@@ -24,8 +24,8 @@ class StyleDetail extends React.PureComponent<StyleDetailProps> {
 
   private generateColorBand(srm: StyleStatRange): JSX.Element {
     let range = [];
-    const low = srm['@_low'];
-    const high = srm['@_high'];
+    const low = srm.low;
+    const high = srm.high;
 
     for (let i = Math.floor(low || 1); i < (high ? high + 1 : 40); i++) {
       range.push(i);
@@ -50,12 +50,12 @@ class StyleDetail extends React.PureComponent<StyleDetailProps> {
     );
   }
 
-  generateColorBands(srm?: StyleStatRange | StyleStatRange[]): JSX.Element {
-    let ranges;
+  generateColorBands(srm?: StyleStatRange[]): JSX.Element {
+    let ranges: StyleStatRange[];
     if (srm === undefined) {
-      ranges = [{ ['@_low']: 1, ['@_high']: 40 }];
+      ranges = [{ low: 1, high: 40 }];
     } else {
-      ranges = Array.isArray(srm) ? srm : [srm];
+      ranges = [...srm];
     }
     
     return (

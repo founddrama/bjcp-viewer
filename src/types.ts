@@ -10,14 +10,20 @@ interface Identified extends Named {
 }
 
 export interface StyleStatRange {
-  ['@_low']?: number;
-  ['@_high']?: number;
-  ['@_label']?: string;
+  low?: number;
+  high?: number;
+  label?: string;
 };
+
+export interface FormattedStyleStateRange {
+  low?: number | string;
+  high?: number | string;
+  label?: string;
+}
 
 export type StyleStat = {
   ['@_flexible']: boolean;
-  range?: StyleStatRange | StyleStatRange[];
+  range?: StyleStatRange[];
 };
 
 type BeerStyleStats = {

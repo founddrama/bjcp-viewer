@@ -73,6 +73,10 @@ main {
   border-bottom: 1px solid var(--border-color);
 }
 
+.style-list-container .style-range-label {
+  font-size: 0.8rem;
+}
+
 main > article {
   padding-left: 1rem;
   overflow: auto;
