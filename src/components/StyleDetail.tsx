@@ -22,9 +22,11 @@ class StyleDetail extends React.PureComponent<StyleDetailProps> {
     return style['@_type'] === 'cider';
   }
 
-  generateColorBand(srm: StyleStatRange): JSX.Element {
+  private generateColorBand(srm: StyleStatRange): JSX.Element {
     let range = [];
-    const { low, high } = srm;
+    const low = srm.low;
+    const high = srm.high;
+
     for (let i = Math.floor(low || 1); i < (high ? high + 1 : 40); i++) {
       range.push(i);
     }
@@ -35,7 +37,7 @@ class StyleDetail extends React.PureComponent<StyleDetailProps> {
     };
 
     return (
-      <div style={ctStyle} data-testid="srm-gradient">
+      <div key={cyrb53(`${low}-${high}`)} style={ctStyle} data-testid="srm-gradient">
       {
         range.map((i) => (
           <div key={i} style={{
@@ -46,6 +48,17 @@ class StyleDetail extends React.PureComponent<StyleDetailProps> {
       }
       </div>
     );
+  }
+
+  generateColorBands(srm?: StyleStatRange[]): JSX.Element {
+    let ranges: StyleStatRange[];
+    if (srm === undefined) {
+      ranges = [{ low: 1, high: 40 }];
+    } else {
+      ranges = [...srm];
+    }
+    
+    return <>{ranges.map(this.generateColorBand)}</>;
   }
 
   componentDidUpdate (): void {
@@ -126,7 +139,7 @@ class StyleDetail extends React.PureComponent<StyleDetailProps> {
             { this.isBeer(style) ?
               <tr>
                 <td colSpan={5} className="srm-gradient">
-                  {this.generateColorBand(srm)}
+                  {this.generateColorBands(srm.range)}
                 </td>
               </tr>
             : null }

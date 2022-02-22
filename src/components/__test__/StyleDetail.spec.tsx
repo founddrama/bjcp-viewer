@@ -57,11 +57,11 @@ describe('BeerStyleDetail', () => {
       });
 
       test.each([
-        ['ABV', `${abv.low}-${abv.high}%`],
-        ['IBU', `${ibu.low}-${ibu.high}`],
-        ['O.G.', `${og.low}0-${og.high}`],
-        ['F.G.', `${fg.low}0-${fg.high}`],
-        ['SRM', `${srm.low}-${srm.high}`]
+        ['ABV', `${abv.range![0].low}-${abv.range![0].high}%`],
+        ['IBU', `${ibu.range![0].low}-${ibu.range![0].high}`],
+        ['O.G.', `${og.range![0].low}0-${og.range![0].high}`],
+        ['F.G.', `${fg.range![0].low}0-${fg.range![0].high}`],
+        ['SRM', `${srm.range![0].low}-${srm.range![0].high}`]
       ])(
         `%s block should read %s`,
         (thLabel, cellValue) => {
@@ -72,10 +72,10 @@ describe('BeerStyleDetail', () => {
 
       test('renders the SRM as a faux gradient with color bands', () => {
         const srmGradientContainer = screen.getByTestId('srm-gradient');
-        expect(srm.low).toBeDefined();
-        expect(srm.high).toBeDefined()
-        for (let srmValue = srm.low!; srmValue <= srm.high!; srmValue++) {
-          expect(srmGradientContainer.querySelectorAll('div div')).toHaveLength(srm.high! - srm.low! + 1);
+        expect(srm.range![0].low).toBeDefined();
+        expect(srm.range![0].high).toBeDefined()
+        for (let srmValue = srm.range![0].low!; srmValue <= srm.range![0].high!; srmValue++) {
+          expect(srmGradientContainer.querySelectorAll('div div')).toHaveLength(srm.range![0].high! - srm.range![0].low! + 1);
         }
       });
 
@@ -196,11 +196,11 @@ describe('BeerStyleDetail', () => {
       });
 
       test.each([
-        ['ABV', `${abv.low}-${abv.high}%`],
-        ['IBU', `${ibu.low}-${ibu.high}`],
-        ['O.G.', `${og.low}-${og.high}`],
-        ['F.G.', `${fg.low}-${fg.high}0`],
-        ['SRM', `${srm.low}-${srm.high}`]
+        ['ABV', `${abv.range![0].low}-${abv.range![0].high}%`],
+        ['IBU', 'Varies'],
+        ['O.G.', `${og.range![0].low}-${og.range![0].high}`],
+        ['F.G.', `${fg.range![0].low}-${fg.range![0].high}0`],
+        ['SRM', 'Varies']
       ])(
         `%s block should read %s`,
         (thLabel, cellValue) => {

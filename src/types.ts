@@ -12,14 +12,26 @@ interface Identified extends Named {
 export interface StyleStatRange {
   low?: number;
   high?: number;
+  label?: string;
+};
+
+export interface FormattedStyleStateRange {
+  low?: number | string;
+  high?: number | string;
+  label?: string;
+}
+
+export type StyleStat = {
+  ['@_flexible']: boolean;
+  range?: StyleStatRange[];
 };
 
 type BeerStyleStats = {
-  abv: StyleStatRange;
-  ibu: StyleStatRange;
-  og: StyleStatRange;
-  fg: StyleStatRange;
-  srm: StyleStatRange;
+  abv: StyleStat;
+  ibu: StyleStat;
+  og: StyleStat;
+  fg: StyleStat;
+  srm: StyleStat;
   notes?: string;
 };
 

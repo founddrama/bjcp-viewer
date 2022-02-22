@@ -73,6 +73,10 @@ main {
   border-bottom: 1px solid var(--border-color);
 }
 
+.style-list-container .style-range-label {
+  font-size: 0.8rem;
+}
+
 main > article {
   padding-left: 1rem;
   overflow: auto;
@@ -87,6 +91,23 @@ table th,
 table td {
   text-align: right;
   padding-left: 0.75rem;
+}
+
+article table td {
+  line-height: 1.25;
+}
+
+article table td div {
+  margin-bottom: 0.25rem;
+}
+
+article table .srm-gradient > div {
+  margin-bottom: 1px;
+}
+
+article table td div:last-of-type,
+article table .srm-gradient div[style*='var(--srm'] {
+  margin-bottom: 0;
 }
 
 .style-list-container table th:first-of-type,

@@ -4,7 +4,12 @@ import { render, screen } from '@testing-library/react';
 import "@testing-library/jest-dom/extend-expect";
 
 describe('bjcp-formatters', () => {
-  const stubRange = { low: 1, high: 2 };
+  const stubRange = {
+    ['@_flexible']: false,
+    range: [{ low: 1, high: 2 }],
+  };
+
+  const VARIES = 'varies';
 
   describe('formatSG', () => {
     test('should return gravity as X.XXX', () => {
@@ -24,13 +29,6 @@ describe('bjcp-formatters', () => {
                           .appendChild(document.createElement('tr'));
     };
 
-    test('given a range with strings, hyphenate the values', () => {
-      render(<>{formatRange({ low: '1', high: '2' })}</>, {
-        container: applyContainer()
-      });
-      expect(screen.getByText('1-2')).toBeInTheDocument();
-    });
-
     test('given a range with numbers, hyphenate the values', () => {
       render(<>{formatRange(stubRange)}</>, {
         container: applyContainer()
@@ -38,25 +36,18 @@ describe('bjcp-formatters', () => {
       expect(screen.getByText('1-2')).toBeInTheDocument();
     });
 
-    test('if the lower bound is missing, should print "varies"', () => {
-      render(<>{formatRange({ low: undefined, high: 2 })}</>, {
+    test('if the range is missing, should print "varies"', () => {
+      render(<>{formatRange({ ['@_flexible']: false, range: undefined })}</>, {
         container: applyContainer()
       });
-      expect(screen.getByText('varies')).toBeInTheDocument();
+      expect(screen.getByText(VARIES)).toBeInTheDocument();
     });
 
-    test('if the upper bound is missing, should print "varies"', () => {
-      render(<>{formatRange({ low: 1, high: undefined })}</>, {
+    test('if @_flexible is true, should print "varies"', () => {
+      render(<>{formatRange({ ['@_flexible']: true })}</>, {
         container: applyContainer()
       });
-      expect(screen.getByText('varies')).toBeInTheDocument();
-    });
-
-    test('if the lower and upper bounds are missing, should print "varies"', () => {
-      render(<>{formatRange({ low: undefined, high: undefined })}</>, {
-        container: applyContainer()
-      });
-      expect(screen.getByText('varies')).toBeInTheDocument();
+      expect(screen.getByText(VARIES)).toBeInTheDocument();
     });
 
     test('should apply a prefix if provided', () => {

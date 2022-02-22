@@ -5,11 +5,11 @@ export const mockBeerStyle: BJCPStyle = {
   ['@_type']: 'beer',
   name: 'German Bier',
   stats: {
-    abv: { low: 3.4, high: 6.8 },
-    ibu: { low: 25, high: 40 },
-    og: { low: 1.05, high: 1.065 },
-    fg: { low: 1.01, high: 1.015 },
-    srm: { low: 3, high: 8 },
+    abv: { ['@_flexible']: false, range: [{ low: 3.4, high: 6.8 }] },
+    ibu: { ['@_flexible']: false, range: [{ low: 25, high: 40 }] },
+    og: { ['@_flexible']: false, range: [{ low: 1.05, high: 1.065 }] },
+    fg: { ['@_flexible']: false, range: [{ low: 1.01, high: 1.015 }] },
+    srm: { ['@_flexible']: false, range: [{ low: 3, high: 8 }] },
   },
   impression: 'good beer for judging',
   aroma: 'smells good',
@@ -39,11 +39,11 @@ export const mockMeadStyle: BJCPStyle = {
   ['@_type']: 'mead',
   name: 'Craft Mead',
   stats: {
-    abv: {},
-    ibu: {},
-    og: {},
-    fg: {},
-    srm: {},
+    abv: { ['@_flexible']: true },
+    ibu: { ['@_flexible']: true },
+    og: { ['@_flexible']: true },
+    fg: { ['@_flexible']: true },
+    srm: { ['@_flexible']: true },
   },
   impression: 'good mead for drinking',
   aroma: 'smells good',
@@ -60,11 +60,11 @@ export const mockCiderStyle: BJCPStyle = {
   ['@_type']: 'cider',
   name: 'Craft Cider',
   stats: {
-    abv: { low: 5, high: 8 },
-    ibu: {},
-    og: { low: 1.045, high: 1.065 },
-    fg: { low: 0.995, high: 1.02 },
-    srm: {},
+    abv: { ['@_flexible']: false, range: [{ low: 5, high: 8 }] },
+    ibu: { ['@_flexible']: true },
+    og: { ['@_flexible']: false, range: [{ low: 1.045, high: 1.065 }] },
+    fg: { ['@_flexible']: false, range: [{ low: 0.995, high: 1.02 }] },
+    srm: { ['@_flexible']: true },
   },
   impression: 'refreshing easy-to-drink cider',
   aroma: 'smells appley',
@@ -103,24 +103,39 @@ export const mockStyleList: BJCPStyle[] = [
     ],
     "stats": {
       "ibu": {
-        "low": 8,
-        "high": 12
+        "@_flexible": false,
+        "range": [{
+          "low": 8,
+          "high": 12
+        }]
       },
       "og": {
-        "low": 1.028,
-        "high": 1.04
+        "@_flexible": false,
+        "range": [{
+          "low": 1.028,
+          "high": 1.04
+        }]
       },
       "fg": {
-        "low": 0.998,
-        "high": 1.008
+        "@_flexible": false,
+        "range": [{
+          "low": 0.998,
+          "high": 1.008
+        }]
       },
       "srm": {
-        "low": 2,
-        "high": 3
+        "@_flexible": false,
+        "range": [{
+          "low": 2,
+          "high": 3
+        }]
       },
       "abv": {
-        "low": 2.8,
-        "high": 4.2
+        "@_flexible": false,
+        "range": [{
+          "low": 2.8,
+          "high": 4.2
+        }]
       }
     }
   },
@@ -150,24 +165,39 @@ export const mockStyleList: BJCPStyle[] = [
     ],
     "stats": {
       "ibu": {
-        "low": 8,
-        "high": 18
+        "@_flexible": false,
+        "range": [{
+          "low": 8,
+          "high": 18
+        }]
       },
       "og": {
-        "low": 1.04,
-        "high": 1.05
+        "@_flexible": false,
+        "range": [{
+          "low": 1.04,
+          "high": 1.05
+        }]
       },
       "fg": {
-        "low": 1.004,
-        "high": 1.01
+        "@_flexible": false,
+        "range": [{
+          "low": 1.004,
+          "high": 1.01
+        }]
       },
       "srm": {
-        "low": 2,
-        "high": 4
+        "@_flexible": false,
+        "range": [{
+          "low": 2,
+          "high": 4
+        }]
       },
       "abv": {
-        "low": 4.2,
-        "high": 5.3
+        "@_flexible": false,
+        "range": [{
+          "low": 4.2,
+          "high": 5.3
+        }]
       }
     }
   },
@@ -196,24 +226,39 @@ export const mockStyleList: BJCPStyle[] = [
     ],
     "stats": {
       "ibu": {
-        "low": 8,
-        "high": 20
+        "@_flexible": false,
+        "range": [{
+          "low": 8,
+          "high": 20
+        }]
       },
       "og": {
-        "low": 1.042,
-        "high": 1.055
+        "@_flexible": false,
+        "range": [{
+          "low": 1.042,
+          "high": 1.055
+        }]
       },
       "fg": {
-        "low": 1.006,
-        "high": 1.012
+        "@_flexible": false,
+        "range": [{
+          "low": 1.006,
+          "high": 1.012
+        }]
       },
       "srm": {
-        "low": 2.5,
-        "high": 5
+        "@_flexible": false,
+        "range": [{
+          "low": 2.5,
+          "high": 5
+        }]
       },
       "abv": {
-        "low": 4.2,
-        "high": 5.6
+        "@_flexible": false,
+        "range": [{
+          "low": 4.2,
+          "high": 5.6
+        }]
       }
     }
   },
@@ -242,24 +287,39 @@ export const mockStyleList: BJCPStyle[] = [
     ],
     "stats": {
       "ibu": {
-        "low": 15,
-        "high": 30
+        "@_flexible": false,
+        "range": [{
+          "low": 15,
+          "high": 30
+        }]
       },
       "og": {
-        "low": 1.04,
-        "high": 1.055
+        "@_flexible": false,
+        "range": [{
+          "low": 1.04,
+          "high": 1.055
+        }]
       },
       "fg": {
-        "low": 1.008,
-        "high": 1.013
+        "@_flexible": false,
+        "range": [{
+          "low": 1.008,
+          "high": 1.013
+        }]
       },
       "srm": {
-        "low": 3,
-        "high": 6
+        "@_flexible": false,
+        "range": [{
+          "low": 3,
+          "high": 6
+        }]
       },
       "abv": {
-        "low": 4,
-        "high": 5.5
+        "@_flexible": false,
+        "range": [{
+          "low": 4,
+          "high": 5.5
+        }]
       }
     }
   },
@@ -288,24 +348,39 @@ export const mockStyleList: BJCPStyle[] = [
     ],
     "stats": {
       "ibu": {
-        "low": 18,
-        "high": 25
+        "@_flexible": false,
+        "range": [{
+          "low": 18,
+          "high": 25
+        }]
       },
       "og": {
-        "low": 1.042,
-        "high": 1.05
+        "@_flexible": false,
+        "range": [{
+          "low": 1.042,
+          "high": 1.05
+        }]
       },
       "fg": {
-        "low": 1.008,
-        "high": 1.012
+        "@_flexible": false,
+        "range": [{
+          "low": 1.008,
+          "high": 1.012
+        }]
       },
       "srm": {
-        "low": 2,
-        "high": 6
+        "@_flexible": false,
+        "range": [{
+          "low": 2,
+          "high": 6
+        }]
       },
       "abv": {
-        "low": 4.6,
-        "high": 6
+        "@_flexible": false,
+        "range": [{
+          "low": 4.6,
+          "high": 6
+        }]
       }
     }
   },
@@ -334,24 +409,39 @@ export const mockStyleList: BJCPStyle[] = [
     ],
     "stats": {
       "ibu": {
-        "low": 8,
-        "high": 25
+        "@_flexible": false,
+        "range": [{
+          "low": 8,
+          "high": 25
+        }]
       },
       "og": {
-        "low": 1.042,
-        "high": 1.055
+        "@_flexible": false,
+        "range": [{
+          "low": 1.042,
+          "high": 1.055
+        }]
       },
       "fg": {
-        "low": 1.008,
-        "high": 1.014
+        "@_flexible": false,
+        "range": [{
+          "low": 1.008,
+          "high": 1.014
+        }]
       },
       "srm": {
-        "low": 7,
-        "high": 14
+        "@_flexible": false,
+        "range": [{
+          "low": 7,
+          "high": 14
+        }]
       },
       "abv": {
-        "low": 4.6,
-        "high": 6
+        "@_flexible": false,
+        "range": [{
+          "low": 4.6,
+          "high": 6
+        }]
       }
     }
   },
@@ -380,24 +470,39 @@ export const mockStyleList: BJCPStyle[] = [
     ],
     "stats": {
       "ibu": {
-        "low": 8,
-        "high": 20
+        "@_flexible": false,
+        "range": [{
+          "low": 8,
+          "high": 20
+        }]
       },
       "og": {
-        "low": 1.044,
-        "high": 1.056
+        "@_flexible": false,
+        "range": [{
+          "low": 1.044,
+          "high": 1.056
+        }]
       },
       "fg": {
-        "low": 1.008,
-        "high": 1.012
+        "@_flexible": false,
+        "range": [{
+          "low": 1.008,
+          "high": 1.012
+        }]
       },
       "srm": {
-        "low": 14,
-        "high": 22
+        "@_flexible": false,
+        "range": [{
+          "low": 14,
+          "high": 22
+        }]
       },
       "abv": {
-        "low": 4.2,
-        "high": 6
+        "@_flexible": false,
+        "range": [{
+          "low": 4.2,
+          "high": 6
+        }]
       }
     }
   },
@@ -428,24 +533,39 @@ export const mockStyleList: BJCPStyle[] = [
     ],
     "stats": {
       "ibu": {
-        "low": 20,
-        "high": 35
+        "@_flexible": false,
+        "range": [{
+          "low": 20,
+          "high": 35
+        }]
       },
       "og": {
-        "low": 1.028,
-        "high": 1.044
+        "@_flexible": false,
+        "range": [{
+          "low": 1.028,
+          "high": 1.044
+        }]
       },
       "fg": {
-        "low": 1.008,
-        "high": 1.014
+        "@_flexible": false,
+        "range": [{
+          "low": 1.008,
+          "high": 1.014
+        }]
       },
       "srm": {
-        "low": 3,
-        "high": 6
+        "@_flexible": false,
+        "range": [{
+          "low": 3,
+          "high": 6
+        }]
       },
       "abv": {
-        "low": 3,
-        "high": 4.1
+        "@_flexible": false,
+        "range": [{
+          "low": 3,
+          "high": 4.1
+        }]
       }
     }
   },
@@ -476,24 +596,39 @@ export const mockStyleList: BJCPStyle[] = [
     ],
     "stats": {
       "ibu": {
-        "low": 30,
-        "high": 45
+        "@_flexible": false,
+        "range": [{
+          "low": 30,
+          "high": 45
+        }]
       },
       "og": {
-        "low": 1.044,
-        "high": 1.06
+        "@_flexible": false,
+        "range": [{
+          "low": 1.044,
+          "high": 1.06
+        }]
       },
       "fg": {
-        "low": 1.013,
-        "high": 1.017
+        "@_flexible": false,
+        "range": [{
+          "low": 1.013,
+          "high": 1.017
+        }]
       },
       "srm": {
-        "low": 3.5,
-        "high": 6
+        "@_flexible": false,
+        "range": [{
+          "low": 3.5,
+          "high": 6
+        }]
       },
       "abv": {
-        "low": 4.2,
-        "high": 5.8
+        "@_flexible": false,
+        "range": [{
+          "low": 4.2,
+          "high": 5.8
+        }]
       }
     }
   },
@@ -523,24 +658,39 @@ export const mockStyleList: BJCPStyle[] = [
     ],
     "stats": {
       "ibu": {
-        "low": 20,
-        "high": 35
+        "@_flexible": false,
+        "range": [{
+          "low": 20,
+          "high": 35
+        }]
       },
       "og": {
-        "low": 1.044,
-        "high": 1.06
+        "@_flexible": false,
+        "range": [{
+          "low": 1.044,
+          "high": 1.06
+        }]
       },
       "fg": {
-        "low": 1.013,
-        "high": 1.017
+        "@_flexible": false,
+        "range": [{
+          "low": 1.013,
+          "high": 1.017
+        }]
       },
       "srm": {
-        "low": 10,
-        "high": 16
+        "@_flexible": false,
+        "range": [{
+          "low": 10,
+          "high": 16
+        }]
       },
       "abv": {
-        "low": 4.4,
-        "high": 5.8
+        "@_flexible": false,
+        "range": [{
+          "low": 4.4,
+          "high": 5.8
+        }]
       }
     }
   },
@@ -570,24 +720,39 @@ export const mockStyleList: BJCPStyle[] = [
     ],
     "stats": {
       "ibu": {
-        "low": 18,
-        "high": 34
+        "@_flexible": false,
+        "range": [{
+          "low": 18,
+          "high": 34
+        }]
       },
       "og": {
-        "low": 1.044,
-        "high": 1.06
+        "@_flexible": false,
+        "range": [{
+          "low": 1.044,
+          "high": 1.06
+        }]
       },
       "fg": {
-        "low": 1.013,
-        "high": 1.017
+        "@_flexible": false,
+        "range": [{
+          "low": 1.013,
+          "high": 1.017
+        }]
       },
       "srm": {
-        "low": 14,
-        "high": 35
+        "@_flexible": false,
+        "range": [{
+          "low": 14,
+          "high": 35
+        }]
       },
       "abv": {
-        "low": 4.4,
-        "high": 5.8
+        "@_flexible": false,
+        "range": [{
+          "low": 4.4,
+          "high": 5.8
+        }]
       }
     }
   },
