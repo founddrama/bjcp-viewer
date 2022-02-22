@@ -58,11 +58,7 @@ class StyleDetail extends React.PureComponent<StyleDetailProps> {
       ranges = [...srm];
     }
     
-    return (
-      <>
-        {ranges.map(this.generateColorBand)}
-      </>
-    );
+    return <>{ranges.map(this.generateColorBand)}</>;
   }
 
   componentDidUpdate (): void {
