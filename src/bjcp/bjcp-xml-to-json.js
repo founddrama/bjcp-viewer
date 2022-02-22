@@ -1,6 +1,5 @@
 import { parse } from 'fast-xml-parser';
 import { readFileSync, writeFileSync } from 'fs';
-import { normalize } from 'path/posix';
 
 const bjcpXML = readFileSync('src/xml/bjcp-styleguide.xml', 'utf8');
 
