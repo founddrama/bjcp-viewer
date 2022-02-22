@@ -4,11 +4,6 @@ import { FormattedStyleStateRange, StyleStat } from '../types';
 
 type RangeValue = number | string | undefined;
 
-type RangeInput = {
-  ['@_low']?: RangeValue;
-  ['@_high']?: RangeValue;
-};
-
 interface RangeOptions {
   prefix?: string;
   suffix?: string;
