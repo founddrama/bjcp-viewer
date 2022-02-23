@@ -3078,7 +3078,23 @@ Strength classifications:
           <og flexible="true" />
           <fg flexible="true" />
           <srm flexible="true" />
-          <abv flexible="true" />
+          <abv flexible="true">
+            <range>
+              <low>3.0</low>
+              <high>5.0</high>
+              <label>session</label>
+            </range>
+            <range>
+              <low>5.0</low>
+              <high>7.5</high>
+              <label>standard</label>
+            </range>
+            <range>
+              <low>7.5</low>
+              <high>10.0</high>
+              <label>double</label>
+            </range>
+          </abv>
         </stats>
         <specialty>
           <name>Belgian IPA</name>

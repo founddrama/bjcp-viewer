@@ -20,7 +20,7 @@ export function formatSG(sg: RangeValue): string | undefined {
 }
 
 export function formatRange(styleStat: StyleStat, opts: RangeOptions = {}): JSX.Element {
-  if (styleStat['@_flexible'] || styleStat.range === undefined) {
+  if ((styleStat['@_flexible'] && styleStat.range?.length === 1) || styleStat.range === undefined) {
     let label;
     if (styleStat.range !== undefined) {
       label = styleStat.range[0].label;
@@ -65,10 +65,12 @@ export function formatRangeForRow(styleStat: StyleStat, opts: RangeOptions = {})
   // collapse ranges to min/max
   let summarizedStyleState: StyleStat = {
     ...styleStat,
-    range: [{
-      low: Math.min.apply(null, styleStat.range.map(r => r.low!)),
-      high: Math.max.apply(null, styleStat.range.map(r => r.high!)),
-    }],
+    ...(styleStat.range !== undefined && {
+      range: [{
+        low: Math.min.apply(null, styleStat.range.map(r => r.low!)),
+        high: Math.max.apply(null, styleStat.range.map(r => r.high!)),
+      }],
+    }),
   };
   return formatRange(summarizedStyleState, opts);
 }
