@@ -35,6 +35,15 @@ type BeerStyleStats = {
   notes?: string;
 };
 
+type GroupledExample = {
+  '#text': string;
+  '@_label': string;
+};
+
+export interface ExampleWithGroups {
+  group: GroupledExample[];
+};
+
 export type BJCPClass = Identified & {
   category: BJCPCategory[];
 };
@@ -57,7 +66,7 @@ export type BJCPStyle = Identified & {
   history?: string;
   ingredients?: string;
   comparison?: string;
-  examples: string;
+  examples: string | ExampleWithGroups;
   entry_instructions?: string;
   specialty?: BJCPStyle[];
   tags?: BJCPBeerTags[];
@@ -71,7 +80,7 @@ export type BJCPBeerTags =
   'hoppy' | 'ipa-family' | 'lagered' | 'malty' | 'north-america' | 'pacific' | 'pale-ale-family' |
   'pale-color' | 'pale-lager-family' | 'pilsner-family' | 'porter-family' | 'roasty' |
   'session-beer' | 'session-strength' | 'smoke' | 'sour' | 'sour-ale-family' | 'specialty-beer' |
-  'spic' | 'spice' | 'standard-strength' | 'stout-family' | 'strong-ale-family' |
-  'sweet' | 'top-fermented' | 'top-fermenting' | 'traditional-style' | 'very-high-strength' |
+  'spice' | 'standard-strength' | 'stout-family' | 'strong-ale-family' | 'sweet' |
+  'top-fermented' | 'top-fermenting' | 'traditional-style' | 'very-high-strength' |
   'western-europe' | 'wheat-beer-family' | 'wild-fermentation' | 'wild-fermented' |
   'wood';

@@ -149,6 +149,11 @@ describe('BeerStyleDetail', () => {
       expect(screen.getAllByRole('heading')).toHaveLength(13);
     });
 
+    test('it should render Examples with bold grouping labels', () => {
+      const section = screen.getByText('Examples').parentElement;
+      expect(section?.querySelectorAll('strong').length).toBe(2);
+    });
+
     test('it should render the Entry Instructions heading and accompanying text', () => {
       const headingText = 'Entry Instructions';
       

@@ -1,6 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { StyleStatRange, BJCPBeerTags, BJCPStyle } from '../types';
+import {
+  StyleStatRange,
+  BJCPBeerTags,
+  BJCPStyle,
+  ExampleWithGroups,
+} from '../types';
 import { formatSG, formatRange } from '../bjcp/bjcp-formatters';
 import cyrb53 from '../ts/cyrb53-hash';
 
@@ -88,6 +93,36 @@ class StyleDetail extends React.PureComponent<StyleDetailProps> {
     );
   }
 
+  renderGroupedExamples(content: ExampleWithGroups): JSX.Element {
+    return (
+      <p>
+        {content.group.map((example, index, array) => {
+          const {
+            '@_label': label,
+            '#text': text,
+          } = example;
+          return (
+            <span key={cyrb53(label)}>
+              <strong>{label}:</strong>{' '}
+              {text}{(index + 1) < array.length && '; '}
+            </span>
+          );
+        })}
+      </p>
+    );
+  }
+
+  renderExamples(content: string | ExampleWithGroups | undefined): JSX.Element | undefined {
+    if(!content) return;
+
+    return (
+      <div>
+        <h3 id="examples">Examples</h3>
+        {typeof content === 'string' ? this.renderParagraphs(content) : this.renderGroupedExamples(content)}
+      </div>
+    );
+  }
+
   renderSection(content: string | undefined, title: string): JSX.Element | undefined {
     if(!content) return;
 
@@ -171,7 +206,7 @@ class StyleDetail extends React.PureComponent<StyleDetailProps> {
         {this.renderSection(style.history, 'History')}
         {this.renderSection(style.ingredients, 'Ingredients')}
         {this.renderSection(style.comparison, 'Comparison')}
-        {this.renderSection(style.examples, 'Examples')}
+        {this.renderExamples(style.examples)}
         {this.renderSection(style.entry_instructions, 'Entry Instructions')}
         {this.renderSection(this.renderTags(style.tags), 'Tags')}
       </article>

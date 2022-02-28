@@ -32,6 +32,12 @@ export const mockExpandedBeerStyle: BJCPStyle = {
   },
   preamble: 'important context about this style',
   entry_instructions: 'specify carbonation level',
+  examples: {
+    group: [
+      { '@_label': 'Dark', '#text': 'One, Two' },
+      { '@_label': 'Pale', '#text': 'Uno, Dos' },
+    ]
+  }
 };
 
 export const mockMeadStyle: BJCPStyle = {

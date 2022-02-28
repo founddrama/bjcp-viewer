@@ -1228,7 +1228,14 @@ Pale versions have a strong bready and toasty malt flavor, a light floral, spicy
         <history>A Bavarian specialty originating in Munich, first made by the monks of St. Francis of Paula by the 1700s. Historical versions were less well-attenuated than modern interpretations, thus with higher sweetness and lower alcohol levels. Was called "liquid bread" by monks, and consumed during the Lenten fast. Breweries adopted beer names ending in "-ator" after a 19th century court ruling that no one but Paulaner was allowed to use the name Salvator. Traditionally dark brown in color; paler examples are a more recent development.</history>
         <ingredients>Pils, Vienna, Munich malts. Occasionally dark malt for color adjustment. Traditional German hops. Clean German lager yeast. Decoction mashing is traditional.</ingredients>
         <comparison>A stronger, richer, more full-bodied version of either a Dunkles Bock or a Helles Bock. Pale versions will show higher attenuation and less dark fruity character than the darker versions.</comparison>
-        <examples>Dark Versions – Andechs Doppelbock Dunkel, Ayinger Celebrator, Paulaner Salvator, Spaten Optimator, Tröegs Troegenator, Weihenstephaner Korbinian; Pale Versions – Eggenberg Urbock 23º, Meinel Doppelbock Hell, Plank Bavarian Heller Doppelbock, Riegele Auris 19, Schönbuch Doppelbock Hell, Staffelberg-Bräu Zwergator</examples>
+        <examples>
+          <group label="Dark Versions">
+            Andechs Doppelbock Dunkel, Ayinger Celebrator, Paulaner Salvator, Spaten Optimator, Tröegs Troegenator, Weihenstephaner Korbinian
+          </group>
+          <group label="Pale Versions">
+            Eggenberg Urbock 23º, Meinel Doppelbock Hell, Plank Bavarian Heller Doppelbock, Riegele Auris 19, Schönbuch Doppelbock Hell, Staffelberg-Bräu Zwergator
+          </group>
+        </examples>
         <tags>high-strength, amber-color, pale-color, bottom-fermented, lagered, central-europe, traditional-style, bock-family, malty</tags>
         <entry_instructions>The entrant will specify whether the entry is a pale or a dark variant.</entry_instructions>
         <stats>
@@ -1471,7 +1478,14 @@ Pale versions have a bready, toasty, grainy-sweet malt richness.</flavor>
         <history>Dopplebock-strength Aventinus was created in 1907 at the Schneider Weisse Brauhaus in Munich. Pale versions are a much more recent invention.</history>
         <ingredients>Malted wheat, at least half the grist. Munich, Vienna, or Pilsner malt. Color malts may be used sparingly. Decoction mash traditional. Weizen yeast, cool fermentation temperatures.</ingredients>
         <comparison>Stronger and richer than a Weissbier or Dunkles Weissbier, but with similar yeast character. More directly comparable to the Doppelbock style, with the pale and dark variations. Can vary widely in strength, but most are in the Bock to Doppelbock range.</comparison>
-        <examples>Dark – Plank Bavarian Dunkler Weizenbock, Penn Weizenbock, Schalchner Weisser Bock, Schneider Weisse Aventinus; Pale –Ayinger Weizenbock, Distelhäuser Weizen Bock, Ladenburger Weizenbock Hell, Weihenstephaner Vitus</examples>
+        <examples>
+          <group label="Dark">
+            Plank Bavarian Dunkler Weizenbock, Penn Weizenbock, Schalchner Weisser Bock, Schneider Weisse Aventinus
+          </group>
+          <group label="Pale">
+            Ayinger Weizenbock, Distelhäuser Weizen Bock, Ladenburger Weizenbock Hell, Weihenstephaner Vitus
+          </group>
+        </examples>
         <tags>high-strength, amber-color, pale-color, top-fermented, central-europe, traditional-style, wheat-beer-family, malty</tags>
         <entry_instructions>The entrant will specify whether the entry is a pale (SRM 6-9) or a dark (SRM 10-25) version.</entry_instructions>
         <stats>
@@ -2969,7 +2983,14 @@ Some oxidative or vinous flavors may be present, and often complex alcohol flavo
         <history>A style with a long, although not necessarily continuous, heritage. Traces roots to strong English porters brewed for export in the 1700s, and said to have been popular with the Russian Imperial Court. After the Napoleonic wars interrupted trade, these beers were increasingly sold in England. The style eventually all but died out, until being popularly embraced in the modern craft beer era in England as a revival export and in the United States as an adaptation by extending the style with American characteristics.</history>
         <ingredients>Pale malt with significant roasted malts or grain. Flaked adjuncts common. American or English ale yeast and hops are typical. Ages very well. Increasingly used as the base beer for many specialty styles.</ingredients>
         <comparison>Darker and more roasty than Barleywines, but with similar alcohol. More complex, with a broader range of possible flavors, than lower-gravity stouts.</comparison>
-        <examples>American – Bell's Expedition Stout, Great Divide Yeti Imperial Stout, North Coast Old Rasputin Imperial Stout, Oskar Blues Ten Fidy, Sierra Nevada Narwhal Imperial Stout; English – 2SP Brewing Co The Russian, Courage Imperial Russian Stout, Le Coq Imperial Extra Double Stout, Samuel Smith Imperial Stout, Thornbridge Saint Petersburg</examples>
+        <examples>
+          <group label="American">
+            Bell's Expedition Stout, Great Divide Yeti Imperial Stout, North Coast Old Rasputin Imperial Stout, Oskar Blues Ten Fidy, Sierra Nevada Narwhal Imperial Stout
+          </group>
+          <group label="English">
+            2SP Brewing Co The Russian, Courage Imperial Russian Stout, Le Coq Imperial Extra Double Stout, Samuel Smith Imperial Stout, Thornbridge Saint Petersburg
+          </group>
+        </examples>
         <tags>very-high-strength, dark-color, top-fermented, british-isles, north-america, traditional-style, craft-style, stout-family, malty, bitter, roasty</tags>
         <stats>
           <ibu flexible="false">
@@ -4516,7 +4537,20 @@ The name literally means cellar beer, and is a natural, gentle handling of fresh
         <ingredients>Same as base styles. Traditionally naturally carbonated. Dry-hopping is not a traditional German brewing method, but some modern pale examples use this technique – which is allowable in this style as long as it is balanced. Traditionally lagered and unfiltered, these beers were never meant to be packaged for external sale.</ingredients>
         <comparison>Richer or more robust than the base style, possibly with a bit more body and mouthfeel. Can be slightly cloudier than base beer.</comparison>
         <entry_instructions>The entrant must specify the base style: German Pils, Munich Helles, Märzen, or Munich Dunkel.</entry_instructions>
-        <examples>Märzen – Faust Kräusen Naturtrüb, Mahrs Bräu aU Ungespundet Kellerbier; Dunkel – Engel Kellerbier Dunkel, Paulaner Ur-Dunkel Naturtrüb; Helles – ABK Kellerbier Naturtrüb, Löwenbräu 1747 Original; Pils – Giesinger Feines Pilschen, Ketterer Zwickel-Pils</examples>
+        <examples>
+          <group label="Märzen">
+            Faust Kräusen Naturtrüb, Mahrs Bräu aU Ungespundet Kellerbier
+          </group>
+          <group label="Dunkel">
+            Engel Kellerbier Dunkel, Paulaner Ur-Dunkel Naturtrüb
+          </group>
+          <group label="Helles">
+            ABK Kellerbier Naturtrüb, Löwenbräu 1747 Original
+          </group>
+          <group label="Pils">
+            Giesinger Feines Pilschen, Ketterer Zwickel-Pils
+          </group>
+        </examples>
         <tags>standard-strength, bottom-fermented, central-europe, traditional-style, balanced</tags>
         <stats>
           <notes>Same as base style.</notes>
@@ -5957,7 +5991,14 @@ o	Medium-sweet: 2.0-4.0% residual sugar, final gravity 1.009-1.019. The cider is
         <appearance>Barely cloudy to brilliant. Medium yellow to amber color.</appearance>
         <mouthfeel>Full. Moderate to high tannin, perceived as astringency and some bitterness. Carbonation still to moderate. Bottle-fermented or -conditioned ciders may have high carbonation, up to champagne levels, but not gushing or foaming.</mouthfeel>
         <comments>Sweet examples exist, but dry is most traditional, particularly when considering the drying contributions of tannin.</comments>
-        <examples>[US] Westcott Bay Traditional Very Dry, Dry and Medium Sweet (WA), Farnum Hill Extra-Dry, Dry, and Farmhouse (NH), Wandering Aengus Oaked Dry (OR), Montana CiderWorks North Fork (MT), Bellwether Heritage (NY). [UK] Oliver's Traditional Dry, Hogan's Dry and Medium Dry, Henney's Dry and Vintage Still, Burrow Hill Medium, Aspall English Imperial.</examples>
+        <examples>
+          <group label="US">
+            Westcott Bay Traditional Very Dry, Dry and Medium Sweet (WA), Farnum Hill Extra-Dry, Dry, and Farmhouse (NH), Wandering Aengus Oaked Dry (OR), Montana CiderWorks North Fork (MT), Bellwether Heritage (NY)
+          </group>
+          <group label="UK">
+            Oliver's Traditional Dry, Hogan's Dry and Medium Dry, Henney's Dry and Vintage Still, Burrow Hill Medium, Aspall English Imperial
+          </group>
+        </examples>
         <entry_instructions>Entrants MUST specify carbonation level (3 levels). Entrants MUST specify sweetness (dry through medium-sweet, 4 levels). Entrants MAY specify variety of apple for a single varietal cider; if specified, varietal character will be expected. Varieties: Kingston Black, Stoke Red, Dabinett, Porter's Perfection, Nehou, Yarlington Mill, Major, various Jerseys, etc.</entry_instructions>
         <stats>
           <ibu flexible="true" />
@@ -5989,7 +6030,14 @@ o	Medium-sweet: 2.0-4.0% residual sugar, final gravity 1.009-1.019. The cider is
         <appearance>Clear to brilliant, medium yellow to amber color.</appearance>
         <mouthfeel>Medium to full, mouth-filling. Moderate tannin, perceived mainly as astringency. Carbonation moderate to champagne-like, but at higher levels it must not gush or foam.</mouthfeel>
         <comments>Typically made sweet to balance the tannin levels from the traditional apple varieties.</comments>
-        <examples>[US] West County Reine de Pomme (MA), [France] Eric Bordelet (various), Etienne Dupont, Etienne Dupont Organic, Bellot</examples>
+        <examples>
+          <group label="US">
+            West County Reine de Pomme (MA)
+          </group>
+          <group label="France">
+            Eric Bordelet (various), Etienne Dupont, Etienne Dupont Organic, Bellot
+          </group>
+        </examples>
         <entry_instructions>Entrants MUST specify carbonation level (3 levels). Entrants MUST specify sweetness (medium to sweet only, 3 levels). Entrants MAY specify variety of apple for a single varietal cider; if specified, varietal character will be expected. Varieties: Nehou, Muscadet de Dieppe, Reine des Pommes, Michelin, etc.</entry_instructions>
         <stats>
           <ibu flexible="true" />
@@ -6053,7 +6101,17 @@ o	Medium-sweet: 2.0-4.0% residual sugar, final gravity 1.009-1.019. The cider is
         <appearance>Slightly cloudy to clear. Generally quite pale.</appearance>
         <mouthfeel>Relatively full, moderate to high tannin apparent as astringency.</mouthfeel>
         <comments>Note that a dry perry may give an impression of sweetness due to sorbitol in the pears, and perception of sorbitol as sweet is highly variable from one person to the next. Hence entrants should specify sweetness according to actual residual sugar amount, and judges must be aware that they might perceive more sweetness than how the perry was entered.</comments>
-        <examples>[US] Æppeltreow Orchard Oriole Perry (WI); [France] Bordelet Poire Authentique and Poire Granit, Christian Drouin Poire, [UK] Oliver's Classic, Blakeney Red, and Herefordshire Dry; Hogan's Vintage Perry.</examples>
+        <examples>
+          <group label="US">
+            Æppeltreow Orchard Oriole Perry (WI)
+          </group>
+          <group label="France">
+            Bordelet Poire Authentique and Poire Granit, Christian Drouin Poire
+          </group>
+          <group label="UK">
+            Oliver's Classic, Blakeney Red, and Herefordshire Dry; Hogan's Vintage Perry
+          </group>
+        </examples>
         <entry_instructions>Entrants MUST specify carbonation level (3 levels). Entrants MUST specify sweetness (5 categories). Entrants MUST state variety of pear(s) used. Varieties: Butt, Gin, Brandy, Barland, Blakeney Red, Thorn, Moorcroft, etc.</entry_instructions>
         <stats>
           <ibu flexible="true" />
@@ -6181,7 +6239,14 @@ o	Medium-sweet: 2.0-4.0% residual sugar, final gravity 1.009-1.019. The cider is
         <flavor>Fruity, smooth, sweet-tart. Acidity must be enough to prevent it being cloying.</flavor>
         <appearance>Brilliant. Color is deeper than a standard cider, gold to amber.</appearance>
         <mouthfeel>Full body. May be tannic (astringent and/or bitter) but this should be slight, to moderate at most.</mouthfeel>
-        <examples>[US] various from Eden Ice Cider Company and Champlain Orchards. [Canada] Domaine Pinnacle, Les Vergers de la Colline, and Cidrerie St-Nicolas (Quebec).</examples>
+        <examples>
+          <group label="US">
+            various from Eden Ice Cider Company and Champlain Orchards
+          </group>
+          <group label="Canada">
+            Domaine Pinnacle, Les Vergers de la Colline, and Cidrerie St-Nicolas (Quebec).
+          </group>
+        </examples>
         <entry_instructions>Entrants MUST specify starting gravity, final gravity or residual sugar, and alcohol level. Entrants MUST specify carbonation level (3 levels). Varieties: Usually North American classic table fruit such as McIntosh or Cortland.</entry_instructions>
         <stats>
           <ibu flexible="true" />
