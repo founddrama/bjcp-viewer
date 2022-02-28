@@ -166,7 +166,7 @@ article h2 {
   margin-bottom: 1rem;
   position: sticky;
   top: 0;
-  background-color: rgba(var(--surface-bg-value), 0.72);
+  background-color: var(--surface-bg-color);
 }
 
 #tags ~ p {
