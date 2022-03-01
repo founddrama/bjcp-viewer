@@ -93,32 +93,23 @@ class StyleDetail extends React.PureComponent<StyleDetailProps> {
     );
   }
 
-  renderGroupedExamples(content: ExampleWithGroups): JSX.Element {
-    return (
-      <p>
-        {content.group.map((example, index, array) => {
-          const {
-            '@_label': label,
-            '#text': text,
-          } = example;
-          return (
-            <span key={cyrb53(label)}>
-              <strong>{label}:</strong>{' '}
-              {text}{(index + 1) < array.length && '; '}
-            </span>
-          );
-        })}
-      </p>
-    );
-  }
-
-  renderExamples(content: string | ExampleWithGroups | undefined): JSX.Element | undefined {
+  renderExamples(content: ExampleWithGroups | undefined): JSX.Element | undefined {
     if(!content) return;
 
     return (
       <div>
         <h3 id="examples">Examples</h3>
-        {typeof content === 'string' ? this.renderParagraphs(content) : this.renderGroupedExamples(content)}
+        <p>
+          {content.group.map((example, index, array) => {
+            const { label, text } = example;
+            return (
+              <span key={cyrb53(text)}>
+                {label !== undefined && <><strong>{label}:</strong>{' '}</>}
+                {text}{(index + 1) < array.length && '; '}
+              </span>
+            );
+          })}
+        </p>
       </div>
     );
   }

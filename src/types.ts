@@ -36,8 +36,8 @@ type BeerStyleStats = {
 };
 
 type GroupledExample = {
-  '#text': string;
-  '@_label': string;
+  text: string;
+  label?: string;
 };
 
 export interface ExampleWithGroups {
@@ -66,7 +66,7 @@ export type BJCPStyle = Identified & {
   history?: string;
   ingredients?: string;
   comparison?: string;
-  examples: string | ExampleWithGroups;
+  examples: ExampleWithGroups;
   entry_instructions?: string;
   specialty?: BJCPStyle[];
   tags?: BJCPBeerTags[];

@@ -102,15 +102,20 @@ describe('BeerStyleDetail', () => {
 
         // the paragraph text
         const headingAsKey: keyof BJCPStyle = convertHeadingToDataKey(heading);
-        if (headingAsKey === 'tags') {
-          const tags = mockBeerStyle[headingAsKey];
-          tags!.forEach((t: BJCPBeerTags) => {
-            expect(screen.queryByText(`#${t.replace('-', '\u2011')}`, {
-              exact: false
-            })).toBeInTheDocument();
-          });
-        } else {
-          expect(screen.queryByText(mockBeerStyle[headingAsKey] as string)).toBeInTheDocument();
+        switch (headingAsKey) {
+          case 'tags':
+            const tags = mockBeerStyle[headingAsKey];
+            tags!.forEach((t: BJCPBeerTags) => {
+              expect(screen.queryByText(`#${t.replace('-', '\u2011')}`, {
+                exact: false
+              })).toBeInTheDocument();
+            });
+            break;
+          case 'examples':
+            expect(screen.queryByText(mockBeerStyle[headingAsKey].group[0].text)).toBeInTheDocument();
+            break;
+          default:
+            expect(screen.queryByText(mockBeerStyle[headingAsKey] as string)).toBeInTheDocument();
         }
       }
     );
