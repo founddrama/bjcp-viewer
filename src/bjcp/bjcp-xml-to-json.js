@@ -54,16 +54,16 @@ const normalizeStats = (style) => {
 };
 
 const normalizeExamples = (style) => {
-  if (style.examples === undefined || style.examples.group === undefined) {
+  if (style.examples === undefined || style.examples.list === undefined) {
     return style;
   }
 
-  let { group } = style.examples;
-  if (!Array.isArray(group)) {
-    group = [{ '#text': group }];
+  let { list } = style.examples;
+  if (!Array.isArray(list)) {
+    list = [{ '#text': list }];
   }
 
-  style.examples.group = group.map(example => {
+  style.examples.list = list.map(example => {
     const text = example['#text'];
     const label = example['@_label'];
 

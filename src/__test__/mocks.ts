@@ -20,7 +20,7 @@ export const mockBeerStyle: BJCPStyle = {
   history: 'has its roots in Germany',
   ingredients: 'malt + hops + water + yeast',
   comparison: 'different from this other beer in this subtle way',
-  examples: { group: [ { text: 'German Original, Americanized Version' } ] },
+  examples: { list: [ { text: 'German Original, Americanized Version' } ] },
   tags: ['bottom-fermented', 'central-europe', 'pale-color'],
 };
 
@@ -33,7 +33,7 @@ export const mockExpandedBeerStyle: BJCPStyle = {
   preamble: 'important context about this style',
   entry_instructions: 'specify carbonation level',
   examples: {
-    group: [
+    list: [
       { label: 'Dark', text: 'One, Two' },
       { label: 'Pale', text: 'Uno, Dos' },
     ]
@@ -57,7 +57,7 @@ export const mockMeadStyle: BJCPStyle = {
   flavor: 'tasty mead, some honey',
   mouthfeel: 'full-bodied and fizzy',
   comments: 'interesting fact about this mead',
-  examples: { group: [ { text: "Valkyrie's Choice" } ] },
+  examples: { list: [ { text: "Valkyrie's Choice" } ] },
   entry_instructions: 'specify sweetness, strength, and carbonation level',
 };
 
@@ -78,7 +78,7 @@ export const mockCiderStyle: BJCPStyle = {
   flavor: 'tasty cider, not too sweet',
   mouthfeel: 'light-bodied and fizzy',
   comments: 'interesting fact about this cider',
-  examples: { group: [ { text: 'Citizen Cider' } ] },
+  examples: { list: [ { text: 'Citizen Cider' } ] },
   entry_instructions: 'specify and carbonation level',
 };
 
@@ -96,7 +96,7 @@ export const mockStyleList: BJCPStyle[] = [
     "history": "Coors briefly made a light lager in the early 1940s. Modern versions were first produced by Rheingold in 1967 to appeal to diet-conscious drinkers, but only became popular starting in 1973 after Miller Brewing acquired the recipe and marketed the beer heavily to sports fans with the \"tastes great, less filling\" campaign. Beers of this genre became the largest sellers in the United States in the 1990s.",
     "ingredients": "Two- or six-row barley with high percentage (up to 40%) of rice or corn as adjuncts. Additional enzymes can further lighten the body and lower carbohydrates.",
     "comparison": "A lighter-bodied, lower-alcohol, lower calorie version of an American Lager. Less hop character and bitterness than a Leichtbier.",
-    "examples": { "group": [ { "text": "Bud Light, Coors Light, Keystone Light, Michelob Light, Miller Lite, Old Milwaukee Light" } ] },
+    "examples": { "list": [ { "text": "Bud Light, Coors Light, Keystone Light, Michelob Light, Miller Lite, Old Milwaukee Light" } ] },
     "tags": [
       "session-strength",
       "pale-color",
@@ -158,7 +158,7 @@ export const mockStyleList: BJCPStyle[] = [
     "history": "Although German immigrants had brewed traditional Pilsner-inspired lager beer in the United States since the mid-late 1800s, the modern American lager style was heavily influenced by Prohibition and World War II. Surviving breweries consolidated, expanded distribution, and heavily promoted a beer style that was appealing to a broad range of the population. Became the dominant beer style for many decades, and spawning many international rivals who would develop similarly bland products for the mass market supported by heavy advertising.",
     "ingredients": "Two- or six-row barley with high percentage (up to 40%) of rice or corn as adjuncts.",
     "comparison": "Stronger, more flavor and body than a Light American Lager. Less bitterness and flavor than an International Lager. Significantly less flavor, hops, and bitterness than traditional European Pilsners.",
-    "examples": { "group": [ { "text": "Budweiser, Coors Original, Grain Belt Premium Lager, Miller High Life, Pabst Blue Ribbon, Special Export" } ] },
+    "examples": { "list": [ { "text": "Budweiser, Coors Original, Grain Belt Premium Lager, Miller High Life, Pabst Blue Ribbon, Special Export" } ] },
     "tags": [
       "standard-strength",
       "pale-color",
@@ -220,7 +220,7 @@ export const mockStyleList: BJCPStyle[] = [
     "history": "A sparkling or present-use ale that existed in the 1800s and survived prohibition. An ale version of the American lager style. Produced by ale brewers to compete with lager brewers in Canada and the Northeast, Mid-Atlantic, and Midwest states. Originally known as sparkling or present use ales, lager strains were (and sometimes still are) used by some brewers, but were not historically mixed with ale strains. Many examples are kräusened to achieve carbonation. Cold conditioning isn't traditional, although modern brewers sometimes use it.",
     "ingredients": "American ingredients most commonly used. A grain bill of six-row malt, or a combination of six-row and North American two-row, is common. Adjuncts can include up to 20% maize in the mash, and up to 20% glucose or other sugars in the boil. Any variety of hops can be used for bittering and finishing.",
     "comparison": "Similar to a Standard American Lager, but with more character.",
-    "examples": { "group": [ { "text": "Genesee Cream Ale, Liebotschaner Cream Ale, Little Kings Cream Ale, New Glarus Spotted Cow, Old Style, Sleeman Cream Ale" } ] },
+    "examples": { "list": [ { "text": "Genesee Cream Ale, Liebotschaner Cream Ale, Little Kings Cream Ale, New Glarus Spotted Cow, Old Style, Sleeman Cream Ale" } ] },
     "tags": [
       "standard-strength",
       "pale-color",
@@ -281,7 +281,7 @@ export const mockStyleList: BJCPStyle[] = [
     "history": "An American craft beer adaptation of the German weissbier style using a cleaner yeast and more hops, first widely popularized by Widmer in the mid-1980s.",
     "ingredients": "Clean American ale or lager yeast (German weissbier yeast is inappropriate). Large proportion of wheat malt (often 30–50%, which is lower than is typical in German weissbiers). American, German, or New World hops are typical.",
     "comparison": "More hop character and less yeast character than German weissbier. Never with the banana and clove character of German weissbier. Generally can have the same range and balance as Blonde Ales, but with a wheat character as the primary malt flavor.",
-    "examples": { "group": [ { "text": "Bell's Oberon, Boulevard Unfiltered Wheat Beer, Goose Island 312 Urban Wheat Ale, Widmer Hefeweizen" } ] },
+    "examples": { "list": [ { "text": "Bell's Oberon, Boulevard Unfiltered Wheat Beer, Goose Island 312 Urban Wheat Ale, Widmer Hefeweizen" } ] },
     "tags": [
       "standard-strength",
       "pale-color",
@@ -342,7 +342,7 @@ export const mockStyleList: BJCPStyle[] = [
     "history": "In the United States, developed as a premium version of the standard American lager, with a similar history. Outside the United States, developed either as an imitation of American style lagers, or as a more accessible (and often drier and less bitter) version of a Pilsner-type beer. Often heavily marketed and exported by large industrial or multi-national breweries.",
     "ingredients": "Two- or six-row barley. May use rice, corn, or sugar as adjuncts, or may be all malt.",
     "comparison": "Generally more bitter and filling than American lager. Less hoppy and bitter than a German Pils. Less body, malt flavor, and hop character than a Czech Premium Pale Lager. More robust versions can approach a Munich Helles in flavor, although with more of an adjunct quality.",
-    "examples": { "group": [ { "text": "Asahi Super Dry, Birra Moretti, Corona Extra, Devils Backbone Gold Leaf Lager, Full Sail Session Premium Lager, Heineken, Red Stripe, Singha" } ] },
+    "examples": { "list": [ { "text": "Asahi Super Dry, Birra Moretti, Corona Extra, Devils Backbone Gold Leaf Lager, Full Sail Session Premium Lager, Heineken, Red Stripe, Singha" } ] },
     "tags": [
       "standard-strength",
       "pale-color",
@@ -403,7 +403,7 @@ export const mockStyleList: BJCPStyle[] = [
     "history": "Varies by country, but generally represents an adaptation of the mass-market International Lager or an evolution of indigenous styles into a more generic product.",
     "ingredients": "Two-row or six-row base malt. Color malts such as victory, amber, etc. Caramel malt adjuncts. European or American hops or a combination of both.",
     "comparison": "Less well-developed malt flavor than a Vienna lager, often with an adjunct taste.",
-    "examples": { "group": [ { "text": "Brooklyn Lager, Capital Winter Skål, Dos Equis Amber, Schell's Oktoberfest, Yuengling Lager" } ] },
+    "examples": { "list": [ { "text": "Brooklyn Lager, Capital Winter Skål, Dos Equis Amber, Schell's Oktoberfest, Yuengling Lager" } ] },
     "tags": [
       "standard-strength",
       "amber-color",
@@ -464,7 +464,7 @@ export const mockStyleList: BJCPStyle[] = [
     "history": "Darker versions of International Pale Lagers often created by the same large, industrial breweries and meant to appeal to a broad audience. Often either a colored or sweetened adaptation of the standard pale industrial lager, or a more broadly accessible (and inexpensive) version of more traditional dark lagers.",
     "ingredients": "Two- or six-row barley, corn, rice, or sugars as adjuncts. Light use of caramel and darker malts. Commercial versions may use coloring agents.",
     "comparison": "Less flavor and richness than Munich Dunkel, Schwarzbier, or other dark lagers. Frequently uses adjuncts, as is typical of other International Lagers.",
-    "examples": { "group": [ { "text": "Baltika #4 Original, Devils Backbone Old Virginia Dark, Dixie Blackened Voodoo, Saint Pauli Girl Dark, San Miguel Dark, Session Black Dark Lager, Shiner Bock" } ] },
+    "examples": { "list": [ { "text": "Baltika #4 Original, Devils Backbone Old Virginia Dark, Dixie Blackened Voodoo, Saint Pauli Girl Dark, San Miguel Dark, Session Black Dark Lager, Shiner Bock" } ] },
     "tags": [
       "standard-strength",
       "dark-color",
@@ -525,7 +525,7 @@ export const mockStyleList: BJCPStyle[] = [
     "history": "Josef Groll initially brewed two types of beer in 1842–3, a výčepní and a ležák, with the smaller beer having twice the production; Evan Rail speculates that these were probably 10 °P and 12 °P beers, but that the výčepní could have been weaker. This is the most consumed type of beer in the Czech Republic at present.",
     "ingredients": "Soft water with low sulfate and carbonate content, Saazer-type hops, Czech Pilsner malt, Czech lager yeast. Low ion water provides a distinctively soft, rounded hop profile despite high hopping rates.",
     "comparison": "A lighter-bodied, lower-intensity, refreshing, everyday version of Czech Premium Pale Lager.",
-    "examples": { "group": [ { "text": "Březňák Světlé výčepní pivo, Notch Session Pils, Pivovar Kout na Šumavě Koutská 10°, Únětické pivo 10°" } ] },
+    "examples": { "list": [ { "text": "Březňák Světlé výčepní pivo, Notch Session Pils, Pivovar Kout na Šumavě Koutská 10°, Únětické pivo 10°" } ] },
     "tags": [
       "session-strength",
       "pale-color",
@@ -588,7 +588,7 @@ export const mockStyleList: BJCPStyle[] = [
     "history": "Commonly associated with Pilsner Urquell, which was first brewed in 1842 after construction of a new brewhouse by burghers dissatisfied with the standard of beer brewed in Plzeň. Bavarian brewer Josef Groll is credited with first brewing the beer.",
     "ingredients": "Soft water with low sulfate and carbonate content, Saazer-type hops, Czech malt, Czech lager yeast. Low ion water provides a distinctively soft, rounded hop profile despite high hopping rates. The bitterness level of some larger commercial examples has dropped in recent years, although not as much as in many contemporary German examples.",
     "comparison": "More color, malt richness, and body than a German Pils, with a fuller finish and a cleaner, softer impression. Stronger than a Czech Pale Lager.",
-    "examples": { "group": [ { "text": "Bernard Sváteční ležák, Gambrinus Premium, Kout na Šumavě Koutská 12°, Pilsner Urquell, Pivovar Jihlava Ježek 11°, Primátor Premium, Únětická 12°" } ] },
+    "examples": { "list": [ { "text": "Bernard Sváteční ležák, Gambrinus Premium, Kout na Šumavě Koutská 12°, Pilsner Urquell, Pivovar Jihlava Ježek 11°, Primátor Premium, Únětická 12°" } ] },
     "tags": [
       "standard-strength",
       "pale-color",
@@ -651,7 +651,7 @@ export const mockStyleList: BJCPStyle[] = [
     "history": "A Vienna-style lager which has continued to be brewed in the Czech Republic. A resurgence of small breweries opening in the Czech Republic has increased the number of examples of this style.",
     "ingredients": "Pilsner and caramel malts, but Vienna and Munich malts may also be used. Low mineral content water, Saazer-type hops, Czech lager yeast.",
     "comparison": "The style can be similar to a Vienna lager but with Saazer-type hop character, or that approaching an English bitter but significantly richer with more of a deep caramel character. Large brewery versions are generally similar to Czech Premium Pale Lager with slightly darker malt flavors and less hop, while smaller breweries often make versions with considerable hop character, malt complexity, or residual sweetness.",
-    "examples": { "group": [ { "text": "Bernard Jantarový ležák, Pivovar Vysoký Chlumec Démon, Primátor polotmavý 13°, Strakonický Dudák Klostermann polotmavý ležák 13°" } ] },
+    "examples": { "list": [ { "text": "Bernard Jantarový ležák, Pivovar Vysoký Chlumec Démon, Primátor polotmavý 13°, Strakonický Dudák Klostermann polotmavý ležák 13°" } ] },
     "tags": [
       "standard-strength",
       "amber-color",
@@ -713,7 +713,7 @@ export const mockStyleList: BJCPStyle[] = [
     "history": "The U Fleků brewery has been operating in Prague since 1499. Many small, new breweries are brewing this style.",
     "ingredients": "Pilsner and dark caramel malts with the addition of debittered roasted malts are most common, but additions of Vienna or Munich malt are also appropriate. Low mineral content water, Saazer-type hops, Czech lager yeast. Any fruity esters are typically from malt, not yeast.",
     "comparison": "The beer is the Czech equivalent of a dark lager ranging in character from Munich Dunkel to Schwarzbier, but typically with greater malt richness and hop character (aroma, flavor, and/or bitterness).",
-    "examples": { "group": [ { "text": "Bohemian Brewery Cherny Bock 4%, Budweiser Budvar B:Dark tmavý ležák, Devils Backbone Morana, Kout na Šumavě Koutský tmavý speciál 14°, Notch Černé Pivo, Pivovar Březnice Herold, U Fleků Flekovský tmavý 13° ležák" } ] },
+    "examples": { "list": [ { "text": "Bohemian Brewery Cherny Bock 4%, Budweiser Budvar B:Dark tmavý ležák, Devils Backbone Morana, Kout na Šumavě Koutský tmavý speciál 14°, Notch Černé Pivo, Pivovar Březnice Herold, U Fleků Flekovský tmavý 13° ležák" } ] },
     "tags": [
       "standard-strength",
       "dark-color",

@@ -112,7 +112,7 @@ describe('BeerStyleDetail', () => {
             });
             break;
           case 'examples':
-            expect(screen.queryByText(mockBeerStyle[headingAsKey].group[0].text)).toBeInTheDocument();
+            expect(screen.queryByText(mockBeerStyle[headingAsKey].list[0].text)).toBeInTheDocument();
             break;
           default:
             expect(screen.queryByText(mockBeerStyle[headingAsKey] as string)).toBeInTheDocument();

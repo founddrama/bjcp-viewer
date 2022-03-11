@@ -4,7 +4,7 @@ import {
   StyleStatRange,
   BJCPBeerTags,
   BJCPStyle,
-  ExampleWithGroups,
+  ExampleWithLists,
 } from '../types';
 import { formatSG, formatRange } from '../bjcp/bjcp-formatters';
 import cyrb53 from '../ts/cyrb53-hash';
@@ -93,14 +93,14 @@ class StyleDetail extends React.PureComponent<StyleDetailProps> {
     );
   }
 
-  renderExamples(content: ExampleWithGroups | undefined): JSX.Element | undefined {
+  renderExamples(content: ExampleWithLists | undefined): JSX.Element | undefined {
     if(!content) return;
 
     return (
       <div>
         <h3 id="examples">Examples</h3>
         <p>
-          {content.group.map((example, index, array) => {
+          {content.list.map((example, index, array) => {
             const { label, text } = example;
             return (
               <span key={cyrb53(text)}>
