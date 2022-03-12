@@ -93,12 +93,18 @@ class StyleDetail extends React.PureComponent<StyleDetailProps> {
     );
   }
 
+  renderSectionHeading(title: string): JSX.Element {
+    return (
+      <h3 id={title.toLowerCase().replace(/\s/g, '-')}>{title}</h3>
+    );
+  }
+
   renderExamples(content: ExampleWithLists | undefined): JSX.Element | undefined {
     if(!content) return;
 
     return (
       <div>
-        <h3 id="examples">Examples</h3>
+        {this.renderSectionHeading('Examples')}
         <p>
           {content.list.map((example, index, array) => {
             const { label, text } = example;
@@ -119,7 +125,7 @@ class StyleDetail extends React.PureComponent<StyleDetailProps> {
 
     return (
       <div>
-        <h3 id={title.toLowerCase().replace(/\s/g, '-')}>{title}</h3>
+        {this.renderSectionHeading(title)}
         {this.renderParagraphs(content)}
       </div>
     );
