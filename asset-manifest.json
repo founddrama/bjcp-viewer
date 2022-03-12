@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/bjcp-viewer/static/css/main.c83dcc3a.chunk.css",
-    "main.js": "/bjcp-viewer/static/js/main.a395f037.chunk.js",
-    "main.js.map": "/bjcp-viewer/static/js/main.a395f037.chunk.js.map",
+    "main.js": "/bjcp-viewer/static/js/main.e5e3bcea.chunk.js",
+    "main.js.map": "/bjcp-viewer/static/js/main.e5e3bcea.chunk.js.map",
     "runtime-main.js": "/bjcp-viewer/static/js/runtime-main.0dc452f7.js",
     "runtime-main.js.map": "/bjcp-viewer/static/js/runtime-main.0dc452f7.js.map",
     "static/js/2.50a0d667.chunk.js": "/bjcp-viewer/static/js/2.50a0d667.chunk.js",
     "static/js/2.50a0d667.chunk.js.map": "/bjcp-viewer/static/js/2.50a0d667.chunk.js.map",
     "index.html": "/bjcp-viewer/index.html",
-    "precache-manifest.87141335f13601573ad2960158abc7a1.js": "/bjcp-viewer/precache-manifest.87141335f13601573ad2960158abc7a1.js",
+    "precache-manifest.02df56a68eb0f020d1d16d050af4b6ee.js": "/bjcp-viewer/precache-manifest.02df56a68eb0f020d1d16d050af4b6ee.js",
     "service-worker.js": "/bjcp-viewer/service-worker.js",
     "static/css/main.c83dcc3a.chunk.css.map": "/bjcp-viewer/static/css/main.c83dcc3a.chunk.css.map",
     "static/js/2.50a0d667.chunk.js.LICENSE.txt": "/bjcp-viewer/static/js/2.50a0d667.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.0dc452f7.js",
     "static/js/2.50a0d667.chunk.js",
     "static/css/main.c83dcc3a.chunk.css",
-    "static/js/main.a395f037.chunk.js"
+    "static/js/main.e5e3bcea.chunk.js"
   ]
 }
