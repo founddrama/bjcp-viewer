@@ -53,6 +53,29 @@ const normalizeStats = (style) => {
   return style;
 };
 
+const normalizeExamples = (style) => {
+  if (style.examples === undefined || style.examples.list === undefined) {
+    return style;
+  }
+
+  let { list } = style.examples;
+  if (!Array.isArray(list)) {
+    list = [{ '#text': list }];
+  }
+
+  style.examples.list = list.map(example => {
+    const text = example['#text'];
+    const label = example['@_label'];
+
+    return {
+      ...(text !== undefined && { text }),
+      ...(label !== undefined && { label }),
+    };
+  });
+
+  return style;
+};
+
 let styleguide = parse(bjcpXML, {
                         ignoreAttributes: false,
                         allowBooleanAttributes: true
@@ -69,6 +92,7 @@ styleguide = styleguide.class.map(classification => {
   .reduce((acc, styles) => acc.concat(styles), [])
   .map(style => (style['@_type'] = type, style))
   .map(normalizeStats)
+  .map(normalizeExamples)
   .map(tagsStringToList);
 }).reduce((p, c) => p.concat(c), []);
 
@@ -84,6 +108,7 @@ styleguide = styleguide.reduce((flattenedStyles, style) => {
     flattenedStyles = flattenedStyles.concat(
       specialties
         .map(normalizeStats)
+        .map(normalizeExamples)
         .map(tagsStringToList)
         .map((s, i) => ({
           ...s,

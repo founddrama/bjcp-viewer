@@ -102,15 +102,20 @@ describe('BeerStyleDetail', () => {
 
         // the paragraph text
         const headingAsKey: keyof BJCPStyle = convertHeadingToDataKey(heading);
-        if (headingAsKey === 'tags') {
-          const tags = mockBeerStyle[headingAsKey];
-          tags!.forEach((t: BJCPBeerTags) => {
-            expect(screen.queryByText(`#${t.replace('-', '\u2011')}`, {
-              exact: false
-            })).toBeInTheDocument();
-          });
-        } else {
-          expect(screen.queryByText(mockBeerStyle[headingAsKey] as string)).toBeInTheDocument();
+        switch (headingAsKey) {
+          case 'tags':
+            const tags = mockBeerStyle[headingAsKey];
+            tags!.forEach((t: BJCPBeerTags) => {
+              expect(screen.queryByText(`#${t.replace('-', '\u2011')}`, {
+                exact: false
+              })).toBeInTheDocument();
+            });
+            break;
+          case 'examples':
+            expect(screen.queryByText(mockBeerStyle[headingAsKey].list[0].text)).toBeInTheDocument();
+            break;
+          default:
+            expect(screen.queryByText(mockBeerStyle[headingAsKey] as string)).toBeInTheDocument();
         }
       }
     );
@@ -147,6 +152,11 @@ describe('BeerStyleDetail', () => {
 
     test(`it should render ${sectionHeadingsWithOptional.length} headings`, () => {
       expect(screen.getAllByRole('heading')).toHaveLength(13);
+    });
+
+    test('it should render Examples with bold grouping labels', () => {
+      const section = screen.getByText('Examples').parentElement;
+      expect(section?.querySelectorAll('strong').length).toBe(2);
     });
 
     test('it should render the Entry Instructions heading and accompanying text', () => {
