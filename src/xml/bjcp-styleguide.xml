@@ -6005,6 +6005,57 @@ Bear in mind that a poorly-made, faulted beer should not be used to define a new
         </stats>
       </subcategory>
     </category>
+
+    <category id="X">
+      <revision number="1">2021</revision>
+      <name>Local Styles</name>
+      <notes>This appendix contains style descriptions submitted by local BJCP judges or brewers within a single country or region for emerging styles of local importance that may or may not have wider popularity. The BJCP has reviewed, edited, and verified the style descriptions, which may be used by anyone, not just as an appellation in the local area (although judges outside the area may not be familiar with them). These local styles are part of the Style Guidelines, and are not provisional styles.</notes>
+      <subcategory id="X1">
+        <name>Dorada Pampeana</name>
+        <preamble>Pampas Golden Ale. Suggested style placement: Category 18 (Pale American Beer).</preamble>
+        <impression>Easy drinkability, malt-oriented.</impression>
+        <aroma>Light to moderate sweet malty aroma. Low to moderate fruity aroma is acceptable. May have a low to medium hop aroma. No diacetyl.</aroma>
+        <appearance>Light yellow to deep gold color. Clear to brilliant. Low to medium head with good retention.</appearance>
+        <flavor>Initial soft malty sweetness. Caramel flavors typically are absent. Mild to moderate hop flavor (usually Cascade), but should not be aggressive. Low to moderate hop bitterness, the balance is normally towards the malt. Half-dry to something sweet finish. No diacetyl.</flavor>
+        <mouthfeel>Medium-light to medium body. Medium to high carbonation. Smooth without harsh bitterness or astringency.</mouthfeel>
+        <comments>It is difficult to achieve the balance.</comments>
+        <history>At the beginning Argentine homebrewers were very limited: there weren't extract, they could use only pils malt, Cascade hops and dry yeast, commonly Nottingham, Windsor or Safale. With these ingredients, Argentine brewers developed a specific version of Blond Ale, named Dorada Pampeana.</history>
+        <ingredients>Usually only pale or pils malt, although may include low rates of caramelized malt. Commonly Cascade hops. Clean American yeast, slightly fruity British or Kölsch, usually packaged in cold.</ingredients>
+        <stats>
+          <ibu flexible="false">
+            <range>
+              <low>15</low>
+              <high>22</high>
+            </range>
+          </ibu>
+          <og flexible="false">
+            <range>
+              <low>1.042</low>
+              <high>1.054</high>
+            </range>
+          </og>
+          <fg flexible="false">
+            <range>
+              <low>1.009</low>
+              <high>1.013</high>
+            </range>
+          </fg>
+          <srm flexible="false">
+            <range>
+              <low>3</low>
+              <high>5</high>
+            </range>
+          </srm>
+          <abv flexible="false">
+            <range>
+              <low>4.3</low>
+              <high>5.5</high>
+            </range>
+          </abv>
+        </stats>
+      </subcategory>
+    </category>
+
   </class>
   <class type="mead">
     <introduction>
