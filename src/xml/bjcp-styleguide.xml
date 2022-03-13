@@ -6005,6 +6005,250 @@ Bear in mind that a poorly-made, faulted beer should not be used to define a new
         </stats>
       </subcategory>
     </category>
+
+    <category id="X">
+      <revision number="1">2021</revision>
+      <name>Local Styles</name>
+      <notes>This appendix contains style descriptions submitted by local BJCP judges or brewers within a single country or region for emerging styles of local importance that may or may not have wider popularity. The BJCP has reviewed, edited, and verified the style descriptions, which may be used by anyone, not just as an appellation in the local area (although judges outside the area may not be familiar with them). These local styles are part of the Style Guidelines, and are not provisional styles.</notes>
+      <subcategory id="X1">
+        <name>Dorada Pampeana</name>
+        <preamble>Pampas Golden Ale. Suggested style placement: Category 18 (Pale American Beer).</preamble>
+        <impression>Easy drinkability, malt-oriented.</impression>
+        <aroma>Light to moderate sweet malty aroma. Low to moderate fruity aroma is acceptable. May have a low to medium hop aroma. No diacetyl.</aroma>
+        <appearance>Light yellow to deep gold color. Clear to brilliant. Low to medium head with good retention.</appearance>
+        <flavor>Initial soft malty sweetness. Caramel flavors typically are absent. Mild to moderate hop flavor (usually Cascade), but should not be aggressive. Low to moderate hop bitterness, the balance is normally towards the malt. Half-dry to something sweet finish. No diacetyl.</flavor>
+        <mouthfeel>Medium-light to medium body. Medium to high carbonation. Smooth without harsh bitterness or astringency.</mouthfeel>
+        <comments>It is difficult to achieve the balance.</comments>
+        <history>At the beginning Argentine homebrewers were very limited: there weren't extract, they could use only pils malt, Cascade hops and dry yeast, commonly Nottingham, Windsor or Safale. With these ingredients, Argentine brewers developed a specific version of Blond Ale, named Dorada Pampeana.</history>
+        <ingredients>Usually only pale or pils malt, although may include low rates of caramelized malt. Commonly Cascade hops. Clean American yeast, slightly fruity British or Kölsch, usually packaged in cold.</ingredients>
+        <stats>
+          <ibu flexible="false">
+            <range>
+              <low>15</low>
+              <high>22</high>
+            </range>
+          </ibu>
+          <og flexible="false">
+            <range>
+              <low>1.042</low>
+              <high>1.054</high>
+            </range>
+          </og>
+          <fg flexible="false">
+            <range>
+              <low>1.009</low>
+              <high>1.013</high>
+            </range>
+          </fg>
+          <srm flexible="false">
+            <range>
+              <low>3</low>
+              <high>5</high>
+            </range>
+          </srm>
+          <abv flexible="false">
+            <range>
+              <low>4.3</low>
+              <high>5.5</high>
+            </range>
+          </abv>
+        </stats>
+      </subcategory>
+      <subcategory id="X2">
+        <name>IPA Argenta</name>
+        <preamble>Argentine IPA. Suggested style placement: Category 21 (IPA).</preamble>
+        <impression>A decidedly hoppy and bitter, refreshing and moderately strong Argentine pale ale. The clue is drinkability without harshness and best balance.</impression>
+        <aroma>Intense hop aroma with a citrusy and floral character derived from Argentine hops. Some clean malty sweetness and caramel may be found in the background, but should be at a lower level than in English examples. Fruitiness from esters and light phenols from fermentation of wheat may also be detected in some versions, although a neutral fermentation character is usual. Some alcohol may be noted in stronger versions. No DMS. The diacetyl is a high demerit because it can cover aroma hops, and never should be present.</aroma>
+        <appearance>Color ranges from medium gold to medium reddish copper; some versions can have an orange-ish tint. Should be clear, although unfiltered dry-hopped versions or with unmalted wheat may be little hazy. Good head stand, persistent.</appearance>
+        <flavor>Hop flavor is medium to high, and should reflect an Argentine hop character: citrusy, grapefruit and tangerine peel must be dominant. May have some floral character like orange blossoms, or herbal and resinous, although it is less common and should only add complexity. Medium-high to very high hop bitterness, although the malt backbone will support the strong hop character and provide the best balance. Malt flavor should be low to medium, and is generally clean and malty sweet although some caramel or spicy flavors from wheat, malted or unmalted, are acceptable at low levels. No diacetyl. Low fruitiness is acceptable but not required. The bitterness may linger into the aftertaste but should not be harsh. Medium-dry to dry finish, refreshing. Some clean alcohol flavor can be noted in stronger versions.</flavor>
+        <mouthfeel>Medium-light to medium-bodied mouthfeel without hop-derived astringency, although moderate to medium-high carbonation can combine with wheat to render an overall dry sensation in the presence of malt sweetness. Some smooth alcohol warming can and should be sensed in stronger (but not all) versions. Body is generally less than in English counterparts, and more dry than American counterparts.</mouthfeel>
+        <history>An Argentine version of the historical English style, developed in 2013 from Somos Cerveceros Association meetings, when its distinctive characteristics were defined. Different from an American IPA in that it is brewed with wheat and using Argentine hops, with its unique flavor and aroma characteristic. Based on a citrus (from Argentine hop) and wheat pairing idea, like in a Witbier. Low amounts of wheat are similar to a Kölsch grist, as is some fruitiness from fermentation.</history>
+        <ingredients>Pale ale malt (well-modified and suitable for single-temperature infusion mashing) with up to 15% wheat, either malted or unmalted; Caramel malts should be limited and preferably be caramel wheat. Argentine hops like Cascade, Mapuche and Nugget are typical, although Spalt, Victoria or Bullion may be used to add complexity; American yeast that can give a clean or slightly fruity profile. Water character varies from soft to moderately sulfate.</ingredients>
+        <examples>
+          <list>Antares Ipa Argenta, Kerze Ipa Argenta</list>
+        </examples>
+        <stats>
+          <ibu flexible="false">
+            <range>
+              <low>35</low>
+              <high>60</high>
+            </range>
+          </ibu>
+          <og flexible="false">
+            <range>
+              <low>1.055</low>
+              <high>1.065</high>
+            </range>
+          </og>
+          <fg flexible="false">
+            <range>
+              <low>1.008</low>
+              <high>1.015</high>
+            </range>
+          </fg>
+          <srm flexible="false">
+            <range>
+              <low>6</low>
+              <high>15</high>
+            </range>
+          </srm>
+          <abv flexible="false">
+            <range>
+              <low>5.0</low>
+              <high>6.5</high>
+            </range>
+          </abv>
+        </stats>
+      </subcategory>
+      <subcategory id="X3">
+        <name>Italian Grape Ale</name>
+        <preamble>For uses outside Italy, see 29D Grape Ale.</preamble>
+        <impression>A sometimes refreshing, sometimes more complex Italian ale characterized by different varieties of grapes.</impression>
+        <aroma>Aromatic characteristics of a particular grape have to be noticeable but do should not overpower the other aromas. The grape character should be pleasant and should not have defects such as oxidation. Malt character is usually restrained and should not exhibit a roasty, stout like, profile. Hop aroma (floral, earthy) can range from medium-low to absent. Some examples can have a low wild character described as barnyard, earthy, goaty but should not be as intense as in a lambic/fruit lambic. No diacetyl.</aroma>
+        <appearance>Color can range from light gold to copper but some examples can be brown. Reddish/ruby color is usually due to the use of red grape varieties. White to reddish head with generally a medium low retention. Clarity is generally good but some cloudiness may be present.</appearance>
+        <flavor>As with aroma, grape character (must or wine-like) must be present and may range from medium-low to medium-high intensity. Varieties of grape can contribute differently on the flavor profile: in general stone/tropical fruit flavors (peach, pear, apricot, pineapple) can come from white grapes and red fruit flavors (e.g., cherry, strawberry) from red grape varieties. Further fruity character of fermentative origin is also common. Different kinds of special malts can be used but should be supportive and balanced, not so prominent as to overshadow the base beer. Strong roasted and/or chocolate character is inappropriate. Light sour notes, due to the use of grape, are common and may help to improve the drinkability but should not be prominent as in Sour ale/Lambic or similar. Oak flavors, along with some barnyard, earthy, goaty notes can be present but should not be predominant.  Bitterness and hop flavors are low. Diacetyl is absent.</flavor>
+        <mouthfeel>Medium-high carbonation improves the perception of aroma. Body is generally from low to medium and some acidity can contribute to increase the perception of dryness. Strong examples can show some warming but without being hot or solventy.</mouthfeel>
+        <history>Initially brewed at Birrificio Montegioco and Birrificio Barley in 2006-2007, Italian Grape Ale (IGA) is now produced by many Italian craft breweries. It's also becoming popular in US and other wine countries. It represents a communion between beer and wine promoted to the large local availability of different varieties of grapes across the country. They can be an expression of territory, biodiversity and creativity of the brewer. Normally seen as a specialty beer in the range of products of the brewery. 
+Breweries call "Wild IGA" or "Sour IGA" any wild/sour version of the style.</history>
+        <ingredients>Pils in most of cases or pale base malt with some special malts (if any). Grape content can represent up to 40% of whole grist. Grape or grape must, sometimes extensively boiled before use, can be used at different stages: during boiling or more commonly during primary/secondary fermentation. Yeast can show a neutral character (more common) or a fruity/spicy profile (English and Belgian strains). Wine yeast can be used also in conjunction with other yeasts. Continental hop varieties, mainly German or English, are used in low quantities in order not to excessively characterize the beer.</ingredients>
+        <comparison>Similar to Fruit Beer but evolved as a standalone style due to the abundance of grapes varieties in Italy.</comparison>
+        <tags>specialty-beer, fruit</tags>
+        <examples>
+          <list>Montegioco Open Mind, Birrificio Barley BB5-10, Birrificio del Forte Il Tralcio, Viess Beer al mosto di gewurtztraminer, CRAK IGA Cabernet, Birrificio Apuano Ninkasi, Luppolajo Mons Rubus</list>
+        </examples>
+        <stats>
+          <ibu flexible="false">
+            <range>
+              <low>6</low>
+              <high>30</high>
+            </range>
+          </ibu>
+          <og flexible="false">
+            <range>
+              <low>1.045</low>
+              <high>1.1</high>
+            </range>
+          </og>
+          <fg flexible="false">
+            <range>
+              <low>1.005</low>
+              <high>1.015</high>
+            </range>
+          </fg>
+          <srm flexible="false">
+            <range>
+              <low>4</low>
+              <high>25</high>
+            </range>
+          </srm>
+          <abv flexible="false">
+            <range>
+              <low>4.5</low>
+              <high>12.5</high>
+            </range>
+          </abv>
+        </stats>
+      </subcategory>
+      <subcategory id="X4">
+        <name>Catharina Sour</name>
+        <preamble>Suggested style placement: Category 29 (Fruit Beer).</preamble>
+        <impression>A refreshing fruited sour wheat beer with a vibrant fruit character and a clean lactic acidity. The restrained alcohol, light body, elevated carbonation, and lack of perceived bitterness allows the fresh fruit to be highlighted. The fruit is often, but not always, tropical in nature.</impression>
+        <aroma>Medium to high fruit character, immediately noticeable and recognizable. A clean lactic sourness, low to medium, supports the fruit. Neutral malt typically, but can have low grainy or bready notes in support. Clean fermentation profile with no wild or funky yeast character. No hop aroma. No sharp alcohol. Optional Spices, Herbs, and Vegetables should support the fruit if present.</aroma>
+        <appearance>Color is often fairly pale — straw to gold. Medium to high white head with fair to good retention. The color of the beer and head can also take on the color of the fruit.  Clarity can be quite clear to hazy. Effervescent.</appearance>
+        <flavor>Medium to high fresh fruit flavor dominates, with a supportive but noticeable, low to medium-high clean lactic sourness. The fruit should have a fresh character, not seeming cooked, jam-like, or artificial. The malt is often absent, but if present can have a low grainy or bready quality that never competes with the fruit or sourness. Hop bitterness below sensory threshold. Dry finish with a clean, tart, and fruity aftertaste. No hop flavor, acetic notes, diacetyl, or funky Brett flavors. Spices, Herbs, and Vegetables are optional in support of the fruit.</flavor>
+        <mouthfeel>Low to medium-low body. Medium to high carbonation. No alcohol warmth. Low to medium-high acidity without being aggressively sour or astringent.</mouthfeel>
+        <comments>Best consumed fresh. The acidity may make the beer seem drier and lighter in body than the final gravity might suggest. Berliner Weisse beers with fruit should be entered as 29A Fruit Beer.</comments>
+        <history>Individual examples existed under different names previously in Brazil, but the style became popular under this name after it was formally defined in 2015 during a workshop between craft brewers and homebrewers in the Brazilian state of Santa Catarina. Featuring local ingredients well-suited to the warm climate, the style has spread to other states within Brazil and elsewhere, and is a very popular modern style in South America — both commercially and in homebrew competitions.</history>
+        <ingredients>Pilsner malt with wheat malt or unmalted wheat. Kettle sour technique with Lacto is most common, followed by fermentation with a neutral ale yeast. Fruit typically added late in fermentation. Fresh seasonal fruit, often tropical. Spices, Herbs, and Vegetables are optional, but always should support and enhance the fruit presentation.</ingredients>
+        <comparison>Like a stronger Berliner Weisse, but with fresh fruit and no Brett. Less sour than Lambic and Gueuze, and without Brett character. As of the 2021 Guidelines, similar beer could be entered in the broader 28C Wild Specialty Beer style.</comparison>
+        <tags>craft-style, fruit, sour, specialty-beer</tags>
+        <examples>
+          <list>Armada Daenerys, Blumenau Catharina Sour Pêssego, Istepô Goiabêra, Itajahy Catharina Araçá Sour, Liffey Coroa Real, UNIKA Tangerina Clemenules</list>
+        </examples>
+        <stats>
+          <ibu flexible="false">
+            <range>
+              <low>2</low>
+              <high>8</high>
+            </range>
+          </ibu>
+          <og flexible="false">
+            <range>
+              <low>1.039</low>
+              <high>1.048</high>
+            </range>
+          </og>
+          <fg flexible="false">
+            <range>
+              <low>1.004</low>
+              <high>1.012</high>
+            </range>
+          </fg>
+          <srm flexible="false">
+            <range>
+              <low>2</low>
+              <high>6</high>
+            </range>
+          </srm>
+          <abv flexible="false">
+            <range>
+              <low>4.0</low>
+              <high>5.5</high>
+            </range>
+          </abv>
+        </stats>
+      </subcategory>
+      <subcategory id="X5">
+        <name>New Zealand Pilsner</name>
+        <preamble>Suggested style placement: Category 12 (Pale Commonwealth Beer).</preamble>
+        <impression>A pale, dry, golden-colored, cleanly-fermented beer showcasing the characteristic tropical, citrusy, fruity, grassy New Zealand-type hops. Medium body, soft mouthfeel, and smooth palate and finish, with a neutral to bready malt base provide the support for this very drinkable, refreshing, hop-forward beer.</impression>
+        <aroma>Medium to high hop aroma reflective of modern New World hop varieties, often showcasing tropical fruit, citrus (lime, white grapefruit), gooseberry, honeydew melon, with a light green bell pepper or grassy aspect. Medium-low to medium malt in support, with a neutral to bready-crackery quality. Very low DMS acceptable but not required. Neutral, clean yeast character, optionally with a very light sulfury quality. The hop character should be most prominent in the balance, but some malt character must be evident.</aroma>
+        <appearance>Straw to deep gold in color, but most examples are yellow-gold. Generally quite clear to brilliant clarity; haziness is a fault. Creamy, long-lasting white head.</appearance>
+        <flavor>Medium to high hop bitterness, cleanly bitter not harsh, most prominent in the balance and lasting into the aftertaste. Medium to high hop flavor with similar characteristics as the aroma (tropical, citrus, gooseberry, melon, grass). Medium to medium-low malt flavor, grainy-sweet, bready, or crackery. Clean fermentation profile (fermentation esters are a fault). Dry to off-dry with a clean, smooth finish and bitter but not harsh aftertaste. The malt may suggest an impression of sweetness but the beer should not be literally sweet. The finish may be dry but not seem crisp or biting. The balance should always be bitter, but the malt flavor must be noticeable.</flavor>
+        <mouthfeel>Medium to medium-light body. Medium to medium-high carbonation. Smoothness is the most prominent impression. Never harsh nor astringent.</mouthfeel>
+        <comments>The hop aromatics often have a similar quality as many New Zealand Sauvignon Blanc wines, with tropical fruit, grassy, melon, and lime aromatics. Often brewed as a hybrid style in New Zealand using a neutral ale yeast at cool temperatures. Limiting the sulfur content of the finished product is important since it can clash with the hop character.</comments>
+        <history>Largely defined by the original created at Emerson's Brewery in the mid-1990s, New Zealand Pilsner has expanded in character as the varieties of New Zealand hops have expanded in number and popularity.</history>
+        <ingredients>New Zealand hop varieties, such as Motueka, Riwake, Nelson Sauvin, often with Pacific Jade for bittering. Other new world varieties from Australia or the US may be used, if they have similar characteristics. Pale base malts, Pilsner or pale types, perhaps with a small percentage of wheat malt. Fairly low-mineral water, typically with more chloride than sulfate. Clean lager yeast or very neutral ale yeast.</ingredients>
+        <comparison>Compared to a German Pils, not as crisp and dry in the finish with a softer, maltier presentation and a fuller body. Compared to a Czech Premium Pale Lager, less malt complexity, a cleaner fermentation. Similar in balance to a Kolsch or British Golden Ale, but with a hoppier aroma. Compared to any of these German styles, showcasing New Zealand hop varieties with tropical, citrusy, fruity, grassy characteristics, often with a white wine-like character. Should not be as hoppy or bitter in balance as an IPA.</comparison>
+        <tags>bitter, pale-color, standard-strength, bottom-fermented, hoppy, pilsner-family, lagered, craft-style, pacific</tags>
+        <examples>
+          <list>Croucher New Zealand Pilsner, Emerson's Pilsner, Liberty Halo Pilsner, Panhead Port Road Pilsner, Sawmill Pilsner, Tuatara Mot Eureka</list>
+        </examples>
+        <stats>
+          <ibu flexible="false">
+            <range>
+              <low>25</low>
+              <high>45</high>
+            </range>
+          </ibu>
+          <og flexible="false">
+            <range>
+              <low>1.044</low>
+              <high>1.056</high>
+            </range>
+          </og>
+          <fg flexible="false">
+            <range>
+              <low>1.009</low>
+              <high>1.014</high>
+            </range>
+          </fg>
+          <srm flexible="false">
+            <range>
+              <low>2</low>
+              <high>6</high>
+            </range>
+          </srm>
+          <abv flexible="false">
+            <range>
+              <low>4.5</low>
+              <high>5.8</high>
+            </range>
+          </abv>
+        </stats>
+      </subcategory>
+    </category>
+
   </class>
   <class type="mead">
     <introduction>
