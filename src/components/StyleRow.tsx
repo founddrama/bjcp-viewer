@@ -5,7 +5,7 @@ import cyrb53 from '../ts/cyrb53-hash';
 
 type StyleRowProps = {
   isSelected: boolean;
-  onClick: React.MouseEventHandler<HTMLTableRowElement>;
+  onClick: () => void;
   style: BJCPStyle;
 };
 

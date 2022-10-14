@@ -11,12 +11,8 @@ interface RangeOptions {
 };
 
 export function formatSG(sg: RangeValue): string | undefined {
-  if(!sg) return;
-  if (typeof sg === 'number') {
-    return sg.toFixed(3);
-  } else {
-    return sg;
-  }
+  if (!sg) return;
+  return typeof sg === 'number' ? sg.toFixed(3) : sg;
 }
 
 export function formatRange(styleStat: StyleStat, opts: RangeOptions = {}): JSX.Element {

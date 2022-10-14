@@ -11,7 +11,7 @@ import cyrb53 from '../ts/cyrb53-hash';
 
 type StyleDetailProps = {
   style: BJCPStyle | undefined;
-  onCloseClick: React.MouseEventHandler<HTMLTableRowElement>;
+  onCloseClick: () => void;
 };
 
 class StyleDetail extends React.PureComponent<StyleDetailProps> {

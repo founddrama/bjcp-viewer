@@ -3,7 +3,7 @@ import StyleRow from './StyleRow';
 import { BJCPStyle } from '../types';
 
 type StyleListProps = {
-  emitSelectedStyle: Function;
+  emitSelectedStyle: (styleId: string) => void;
   styles: BJCPStyle[];
   style?: BJCPStyle;
 };
