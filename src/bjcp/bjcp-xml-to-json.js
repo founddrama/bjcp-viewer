@@ -1,6 +1,10 @@
-import { parse } from 'fast-xml-parser';
+import { XMLParser } from 'fast-xml-parser';
 import { readFileSync, writeFileSync } from 'fs';
 
+const parser = new XMLParser({
+  ignoreAttributes: false,
+  allowBooleanAttributes: true
+});
 const bjcpXML = readFileSync('src/xml/bjcp-styleguide.xml', 'utf8');
 
 const writeJsonToDisk = (json, filename) => {
@@ -76,10 +80,7 @@ const normalizeExamples = (style) => {
   return style;
 };
 
-let styleguide = parse(bjcpXML, {
-                        ignoreAttributes: false,
-                        allowBooleanAttributes: true
-                      }).styleguide;
+let styleguide = parser.parse(bjcpXML).styleguide;
 
 // IN THE BELOW:
 // - Flatten with `map(category)`
