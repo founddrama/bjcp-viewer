@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/bjcp-viewer/static/css/main.e0700460.css",
-    "main.js": "/bjcp-viewer/static/js/main.4f7bc69f.js",
+    "main.js": "/bjcp-viewer/static/js/main.b3fa5804.js",
     "index.html": "/bjcp-viewer/index.html",
     "main.e0700460.css.map": "/bjcp-viewer/static/css/main.e0700460.css.map",
-    "main.4f7bc69f.js.map": "/bjcp-viewer/static/js/main.4f7bc69f.js.map"
+    "main.b3fa5804.js.map": "/bjcp-viewer/static/js/main.b3fa5804.js.map"
   },
   "entrypoints": [
     "static/css/main.e0700460.css",
-    "static/js/main.4f7bc69f.js"
+    "static/js/main.b3fa5804.js"
   ]
 }
