@@ -9,23 +9,24 @@ type StyleRowProps = {
   style: BJCPStyle;
 };
 
-class StyleRow extends React.PureComponent<StyleRowProps> {
-  render(): JSX.Element {
-    const { style, isSelected, onClick } = this.props;
-    const { abv, ibu, og, fg, srm } = style.stats;
+function StyleRow({
+  style,
+  isSelected,
+  onClick,
+}: StyleRowProps): JSX.Element {
+  const { abv, ibu, og, fg, srm } = style.stats;
 
-    return (
-      <tr key={cyrb53(style.name)} onClick={onClick} className={isSelected ? 'is-selected' : ''}>
-        <td>{style['@_id']}.</td>
-        <td>{style.name}</td>
-        {formatRangeForRow(abv, { suffix: '%' })}
-        {formatRangeForRow(ibu)}
-        {formatRangeForRow(og, { formatter: formatSG })}
-        {formatRangeForRow(fg, { formatter: formatSG })}
-        {formatRangeForRow(srm)}
-      </tr>
-    );
-  }
+  return (
+    <tr key={cyrb53(style.name)} onClick={onClick} className={isSelected ? 'is-selected' : ''}>
+      <td>{style['@_id']}.</td>
+      <td>{style.name}</td>
+      {formatRangeForRow(abv, { suffix: '%' })}
+      {formatRangeForRow(ibu)}
+      {formatRangeForRow(og, { formatter: formatSG })}
+      {formatRangeForRow(fg, { formatter: formatSG })}
+      {formatRangeForRow(srm)}
+    </tr>
+  );
 }
 
 export default StyleRow;
