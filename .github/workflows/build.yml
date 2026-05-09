@@ -22,13 +22,12 @@ jobs:
 
       - name: Build package for GitHub Pages
         env:
-          NODE_OPTIONS: --openssl-legacy-provider
           PUBLIC_URL: /bjcp-viewer
           REACT_APP_USE_HASH_ROUTER: true
         run: npm run build
 
       - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@4.1.6
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
           folder: build
