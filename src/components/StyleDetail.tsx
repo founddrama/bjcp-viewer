@@ -35,6 +35,7 @@ function StyleDetail(props: StyleDetailProps): JSX.Element | null {
     style['@_type'] === 'mead';
 
   // currently unused
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const isCider = (style: BJCPStyle): boolean =>
     style['@_type'] === 'cider';
 
