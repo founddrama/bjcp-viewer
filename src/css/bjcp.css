@@ -106,7 +106,7 @@ article table .srm-gradient > div {
 }
 
 article table td div:last-of-type,
-article table .srm-gradient div[style*='var(--srm'] {
+article table .srm-gradient > div:last-of-type {
   margin-bottom: 0;
 }
 
@@ -135,7 +135,7 @@ table td:last-of-type {
 }
 
 .style-list-container td:first-of-type,
-.srm-gradient div:first-of-type {
+.srm-gradient > div {
   border-top-left-radius: var(--selected-border-radius);
   border-bottom-left-radius: var(--selected-border-radius);
 }

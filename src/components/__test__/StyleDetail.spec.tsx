@@ -70,13 +70,14 @@ describe('BeerStyleDetail', () => {
         }
       );
 
-      test('renders the SRM as a faux gradient with color bands', () => {
-        const srmGradientContainer = screen.getByTestId('srm-gradient');
-        expect(srm.range![0].low).toBeDefined();
-        expect(srm.range![0].high).toBeDefined()
-        for (let srmValue = srm.range![0].low!; srmValue <= srm.range![0].high!; srmValue++) {
-          expect(srmGradientContainer.querySelectorAll('div div')).toHaveLength(srm.range![0].high! - srm.range![0].low! + 1);
-        }
+      test('renders the SRM as a single gradient element spanning the range', () => {
+        const srmGradient = screen.getByTestId('srm-gradient');
+        const { low, high } = srm.range![0];
+        expect(low).toBeDefined();
+        expect(high).toBeDefined();
+        expect(srmGradient).toHaveAttribute('data-srm-from', `${Math.floor(low!)}`);
+        expect(srmGradient).toHaveAttribute('data-srm-to', `${high}`);
+        expect(srmGradient.querySelectorAll('div')).toHaveLength(0);
       });
 
       test('it should not render the stats notes', () => {

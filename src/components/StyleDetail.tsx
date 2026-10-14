@@ -48,22 +48,20 @@ function StyleDetail(props: StyleDetailProps): JSX.Element | null {
       range.push(i);
     }
 
+    // linear-gradient needs at least two stops, so a single SRM value is doubled
+    const stops = range.map((i) => `var(--srm_${i})`);
+    if (stops.length === 1) {
+      stops.push(stops[0]);
+    }
+
     const ctStyle = {
-      display: 'flex',
-      height: '1.5rem'
+      height: '1.5rem',
+      background: `linear-gradient(to right, ${stops.join(', ')})`
     };
 
     return (
-      <div key={cyrb53(`${low}-${high}`)} style={ctStyle} data-testid="srm-gradient">
-      {
-        range.map((i) => (
-          <div key={i} style={{
-            backgroundColor: `var(--srm_${i})`,
-            flexGrow: 1,
-          }}></div>
-        ))
-      }
-      </div>
+      <div key={cyrb53(`${low}-${high}`)} style={ctStyle} data-testid="srm-gradient"
+           data-srm-from={range[0]} data-srm-to={range[range.length - 1]}></div>
     );
   };
 
